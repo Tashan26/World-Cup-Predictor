@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>World Cup Predictor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>World Cup Predictor</h1>
+
+  <section>
+    <h2>Match Predictor</h2>
+    <select id="teamA"></select>
+    <select id="teamB"></select>
+    <button onclick="predictMatch()">Predict</button>
+    <div id="prediction"></div>
+  </section>
+
+  <section>
+    <h2>Group Stage Simulator</h2>
+    <button onclick="simulateGroups()">Simulate Groups</button>
+    <div id="groups"></div>
+  </section>
+
+  <section>
+    <h2>Chat</h2>
+    <input id="chatInput" placeholder="Ask about teams, players or World Cups">
+    <button onclick="askChat()">Ask</button>
+    <div id="chatOutput"></div>
+  </section>
+
+  <script src="data.js"></script>
+  <script src="model.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

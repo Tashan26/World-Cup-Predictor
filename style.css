@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0A1826;
+  color: white;
+  padding: 30px;
+}
+
+h1, h2 {
+  color: #d3a911;
+}
+
+section {
+  background: #102235;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+}
+
+select, input, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  background: #d3a911;
+  color: #0A1826;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#prediction, #groups, #chatOutput {
+  margin-top: 15px;
+  line-height: 1.6;
+}
