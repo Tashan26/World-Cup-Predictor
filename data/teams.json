@@ -1,24 +1,61 @@
 [
-  {
-    "name": "Argentina",
-    "elo": 92,
-    "form": 90,
-    "squadRating": 91,
-    "playerForm": 89,
-    "worldCupHistory": 95,
-    "injuryRisk": 8,
-    "travelFatigue": 7,
-    "heatImpact": 6
-  },
-  {
-    "name": "France",
-    "elo": 94,
-    "form": 88,
-    "squadRating": 95,
-    "playerForm": 91,
-    "worldCupHistory": 96,
-    "injuryRisk": 7,
-    "travelFatigue": 6,
-    "heatImpact": 6
-  }
+  {"name":"Mexico","group":"A","confederation":"CONCACAF","fifaRank":15,"elo":1815,"recentForm":78,"worldCupHistory":78,"squadRating":78,"attack":77,"defence":76,"disciplineRisk":7},
+  {"name":"South Africa","group":"A","confederation":"CAF","fifaRank":56,"elo":1640,"recentForm":70,"worldCupHistory":58,"squadRating":69,"attack":68,"defence":69,"disciplineRisk":8},
+  {"name":"South Korea","group":"A","confederation":"AFC","fifaRank":23,"elo":1745,"recentForm":76,"worldCupHistory":75,"squadRating":77,"attack":76,"defence":75,"disciplineRisk":6},
+  {"name":"Czechia","group":"A","confederation":"UEFA","fifaRank":36,"elo":1715,"recentForm":73,"worldCupHistory":70,"squadRating":75,"attack":74,"defence":75,"disciplineRisk":6},
+
+  {"name":"Canada","group":"B","confederation":"CONCACAF","fifaRank":31,"elo":1710,"recentForm":74,"worldCupHistory":55,"squadRating":76,"attack":77,"defence":72,"disciplineRisk":7},
+  {"name":"Switzerland","group":"B","confederation":"UEFA","fifaRank":18,"elo":1800,"recentForm":79,"worldCupHistory":82,"squadRating":81,"attack":79,"defence":82,"disciplineRisk":5},
+  {"name":"Qatar","group":"B","confederation":"AFC","fifaRank":48,"elo":1665,"recentForm":69,"worldCupHistory":50,"squadRating":68,"attack":67,"defence":68,"disciplineRisk":6},
+  {"name":"Bosnia and Herzegovina","group":"B","confederation":"UEFA","fifaRank":42,"elo":1690,"recentForm":71,"worldCupHistory":60,"squadRating":73,"attack":74,"defence":70,"disciplineRisk":7},
+
+  {"name":"Brazil","group":"C","confederation":"CONMEBOL","fifaRank":5,"elo":2055,"recentForm":85,"worldCupHistory":99,"squadRating":91,"attack":91,"defence":86,"disciplineRisk":6},
+  {"name":"Haiti","group":"C","confederation":"CONCACAF","fifaRank":83,"elo":1510,"recentForm":64,"worldCupHistory":42,"squadRating":62,"attack":63,"defence":61,"disciplineRisk":8},
+  {"name":"Scotland","group":"C","confederation":"UEFA","fifaRank":39,"elo":1705,"recentForm":72,"worldCupHistory":62,"squadRating":74,"attack":72,"defence":74,"disciplineRisk":7},
+  {"name":"Morocco","group":"C","confederation":"CAF","fifaRank":12,"elo":1835,"recentForm":82,"worldCupHistory":86,"squadRating":82,"attack":81,"defence":83,"disciplineRisk":6},
+
+  {"name":"USA","group":"D","confederation":"CONCACAF","fifaRank":16,"elo":1795,"recentForm":77,"worldCupHistory":74,"squadRating":80,"attack":79,"defence":77,"disciplineRisk":6},
+  {"name":"Australia","group":"D","confederation":"AFC","fifaRank":27,"elo":1740,"recentForm":75,"worldCupHistory":72,"squadRating":74,"attack":73,"defence":75,"disciplineRisk":7},
+  {"name":"Turkey","group":"D","confederation":"UEFA","fifaRank":26,"elo":1765,"recentForm":78,"worldCupHistory":67,"squadRating":79,"attack":80,"defence":75,"disciplineRisk":8},
+  {"name":"Paraguay","group":"D","confederation":"CONMEBOL","fifaRank":43,"elo":1700,"recentForm":71,"worldCupHistory":70,"squadRating":73,"attack":71,"defence":74,"disciplineRisk":8},
+
+  {"name":"Germany","group":"E","confederation":"UEFA","fifaRank":9,"elo":1905,"recentForm":82,"worldCupHistory":98,"squadRating":88,"attack":87,"defence":84,"disciplineRisk":5},
+  {"name":"Côte d'Ivoire","group":"E","confederation":"CAF","fifaRank":45,"elo":1695,"recentForm":74,"worldCupHistory":61,"squadRating":76,"attack":77,"defence":72,"disciplineRisk":8},
+  {"name":"Ecuador","group":"E","confederation":"CONMEBOL","fifaRank":25,"elo":1770,"recentForm":76,"worldCupHistory":73,"squadRating":77,"attack":75,"defence":78,"disciplineRisk":7},
+  {"name":"Curaçao","group":"E","confederation":"CONCACAF","fifaRank":82,"elo":1505,"recentForm":64,"worldCupHistory":35,"squadRating":61,"attack":62,"defence":60,"disciplineRisk":7},
+
+  {"name":"Netherlands","group":"F","confederation":"UEFA","fifaRank":7,"elo":1970,"recentForm":84,"worldCupHistory":91,"squadRating":88,"attack":86,"defence":87,"disciplineRisk":5},
+  {"name":"Sweden","group":"F","confederation":"UEFA","fifaRank":32,"elo":1730,"recentForm":73,"worldCupHistory":76,"squadRating":75,"attack":74,"defence":76,"disciplineRisk":5},
+  {"name":"Tunisia","group":"F","confederation":"CAF","fifaRank":41,"elo":1695,"recentForm":72,"worldCupHistory":65,"squadRating":72,"attack":70,"defence":73,"disciplineRisk":7},
+  {"name":"Japan","group":"F","confederation":"AFC","fifaRank":19,"elo":1790,"recentForm":81,"worldCupHistory":79,"squadRating":80,"attack":80,"defence":78,"disciplineRisk":5},
+
+  {"name":"Belgium","group":"G","confederation":"UEFA","fifaRank":8,"elo":1885,"recentForm":80,"worldCupHistory":84,"squadRating":86,"attack":85,"defence":81,"disciplineRisk":5},
+  {"name":"Iran","group":"G","confederation":"AFC","fifaRank":20,"elo":1765,"recentForm":76,"worldCupHistory":67,"squadRating":75,"attack":74,"defence":75,"disciplineRisk":7},
+  {"name":"New Zealand","group":"G","confederation":"OFC","fifaRank":95,"elo":1480,"recentForm":65,"worldCupHistory":45,"squadRating":63,"attack":62,"defence":64,"disciplineRisk":6},
+  {"name":"Egypt","group":"G","confederation":"CAF","fifaRank":34,"elo":1725,"recentForm":74,"worldCupHistory":60,"squadRating":76,"attack":76,"defence":73,"disciplineRisk":6},
+
+  {"name":"Spain","group":"H","confederation":"UEFA","fifaRank":3,"elo":2035,"recentForm":89,"worldCupHistory":90,"squadRating":90,"attack":89,"defence":88,"disciplineRisk":4},
+  {"name":"Saudi Arabia","group":"H","confederation":"AFC","fifaRank":53,"elo":1645,"recentForm":69,"worldCupHistory":62,"squadRating":68,"attack":67,"defence":68,"disciplineRisk":7},
+  {"name":"Uruguay","group":"H","confederation":"CONMEBOL","fifaRank":11,"elo":1875,"recentForm":83,"worldCupHistory":90,"squadRating":84,"attack":84,"defence":82,"disciplineRisk":8},
+  {"name":"Cabo Verde","group":"H","confederation":"CAF","fifaRank":70,"elo":1575,"recentForm":68,"worldCupHistory":35,"squadRating":66,"attack":66,"defence":65,"disciplineRisk":7},
+
+  {"name":"France","group":"I","confederation":"UEFA","fifaRank":2,"elo":2085,"recentForm":89,"worldCupHistory":97,"squadRating":94,"attack":92,"defence":89,"disciplineRisk":5},
+  {"name":"Iraq","group":"I","confederation":"AFC","fifaRank":58,"elo":1625,"recentForm":69,"worldCupHistory":48,"squadRating":67,"attack":67,"defence":66,"disciplineRisk":7},
+  {"name":"Norway","group":"I","confederation":"UEFA","fifaRank":28,"elo":1760,"recentForm":78,"worldCupHistory":55,"squadRating":82,"attack":84,"defence":74,"disciplineRisk":5},
+  {"name":"Senegal","group":"I","confederation":"CAF","fifaRank":17,"elo":1805,"recentForm":79,"worldCupHistory":78,"squadRating":80,"attack":79,"defence":80,"disciplineRisk":7},
+
+  {"name":"Argentina","group":"J","confederation":"CONMEBOL","fifaRank":1,"elo":2110,"recentForm":91,"worldCupHistory":96,"squadRating":91,"attack":90,"defence":88,"disciplineRisk":6},
+  {"name":"Austria","group":"J","confederation":"UEFA","fifaRank":21,"elo":1785,"recentForm":79,"worldCupHistory":70,"squadRating":80,"attack":79,"defence":78,"disciplineRisk":5},
+  {"name":"Jordan","group":"J","confederation":"AFC","fifaRank":64,"elo":1595,"recentForm":70,"worldCupHistory":35,"squadRating":66,"attack":66,"defence":65,"disciplineRisk":7},
+  {"name":"Algeria","group":"J","confederation":"CAF","fifaRank":37,"elo":1715,"recentForm":73,"worldCupHistory":70,"squadRating":76,"attack":76,"defence":73,"disciplineRisk":7},
+
+  {"name":"Portugal","group":"K","confederation":"UEFA","fifaRank":6,"elo":1960,"recentForm":85,"worldCupHistory":84,"squadRating":89,"attack":89,"defence":84,"disciplineRisk":5},
+  {"name":"Uzbekistan","group":"K","confederation":"AFC","fifaRank":57,"elo":1630,"recentForm":70,"worldCupHistory":35,"squadRating":67,"attack":67,"defence":66,"disciplineRisk":6},
+  {"name":"Colombia","group":"K","confederation":"CONMEBOL","fifaRank":14,"elo":1845,"recentForm":83,"worldCupHistory":78,"squadRating":82,"attack":82,"defence":79,"disciplineRisk":7},
+  {"name":"Congo DR","group":"K","confederation":"CAF","fifaRank":61,"elo":1605,"recentForm":69,"worldCupHistory":50,"squadRating":68,"attack":69,"defence":66,"disciplineRisk":8},
+
+  {"name":"England","group":"L","confederation":"UEFA","fifaRank":4,"elo":2015,"recentForm":86,"worldCupHistory":88,"squadRating":91,"attack":90,"defence":86,"disciplineRisk":4},
+  {"name":"Ghana","group":"L","confederation":"CAF","fifaRank":49,"elo":1660,"recentForm":70,"worldCupHistory":76,"squadRating":73,"attack":73,"defence":70,"disciplineRisk":8},
+  {"name":"Panama","group":"L","confederation":"CONCACAF","fifaRank":44,"elo":1685,"recentForm":72,"worldCupHistory":50,"squadRating":70,"attack":69,"defence":70,"disciplineRisk":8},
+  {"name":"Croatia","group":"L","confederation":"UEFA","fifaRank":10,"elo":1880,"recentForm":80,"worldCupHistory":91,"squadRating":84,"attack":82,"defence":83,"disciplineRisk":5}
 ]
