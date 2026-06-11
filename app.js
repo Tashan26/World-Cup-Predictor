@@ -21,16 +21,17 @@ async function loadData() {
   knockout = await knockoutRes.json();
 
   populateFixtures();
+  renderKpis();
   renderTeamCards();
   renderGroupTables();
   renderBracket();
   renderGoldenBoot();
+  renderWinnerChart();
 }
 
 function flag(team) {
   const code = flags[team];
   if (!code) return "";
-
   return `<img class="flag" src="https://flagcdn.com/w40/${code}.png" alt="${team} flag">`;
 }
 
@@ -38,15 +39,45 @@ function populateFixtures() {
   const select = document.getElementById("fixtureSelect");
   if (!select) return;
 
-  select.innerHTML = "";
+  select.innerHTML = predictions.map(match => `
+    <option value="${match.id}">
+      ${match.home} vs ${match.away} - Group ${match.group}
+    </option>
+  `).join("");
+}
 
-  predictions.forEach(match => {
-    select.innerHTML += `
-      <option value="${match.id}">
-        ${flag(match.home)} ${match.home} vs ${flag(match.away)} ${match.away} - Group ${match.group}
-      </option>
-    `;
-  });
+function renderKpis() {
+  const container = document.getElementById("kpiGrid");
+  if (!container) return;
+
+  const favourite = tournamentSimulation.winnerProbabilities?.[0];
+  const golden = goldenBoot?.[0];
+
+  container.innerHTML = `
+    <div class="kpi-card">
+      <span>Tournament Favourite</span>
+      <strong>${flag(favourite.team)} ${favourite.team}</strong>
+      <p class="muted">${favourite.winProbability}% title probability</p>
+    </div>
+
+    <div class="kpi-card">
+      <span>Golden Boot Favourite</span>
+      <strong>${golden.player}</strong>
+      <p class="muted">${flag(golden.team)} ${golden.team} · ${golden.probability}%</p>
+    </div>
+
+    <div class="kpi-card">
+      <span>Fixtures Modelled</span>
+      <strong>${predictions.length}</strong>
+      <p class="muted">Group-stage predictions generated</p>
+    </div>
+
+    <div class="kpi-card">
+      <span>Simulation Runs</span>
+      <strong>10,000</strong>
+      <p class="muted">Monte Carlo tournament model</p>
+    </div>
+  `;
 }
 
 function showPrediction() {
@@ -62,55 +93,108 @@ function showPrediction() {
         <strong>Predicted score</strong>
         <p class="big-number">${match.predictedScore}</p>
       </div>
-
       <div>
         <strong>Predicted winner</strong>
         <p>${flag(match.predictedWinner)} ${match.predictedWinner}</p>
       </div>
-
       <div>
         <strong>Confidence</strong>
         <p>${match.confidence}</p>
       </div>
     </div>
 
+    <div class="info-grid">
+      <div class="info-card">
+        <strong>Win probabilities</strong>
+        ${probabilityLine(match.home, match.probabilities.home)}
+        ${probabilityLine("Draw", match.probabilities.draw)}
+        ${probabilityLine(match.away, match.probabilities.away)}
+      </div>
+
+      <div class="info-card">
+        <strong>Player intelligence</strong>
+        Likely scorer: ${match.likelyScorer.name}<br>
+        Team: ${flag(match.likelyScorer.team)} ${match.likelyScorer.team}<br>
+        Scorer probability: ${match.likelyScorer.probability}%
+      </div>
+
+      <div class="info-card">
+        <strong>Cards model</strong>
+        ${flag(match.home)} ${match.home}: ${match.redCardRisk[match.home]}% red-card risk<br>
+        ${flag(match.away)} ${match.away}: ${match.redCardRisk[match.away]}% red-card risk
+      </div>
+
+      <div class="info-card">
+        <strong>Venue conditions</strong>
+        ${match.stadium}, ${match.city}<br>
+        Heat: ${match.factors.heatImpact} (${match.factors.venueHeatRisk}/10)<br>
+        Altitude: ${match.factors.altitudeImpact} (${match.factors.altitude}m)
+      </div>
+
+      <div class="info-card">
+        <strong>${flag(match.home)} ${match.home} travel</strong>
+        ${match.travel[match.home].distanceKm.toLocaleString()} km<br>
+        Impact: ${match.travel[match.home].impact}<br>
+        Penalty: -${match.travel[match.home].penalty} pts
+      </div>
+
+      <div class="info-card">
+        <strong>${flag(match.away)} ${match.away} travel</strong>
+        ${match.travel[match.away].distanceKm.toLocaleString()} km<br>
+        Impact: ${match.travel[match.away].impact}<br>
+        Penalty: -${match.travel[match.away].penalty} pts
+      </div>
+    </div>
+
     <hr>
 
-    <strong>Win probabilities</strong><br>
-    ${flag(match.home)} ${match.home}: ${match.probabilities.home}%<br>
-    Draw: ${match.probabilities.draw}%<br>
-    ${flag(match.away)} ${match.away}: ${match.probabilities.away}%<br><br>
-
-    <strong>Likely scorer</strong><br>
-    ${match.likelyScorer.name} (${flag(match.likelyScorer.team)} ${match.likelyScorer.team}) - ${match.likelyScorer.probability}%<br><br>
-
-    <strong>Red-card risk</strong><br>
-    ${flag(match.home)} ${match.home}: ${match.redCardRisk[match.home]}%<br>
-    ${flag(match.away)} ${match.away}: ${match.redCardRisk[match.away]}%<br><br>
-
-    <strong>Venue & conditions</strong><br>
-    ${match.stadium}, ${match.city}<br>
-    Heat impact: ${match.factors.heatImpact} (${match.factors.venueHeatRisk}/10)<br>
-    Altitude impact: ${match.factors.altitudeImpact} (${match.factors.altitude}m)<br><br>
-
-    <strong>Travel fatigue</strong><br>
-    ${flag(match.home)} ${match.home}: ${match.travel[match.home].distanceKm.toLocaleString()} km | ${match.travel[match.home].impact} impact | -${match.travel[match.home].penalty} pts<br>
-    ${flag(match.away)} ${match.away}: ${match.travel[match.away].distanceKm.toLocaleString()} km | ${match.travel[match.away].impact} impact | -${match.travel[match.away].penalty} pts<br><br>
-
-    <strong>Why this prediction?</strong>
+    <h3>Why this prediction?</h3>
     <p>${match.explanation?.summary || "No explanation available."}</p>
 
     <ul>
       ${(match.explanation?.strongestFactors || []).map(f => `
-        <li>${f.advantage} advantage: ${f.factor} +${f.difference}</li>
+        <li><strong>${f.advantage}</strong> advantage: ${f.factor} +${f.difference}</li>
       `).join("")}
     </ul>
 
-    <strong>Model notes</strong>
+    <h3>Model notes</h3>
     <ul>
       ${match.notes.map(note => `<li>${note}</li>`).join("")}
     </ul>
   `;
+}
+
+function probabilityLine(label, value) {
+  const cleanLabel = label === "Draw" ? "Draw" : `${flag(label)} ${label}`;
+
+  return `
+    <div class="chart-row">
+      <div class="chart-label">
+        <span>${cleanLabel}</span>
+        <span>${value}%</span>
+      </div>
+      <div class="chart-bar">
+        <span style="width:${value}%"></span>
+      </div>
+    </div>
+  `;
+}
+
+function renderWinnerChart() {
+  const container = document.getElementById("winnerChart");
+  if (!container || !tournamentSimulation.winnerProbabilities) return;
+
+  container.innerHTML = tournamentSimulation.winnerProbabilities.slice(0, 12).map(team => `
+    <div class="chart-row">
+      <div class="chart-label">
+        <span>${flag(team.team)} ${team.team}</span>
+        <span>${team.winProbability}%</span>
+      </div>
+      <div class="chart-bar">
+        <span style="width:${team.winProbability * 4}%"></span>
+      </div>
+    </div>
+  `).join("");
 }
 
 function renderTeamCards() {
@@ -125,9 +209,23 @@ function renderTeamCards() {
     <div class="team-card">
       <strong>${flag(team.name)} ${team.name}</strong>
       <p class="muted">${team.confederation} | Group ${team.group}</p>
+
+      ${statBar("Attack", team.attack)}
+      ${statBar("Defence", team.defence)}
+      ${statBar("Form", team.recentForm)}
+
       <span class="score-pill">Elo ${team.elo}</span>
     </div>
   `).join("");
+}
+
+function statBar(label, value) {
+  return `
+    <div class="stat-bar">
+      <label><span>${label}</span><span>${value}</span></label>
+      <div class="bar"><span style="width:${value}%"></span></div>
+    </div>
+  `;
 }
 
 function renderGroupTables() {
@@ -179,50 +277,38 @@ function renderBracket() {
   const bracket = document.getElementById("bracket");
   if (!bracket) return;
 
-  const winners = tournamentSimulation.winnerProbabilities
-    ? tournamentSimulation.winnerProbabilities.slice(0, 12)
-    : [];
-
   if (!knockout.rounds) {
     bracket.innerHTML = "<p class='muted'>Knockout bracket has not been generated yet.</p>";
     return;
   }
 
-  bracket.innerHTML = `
-    ${knockout.rounds.map(round => `
-      <div class="bracket-round">
-        <h3>${round.name}</h3>
-        ${round.matches.map((match, index) => `
-          <div class="match">
-            <strong>${index + 1}</strong>. ${flag(match.home)} ${match.home}
-            <br>vs ${flag(match.away)} ${match.away}
-            ${match.homeQualification ? `<br><small>${match.homeQualification} vs ${match.awayQualification}</small>` : ""}
-          </div>
-        `).join("")}
-      </div>
-    `).join("")}
-
+  bracket.innerHTML = knockout.rounds.map(round => `
     <div class="bracket-round">
-      <h3>10,000-run Winner Model</h3>
-      ${winners.map((team, index) => `
+      <h3>${round.name}</h3>
+      ${round.matches.map((match, index) => `
         <div class="match">
-          ${index + 1}. ${flag(team.team)} ${team.team}
-          <br><strong>${team.winProbability}%</strong> title probability
+          <strong>${index + 1}</strong>. ${flag(match.home)} ${match.home}
+          <br>vs ${flag(match.away)} ${match.away}
+          ${match.homeQualification ? `<br><small>${match.homeQualification} vs ${match.awayQualification}</small>` : ""}
         </div>
       `).join("")}
     </div>
-  `;
+  `).join("");
 }
 
 function renderGoldenBoot() {
   const container = document.getElementById("goldenBoot");
   if (!container || !goldenBoot.length) return;
 
-  container.innerHTML = goldenBoot.slice(0, 12).map((player, index) => `
-    <div class="match">
-      ${index + 1}. <strong>${player.player}</strong>
-      <br>${flag(player.team)} ${player.team}
-      <br><strong>${player.probability}%</strong> Golden Boot probability
+  container.innerHTML = goldenBoot.slice(0, 12).map(player => `
+    <div class="chart-row">
+      <div class="chart-label">
+        <span>${flag(player.team)} ${player.player}</span>
+        <span>${player.probability}%</span>
+      </div>
+      <div class="chart-bar">
+        <span style="width:${player.probability * 5}%"></span>
+      </div>
     </div>
   `).join("");
 }
@@ -235,15 +321,16 @@ function askChat() {
 
   if (team) {
     output.innerHTML = `
-      <strong>${flag(team.name)} ${team.name}</strong><br>
-      Group: ${team.group}<br>
-      Confederation: ${team.confederation}<br>
-      FIFA rank seed: ${team.fifaRank}<br>
-      Elo seed: ${team.elo}<br>
-      Attack: ${team.attack}<br>
-      Defence: ${team.defence}<br>
-      Recent form: ${team.recentForm}<br>
-      World Cup history: ${team.worldCupHistory}
+      <h3>${flag(team.name)} ${team.name}</h3>
+      <p><strong>Group:</strong> ${team.group}</p>
+      <p><strong>Confederation:</strong> ${team.confederation}</p>
+      <p><strong>FIFA rank seed:</strong> ${team.fifaRank}</p>
+      <p><strong>Elo seed:</strong> ${team.elo}</p>
+
+      ${statBar("Attack", team.attack)}
+      ${statBar("Defence", team.defence)}
+      ${statBar("Recent form", team.recentForm)}
+      ${statBar("World Cup history", team.worldCupHistory)}
     `;
     return;
   }

@@ -24,13 +24,11 @@
   </header>
 
   <main class="layout">
-    <section class="card large">
-      <div class="section-header">
-        <div>
-          <p class="eyebrow">Match Engine</p>
-          <h2>Match Prediction</h2>
-        </div>
-      </div>
+    <section id="kpiGrid" class="kpi-grid"></section>
+
+    <section class="card">
+      <p class="eyebrow">Match Engine</p>
+      <h2>Match Prediction</h2>
 
       <div class="predictor-grid">
         <select id="fixtureSelect"></select>
@@ -42,7 +40,19 @@
       </div>
     </section>
 
-    <section class="card large">
+    <section class="card half">
+      <p class="eyebrow">Title Model</p>
+      <h2>Winner Probabilities</h2>
+      <div id="winnerChart" class="result-box"></div>
+    </section>
+
+    <section class="card half">
+      <p class="eyebrow">Player Model</p>
+      <h2>Golden Boot Predictions</h2>
+      <div id="goldenBoot" class="result-box"></div>
+    </section>
+
+    <section class="card">
       <p class="eyebrow">Tournament Simulation</p>
       <h2>Projected Group Tables</h2>
       <div id="groups" class="result-box empty">
@@ -50,31 +60,27 @@
       </div>
     </section>
 
-    <section class="card large">
+    <section class="card">
       <p class="eyebrow">Knockout Model</p>
-      <h2>Projected Knockout Path</h2>
+      <h2>Projected Knockout Bracket</h2>
       <div id="bracket" class="bracket"></div>
     </section>
 
-    <section class="card large">
-      <p class="eyebrow">Player Model</p>
-      <h2>Golden Boot Predictions</h2>
-      <div id="goldenBoot" class="bracket"></div>
-    </section>
-
-    <section class="card large">
+    <section class="card">
       <p class="eyebrow">Team Intelligence</p>
       <h2>Top Team Strength Dashboard</h2>
       <div id="teamCards" class="team-grid"></div>
     </section>
 
-    <section class="card large">
+    <section class="card">
       <p class="eyebrow">Analyst Chat</p>
       <h2>World Cup Model Assistant</h2>
-      <div class="chat-row">
-        <input id="chatInput" placeholder="Ask about Argentina, France, Brazil, groups, odds, scorers or model logic..." />
+
+      <div class="predictor-grid">
+        <input id="chatInput" placeholder="Ask about Argentina, France, Brazil, groups, scorers or model logic..." />
         <button onclick="askChat()">Ask</button>
       </div>
+
       <div id="chatOutput" class="result-box empty">
         Ask about a team currently in the model.
       </div>
