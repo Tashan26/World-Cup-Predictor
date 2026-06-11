@@ -1,18 +1,722 @@
 [
   {
     "id": "match_001",
-    "date": "2026-06-11T21:00:00+02:00",
+    "matchNumber": 1,
+    "stage": "Group Stage",
+    "group": "A",
+    "date": "2026-06-11T18:00:00+02:00",
     "home": "Mexico",
     "away": "South Africa",
-    "venue": "Mexico City",
-    "stage": "Group Stage"
+    "stadium": "Estadio Azteca"
   },
   {
     "id": "match_002",
-    "date": "2026-06-12T03:00:00+02:00",
+    "matchNumber": 2,
+    "stage": "Group Stage",
+    "group": "A",
+    "date": "2026-06-11T21:00:00+02:00",
+    "home": "South Korea",
+    "away": "Czechia",
+    "stadium": "Estadio BBVA"
+  },
+  {
+    "id": "match_003",
+    "matchNumber": 3,
+    "stage": "Group Stage",
+    "group": "A",
+    "date": "2026-06-11T18:00:00+02:00",
+    "home": "Mexico",
+    "away": "South Korea",
+    "stadium": "Estadio Akron"
+  },
+  {
+    "id": "match_004",
+    "matchNumber": 4,
+    "stage": "Group Stage",
+    "group": "A",
+    "date": "2026-06-11T21:00:00+02:00",
+    "home": "South Africa",
+    "away": "Czechia",
+    "stadium": "MetLife Stadium"
+  },
+  {
+    "id": "match_005",
+    "matchNumber": 5,
+    "stage": "Group Stage",
+    "group": "A",
+    "date": "2026-06-12T18:00:00+02:00",
+    "home": "Mexico",
+    "away": "Czechia",
+    "stadium": "AT&T Stadium"
+  },
+  {
+    "id": "match_006",
+    "matchNumber": 6,
+    "stage": "Group Stage",
+    "group": "A",
+    "date": "2026-06-12T21:00:00+02:00",
+    "home": "South Africa",
+    "away": "South Korea",
+    "stadium": "NRG Stadium"
+  },
+  {
+    "id": "match_007",
+    "matchNumber": 7,
+    "stage": "Group Stage",
+    "group": "B",
+    "date": "2026-06-12T18:00:00+02:00",
     "home": "Canada",
+    "away": "Switzerland",
+    "stadium": "Hard Rock Stadium"
+  },
+  {
+    "id": "match_008",
+    "matchNumber": 8,
+    "stage": "Group Stage",
+    "group": "B",
+    "date": "2026-06-12T21:00:00+02:00",
+    "home": "Qatar",
+    "away": "Bosnia and Herzegovina",
+    "stadium": "Mercedes-Benz Stadium"
+  },
+  {
+    "id": "match_009",
+    "matchNumber": 9,
+    "stage": "Group Stage",
+    "group": "B",
+    "date": "2026-06-13T18:00:00+02:00",
+    "home": "Canada",
+    "away": "Qatar",
+    "stadium": "Lincoln Financial Field"
+  },
+  {
+    "id": "match_010",
+    "matchNumber": 10,
+    "stage": "Group Stage",
+    "group": "B",
+    "date": "2026-06-13T21:00:00+02:00",
+    "home": "Switzerland",
+    "away": "Bosnia and Herzegovina",
+    "stadium": "Lumen Field"
+  },
+  {
+    "id": "match_011",
+    "matchNumber": 11,
+    "stage": "Group Stage",
+    "group": "B",
+    "date": "2026-06-13T18:00:00+02:00",
+    "home": "Canada",
+    "away": "Bosnia and Herzegovina",
+    "stadium": "Levi's Stadium"
+  },
+  {
+    "id": "match_012",
+    "matchNumber": 12,
+    "stage": "Group Stage",
+    "group": "B",
+    "date": "2026-06-13T21:00:00+02:00",
+    "home": "Switzerland",
+    "away": "Qatar",
+    "stadium": "SoFi Stadium"
+  },
+  {
+    "id": "match_013",
+    "matchNumber": 13,
+    "stage": "Group Stage",
+    "group": "C",
+    "date": "2026-06-14T18:00:00+02:00",
+    "home": "Brazil",
+    "away": "Haiti",
+    "stadium": "GEHA Field at Arrowhead Stadium"
+  },
+  {
+    "id": "match_014",
+    "matchNumber": 14,
+    "stage": "Group Stage",
+    "group": "C",
+    "date": "2026-06-14T21:00:00+02:00",
+    "home": "Scotland",
+    "away": "Morocco",
+    "stadium": "Gillette Stadium"
+  },
+  {
+    "id": "match_015",
+    "matchNumber": 15,
+    "stage": "Group Stage",
+    "group": "C",
+    "date": "2026-06-14T18:00:00+02:00",
+    "home": "Brazil",
+    "away": "Scotland",
+    "stadium": "BC Place"
+  },
+  {
+    "id": "match_016",
+    "matchNumber": 16,
+    "stage": "Group Stage",
+    "group": "C",
+    "date": "2026-06-14T21:00:00+02:00",
+    "home": "Haiti",
+    "away": "Morocco",
+    "stadium": "BMO Field"
+  },
+  {
+    "id": "match_017",
+    "matchNumber": 17,
+    "stage": "Group Stage",
+    "group": "C",
+    "date": "2026-06-15T18:00:00+02:00",
+    "home": "Brazil",
+    "away": "Morocco",
+    "stadium": "Estadio Azteca"
+  },
+  {
+    "id": "match_018",
+    "matchNumber": 18,
+    "stage": "Group Stage",
+    "group": "C",
+    "date": "2026-06-15T21:00:00+02:00",
+    "home": "Haiti",
+    "away": "Scotland",
+    "stadium": "Estadio BBVA"
+  },
+  {
+    "id": "match_019",
+    "matchNumber": 19,
+    "stage": "Group Stage",
+    "group": "D",
+    "date": "2026-06-15T18:00:00+02:00",
+    "home": "USA",
+    "away": "Australia",
+    "stadium": "Estadio Akron"
+  },
+  {
+    "id": "match_020",
+    "matchNumber": 20,
+    "stage": "Group Stage",
+    "group": "D",
+    "date": "2026-06-15T21:00:00+02:00",
+    "home": "Turkey",
+    "away": "Paraguay",
+    "stadium": "MetLife Stadium"
+  },
+  {
+    "id": "match_021",
+    "matchNumber": 21,
+    "stage": "Group Stage",
+    "group": "D",
+    "date": "2026-06-16T18:00:00+02:00",
+    "home": "USA",
+    "away": "Turkey",
+    "stadium": "AT&T Stadium"
+  },
+  {
+    "id": "match_022",
+    "matchNumber": 22,
+    "stage": "Group Stage",
+    "group": "D",
+    "date": "2026-06-16T21:00:00+02:00",
+    "home": "Australia",
+    "away": "Paraguay",
+    "stadium": "NRG Stadium"
+  },
+  {
+    "id": "match_023",
+    "matchNumber": 23,
+    "stage": "Group Stage",
+    "group": "D",
+    "date": "2026-06-16T18:00:00+02:00",
+    "home": "USA",
+    "away": "Paraguay",
+    "stadium": "Hard Rock Stadium"
+  },
+  {
+    "id": "match_024",
+    "matchNumber": 24,
+    "stage": "Group Stage",
+    "group": "D",
+    "date": "2026-06-16T21:00:00+02:00",
+    "home": "Australia",
+    "away": "Turkey",
+    "stadium": "Mercedes-Benz Stadium"
+  },
+  {
+    "id": "match_025",
+    "matchNumber": 25,
+    "stage": "Group Stage",
+    "group": "E",
+    "date": "2026-06-17T18:00:00+02:00",
+    "home": "Germany",
+    "away": "Côte d'Ivoire",
+    "stadium": "Lincoln Financial Field"
+  },
+  {
+    "id": "match_026",
+    "matchNumber": 26,
+    "stage": "Group Stage",
+    "group": "E",
+    "date": "2026-06-17T21:00:00+02:00",
+    "home": "Ecuador",
+    "away": "Curaçao",
+    "stadium": "Lumen Field"
+  },
+  {
+    "id": "match_027",
+    "matchNumber": 27,
+    "stage": "Group Stage",
+    "group": "E",
+    "date": "2026-06-17T18:00:00+02:00",
+    "home": "Germany",
+    "away": "Ecuador",
+    "stadium": "Levi's Stadium"
+  },
+  {
+    "id": "match_028",
+    "matchNumber": 28,
+    "stage": "Group Stage",
+    "group": "E",
+    "date": "2026-06-17T21:00:00+02:00",
+    "home": "Côte d'Ivoire",
+    "away": "Curaçao",
+    "stadium": "SoFi Stadium"
+  },
+  {
+    "id": "match_029",
+    "matchNumber": 29,
+    "stage": "Group Stage",
+    "group": "E",
+    "date": "2026-06-18T18:00:00+02:00",
+    "home": "Germany",
+    "away": "Curaçao",
+    "stadium": "GEHA Field at Arrowhead Stadium"
+  },
+  {
+    "id": "match_030",
+    "matchNumber": 30,
+    "stage": "Group Stage",
+    "group": "E",
+    "date": "2026-06-18T21:00:00+02:00",
+    "home": "Côte d'Ivoire",
+    "away": "Ecuador",
+    "stadium": "Gillette Stadium"
+  },
+  {
+    "id": "match_031",
+    "matchNumber": 31,
+    "stage": "Group Stage",
+    "group": "F",
+    "date": "2026-06-18T18:00:00+02:00",
+    "home": "Netherlands",
+    "away": "Sweden",
+    "stadium": "BC Place"
+  },
+  {
+    "id": "match_032",
+    "matchNumber": 32,
+    "stage": "Group Stage",
+    "group": "F",
+    "date": "2026-06-18T21:00:00+02:00",
+    "home": "Tunisia",
     "away": "Japan",
-    "venue": "Toronto",
-    "stage": "Group Stage"
+    "stadium": "BMO Field"
+  },
+  {
+    "id": "match_033",
+    "matchNumber": 33,
+    "stage": "Group Stage",
+    "group": "F",
+    "date": "2026-06-19T18:00:00+02:00",
+    "home": "Netherlands",
+    "away": "Tunisia",
+    "stadium": "Estadio Azteca"
+  },
+  {
+    "id": "match_034",
+    "matchNumber": 34,
+    "stage": "Group Stage",
+    "group": "F",
+    "date": "2026-06-19T21:00:00+02:00",
+    "home": "Sweden",
+    "away": "Japan",
+    "stadium": "Estadio BBVA"
+  },
+  {
+    "id": "match_035",
+    "matchNumber": 35,
+    "stage": "Group Stage",
+    "group": "F",
+    "date": "2026-06-19T18:00:00+02:00",
+    "home": "Netherlands",
+    "away": "Japan",
+    "stadium": "Estadio Akron"
+  },
+  {
+    "id": "match_036",
+    "matchNumber": 36,
+    "stage": "Group Stage",
+    "group": "F",
+    "date": "2026-06-19T21:00:00+02:00",
+    "home": "Sweden",
+    "away": "Tunisia",
+    "stadium": "MetLife Stadium"
+  },
+  {
+    "id": "match_037",
+    "matchNumber": 37,
+    "stage": "Group Stage",
+    "group": "G",
+    "date": "2026-06-20T18:00:00+02:00",
+    "home": "Belgium",
+    "away": "Iran",
+    "stadium": "AT&T Stadium"
+  },
+  {
+    "id": "match_038",
+    "matchNumber": 38,
+    "stage": "Group Stage",
+    "group": "G",
+    "date": "2026-06-20T21:00:00+02:00",
+    "home": "New Zealand",
+    "away": "Egypt",
+    "stadium": "NRG Stadium"
+  },
+  {
+    "id": "match_039",
+    "matchNumber": 39,
+    "stage": "Group Stage",
+    "group": "G",
+    "date": "2026-06-20T18:00:00+02:00",
+    "home": "Belgium",
+    "away": "New Zealand",
+    "stadium": "Hard Rock Stadium"
+  },
+  {
+    "id": "match_040",
+    "matchNumber": 40,
+    "stage": "Group Stage",
+    "group": "G",
+    "date": "2026-06-20T21:00:00+02:00",
+    "home": "Iran",
+    "away": "Egypt",
+    "stadium": "Mercedes-Benz Stadium"
+  },
+  {
+    "id": "match_041",
+    "matchNumber": 41,
+    "stage": "Group Stage",
+    "group": "G",
+    "date": "2026-06-21T18:00:00+02:00",
+    "home": "Belgium",
+    "away": "Egypt",
+    "stadium": "Lincoln Financial Field"
+  },
+  {
+    "id": "match_042",
+    "matchNumber": 42,
+    "stage": "Group Stage",
+    "group": "G",
+    "date": "2026-06-21T21:00:00+02:00",
+    "home": "Iran",
+    "away": "New Zealand",
+    "stadium": "Lumen Field"
+  },
+  {
+    "id": "match_043",
+    "matchNumber": 43,
+    "stage": "Group Stage",
+    "group": "H",
+    "date": "2026-06-21T18:00:00+02:00",
+    "home": "Spain",
+    "away": "Saudi Arabia",
+    "stadium": "Levi's Stadium"
+  },
+  {
+    "id": "match_044",
+    "matchNumber": 44,
+    "stage": "Group Stage",
+    "group": "H",
+    "date": "2026-06-21T21:00:00+02:00",
+    "home": "Uruguay",
+    "away": "Cabo Verde",
+    "stadium": "SoFi Stadium"
+  },
+  {
+    "id": "match_045",
+    "matchNumber": 45,
+    "stage": "Group Stage",
+    "group": "H",
+    "date": "2026-06-22T18:00:00+02:00",
+    "home": "Spain",
+    "away": "Uruguay",
+    "stadium": "GEHA Field at Arrowhead Stadium"
+  },
+  {
+    "id": "match_046",
+    "matchNumber": 46,
+    "stage": "Group Stage",
+    "group": "H",
+    "date": "2026-06-22T21:00:00+02:00",
+    "home": "Saudi Arabia",
+    "away": "Cabo Verde",
+    "stadium": "Gillette Stadium"
+  },
+  {
+    "id": "match_047",
+    "matchNumber": 47,
+    "stage": "Group Stage",
+    "group": "H",
+    "date": "2026-06-22T18:00:00+02:00",
+    "home": "Spain",
+    "away": "Cabo Verde",
+    "stadium": "BC Place"
+  },
+  {
+    "id": "match_048",
+    "matchNumber": 48,
+    "stage": "Group Stage",
+    "group": "H",
+    "date": "2026-06-22T21:00:00+02:00",
+    "home": "Saudi Arabia",
+    "away": "Uruguay",
+    "stadium": "BMO Field"
+  },
+  {
+    "id": "match_049",
+    "matchNumber": 49,
+    "stage": "Group Stage",
+    "group": "I",
+    "date": "2026-06-23T18:00:00+02:00",
+    "home": "France",
+    "away": "Iraq",
+    "stadium": "Estadio Azteca"
+  },
+  {
+    "id": "match_050",
+    "matchNumber": 50,
+    "stage": "Group Stage",
+    "group": "I",
+    "date": "2026-06-23T21:00:00+02:00",
+    "home": "Norway",
+    "away": "Senegal",
+    "stadium": "Estadio BBVA"
+  },
+  {
+    "id": "match_051",
+    "matchNumber": 51,
+    "stage": "Group Stage",
+    "group": "I",
+    "date": "2026-06-23T18:00:00+02:00",
+    "home": "France",
+    "away": "Norway",
+    "stadium": "Estadio Akron"
+  },
+  {
+    "id": "match_052",
+    "matchNumber": 52,
+    "stage": "Group Stage",
+    "group": "I",
+    "date": "2026-06-23T21:00:00+02:00",
+    "home": "Iraq",
+    "away": "Senegal",
+    "stadium": "MetLife Stadium"
+  },
+  {
+    "id": "match_053",
+    "matchNumber": 53,
+    "stage": "Group Stage",
+    "group": "I",
+    "date": "2026-06-24T18:00:00+02:00",
+    "home": "France",
+    "away": "Senegal",
+    "stadium": "AT&T Stadium"
+  },
+  {
+    "id": "match_054",
+    "matchNumber": 54,
+    "stage": "Group Stage",
+    "group": "I",
+    "date": "2026-06-24T21:00:00+02:00",
+    "home": "Iraq",
+    "away": "Norway",
+    "stadium": "NRG Stadium"
+  },
+  {
+    "id": "match_055",
+    "matchNumber": 55,
+    "stage": "Group Stage",
+    "group": "J",
+    "date": "2026-06-24T18:00:00+02:00",
+    "home": "Argentina",
+    "away": "Austria",
+    "stadium": "Hard Rock Stadium"
+  },
+  {
+    "id": "match_056",
+    "matchNumber": 56,
+    "stage": "Group Stage",
+    "group": "J",
+    "date": "2026-06-24T21:00:00+02:00",
+    "home": "Jordan",
+    "away": "Algeria",
+    "stadium": "Mercedes-Benz Stadium"
+  },
+  {
+    "id": "match_057",
+    "matchNumber": 57,
+    "stage": "Group Stage",
+    "group": "J",
+    "date": "2026-06-25T18:00:00+02:00",
+    "home": "Argentina",
+    "away": "Jordan",
+    "stadium": "Lincoln Financial Field"
+  },
+  {
+    "id": "match_058",
+    "matchNumber": 58,
+    "stage": "Group Stage",
+    "group": "J",
+    "date": "2026-06-25T21:00:00+02:00",
+    "home": "Austria",
+    "away": "Algeria",
+    "stadium": "Lumen Field"
+  },
+  {
+    "id": "match_059",
+    "matchNumber": 59,
+    "stage": "Group Stage",
+    "group": "J",
+    "date": "2026-06-25T18:00:00+02:00",
+    "home": "Argentina",
+    "away": "Algeria",
+    "stadium": "Levi's Stadium"
+  },
+  {
+    "id": "match_060",
+    "matchNumber": 60,
+    "stage": "Group Stage",
+    "group": "J",
+    "date": "2026-06-25T21:00:00+02:00",
+    "home": "Austria",
+    "away": "Jordan",
+    "stadium": "SoFi Stadium"
+  },
+  {
+    "id": "match_061",
+    "matchNumber": 61,
+    "stage": "Group Stage",
+    "group": "K",
+    "date": "2026-06-26T18:00:00+02:00",
+    "home": "Portugal",
+    "away": "Uzbekistan",
+    "stadium": "GEHA Field at Arrowhead Stadium"
+  },
+  {
+    "id": "match_062",
+    "matchNumber": 62,
+    "stage": "Group Stage",
+    "group": "K",
+    "date": "2026-06-26T21:00:00+02:00",
+    "home": "Colombia",
+    "away": "Congo DR",
+    "stadium": "Gillette Stadium"
+  },
+  {
+    "id": "match_063",
+    "matchNumber": 63,
+    "stage": "Group Stage",
+    "group": "K",
+    "date": "2026-06-26T18:00:00+02:00",
+    "home": "Portugal",
+    "away": "Colombia",
+    "stadium": "BC Place"
+  },
+  {
+    "id": "match_064",
+    "matchNumber": 64,
+    "stage": "Group Stage",
+    "group": "K",
+    "date": "2026-06-26T21:00:00+02:00",
+    "home": "Uzbekistan",
+    "away": "Congo DR",
+    "stadium": "BMO Field"
+  },
+  {
+    "id": "match_065",
+    "matchNumber": 65,
+    "stage": "Group Stage",
+    "group": "K",
+    "date": "2026-06-27T18:00:00+02:00",
+    "home": "Portugal",
+    "away": "Congo DR",
+    "stadium": "Estadio Azteca"
+  },
+  {
+    "id": "match_066",
+    "matchNumber": 66,
+    "stage": "Group Stage",
+    "group": "K",
+    "date": "2026-06-27T21:00:00+02:00",
+    "home": "Uzbekistan",
+    "away": "Colombia",
+    "stadium": "Estadio BBVA"
+  },
+  {
+    "id": "match_067",
+    "matchNumber": 67,
+    "stage": "Group Stage",
+    "group": "L",
+    "date": "2026-06-27T18:00:00+02:00",
+    "home": "England",
+    "away": "Ghana",
+    "stadium": "Estadio Akron"
+  },
+  {
+    "id": "match_068",
+    "matchNumber": 68,
+    "stage": "Group Stage",
+    "group": "L",
+    "date": "2026-06-27T21:00:00+02:00",
+    "home": "Panama",
+    "away": "Croatia",
+    "stadium": "MetLife Stadium"
+  },
+  {
+    "id": "match_069",
+    "matchNumber": 69,
+    "stage": "Group Stage",
+    "group": "L",
+    "date": "2026-06-28T18:00:00+02:00",
+    "home": "England",
+    "away": "Panama",
+    "stadium": "AT&T Stadium"
+  },
+  {
+    "id": "match_070",
+    "matchNumber": 70,
+    "stage": "Group Stage",
+    "group": "L",
+    "date": "2026-06-28T21:00:00+02:00",
+    "home": "Ghana",
+    "away": "Croatia",
+    "stadium": "NRG Stadium"
+  },
+  {
+    "id": "match_071",
+    "matchNumber": 71,
+    "stage": "Group Stage",
+    "group": "L",
+    "date": "2026-06-28T18:00:00+02:00",
+    "home": "England",
+    "away": "Croatia",
+    "stadium": "Hard Rock Stadium"
+  },
+  {
+    "id": "match_072",
+    "matchNumber": 72,
+    "stage": "Group Stage",
+    "group": "L",
+    "date": "2026-06-28T21:00:00+02:00",
+    "home": "Ghana",
+    "away": "Panama",
+    "stadium": "Mercedes-Benz Stadium"
   }
 ]

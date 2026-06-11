@@ -2,15 +2,16 @@
   {
     "id": "match_001",
     "stage": "Group Stage",
-    "group": null,
-    "date": "2026-06-11T21:00:00+02:00",
+    "group": "A",
+    "date": "2026-06-11T18:00:00+02:00",
     "home": "Mexico",
     "away": "South Africa",
-    "city": "Unknown",
+    "stadium": "Estadio Azteca",
+    "city": "Mexico City",
     "probabilities": {
-      "home": 80.1,
-      "draw": 10.9,
-      "away": 9
+      "home": 84.2,
+      "draw": 9,
+      "away": 6.8
     },
     "predictedWinner": "Mexico",
     "predictedScore": "3-1",
@@ -26,17 +27,18 @@
       "South Africa": 6.2
     },
     "modelScores": {
-      "Mexico": 130.2,
-      "South Africa": 110.5
+      "Mexico": 132.2,
+      "South Africa": 109.6
     },
     "factors": {
-      "venueHeatRisk": null,
-      "altitude": null,
-      "homeAdvantage": 0,
+      "venueHeatRisk": 5,
+      "altitude": 2240,
+      "homeAdvantage": 3,
       "awayAdvantage": 0
     },
     "notes": [
       "Mexico rate higher across the model's team strength indicators.",
+      "Venue factor included: Estadio Azteca, Mexico City, heat risk 5/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
     ]
@@ -44,15 +46,1412 @@
   {
     "id": "match_002",
     "stage": "Group Stage",
-    "group": null,
-    "date": "2026-06-12T03:00:00+02:00",
-    "home": "Canada",
-    "away": "Japan",
-    "city": "Unknown",
+    "group": "A",
+    "date": "2026-06-11T21:00:00+02:00",
+    "home": "South Korea",
+    "away": "Czechia",
+    "stadium": "Estadio BBVA",
+    "city": "Monterrey",
     "probabilities": {
-      "home": 19.2,
-      "draw": 17.6,
-      "away": 63.2
+      "home": 49.2,
+      "draw": 21.7,
+      "away": 29.1
+    },
+    "predictedWinner": "South Korea",
+    "predictedScore": "2-1",
+    "confidence": "Low",
+    "likelyScorer": {
+      "team": "South Korea",
+      "name": "Son Heung-min",
+      "position": "Forward",
+      "probability": 32.9
+    },
+    "redCardRisk": {
+      "South Korea": 4.7,
+      "Czechia": 5.2
+    },
+    "modelScores": {
+      "South Korea": 124.7,
+      "Czechia": 120
+    },
+    "factors": {
+      "venueHeatRisk": 8,
+      "altitude": 540,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "South Korea rate higher across the model's team strength indicators.",
+      "Venue factor included: Estadio BBVA, Monterrey, heat risk 8/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_003",
+    "stage": "Group Stage",
+    "group": "A",
+    "date": "2026-06-11T18:00:00+02:00",
+    "home": "Mexico",
+    "away": "South Korea",
+    "stadium": "Estadio Akron",
+    "city": "Guadalajara",
+    "probabilities": {
+      "home": 56.4,
+      "draw": 19.7,
+      "away": 23.9
+    },
+    "predictedWinner": "Mexico",
+    "predictedScore": "2-1",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "Mexico",
+      "name": "Santiago Gimenez",
+      "position": "Forward",
+      "probability": 30.2
+    },
+    "redCardRisk": {
+      "Mexico": 5.8,
+      "South Korea": 4.7
+    },
+    "modelScores": {
+      "Mexico": 132,
+      "South Korea": 124.3
+    },
+    "factors": {
+      "venueHeatRisk": 7,
+      "altitude": 1566,
+      "homeAdvantage": 3,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Mexico rate higher across the model's team strength indicators.",
+      "Venue factor included: Estadio Akron, Guadalajara, heat risk 7/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_004",
+    "stage": "Group Stage",
+    "group": "A",
+    "date": "2026-06-11T21:00:00+02:00",
+    "home": "South Africa",
+    "away": "Czechia",
+    "stadium": "MetLife Stadium",
+    "city": "New York",
+    "probabilities": {
+      "home": 20,
+      "draw": 18,
+      "away": 62
+    },
+    "predictedWinner": "Czechia",
+    "predictedScore": "1-2",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "Czechia",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "South Africa": 6.2,
+      "Czechia": 5.2
+    },
+    "modelScores": {
+      "South Africa": 110.2,
+      "Czechia": 120.4
+    },
+    "factors": {
+      "venueHeatRisk": 4,
+      "altitude": 8,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Czechia rate higher across the model's team strength indicators.",
+      "Venue factor included: MetLife Stadium, New York, heat risk 4/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_005",
+    "stage": "Group Stage",
+    "group": "A",
+    "date": "2026-06-12T18:00:00+02:00",
+    "home": "Mexico",
+    "away": "Czechia",
+    "stadium": "AT&T Stadium",
+    "city": "Dallas",
+    "probabilities": {
+      "home": 60.4,
+      "draw": 18.5,
+      "away": 21.1
+    },
+    "predictedWinner": "Mexico",
+    "predictedScore": "2-1",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "Mexico",
+      "name": "Santiago Gimenez",
+      "position": "Forward",
+      "probability": 30.2
+    },
+    "redCardRisk": {
+      "Mexico": 5.8,
+      "Czechia": 5.2
+    },
+    "modelScores": {
+      "Mexico": 129.4,
+      "Czechia": 119.9
+    },
+    "factors": {
+      "venueHeatRisk": 9,
+      "altitude": 184,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Mexico rate higher across the model's team strength indicators.",
+      "Venue factor included: AT&T Stadium, Dallas, heat risk 9/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_006",
+    "stage": "Group Stage",
+    "group": "A",
+    "date": "2026-06-12T21:00:00+02:00",
+    "home": "South Africa",
+    "away": "South Korea",
+    "stadium": "NRG Stadium",
+    "city": "Houston",
+    "probabilities": {
+      "home": 13.7,
+      "draw": 14.4,
+      "away": 71.9
+    },
+    "predictedWinner": "South Korea",
+    "predictedScore": "1-2",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "South Korea",
+      "name": "Son Heung-min",
+      "position": "Forward",
+      "probability": 32.9
+    },
+    "redCardRisk": {
+      "South Africa": 6.2,
+      "South Korea": 4.7
+    },
+    "modelScores": {
+      "South Africa": 109.6,
+      "South Korea": 124.6
+    },
+    "factors": {
+      "venueHeatRisk": 10,
+      "altitude": 13,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "South Korea rate higher across the model's team strength indicators.",
+      "Venue factor included: NRG Stadium, Houston, heat risk 10/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_007",
+    "stage": "Group Stage",
+    "group": "B",
+    "date": "2026-06-12T18:00:00+02:00",
+    "home": "Canada",
+    "away": "Switzerland",
+    "stadium": "Hard Rock Stadium",
+    "city": "Miami",
+    "probabilities": {
+      "home": 17.7,
+      "draw": 16.8,
+      "away": 65.6
+    },
+    "predictedWinner": "Switzerland",
+    "predictedScore": "1-2",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "Switzerland",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Canada": 5.5,
+      "Switzerland": 4.5
+    },
+    "modelScores": {
+      "Canada": 118.7,
+      "Switzerland": 130.5
+    },
+    "factors": {
+      "venueHeatRisk": 10,
+      "altitude": 2,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Switzerland rate higher across the model's team strength indicators.",
+      "Venue factor included: Hard Rock Stadium, Miami, heat risk 10/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_008",
+    "stage": "Group Stage",
+    "group": "B",
+    "date": "2026-06-12T21:00:00+02:00",
+    "home": "Qatar",
+    "away": "Bosnia and Herzegovina",
+    "stadium": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "probabilities": {
+      "home": 28.2,
+      "draw": 21.3,
+      "away": 50.5
+    },
+    "predictedWinner": "Bosnia and Herzegovina",
+    "predictedScore": "1-2",
+    "confidence": "Low",
+    "likelyScorer": {
+      "team": "Bosnia and Herzegovina",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Qatar": 5.3,
+      "Bosnia and Herzegovina": 5.7
+    },
+    "modelScores": {
+      "Qatar": 110.5,
+      "Bosnia and Herzegovina": 115.7
+    },
+    "factors": {
+      "venueHeatRisk": 7,
+      "altitude": 320,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Bosnia and Herzegovina rate higher across the model's team strength indicators.",
+      "Venue factor included: Mercedes-Benz Stadium, Atlanta, heat risk 7/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_009",
+    "stage": "Group Stage",
+    "group": "B",
+    "date": "2026-06-13T18:00:00+02:00",
+    "home": "Canada",
+    "away": "Qatar",
+    "stadium": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "probabilities": {
+      "home": 58.3,
+      "draw": 19.2,
+      "away": 22.6
+    },
+    "predictedWinner": "Canada",
+    "predictedScore": "2-1",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "Canada",
+      "name": "Jonathan David",
+      "position": "Forward",
+      "probability": 31.3
+    },
+    "redCardRisk": {
+      "Canada": 5.5,
+      "Qatar": 5.3
+    },
+    "modelScores": {
+      "Canada": 119.2,
+      "Qatar": 110.6
+    },
+    "factors": {
+      "venueHeatRisk": 5,
+      "altitude": 12,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Canada rate higher across the model's team strength indicators.",
+      "Venue factor included: Lincoln Financial Field, Philadelphia, heat risk 5/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_010",
+    "stage": "Group Stage",
+    "group": "B",
+    "date": "2026-06-13T21:00:00+02:00",
+    "home": "Switzerland",
+    "away": "Bosnia and Herzegovina",
+    "stadium": "Lumen Field",
+    "city": "Seattle",
+    "probabilities": {
+      "home": 72.3,
+      "draw": 14.2,
+      "away": 13.5
+    },
+    "predictedWinner": "Switzerland",
+    "predictedScore": "3-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Switzerland",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Switzerland": 4.5,
+      "Bosnia and Herzegovina": 5.7
+    },
+    "modelScores": {
+      "Switzerland": 131.2,
+      "Bosnia and Herzegovina": 116.1
+    },
+    "factors": {
+      "venueHeatRisk": 3,
+      "altitude": 17,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Switzerland rate higher across the model's team strength indicators.",
+      "Venue factor included: Lumen Field, Seattle, heat risk 3/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_011",
+    "stage": "Group Stage",
+    "group": "B",
+    "date": "2026-06-13T18:00:00+02:00",
+    "home": "Canada",
+    "away": "Bosnia and Herzegovina",
+    "stadium": "Levi's Stadium",
+    "city": "San Francisco",
+    "probabilities": {
+      "home": 45.8,
+      "draw": 22.4,
+      "away": 31.8
+    },
+    "predictedWinner": "Canada",
+    "predictedScore": "2-1",
+    "confidence": "Low",
+    "likelyScorer": {
+      "team": "Canada",
+      "name": "Jonathan David",
+      "position": "Forward",
+      "probability": 31.3
+    },
+    "redCardRisk": {
+      "Canada": 5.5,
+      "Bosnia and Herzegovina": 5.7
+    },
+    "modelScores": {
+      "Canada": 119.1,
+      "Bosnia and Herzegovina": 115.8
+    },
+    "factors": {
+      "venueHeatRisk": 6,
+      "altitude": 15,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Canada rate higher across the model's team strength indicators.",
+      "Venue factor included: Levi's Stadium, San Francisco, heat risk 6/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_012",
+    "stage": "Group Stage",
+    "group": "B",
+    "date": "2026-06-13T21:00:00+02:00",
+    "home": "Switzerland",
+    "away": "Qatar",
+    "stadium": "SoFi Stadium",
+    "city": "Los Angeles",
+    "probabilities": {
+      "home": 81.1,
+      "draw": 10.4,
+      "away": 8.5
+    },
+    "predictedWinner": "Switzerland",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Switzerland",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Switzerland": 4.5,
+      "Qatar": 5.3
+    },
+    "modelScores": {
+      "Switzerland": 130.9,
+      "Qatar": 110.6
+    },
+    "factors": {
+      "venueHeatRisk": 6,
+      "altitude": 30,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Switzerland rate higher across the model's team strength indicators.",
+      "Venue factor included: SoFi Stadium, Los Angeles, heat risk 6/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_013",
+    "stage": "Group Stage",
+    "group": "C",
+    "date": "2026-06-14T18:00:00+02:00",
+    "home": "Brazil",
+    "away": "Haiti",
+    "stadium": "GEHA Field at Arrowhead Stadium",
+    "city": "Kansas City",
+    "probabilities": {
+      "home": 97.3,
+      "draw": 2.3,
+      "away": 0.4
+    },
+    "predictedWinner": "Brazil",
+    "predictedScore": "4-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Brazil",
+      "name": "Vinicius Junior",
+      "position": "Forward",
+      "probability": 34.2
+    },
+    "redCardRisk": {
+      "Brazil": 4.6,
+      "Haiti": 6.4
+    },
+    "modelScores": {
+      "Brazil": 148.4,
+      "Haiti": 99
+    },
+    "factors": {
+      "venueHeatRisk": 7,
+      "altitude": 264,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Brazil rate higher across the model's team strength indicators.",
+      "Venue factor included: GEHA Field at Arrowhead Stadium, Kansas City, heat risk 7/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_014",
+    "stage": "Group Stage",
+    "group": "C",
+    "date": "2026-06-14T21:00:00+02:00",
+    "home": "Scotland",
+    "away": "Morocco",
+    "stadium": "Gillette Stadium",
+    "city": "Boston",
+    "probabilities": {
+      "home": 11.5,
+      "draw": 12.8,
+      "away": 75.6
+    },
+    "predictedWinner": "Morocco",
+    "predictedScore": "1-2",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Morocco",
+      "name": "Youssef En-Nesyri",
+      "position": "Forward",
+      "probability": 30.1
+    },
+    "redCardRisk": {
+      "Scotland": 5.7,
+      "Morocco": 4.8
+    },
+    "modelScores": {
+      "Scotland": 117.8,
+      "Morocco": 134.7
+    },
+    "factors": {
+      "venueHeatRisk": 4,
+      "altitude": 90,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Morocco rate higher across the model's team strength indicators.",
+      "Venue factor included: Gillette Stadium, Boston, heat risk 4/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_015",
+    "stage": "Group Stage",
+    "group": "C",
+    "date": "2026-06-14T18:00:00+02:00",
+    "home": "Brazil",
+    "away": "Scotland",
+    "stadium": "BC Place",
+    "city": "Vancouver",
+    "probabilities": {
+      "home": 90.9,
+      "draw": 6.1,
+      "away": 2.9
+    },
+    "predictedWinner": "Brazil",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Brazil",
+      "name": "Vinicius Junior",
+      "position": "Forward",
+      "probability": 34.2
+    },
+    "redCardRisk": {
+      "Brazil": 4.6,
+      "Scotland": 5.7
+    },
+    "modelScores": {
+      "Brazil": 148.8,
+      "Scotland": 118
+    },
+    "factors": {
+      "venueHeatRisk": 2,
+      "altitude": 5,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Brazil rate higher across the model's team strength indicators.",
+      "Venue factor included: BC Place, Vancouver, heat risk 2/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_016",
+    "stage": "Group Stage",
+    "group": "C",
+    "date": "2026-06-14T21:00:00+02:00",
+    "home": "Haiti",
+    "away": "Morocco",
+    "stadium": "BMO Field",
+    "city": "Toronto",
+    "probabilities": {
+      "home": 1.8,
+      "draw": 4.9,
+      "away": 93.3
+    },
+    "predictedWinner": "Morocco",
+    "predictedScore": "0-3",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Morocco",
+      "name": "Youssef En-Nesyri",
+      "position": "Forward",
+      "probability": 30.1
+    },
+    "redCardRisk": {
+      "Haiti": 6.4,
+      "Morocco": 4.8
+    },
+    "modelScores": {
+      "Haiti": 99.2,
+      "Morocco": 134.7
+    },
+    "factors": {
+      "venueHeatRisk": 4,
+      "altitude": 76,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Morocco rate higher across the model's team strength indicators.",
+      "Venue factor included: BMO Field, Toronto, heat risk 4/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_017",
+    "stage": "Group Stage",
+    "group": "C",
+    "date": "2026-06-15T18:00:00+02:00",
+    "home": "Brazil",
+    "away": "Morocco",
+    "stadium": "Estadio Azteca",
+    "city": "Mexico City",
+    "probabilities": {
+      "home": 70,
+      "draw": 15.1,
+      "away": 14.9
+    },
+    "predictedWinner": "Brazil",
+    "predictedScore": "2-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Brazil",
+      "name": "Vinicius Junior",
+      "position": "Forward",
+      "probability": 34.2
+    },
+    "redCardRisk": {
+      "Brazil": 4.6,
+      "Morocco": 4.8
+    },
+    "modelScores": {
+      "Brazil": 148,
+      "Morocco": 134.1
+    },
+    "factors": {
+      "venueHeatRisk": 5,
+      "altitude": 2240,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Brazil rate higher across the model's team strength indicators.",
+      "Venue factor included: Estadio Azteca, Mexico City, heat risk 5/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_018",
+    "stage": "Group Stage",
+    "group": "C",
+    "date": "2026-06-15T21:00:00+02:00",
+    "home": "Haiti",
+    "away": "Scotland",
+    "stadium": "Estadio BBVA",
+    "city": "Monterrey",
+    "probabilities": {
+      "home": 10,
+      "draw": 11.6,
+      "away": 78.4
+    },
+    "predictedWinner": "Scotland",
+    "predictedScore": "1-2",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Scotland",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Haiti": 6.4,
+      "Scotland": 5.7
+    },
+    "modelScores": {
+      "Haiti": 98.9,
+      "Scotland": 117.4
+    },
+    "factors": {
+      "venueHeatRisk": 8,
+      "altitude": 540,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Scotland rate higher across the model's team strength indicators.",
+      "Venue factor included: Estadio BBVA, Monterrey, heat risk 8/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_019",
+    "stage": "Group Stage",
+    "group": "D",
+    "date": "2026-06-15T18:00:00+02:00",
+    "home": "USA",
+    "away": "Australia",
+    "stadium": "Estadio Akron",
+    "city": "Guadalajara",
+    "probabilities": {
+      "home": 52.6,
+      "draw": 20.8,
+      "away": 26.6
+    },
+    "predictedWinner": "USA",
+    "predictedScore": "2-1",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "USA",
+      "name": "Christian Pulisic",
+      "position": "Forward",
+      "probability": 31.3
+    },
+    "redCardRisk": {
+      "USA": 4.7,
+      "Australia": 5.5
+    },
+    "modelScores": {
+      "USA": 128.2,
+      "Australia": 122.1
+    },
+    "factors": {
+      "venueHeatRisk": 7,
+      "altitude": 1566,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "USA rate higher across the model's team strength indicators.",
+      "Venue factor included: Estadio Akron, Guadalajara, heat risk 7/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_020",
+    "stage": "Group Stage",
+    "group": "D",
+    "date": "2026-06-15T21:00:00+02:00",
+    "home": "Turkey",
+    "away": "Paraguay",
+    "stadium": "MetLife Stadium",
+    "city": "New York",
+    "probabilities": {
+      "home": 56.5,
+      "draw": 19.7,
+      "away": 23.8
+    },
+    "predictedWinner": "Turkey",
+    "predictedScore": "2-1",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "Turkey",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Turkey": 5.9,
+      "Paraguay": 6.2
+    },
+    "modelScores": {
+      "Turkey": 125.3,
+      "Paraguay": 117.5
+    },
+    "factors": {
+      "venueHeatRisk": 4,
+      "altitude": 8,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Turkey rate higher across the model's team strength indicators.",
+      "Venue factor included: MetLife Stadium, New York, heat risk 4/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_021",
+    "stage": "Group Stage",
+    "group": "D",
+    "date": "2026-06-16T18:00:00+02:00",
+    "home": "USA",
+    "away": "Turkey",
+    "stadium": "AT&T Stadium",
+    "city": "Dallas",
+    "probabilities": {
+      "home": 53.9,
+      "draw": 20.5,
+      "away": 25.7
+    },
+    "predictedWinner": "USA",
+    "predictedScore": "2-1",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "USA",
+      "name": "Christian Pulisic",
+      "position": "Forward",
+      "probability": 31.3
+    },
+    "redCardRisk": {
+      "USA": 4.7,
+      "Turkey": 5.9
+    },
+    "modelScores": {
+      "USA": 131.6,
+      "Turkey": 124.9
+    },
+    "factors": {
+      "venueHeatRisk": 9,
+      "altitude": 184,
+      "homeAdvantage": 3,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "USA rate higher across the model's team strength indicators.",
+      "Venue factor included: AT&T Stadium, Dallas, heat risk 9/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_022",
+    "stage": "Group Stage",
+    "group": "D",
+    "date": "2026-06-16T21:00:00+02:00",
+    "home": "Australia",
+    "away": "Paraguay",
+    "stadium": "NRG Stadium",
+    "city": "Houston",
+    "probabilities": {
+      "home": 50.6,
+      "draw": 21.3,
+      "away": 28.1
+    },
+    "predictedWinner": "Australia",
+    "predictedScore": "2-1",
+    "confidence": "Low",
+    "likelyScorer": {
+      "team": "Australia",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Australia": 5.5,
+      "Paraguay": 6.2
+    },
+    "modelScores": {
+      "Australia": 122.3,
+      "Paraguay": 117
+    },
+    "factors": {
+      "venueHeatRisk": 10,
+      "altitude": 13,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Australia rate higher across the model's team strength indicators.",
+      "Venue factor included: NRG Stadium, Houston, heat risk 10/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_023",
+    "stage": "Group Stage",
+    "group": "D",
+    "date": "2026-06-16T18:00:00+02:00",
+    "home": "USA",
+    "away": "Paraguay",
+    "stadium": "Hard Rock Stadium",
+    "city": "Miami",
+    "probabilities": {
+      "home": 71,
+      "draw": 14.7,
+      "away": 14.3
+    },
+    "predictedWinner": "USA",
+    "predictedScore": "2-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "USA",
+      "name": "Christian Pulisic",
+      "position": "Forward",
+      "probability": 31.3
+    },
+    "redCardRisk": {
+      "USA": 4.7,
+      "Paraguay": 6.2
+    },
+    "modelScores": {
+      "USA": 131.5,
+      "Paraguay": 117
+    },
+    "factors": {
+      "venueHeatRisk": 10,
+      "altitude": 2,
+      "homeAdvantage": 3,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "USA rate higher across the model's team strength indicators.",
+      "Venue factor included: Hard Rock Stadium, Miami, heat risk 10/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_024",
+    "stage": "Group Stage",
+    "group": "D",
+    "date": "2026-06-16T21:00:00+02:00",
+    "home": "Australia",
+    "away": "Turkey",
+    "stadium": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "probabilities": {
+      "home": 33.3,
+      "draw": 22.8,
+      "away": 43.9
+    },
+    "predictedWinner": "Turkey",
+    "predictedScore": "1-2",
+    "confidence": "Low",
+    "likelyScorer": {
+      "team": "Turkey",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Australia": 5.5,
+      "Turkey": 5.9
+    },
+    "modelScores": {
+      "Australia": 122.6,
+      "Turkey": 125.1
+    },
+    "factors": {
+      "venueHeatRisk": 7,
+      "altitude": 320,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Turkey rate higher across the model's team strength indicators.",
+      "Venue factor included: Mercedes-Benz Stadium, Atlanta, heat risk 7/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_025",
+    "stage": "Group Stage",
+    "group": "E",
+    "date": "2026-06-17T18:00:00+02:00",
+    "home": "Germany",
+    "away": "Côte d'Ivoire",
+    "stadium": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "probabilities": {
+      "home": 85.2,
+      "draw": 8.6,
+      "away": 6.2
+    },
+    "predictedWinner": "Germany",
+    "predictedScore": "3-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Germany",
+      "name": "Jamal Musiala",
+      "position": "Midfielder",
+      "probability": 32.3
+    },
+    "redCardRisk": {
+      "Germany": 3.8,
+      "Côte d'Ivoire": 6
+    },
+    "modelScores": {
+      "Germany": 140.9,
+      "Côte d'Ivoire": 117.3
+    },
+    "factors": {
+      "venueHeatRisk": 5,
+      "altitude": 12,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Germany rate higher across the model's team strength indicators.",
+      "Venue factor included: Lincoln Financial Field, Philadelphia, heat risk 5/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_026",
+    "stage": "Group Stage",
+    "group": "E",
+    "date": "2026-06-17T21:00:00+02:00",
+    "home": "Ecuador",
+    "away": "Curaçao",
+    "stadium": "Lumen Field",
+    "city": "Seattle",
+    "probabilities": {
+      "home": 88.8,
+      "draw": 7.1,
+      "away": 4.1
+    },
+    "predictedWinner": "Ecuador",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Ecuador",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Ecuador": 5.5,
+      "Curaçao": 6
+    },
+    "modelScores": {
+      "Ecuador": 125.7,
+      "Curaçao": 97.9
+    },
+    "factors": {
+      "venueHeatRisk": 3,
+      "altitude": 17,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Ecuador rate higher across the model's team strength indicators.",
+      "Venue factor included: Lumen Field, Seattle, heat risk 3/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_027",
+    "stage": "Group Stage",
+    "group": "E",
+    "date": "2026-06-17T18:00:00+02:00",
+    "home": "Germany",
+    "away": "Ecuador",
+    "stadium": "Levi's Stadium",
+    "city": "San Francisco",
+    "probabilities": {
+      "home": 72.9,
+      "draw": 14,
+      "away": 13.1
+    },
+    "predictedWinner": "Germany",
+    "predictedScore": "3-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Germany",
+      "name": "Jamal Musiala",
+      "position": "Midfielder",
+      "probability": 32.3
+    },
+    "redCardRisk": {
+      "Germany": 3.8,
+      "Ecuador": 5.5
+    },
+    "modelScores": {
+      "Germany": 140.8,
+      "Ecuador": 125.4
+    },
+    "factors": {
+      "venueHeatRisk": 6,
+      "altitude": 15,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Germany rate higher across the model's team strength indicators.",
+      "Venue factor included: Levi's Stadium, San Francisco, heat risk 6/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_028",
+    "stage": "Group Stage",
+    "group": "E",
+    "date": "2026-06-17T21:00:00+02:00",
+    "home": "Côte d'Ivoire",
+    "away": "Curaçao",
+    "stadium": "SoFi Stadium",
+    "city": "Los Angeles",
+    "probabilities": {
+      "home": 80,
+      "draw": 10.9,
+      "away": 9.1
+    },
+    "predictedWinner": "Côte d'Ivoire",
+    "predictedScore": "3-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Côte d'Ivoire",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Côte d'Ivoire": 6,
+      "Curaçao": 6
+    },
+    "modelScores": {
+      "Côte d'Ivoire": 117.2,
+      "Curaçao": 97.6
+    },
+    "factors": {
+      "venueHeatRisk": 6,
+      "altitude": 30,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Côte d'Ivoire rate higher across the model's team strength indicators.",
+      "Venue factor included: SoFi Stadium, Los Angeles, heat risk 6/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_029",
+    "stage": "Group Stage",
+    "group": "E",
+    "date": "2026-06-18T18:00:00+02:00",
+    "home": "Germany",
+    "away": "Curaçao",
+    "stadium": "GEHA Field at Arrowhead Stadium",
+    "city": "Kansas City",
+    "probabilities": {
+      "home": 95.9,
+      "draw": 3.3,
+      "away": 0.8
+    },
+    "predictedWinner": "Germany",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Germany",
+      "name": "Jamal Musiala",
+      "position": "Midfielder",
+      "probability": 32.3
+    },
+    "redCardRisk": {
+      "Germany": 3.8,
+      "Curaçao": 6
+    },
+    "modelScores": {
+      "Germany": 140.7,
+      "Curaçao": 97.5
+    },
+    "factors": {
+      "venueHeatRisk": 7,
+      "altitude": 264,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Germany rate higher across the model's team strength indicators.",
+      "Venue factor included: GEHA Field at Arrowhead Stadium, Kansas City, heat risk 7/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_030",
+    "stage": "Group Stage",
+    "group": "E",
+    "date": "2026-06-18T21:00:00+02:00",
+    "home": "Côte d'Ivoire",
+    "away": "Ecuador",
+    "stadium": "Gillette Stadium",
+    "city": "Boston",
+    "probabilities": {
+      "home": 23.1,
+      "draw": 19.4,
+      "away": 57.5
+    },
+    "predictedWinner": "Ecuador",
+    "predictedScore": "1-2",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "Ecuador",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Côte d'Ivoire": 6,
+      "Ecuador": 5.5
+    },
+    "modelScores": {
+      "Côte d'Ivoire": 117.4,
+      "Ecuador": 125.6
+    },
+    "factors": {
+      "venueHeatRisk": 4,
+      "altitude": 90,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Ecuador rate higher across the model's team strength indicators.",
+      "Venue factor included: Gillette Stadium, Boston, heat risk 4/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_031",
+    "stage": "Group Stage",
+    "group": "F",
+    "date": "2026-06-18T18:00:00+02:00",
+    "home": "Netherlands",
+    "away": "Sweden",
+    "stadium": "BC Place",
+    "city": "Vancouver",
+    "probabilities": {
+      "home": 81.8,
+      "draw": 10.1,
+      "away": 8.1
+    },
+    "predictedWinner": "Netherlands",
+    "predictedScore": "3-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Netherlands",
+      "name": "Cody Gakpo",
+      "position": "Forward",
+      "probability": 31.6
+    },
+    "redCardRisk": {
+      "Netherlands": 4.1,
+      "Sweden": 4.7
+    },
+    "modelScores": {
+      "Netherlands": 143.4,
+      "Sweden": 122.6
+    },
+    "factors": {
+      "venueHeatRisk": 2,
+      "altitude": 5,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Netherlands rate higher across the model's team strength indicators.",
+      "Venue factor included: BC Place, Vancouver, heat risk 2/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_032",
+    "stage": "Group Stage",
+    "group": "F",
+    "date": "2026-06-18T21:00:00+02:00",
+    "home": "Tunisia",
+    "away": "Japan",
+    "stadium": "BMO Field",
+    "city": "Toronto",
+    "probabilities": {
+      "home": 15.9,
+      "draw": 15.7,
+      "away": 68.4
+    },
+    "predictedWinner": "Japan",
+    "predictedScore": "1-2",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Japan",
+      "name": "Takefusa Kubo",
+      "position": "Forward",
+      "probability": 30.9
+    },
+    "redCardRisk": {
+      "Tunisia": 5.7,
+      "Japan": 3.8
+    },
+    "modelScores": {
+      "Tunisia": 116.8,
+      "Japan": 130
+    },
+    "factors": {
+      "venueHeatRisk": 4,
+      "altitude": 76,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Japan rate higher across the model's team strength indicators.",
+      "Venue factor included: BMO Field, Toronto, heat risk 4/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_033",
+    "stage": "Group Stage",
+    "group": "F",
+    "date": "2026-06-19T18:00:00+02:00",
+    "home": "Netherlands",
+    "away": "Tunisia",
+    "stadium": "Estadio Azteca",
+    "city": "Mexico City",
+    "probabilities": {
+      "home": 87.7,
+      "draw": 7.6,
+      "away": 4.7
+    },
+    "predictedWinner": "Netherlands",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Netherlands",
+      "name": "Cody Gakpo",
+      "position": "Forward",
+      "probability": 31.6
+    },
+    "redCardRisk": {
+      "Netherlands": 4.1,
+      "Tunisia": 5.7
+    },
+    "modelScores": {
+      "Netherlands": 142.6,
+      "Tunisia": 116.2
+    },
+    "factors": {
+      "venueHeatRisk": 5,
+      "altitude": 2240,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Netherlands rate higher across the model's team strength indicators.",
+      "Venue factor included: Estadio Azteca, Mexico City, heat risk 5/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_034",
+    "stage": "Group Stage",
+    "group": "F",
+    "date": "2026-06-19T21:00:00+02:00",
+    "home": "Sweden",
+    "away": "Japan",
+    "stadium": "Estadio BBVA",
+    "city": "Monterrey",
+    "probabilities": {
+      "home": 24.2,
+      "draw": 19.9,
+      "away": 56
     },
     "predictedWinner": "Japan",
     "predictedScore": "1-2",
@@ -64,21 +1463,1682 @@
       "probability": 30.9
     },
     "redCardRisk": {
-      "Canada": 5.5,
+      "Sweden": 4.7,
       "Japan": 3.8
     },
     "modelScores": {
-      "Canada": 119.6,
-      "Japan": 130.3
+      "Sweden": 122.1,
+      "Japan": 129.7
     },
     "factors": {
-      "venueHeatRisk": null,
-      "altitude": null,
+      "venueHeatRisk": 8,
+      "altitude": 540,
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
       "Japan rate higher across the model's team strength indicators.",
+      "Venue factor included: Estadio BBVA, Monterrey, heat risk 8/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_035",
+    "stage": "Group Stage",
+    "group": "F",
+    "date": "2026-06-19T18:00:00+02:00",
+    "home": "Netherlands",
+    "away": "Japan",
+    "stadium": "Estadio Akron",
+    "city": "Guadalajara",
+    "probabilities": {
+      "home": 68.6,
+      "draw": 15.6,
+      "away": 15.7
+    },
+    "predictedWinner": "Netherlands",
+    "predictedScore": "2-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Netherlands",
+      "name": "Cody Gakpo",
+      "position": "Forward",
+      "probability": 31.6
+    },
+    "redCardRisk": {
+      "Netherlands": 4.1,
+      "Japan": 3.8
+    },
+    "modelScores": {
+      "Netherlands": 142.5,
+      "Japan": 129.2
+    },
+    "factors": {
+      "venueHeatRisk": 7,
+      "altitude": 1566,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Netherlands rate higher across the model's team strength indicators.",
+      "Venue factor included: Estadio Akron, Guadalajara, heat risk 7/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_036",
+    "stage": "Group Stage",
+    "group": "F",
+    "date": "2026-06-19T21:00:00+02:00",
+    "home": "Sweden",
+    "away": "Tunisia",
+    "stadium": "MetLife Stadium",
+    "city": "New York",
+    "probabilities": {
+      "home": 51.3,
+      "draw": 21.1,
+      "away": 27.6
+    },
+    "predictedWinner": "Sweden",
+    "predictedScore": "2-1",
+    "confidence": "Low",
+    "likelyScorer": {
+      "team": "Sweden",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Sweden": 4.7,
+      "Tunisia": 5.7
+    },
+    "modelScores": {
+      "Sweden": 122.4,
+      "Tunisia": 116.8
+    },
+    "factors": {
+      "venueHeatRisk": 4,
+      "altitude": 8,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Sweden rate higher across the model's team strength indicators.",
+      "Venue factor included: MetLife Stadium, New York, heat risk 4/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_037",
+    "stage": "Group Stage",
+    "group": "G",
+    "date": "2026-06-20T18:00:00+02:00",
+    "home": "Belgium",
+    "away": "Iran",
+    "stadium": "AT&T Stadium",
+    "city": "Dallas",
+    "probabilities": {
+      "home": 67.7,
+      "draw": 16,
+      "away": 16.3
+    },
+    "predictedWinner": "Belgium",
+    "predictedScore": "2-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Belgium",
+      "name": "Kevin De Bruyne",
+      "position": "Midfielder",
+      "probability": 30.8
+    },
+    "redCardRisk": {
+      "Belgium": 4.2,
+      "Iran": 5.5
+    },
+    "modelScores": {
+      "Belgium": 136.9,
+      "Iran": 124.1
+    },
+    "factors": {
+      "venueHeatRisk": 9,
+      "altitude": 184,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Belgium rate higher across the model's team strength indicators.",
+      "Venue factor included: AT&T Stadium, Dallas, heat risk 9/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_038",
+    "stage": "Group Stage",
+    "group": "G",
+    "date": "2026-06-20T21:00:00+02:00",
+    "home": "New Zealand",
+    "away": "Egypt",
+    "stadium": "NRG Stadium",
+    "city": "Houston",
+    "probabilities": {
+      "home": 8.1,
+      "draw": 10.1,
+      "away": 81.8
+    },
+    "predictedWinner": "Egypt",
+    "predictedScore": "1-3",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Egypt",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "New Zealand": 5.5,
+      "Egypt": 5.1
+    },
+    "modelScores": {
+      "New Zealand": 98.7,
+      "Egypt": 119.5
+    },
+    "factors": {
+      "venueHeatRisk": 10,
+      "altitude": 13,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Egypt rate higher across the model's team strength indicators.",
+      "Venue factor included: NRG Stadium, Houston, heat risk 10/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_039",
+    "stage": "Group Stage",
+    "group": "G",
+    "date": "2026-06-20T18:00:00+02:00",
+    "home": "Belgium",
+    "away": "New Zealand",
+    "stadium": "Hard Rock Stadium",
+    "city": "Miami",
+    "probabilities": {
+      "home": 94.4,
+      "draw": 4.3,
+      "away": 1.4
+    },
+    "predictedWinner": "Belgium",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Belgium",
+      "name": "Kevin De Bruyne",
+      "position": "Midfielder",
+      "probability": 30.8
+    },
+    "redCardRisk": {
+      "Belgium": 4.2,
+      "New Zealand": 5.5
+    },
+    "modelScores": {
+      "Belgium": 136.8,
+      "New Zealand": 98.7
+    },
+    "factors": {
+      "venueHeatRisk": 10,
+      "altitude": 2,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Belgium rate higher across the model's team strength indicators.",
+      "Venue factor included: Hard Rock Stadium, Miami, heat risk 10/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_040",
+    "stage": "Group Stage",
+    "group": "G",
+    "date": "2026-06-20T21:00:00+02:00",
+    "home": "Iran",
+    "away": "Egypt",
+    "stadium": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "probabilities": {
+      "home": 48.8,
+      "draw": 21.8,
+      "away": 29.5
+    },
+    "predictedWinner": "Iran",
+    "predictedScore": "2-1",
+    "confidence": "Low",
+    "likelyScorer": {
+      "team": "Iran",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Iran": 5.5,
+      "Egypt": 5.1
+    },
+    "modelScores": {
+      "Iran": 124.3,
+      "Egypt": 119.8
+    },
+    "factors": {
+      "venueHeatRisk": 7,
+      "altitude": 320,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Iran rate higher across the model's team strength indicators.",
+      "Venue factor included: Mercedes-Benz Stadium, Atlanta, heat risk 7/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_041",
+    "stage": "Group Stage",
+    "group": "G",
+    "date": "2026-06-21T18:00:00+02:00",
+    "home": "Belgium",
+    "away": "Egypt",
+    "stadium": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "probabilities": {
+      "home": 76.3,
+      "draw": 12.5,
+      "away": 11.1
+    },
+    "predictedWinner": "Belgium",
+    "predictedScore": "3-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Belgium",
+      "name": "Kevin De Bruyne",
+      "position": "Midfielder",
+      "probability": 30.8
+    },
+    "redCardRisk": {
+      "Belgium": 4.2,
+      "Egypt": 5.1
+    },
+    "modelScores": {
+      "Belgium": 137.3,
+      "Egypt": 120
+    },
+    "factors": {
+      "venueHeatRisk": 5,
+      "altitude": 12,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Belgium rate higher across the model's team strength indicators.",
+      "Venue factor included: Lincoln Financial Field, Philadelphia, heat risk 5/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_042",
+    "stage": "Group Stage",
+    "group": "G",
+    "date": "2026-06-21T21:00:00+02:00",
+    "home": "Iran",
+    "away": "New Zealand",
+    "stadium": "Lumen Field",
+    "city": "Seattle",
+    "probabilities": {
+      "home": 86.8,
+      "draw": 8,
+      "away": 5.2
+    },
+    "predictedWinner": "Iran",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Iran",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Iran": 5.5,
+      "New Zealand": 5.5
+    },
+    "modelScores": {
+      "Iran": 124.7,
+      "New Zealand": 99.3
+    },
+    "factors": {
+      "venueHeatRisk": 3,
+      "altitude": 17,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Iran rate higher across the model's team strength indicators.",
+      "Venue factor included: Lumen Field, Seattle, heat risk 3/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_043",
+    "stage": "Group Stage",
+    "group": "H",
+    "date": "2026-06-21T18:00:00+02:00",
+    "home": "Spain",
+    "away": "Saudi Arabia",
+    "stadium": "Levi's Stadium",
+    "city": "San Francisco",
+    "probabilities": {
+      "home": 93.9,
+      "draw": 4.5,
+      "away": 1.6
+    },
+    "predictedWinner": "Spain",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Spain",
+      "name": "Lamine Yamal",
+      "position": "Forward",
+      "probability": 32
+    },
+    "redCardRisk": {
+      "Spain": 3.3,
+      "Saudi Arabia": 5.8
+    },
+    "modelScores": {
+      "Spain": 147.5,
+      "Saudi Arabia": 110.6
+    },
+    "factors": {
+      "venueHeatRisk": 6,
+      "altitude": 15,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Spain rate higher across the model's team strength indicators.",
+      "Venue factor included: Levi's Stadium, San Francisco, heat risk 6/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_044",
+    "stage": "Group Stage",
+    "group": "H",
+    "date": "2026-06-21T21:00:00+02:00",
+    "home": "Uruguay",
+    "away": "Cabo Verde",
+    "stadium": "SoFi Stadium",
+    "city": "Los Angeles",
+    "probabilities": {
+      "home": 92.9,
+      "draw": 5.1,
+      "away": 2
+    },
+    "predictedWinner": "Uruguay",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Uruguay",
+      "name": "Darwin Nunez",
+      "position": "Forward",
+      "probability": 31.4
+    },
+    "redCardRisk": {
+      "Uruguay": 6.1,
+      "Cabo Verde": 5.8
+    },
+    "modelScores": {
+      "Uruguay": 137.2,
+      "Cabo Verde": 102.6
+    },
+    "factors": {
+      "venueHeatRisk": 6,
+      "altitude": 30,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Uruguay rate higher across the model's team strength indicators.",
+      "Venue factor included: SoFi Stadium, Los Angeles, heat risk 6/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_045",
+    "stage": "Group Stage",
+    "group": "H",
+    "date": "2026-06-22T18:00:00+02:00",
+    "home": "Spain",
+    "away": "Uruguay",
+    "stadium": "GEHA Field at Arrowhead Stadium",
+    "city": "Kansas City",
+    "probabilities": {
+      "home": 62.3,
+      "draw": 17.9,
+      "away": 19.8
+    },
+    "predictedWinner": "Spain",
+    "predictedScore": "2-1",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "Spain",
+      "name": "Lamine Yamal",
+      "position": "Forward",
+      "probability": 32
+    },
+    "redCardRisk": {
+      "Spain": 3.3,
+      "Uruguay": 6.1
+    },
+    "modelScores": {
+      "Spain": 147.4,
+      "Uruguay": 137.1
+    },
+    "factors": {
+      "venueHeatRisk": 7,
+      "altitude": 264,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Spain rate higher across the model's team strength indicators.",
+      "Venue factor included: GEHA Field at Arrowhead Stadium, Kansas City, heat risk 7/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_046",
+    "stage": "Group Stage",
+    "group": "H",
+    "date": "2026-06-22T21:00:00+02:00",
+    "home": "Saudi Arabia",
+    "away": "Cabo Verde",
+    "stadium": "Gillette Stadium",
+    "city": "Boston",
+    "probabilities": {
+      "home": 57,
+      "draw": 19.6,
+      "away": 23.5
+    },
+    "predictedWinner": "Saudi Arabia",
+    "predictedScore": "2-1",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "Saudi Arabia",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Saudi Arabia": 5.8,
+      "Cabo Verde": 5.8
+    },
+    "modelScores": {
+      "Saudi Arabia": 110.8,
+      "Cabo Verde": 102.8
+    },
+    "factors": {
+      "venueHeatRisk": 4,
+      "altitude": 90,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Saudi Arabia rate higher across the model's team strength indicators.",
+      "Venue factor included: Gillette Stadium, Boston, heat risk 4/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_047",
+    "stage": "Group Stage",
+    "group": "H",
+    "date": "2026-06-22T18:00:00+02:00",
+    "home": "Spain",
+    "away": "Cabo Verde",
+    "stadium": "BC Place",
+    "city": "Vancouver",
+    "probabilities": {
+      "home": 96.4,
+      "draw": 3,
+      "away": 0.7
+    },
+    "predictedWinner": "Spain",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Spain",
+      "name": "Lamine Yamal",
+      "position": "Forward",
+      "probability": 32
+    },
+    "redCardRisk": {
+      "Spain": 3.3,
+      "Cabo Verde": 5.8
+    },
+    "modelScores": {
+      "Spain": 147.9,
+      "Cabo Verde": 103
+    },
+    "factors": {
+      "venueHeatRisk": 2,
+      "altitude": 5,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Spain rate higher across the model's team strength indicators.",
+      "Venue factor included: BC Place, Vancouver, heat risk 2/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_048",
+    "stage": "Group Stage",
+    "group": "H",
+    "date": "2026-06-22T21:00:00+02:00",
+    "home": "Saudi Arabia",
+    "away": "Uruguay",
+    "stadium": "BMO Field",
+    "city": "Toronto",
+    "probabilities": {
+      "home": 4.6,
+      "draw": 7.5,
+      "away": 87.9
+    },
+    "predictedWinner": "Uruguay",
+    "predictedScore": "1-3",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Uruguay",
+      "name": "Darwin Nunez",
+      "position": "Forward",
+      "probability": 31.4
+    },
+    "redCardRisk": {
+      "Saudi Arabia": 5.8,
+      "Uruguay": 6.1
+    },
+    "modelScores": {
+      "Saudi Arabia": 110.8,
+      "Uruguay": 137.4
+    },
+    "factors": {
+      "venueHeatRisk": 4,
+      "altitude": 76,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Uruguay rate higher across the model's team strength indicators.",
+      "Venue factor included: BMO Field, Toronto, heat risk 4/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_049",
+    "stage": "Group Stage",
+    "group": "I",
+    "date": "2026-06-23T18:00:00+02:00",
+    "home": "France",
+    "away": "Iraq",
+    "stadium": "Estadio Azteca",
+    "city": "Mexico City",
+    "probabilities": {
+      "home": 96.3,
+      "draw": 3.1,
+      "away": 0.7
+    },
+    "predictedWinner": "France",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "France",
+      "name": "Kylian Mbappe",
+      "position": "Forward",
+      "probability": 35.5
+    },
+    "redCardRisk": {
+      "France": 3.6,
+      "Iraq": 5.8
+    },
+    "modelScores": {
+      "France": 151,
+      "Iraq": 106.5
+    },
+    "factors": {
+      "venueHeatRisk": 5,
+      "altitude": 2240,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "France rate higher across the model's team strength indicators.",
+      "Venue factor included: Estadio Azteca, Mexico City, heat risk 5/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_050",
+    "stage": "Group Stage",
+    "group": "I",
+    "date": "2026-06-23T21:00:00+02:00",
+    "home": "Norway",
+    "away": "Senegal",
+    "stadium": "Estadio BBVA",
+    "city": "Monterrey",
+    "probabilities": {
+      "home": 26.7,
+      "draw": 20.8,
+      "away": 52.5
+    },
+    "predictedWinner": "Senegal",
+    "predictedScore": "1-2",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "Senegal",
+      "name": "Sadio Mane",
+      "position": "Forward",
+      "probability": 30.4
+    },
+    "redCardRisk": {
+      "Norway": 4.2,
+      "Senegal": 5.3
+    },
+    "modelScores": {
+      "Norway": 123.9,
+      "Senegal": 130
+    },
+    "factors": {
+      "venueHeatRisk": 8,
+      "altitude": 540,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Senegal rate higher across the model's team strength indicators.",
+      "Venue factor included: Estadio BBVA, Monterrey, heat risk 8/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_051",
+    "stage": "Group Stage",
+    "group": "I",
+    "date": "2026-06-23T18:00:00+02:00",
+    "home": "France",
+    "away": "Norway",
+    "stadium": "Estadio Akron",
+    "city": "Guadalajara",
+    "probabilities": {
+      "home": 88.4,
+      "draw": 7.3,
+      "away": 4.3
+    },
+    "predictedWinner": "France",
+    "predictedScore": "3-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "France",
+      "name": "Kylian Mbappe",
+      "position": "Forward",
+      "probability": 35.5
+    },
+    "redCardRisk": {
+      "France": 3.6,
+      "Norway": 4.2
+    },
+    "modelScores": {
+      "France": 150.8,
+      "Norway": 123.5
+    },
+    "factors": {
+      "venueHeatRisk": 7,
+      "altitude": 1566,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "France rate higher across the model's team strength indicators.",
+      "Venue factor included: Estadio Akron, Guadalajara, heat risk 7/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_052",
+    "stage": "Group Stage",
+    "group": "I",
+    "date": "2026-06-23T21:00:00+02:00",
+    "home": "Iraq",
+    "away": "Senegal",
+    "stadium": "MetLife Stadium",
+    "city": "New York",
+    "probabilities": {
+      "home": 6.4,
+      "draw": 8.7,
+      "away": 84.8
+    },
+    "predictedWinner": "Senegal",
+    "predictedScore": "1-3",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Senegal",
+      "name": "Sadio Mane",
+      "position": "Forward",
+      "probability": 30.4
+    },
+    "redCardRisk": {
+      "Iraq": 5.8,
+      "Senegal": 5.3
+    },
+    "modelScores": {
+      "Iraq": 107.1,
+      "Senegal": 130.4
+    },
+    "factors": {
+      "venueHeatRisk": 4,
+      "altitude": 8,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Senegal rate higher across the model's team strength indicators.",
+      "Venue factor included: MetLife Stadium, New York, heat risk 4/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_053",
+    "stage": "Group Stage",
+    "group": "I",
+    "date": "2026-06-24T18:00:00+02:00",
+    "home": "France",
+    "away": "Senegal",
+    "stadium": "AT&T Stadium",
+    "city": "Dallas",
+    "probabilities": {
+      "home": 82.4,
+      "draw": 9.8,
+      "away": 7.8
+    },
+    "predictedWinner": "France",
+    "predictedScore": "3-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "France",
+      "name": "Kylian Mbappe",
+      "position": "Forward",
+      "probability": 35.5
+    },
+    "redCardRisk": {
+      "France": 3.6,
+      "Senegal": 5.3
+    },
+    "modelScores": {
+      "France": 151.1,
+      "Senegal": 129.9
+    },
+    "factors": {
+      "venueHeatRisk": 9,
+      "altitude": 184,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "France rate higher across the model's team strength indicators.",
+      "Venue factor included: AT&T Stadium, Dallas, heat risk 9/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_054",
+    "stage": "Group Stage",
+    "group": "I",
+    "date": "2026-06-24T21:00:00+02:00",
+    "home": "Iraq",
+    "away": "Norway",
+    "stadium": "NRG Stadium",
+    "city": "Houston",
+    "probabilities": {
+      "home": 11.3,
+      "draw": 12.7,
+      "away": 76.1
+    },
+    "predictedWinner": "Norway",
+    "predictedScore": "1-3",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Norway",
+      "name": "Erling Haaland",
+      "position": "Forward",
+      "probability": 35.1
+    },
+    "redCardRisk": {
+      "Iraq": 5.8,
+      "Norway": 4.2
+    },
+    "modelScores": {
+      "Iraq": 106.6,
+      "Norway": 123.8
+    },
+    "factors": {
+      "venueHeatRisk": 10,
+      "altitude": 13,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Norway rate higher across the model's team strength indicators.",
+      "Venue factor included: NRG Stadium, Houston, heat risk 10/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_055",
+    "stage": "Group Stage",
+    "group": "J",
+    "date": "2026-06-24T18:00:00+02:00",
+    "home": "Argentina",
+    "away": "Austria",
+    "stadium": "Hard Rock Stadium",
+    "city": "Miami",
+    "probabilities": {
+      "home": 85.6,
+      "draw": 8.5,
+      "away": 5.9
+    },
+    "predictedWinner": "Argentina",
+    "predictedScore": "3-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Argentina",
+      "name": "Lionel Messi",
+      "position": "Forward",
+      "probability": 33.4
+    },
+    "redCardRisk": {
+      "Argentina": 4.1,
+      "Austria": 4.5
+    },
+    "modelScores": {
+      "Argentina": 151.4,
+      "Austria": 127.4
+    },
+    "factors": {
+      "venueHeatRisk": 10,
+      "altitude": 2,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Argentina rate higher across the model's team strength indicators.",
+      "Venue factor included: Hard Rock Stadium, Miami, heat risk 10/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_056",
+    "stage": "Group Stage",
+    "group": "J",
+    "date": "2026-06-24T21:00:00+02:00",
+    "home": "Jordan",
+    "away": "Algeria",
+    "stadium": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "probabilities": {
+      "home": 12,
+      "draw": 13.2,
+      "away": 74.8
+    },
+    "predictedWinner": "Algeria",
+    "predictedScore": "1-2",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Algeria",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Jordan": 5.8,
+      "Algeria": 5.6
+    },
+    "modelScores": {
+      "Jordan": 103.6,
+      "Algeria": 120.1
+    },
+    "factors": {
+      "venueHeatRisk": 7,
+      "altitude": 320,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Algeria rate higher across the model's team strength indicators.",
+      "Venue factor included: Mercedes-Benz Stadium, Atlanta, heat risk 7/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_057",
+    "stage": "Group Stage",
+    "group": "J",
+    "date": "2026-06-25T18:00:00+02:00",
+    "home": "Argentina",
+    "away": "Jordan",
+    "stadium": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "probabilities": {
+      "home": 97,
+      "draw": 2.5,
+      "away": 0.5
+    },
+    "predictedWinner": "Argentina",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Argentina",
+      "name": "Lionel Messi",
+      "position": "Forward",
+      "probability": 33.4
+    },
+    "redCardRisk": {
+      "Argentina": 4.1,
+      "Jordan": 5.8
+    },
+    "modelScores": {
+      "Argentina": 151.8,
+      "Jordan": 103.8
+    },
+    "factors": {
+      "venueHeatRisk": 5,
+      "altitude": 12,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Argentina rate higher across the model's team strength indicators.",
+      "Venue factor included: Lincoln Financial Field, Philadelphia, heat risk 5/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_058",
+    "stage": "Group Stage",
+    "group": "J",
+    "date": "2026-06-25T21:00:00+02:00",
+    "home": "Austria",
+    "away": "Algeria",
+    "stadium": "Lumen Field",
+    "city": "Seattle",
+    "probabilities": {
+      "home": 56,
+      "draw": 19.9,
+      "away": 24.1
+    },
+    "predictedWinner": "Austria",
+    "predictedScore": "2-1",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "Austria",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Austria": 4.5,
+      "Algeria": 5.6
+    },
+    "modelScores": {
+      "Austria": 128,
+      "Algeria": 120.4
+    },
+    "factors": {
+      "venueHeatRisk": 3,
+      "altitude": 17,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Austria rate higher across the model's team strength indicators.",
+      "Venue factor included: Lumen Field, Seattle, heat risk 3/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_059",
+    "stage": "Group Stage",
+    "group": "J",
+    "date": "2026-06-25T18:00:00+02:00",
+    "home": "Argentina",
+    "away": "Algeria",
+    "stadium": "Levi's Stadium",
+    "city": "San Francisco",
+    "probabilities": {
+      "home": 91.3,
+      "draw": 5.9,
+      "away": 2.7
+    },
+    "predictedWinner": "Argentina",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Argentina",
+      "name": "Lionel Messi",
+      "position": "Forward",
+      "probability": 33.4
+    },
+    "redCardRisk": {
+      "Argentina": 4.1,
+      "Algeria": 5.6
+    },
+    "modelScores": {
+      "Argentina": 151.7,
+      "Algeria": 120.2
+    },
+    "factors": {
+      "venueHeatRisk": 6,
+      "altitude": 15,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Argentina rate higher across the model's team strength indicators.",
+      "Venue factor included: Levi's Stadium, San Francisco, heat risk 6/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_060",
+    "stage": "Group Stage",
+    "group": "J",
+    "date": "2026-06-25T21:00:00+02:00",
+    "home": "Austria",
+    "away": "Jordan",
+    "stadium": "SoFi Stadium",
+    "city": "Los Angeles",
+    "probabilities": {
+      "home": 85.6,
+      "draw": 8.4,
+      "away": 5.9
+    },
+    "predictedWinner": "Austria",
+    "predictedScore": "3-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Austria",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Austria": 4.5,
+      "Jordan": 5.8
+    },
+    "modelScores": {
+      "Austria": 127.7,
+      "Jordan": 103.7
+    },
+    "factors": {
+      "venueHeatRisk": 6,
+      "altitude": 30,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Austria rate higher across the model's team strength indicators.",
+      "Venue factor included: SoFi Stadium, Los Angeles, heat risk 6/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_061",
+    "stage": "Group Stage",
+    "group": "K",
+    "date": "2026-06-26T18:00:00+02:00",
+    "home": "Portugal",
+    "away": "Uzbekistan",
+    "stadium": "GEHA Field at Arrowhead Stadium",
+    "city": "Kansas City",
+    "probabilities": {
+      "home": 93.7,
+      "draw": 4.6,
+      "away": 1.6
+    },
+    "predictedWinner": "Portugal",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Portugal",
+      "name": "Bruno Fernandes",
+      "position": "Midfielder",
+      "probability": 31.6
+    },
+    "redCardRisk": {
+      "Portugal": 4.1,
+      "Uzbekistan": 5.3
+    },
+    "modelScores": {
+      "Portugal": 142.2,
+      "Uzbekistan": 105.7
+    },
+    "factors": {
+      "venueHeatRisk": 7,
+      "altitude": 264,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Portugal rate higher across the model's team strength indicators.",
+      "Venue factor included: GEHA Field at Arrowhead Stadium, Kansas City, heat risk 7/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_062",
+    "stage": "Group Stage",
+    "group": "K",
+    "date": "2026-06-26T21:00:00+02:00",
+    "home": "Colombia",
+    "away": "Congo DR",
+    "stadium": "Gillette Stadium",
+    "city": "Boston",
+    "probabilities": {
+      "home": 88,
+      "draw": 7.5,
+      "away": 4.5
+    },
+    "predictedWinner": "Colombia",
+    "predictedScore": "3-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Colombia",
+      "name": "Luis Diaz",
+      "position": "Forward",
+      "probability": 32.1
+    },
+    "redCardRisk": {
+      "Colombia": 5.3,
+      "Congo DR": 6.2
+    },
+    "modelScores": {
+      "Colombia": 133.5,
+      "Congo DR": 106.7
+    },
+    "factors": {
+      "venueHeatRisk": 4,
+      "altitude": 90,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Colombia rate higher across the model's team strength indicators.",
+      "Venue factor included: Gillette Stadium, Boston, heat risk 4/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_063",
+    "stage": "Group Stage",
+    "group": "K",
+    "date": "2026-06-26T18:00:00+02:00",
+    "home": "Portugal",
+    "away": "Colombia",
+    "stadium": "BC Place",
+    "city": "Vancouver",
+    "probabilities": {
+      "home": 59.3,
+      "draw": 18.8,
+      "away": 21.8
+    },
+    "predictedWinner": "Portugal",
+    "predictedScore": "2-1",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "Portugal",
+      "name": "Bruno Fernandes",
+      "position": "Midfielder",
+      "probability": 31.6
+    },
+    "redCardRisk": {
+      "Portugal": 4.1,
+      "Colombia": 5.3
+    },
+    "modelScores": {
+      "Portugal": 142.6,
+      "Colombia": 133.6
+    },
+    "factors": {
+      "venueHeatRisk": 2,
+      "altitude": 5,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Portugal rate higher across the model's team strength indicators.",
+      "Venue factor included: BC Place, Vancouver, heat risk 2/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_064",
+    "stage": "Group Stage",
+    "group": "K",
+    "date": "2026-06-26T21:00:00+02:00",
+    "home": "Uzbekistan",
+    "away": "Congo DR",
+    "stadium": "BMO Field",
+    "city": "Toronto",
+    "probabilities": {
+      "home": 36.6,
+      "draw": 23.5,
+      "away": 39.8
+    },
+    "predictedWinner": "Congo DR",
+    "predictedScore": "2-2",
+    "confidence": "Low",
+    "likelyScorer": {
+      "team": "Congo DR",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Uzbekistan": 5.3,
+      "Congo DR": 6.2
+    },
+    "modelScores": {
+      "Uzbekistan": 106,
+      "Congo DR": 106.7
+    },
+    "factors": {
+      "venueHeatRisk": 4,
+      "altitude": 76,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Congo DR rate higher across the model's team strength indicators.",
+      "Venue factor included: BMO Field, Toronto, heat risk 4/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_065",
+    "stage": "Group Stage",
+    "group": "K",
+    "date": "2026-06-27T18:00:00+02:00",
+    "home": "Portugal",
+    "away": "Congo DR",
+    "stadium": "Estadio Azteca",
+    "city": "Mexico City",
+    "probabilities": {
+      "home": 93.4,
+      "draw": 4.8,
+      "away": 1.8
+    },
+    "predictedWinner": "Portugal",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Portugal",
+      "name": "Bruno Fernandes",
+      "position": "Midfielder",
+      "probability": 31.6
+    },
+    "redCardRisk": {
+      "Portugal": 4.1,
+      "Congo DR": 6.2
+    },
+    "modelScores": {
+      "Portugal": 141.9,
+      "Congo DR": 106.1
+    },
+    "factors": {
+      "venueHeatRisk": 5,
+      "altitude": 2240,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Portugal rate higher across the model's team strength indicators.",
+      "Venue factor included: Estadio Azteca, Mexico City, heat risk 5/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_066",
+    "stage": "Group Stage",
+    "group": "K",
+    "date": "2026-06-27T21:00:00+02:00",
+    "home": "Uzbekistan",
+    "away": "Colombia",
+    "stadium": "Estadio BBVA",
+    "city": "Monterrey",
+    "probabilities": {
+      "home": 4.2,
+      "draw": 7.2,
+      "away": 88.6
+    },
+    "predictedWinner": "Colombia",
+    "predictedScore": "1-3",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Colombia",
+      "name": "Luis Diaz",
+      "position": "Forward",
+      "probability": 32.1
+    },
+    "redCardRisk": {
+      "Uzbekistan": 5.3,
+      "Colombia": 5.3
+    },
+    "modelScores": {
+      "Uzbekistan": 105.6,
+      "Colombia": 133.1
+    },
+    "factors": {
+      "venueHeatRisk": 8,
+      "altitude": 540,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Colombia rate higher across the model's team strength indicators.",
+      "Venue factor included: Estadio BBVA, Monterrey, heat risk 8/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_067",
+    "stage": "Group Stage",
+    "group": "L",
+    "date": "2026-06-27T18:00:00+02:00",
+    "home": "England",
+    "away": "Ghana",
+    "stadium": "Estadio Akron",
+    "city": "Guadalajara",
+    "probabilities": {
+      "home": 90.7,
+      "draw": 6.2,
+      "away": 3.1
+    },
+    "predictedWinner": "England",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "England",
+      "name": "Harry Kane",
+      "position": "Forward",
+      "probability": 34.8
+    },
+    "redCardRisk": {
+      "England": 3.3,
+      "Ghana": 6.2
+    },
+    "modelScores": {
+      "England": 145.3,
+      "Ghana": 114.8
+    },
+    "factors": {
+      "venueHeatRisk": 7,
+      "altitude": 1566,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "England rate higher across the model's team strength indicators.",
+      "Venue factor included: Estadio Akron, Guadalajara, heat risk 7/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_068",
+    "stage": "Group Stage",
+    "group": "L",
+    "date": "2026-06-27T21:00:00+02:00",
+    "home": "Panama",
+    "away": "Croatia",
+    "stadium": "MetLife Stadium",
+    "city": "New York",
+    "probabilities": {
+      "home": 5.9,
+      "draw": 8.4,
+      "away": 85.7
+    },
+    "predictedWinner": "Croatia",
+    "predictedScore": "1-3",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Croatia",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Panama": 6.1,
+      "Croatia": 4.5
+    },
+    "modelScores": {
+      "Panama": 113.2,
+      "Croatia": 137.4
+    },
+    "factors": {
+      "venueHeatRisk": 4,
+      "altitude": 8,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Croatia rate higher across the model's team strength indicators.",
+      "Venue factor included: MetLife Stadium, New York, heat risk 4/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_069",
+    "stage": "Group Stage",
+    "group": "L",
+    "date": "2026-06-28T18:00:00+02:00",
+    "home": "England",
+    "away": "Panama",
+    "stadium": "AT&T Stadium",
+    "city": "Dallas",
+    "probabilities": {
+      "home": 92.1,
+      "draw": 5.6,
+      "away": 2.4
+    },
+    "predictedWinner": "England",
+    "predictedScore": "3-0",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "England",
+      "name": "Harry Kane",
+      "position": "Forward",
+      "probability": 34.8
+    },
+    "redCardRisk": {
+      "England": 3.3,
+      "Panama": 6.1
+    },
+    "modelScores": {
+      "England": 145.7,
+      "Panama": 112.8
+    },
+    "factors": {
+      "venueHeatRisk": 9,
+      "altitude": 184,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "England rate higher across the model's team strength indicators.",
+      "Venue factor included: AT&T Stadium, Dallas, heat risk 9/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_070",
+    "stage": "Group Stage",
+    "group": "L",
+    "date": "2026-06-28T21:00:00+02:00",
+    "home": "Ghana",
+    "away": "Croatia",
+    "stadium": "NRG Stadium",
+    "city": "Houston",
+    "probabilities": {
+      "home": 7.4,
+      "draw": 9.4,
+      "away": 83.1
+    },
+    "predictedWinner": "Croatia",
+    "predictedScore": "1-3",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Croatia",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Ghana": 6.2,
+      "Croatia": 4.5
+    },
+    "modelScores": {
+      "Ghana": 115.1,
+      "Croatia": 136.8
+    },
+    "factors": {
+      "venueHeatRisk": 10,
+      "altitude": 13,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Croatia rate higher across the model's team strength indicators.",
+      "Venue factor included: NRG Stadium, Houston, heat risk 10/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_071",
+    "stage": "Group Stage",
+    "group": "L",
+    "date": "2026-06-28T18:00:00+02:00",
+    "home": "England",
+    "away": "Croatia",
+    "stadium": "Hard Rock Stadium",
+    "city": "Miami",
+    "probabilities": {
+      "home": 58.7,
+      "draw": 19,
+      "away": 22.2
+    },
+    "predictedWinner": "England",
+    "predictedScore": "2-1",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "England",
+      "name": "Harry Kane",
+      "position": "Forward",
+      "probability": 34.8
+    },
+    "redCardRisk": {
+      "England": 3.3,
+      "Croatia": 4.5
+    },
+    "modelScores": {
+      "England": 145.6,
+      "Croatia": 136.8
+    },
+    "factors": {
+      "venueHeatRisk": 10,
+      "altitude": 2,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "England rate higher across the model's team strength indicators.",
+      "Venue factor included: Hard Rock Stadium, Miami, heat risk 10/10.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
+  },
+  {
+    "id": "match_072",
+    "stage": "Group Stage",
+    "group": "L",
+    "date": "2026-06-28T21:00:00+02:00",
+    "home": "Ghana",
+    "away": "Panama",
+    "stadium": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "probabilities": {
+      "home": 43.6,
+      "draw": 22.9,
+      "away": 33.5
+    },
+    "predictedWinner": "Ghana",
+    "predictedScore": "2-1",
+    "confidence": "Low",
+    "likelyScorer": {
+      "team": "Ghana",
+      "name": "No player data available",
+      "probability": 0
+    },
+    "redCardRisk": {
+      "Ghana": 6.2,
+      "Panama": 6.1
+    },
+    "modelScores": {
+      "Ghana": 115.4,
+      "Panama": 113
+    },
+    "factors": {
+      "venueHeatRisk": 7,
+      "altitude": 320,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Ghana rate higher across the model's team strength indicators.",
+      "Venue factor included: Mercedes-Benz Stadium, Atlanta, heat risk 7/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
     ]
