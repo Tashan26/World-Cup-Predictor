@@ -36,6 +36,9 @@ jobs:
       - name: Generate Golden Boot
         run: node scripts/golden_boot.js
 
+      - name: Generate knockout bracket
+        run: node scripts/generate_knockout.js
+        
       - name: Commit updated data
         run: |
           git config user.name "github-actions"

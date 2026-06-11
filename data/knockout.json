@@ -1,0 +1,186 @@
+{
+  "generatedAt": "2026-06-11T13:34:48.677Z",
+  "rounds": [
+    {
+      "name": "Round of 32",
+      "matches": [
+        {
+          "home": "Mexico",
+          "away": "South Korea",
+          "homeQualification": "Winner Group A",
+          "awayQualification": "Runner-up Group A"
+        },
+        {
+          "home": "Switzerland",
+          "away": "Canada",
+          "homeQualification": "Winner Group B",
+          "awayQualification": "Runner-up Group B"
+        },
+        {
+          "home": "Brazil",
+          "away": "Morocco",
+          "homeQualification": "Winner Group C",
+          "awayQualification": "Runner-up Group C"
+        },
+        {
+          "home": "USA",
+          "away": "Turkey",
+          "homeQualification": "Winner Group D",
+          "awayQualification": "Runner-up Group D"
+        },
+        {
+          "home": "Germany",
+          "away": "Ecuador",
+          "homeQualification": "Winner Group E",
+          "awayQualification": "Runner-up Group E"
+        },
+        {
+          "home": "Netherlands",
+          "away": "Japan",
+          "homeQualification": "Winner Group F",
+          "awayQualification": "Runner-up Group F"
+        },
+        {
+          "home": "Belgium",
+          "away": "Iran",
+          "homeQualification": "Winner Group G",
+          "awayQualification": "Runner-up Group G"
+        },
+        {
+          "home": "Spain",
+          "away": "Uruguay",
+          "homeQualification": "Winner Group H",
+          "awayQualification": "Runner-up Group H"
+        },
+        {
+          "home": "France",
+          "away": "Senegal",
+          "homeQualification": "Winner Group I",
+          "awayQualification": "Runner-up Group I"
+        },
+        {
+          "home": "Argentina",
+          "away": "Austria",
+          "homeQualification": "Winner Group J",
+          "awayQualification": "Runner-up Group J"
+        },
+        {
+          "home": "Portugal",
+          "away": "Colombia",
+          "homeQualification": "Winner Group K",
+          "awayQualification": "Runner-up Group K"
+        },
+        {
+          "home": "England",
+          "away": "Croatia",
+          "homeQualification": "Winner Group L",
+          "awayQualification": "Runner-up Group L"
+        },
+        {
+          "home": "Côte d'Ivoire",
+          "away": "Australia",
+          "homeQualification": "Third Group E",
+          "awayQualification": "Third Group D"
+        },
+        {
+          "home": "Czechia",
+          "away": "Sweden",
+          "homeQualification": "Third Group A",
+          "awayQualification": "Third Group F"
+        },
+        {
+          "home": "Egypt",
+          "away": "Bosnia and Herzegovina",
+          "homeQualification": "Third Group G",
+          "awayQualification": "Third Group B"
+        },
+        {
+          "home": "Norway",
+          "away": "Algeria",
+          "homeQualification": "Third Group I",
+          "awayQualification": "Third Group J"
+        }
+      ]
+    },
+    {
+      "name": "Round of 16",
+      "matches": [
+        {
+          "home": "Winner R32-1",
+          "away": "Winner R32-2"
+        },
+        {
+          "home": "Winner R32-3",
+          "away": "Winner R32-4"
+        },
+        {
+          "home": "Winner R32-5",
+          "away": "Winner R32-6"
+        },
+        {
+          "home": "Winner R32-7",
+          "away": "Winner R32-8"
+        },
+        {
+          "home": "Winner R32-9",
+          "away": "Winner R32-10"
+        },
+        {
+          "home": "Winner R32-11",
+          "away": "Winner R32-12"
+        },
+        {
+          "home": "Winner R32-13",
+          "away": "Winner R32-14"
+        },
+        {
+          "home": "Winner R32-15",
+          "away": "Winner R32-16"
+        }
+      ]
+    },
+    {
+      "name": "Quarter Finals",
+      "matches": [
+        {
+          "home": "Winner R16-1",
+          "away": "Winner R16-2"
+        },
+        {
+          "home": "Winner R16-3",
+          "away": "Winner R16-4"
+        },
+        {
+          "home": "Winner R16-5",
+          "away": "Winner R16-6"
+        },
+        {
+          "home": "Winner R16-7",
+          "away": "Winner R16-8"
+        }
+      ]
+    },
+    {
+      "name": "Semi Finals",
+      "matches": [
+        {
+          "home": "Winner QF-1",
+          "away": "Winner QF-2"
+        },
+        {
+          "home": "Winner QF-3",
+          "away": "Winner QF-4"
+        }
+      ]
+    },
+    {
+      "name": "Final",
+      "matches": [
+        {
+          "home": "Winner SF-1",
+          "away": "Winner SF-2"
+        }
+      ]
+    }
+  ]
+}

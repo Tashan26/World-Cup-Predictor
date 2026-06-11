@@ -3,6 +3,7 @@ let teamsData = [];
 let flags = {};
 let goldenBoot = [];
 let tournamentSimulation = {};
+let knockout = {};
 
 async function loadData() {
   const predictionsRes = await fetch("data/predictions.json");
@@ -10,12 +11,14 @@ async function loadData() {
   const flagsRes = await fetch("data/flags.json");
   const simRes = await fetch("data/tournament_simulation.json");
   const goldenBootRes = await fetch("data/golden_boot.json");
+  const knockoutRes = await fetch("data/knockout.json");
 
   predictions = await predictionsRes.json();
   teamsData = await teamsRes.json();
   flags = await flagsRes.json();
   tournamentSimulation = await simRes.json();
   goldenBoot = await goldenBootRes.json();
+  knockout = await knockoutRes.json();
 
   populateFixtures();
   renderTeamCards();
@@ -171,21 +174,30 @@ function renderGroupTables() {
 
 function renderBracket() {
   const bracket = document.getElementById("bracket");
-  if (!bracket || !tournamentSimulation.qualifiedTeams) return;
+  if (!bracket) return;
 
-  const qualified = tournamentSimulation.qualifiedTeams.slice(0, 32);
-  const winners = tournamentSimulation.winnerProbabilities.slice(0, 12);
+  const winners = tournamentSimulation.winnerProbabilities
+    ? tournamentSimulation.winnerProbabilities.slice(0, 12)
+    : [];
+
+  if (!knockout.rounds) {
+    bracket.innerHTML = "<p class='muted'>Knockout bracket has not been generated yet.</p>";
+    return;
+  }
 
   bracket.innerHTML = `
-    <div class="bracket-round">
-      <h3>Projected Round of 32</h3>
-      ${qualified.map((team, index) => `
-        <div class="match">
-          ${index + 1}. ${flag(team.team)} ${team.team}
-          <br><small>${team.qualification}</small>
-        </div>
-      `).join("")}
-    </div>
+    ${knockout.rounds.map(round => `
+      <div class="bracket-round">
+        <h3>${round.name}</h3>
+        ${round.matches.map((match, index) => `
+          <div class="match">
+            <strong>${index + 1}</strong>. ${flag(match.home)} ${match.home}
+            <br>vs ${flag(match.away)} ${match.away}
+            ${match.homeQualification ? `<br><small>${match.homeQualification} vs ${match.awayQualification}</small>` : ""}
+          </div>
+        `).join("")}
+      </div>
+    `).join("")}
 
     <div class="bracket-round">
       <h3>10,000-run Winner Model</h3>
