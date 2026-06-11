@@ -51,23 +51,45 @@ function showPrediction() {
   document.getElementById("prediction").innerHTML = `
     <h3>${flag(match.home)} ${match.home} vs ${flag(match.away)} ${match.away}</h3>
 
-    <strong>Predicted score:</strong> ${match.predictedScore}<br>
-    <strong>Predicted winner:</strong> ${flag(match.predictedWinner)} ${match.predictedWinner}<br>
-    <strong>Confidence:</strong> ${match.confidence}<br><br>
+    <div class="prediction-grid">
+      <div>
+        <strong>Predicted score</strong>
+        <p class="big-number">${match.predictedScore}</p>
+      </div>
 
-    <strong>${flag(match.home)} ${match.home} win:</strong> ${match.probabilities.home}%<br>
-    <strong>Draw:</strong> ${match.probabilities.draw}%<br>
-    <strong>${flag(match.away)} ${match.away} win:</strong> ${match.probabilities.away}%<br><br>
+      <div>
+        <strong>Predicted winner</strong>
+        <p>${flag(match.predictedWinner)} ${match.predictedWinner}</p>
+      </div>
 
-    <strong>Likely scorer:</strong> ${match.likelyScorer.name} (${flag(match.likelyScorer.team)} ${match.likelyScorer.team}) - ${match.likelyScorer.probability}%<br><br>
+      <div>
+        <strong>Confidence</strong>
+        <p>${match.confidence}</p>
+      </div>
+    </div>
 
-    <strong>Red-card risk:</strong><br>
+    <hr>
+
+    <strong>Win probabilities</strong><br>
+    ${flag(match.home)} ${match.home}: ${match.probabilities.home}%<br>
+    Draw: ${match.probabilities.draw}%<br>
+    ${flag(match.away)} ${match.away}: ${match.probabilities.away}%<br><br>
+
+    <strong>Likely scorer</strong><br>
+    ${match.likelyScorer.name} (${flag(match.likelyScorer.team)} ${match.likelyScorer.team}) - ${match.likelyScorer.probability}%<br><br>
+
+    <strong>Red-card risk</strong><br>
     ${flag(match.home)} ${match.home}: ${match.redCardRisk[match.home]}%<br>
     ${flag(match.away)} ${match.away}: ${match.redCardRisk[match.away]}%<br><br>
 
-    <strong>Venue:</strong> ${match.stadium}, ${match.city}<br>
-    <strong>Heat risk:</strong> ${match.factors.venueHeatRisk}/10<br>
-    <strong>Altitude:</strong> ${match.factors.altitude}m<br><br>
+    <strong>Venue & conditions</strong><br>
+    ${match.stadium}, ${match.city}<br>
+    Heat impact: ${match.factors.heatImpact} (${match.factors.venueHeatRisk}/10)<br>
+    Altitude impact: ${match.factors.altitudeImpact} (${match.factors.altitude}m)<br><br>
+
+    <strong>Travel fatigue</strong><br>
+    ${flag(match.home)} ${match.home}: ${match.travel[match.home].distanceKm.toLocaleString()} km | ${match.travel[match.home].impact} impact | -${match.travel[match.home].penalty} pts<br>
+    ${flag(match.away)} ${match.away}: ${match.travel[match.away].distanceKm.toLocaleString()} km | ${match.travel[match.away].impact} impact | -${match.travel[match.away].penalty} pts<br><br>
 
     <strong>Why this prediction?</strong>
     <p>${match.explanation?.summary || "No explanation available."}</p>
@@ -78,7 +100,7 @@ function showPrediction() {
       `).join("")}
     </ul>
 
-    <strong>Model notes:</strong>
+    <strong>Model notes</strong>
     <ul>
       ${match.notes.map(note => `<li>${note}</li>`).join("")}
     </ul>
