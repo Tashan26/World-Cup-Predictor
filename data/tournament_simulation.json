@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T13:30:46.030Z",
+  "generatedAt": "2026-06-11T13:43:07.585Z",
   "groupTables": {
     "A": [
       {
@@ -943,39 +943,39 @@
   "winnerProbabilities": [
     {
       "team": "Argentina",
-      "winProbability": 27.78
+      "winProbability": 27.88
     },
     {
       "team": "France",
-      "winProbability": 26.87
+      "winProbability": 27.18
     },
     {
       "team": "Brazil",
-      "winProbability": 26.01
+      "winProbability": 26
     },
     {
       "team": "Spain",
-      "winProbability": 10.19
+      "winProbability": 9.99
     },
     {
       "team": "England",
-      "winProbability": 6.32
+      "winProbability": 5.95
     },
     {
       "team": "Netherlands",
-      "winProbability": 1.33
+      "winProbability": 1.47
     },
     {
       "team": "Portugal",
-      "winProbability": 1.07
+      "winProbability": 1.15
     },
     {
       "team": "Germany",
-      "winProbability": 0.41
+      "winProbability": 0.34
     },
     {
-      "team": "Japan",
-      "winProbability": 0.01
+      "team": "Belgium",
+      "winProbability": 0.03
     },
     {
       "team": "Croatia",
@@ -1062,7 +1062,7 @@
       "winProbability": 0
     },
     {
-      "team": "Belgium",
+      "team": "Japan",
       "winProbability": 0
     },
     {
