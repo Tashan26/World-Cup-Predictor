@@ -19,21 +19,25 @@ function teamStrength(team) {
   );
 }
 
-function expectedResult(match) {
-  const home = getTeam(match.home);
-  const away = getTeam(match.away);
-
+function simulateScore(home, away) {
   const homeStrength = teamStrength(home);
   const awayStrength = teamStrength(away);
   const diff = homeStrength - awayStrength;
 
-  let homeGoals = Math.max(0, Math.round(1.3 + diff / 18));
-  let awayGoals = Math.max(0, Math.round(1.2 - diff / 18));
+  const homeGoals = Math.max(0, Math.round(1.25 + diff / 20 + Math.random() * 1.6));
+  const awayGoals = Math.max(0, Math.round(1.15 - diff / 20 + Math.random() * 1.6));
 
   return { homeGoals, awayGoals };
 }
 
-function buildGroupTables() {
+function simulateWinner(teamA, teamB) {
+  const scoreA = teamStrength(getTeam(teamA)) + Math.random() * 18;
+  const scoreB = teamStrength(getTeam(teamB)) + Math.random() * 18;
+
+  return scoreA >= scoreB ? teamA : teamB;
+}
+
+function buildGroupTables(randomized = false) {
   const tables = {};
 
   teams.forEach(team => {
@@ -55,33 +59,41 @@ function buildGroupTables() {
   predictions
     .filter(match => match.stage === "Group Stage")
     .forEach(match => {
-      const result = expectedResult(match);
+      const home = getTeam(match.home);
+      const away = getTeam(match.away);
 
-      const home = tables[match.group][match.home];
-      const away = tables[match.group][match.away];
+      const result = randomized
+        ? simulateScore(home, away)
+        : {
+            homeGoals: Number(match.predictedScore.split("-")[0]),
+            awayGoals: Number(match.predictedScore.split("-")[1])
+          };
 
-      home.played++;
-      away.played++;
+      const homeRow = tables[match.group][match.home];
+      const awayRow = tables[match.group][match.away];
 
-      home.goalsFor += result.homeGoals;
-      home.goalsAgainst += result.awayGoals;
+      homeRow.played++;
+      awayRow.played++;
 
-      away.goalsFor += result.awayGoals;
-      away.goalsAgainst += result.homeGoals;
+      homeRow.goalsFor += result.homeGoals;
+      homeRow.goalsAgainst += result.awayGoals;
+
+      awayRow.goalsFor += result.awayGoals;
+      awayRow.goalsAgainst += result.homeGoals;
 
       if (result.homeGoals > result.awayGoals) {
-        home.won++;
-        away.lost++;
-        home.points += 3;
+        homeRow.won++;
+        awayRow.lost++;
+        homeRow.points += 3;
       } else if (result.homeGoals < result.awayGoals) {
-        away.won++;
-        home.lost++;
-        away.points += 3;
+        awayRow.won++;
+        homeRow.lost++;
+        awayRow.points += 3;
       } else {
-        home.drawn++;
-        away.drawn++;
-        home.points++;
-        away.points++;
+        homeRow.drawn++;
+        awayRow.drawn++;
+        homeRow.points++;
+        awayRow.points++;
       }
     });
 
@@ -96,7 +108,8 @@ function buildGroupTables() {
       .sort((a, b) =>
         b.points - a.points ||
         b.goalDifference - a.goalDifference ||
-        b.goalsFor - a.goalsFor
+        b.goalsFor - a.goalsFor ||
+        teamStrength(getTeam(b.team)) - teamStrength(getTeam(a.team))
       );
   });
 
@@ -106,7 +119,7 @@ function buildGroupTables() {
 function getQualifiedTeams(groupTables) {
   const qualified = [];
 
-  Object.keys(groupTables).forEach(group => {
+  Object.keys(groupTables).sort().forEach(group => {
     qualified.push({
       ...groupTables[group][0],
       qualification: `Winner Group ${group}`
@@ -126,23 +139,63 @@ function getQualifiedTeams(groupTables) {
     .sort((a, b) =>
       b.points - a.points ||
       b.goalDifference - a.goalDifference ||
-      b.goalsFor - a.goalsFor
+      b.goalsFor - a.goalsFor ||
+      teamStrength(getTeam(b.team)) - teamStrength(getTeam(a.team))
     )
     .slice(0, 8);
 
   return [...qualified, ...thirdPlaced];
 }
 
-const groupTables = buildGroupTables();
+function simulateKnockout(qualified) {
+  let round = qualified.map(t => t.team);
+
+  while (round.length > 1) {
+    const nextRound = [];
+
+    for (let i = 0; i < round.length; i += 2) {
+      nextRound.push(simulateWinner(round[i], round[i + 1]));
+    }
+
+    round = nextRound;
+  }
+
+  return round[0];
+}
+
+function monteCarlo(runs = 10000) {
+  const winnerCounts = {};
+  teams.forEach(team => winnerCounts[team.name] = 0);
+
+  for (let i = 0; i < runs; i++) {
+    const tables = buildGroupTables(true);
+    const qualified = getQualifiedTeams(tables);
+    const winner = simulateKnockout(qualified);
+
+    winnerCounts[winner]++;
+  }
+
+  return Object.entries(winnerCounts)
+    .map(([team, wins]) => ({
+      team,
+      winProbability: Number(((wins / runs) * 100).toFixed(2))
+    }))
+    .sort((a, b) => b.winProbability - a.winProbability);
+}
+
+const groupTables = buildGroupTables(false);
 const qualifiedTeams = getQualifiedTeams(groupTables);
+const winnerProbabilities = monteCarlo(10000);
 
 const simulation = {
   generatedAt: new Date().toISOString(),
   groupTables,
-  qualifiedTeams
+  qualifiedTeams,
+  winnerProbabilities
 };
 
 fs.writeFileSync("data/tournament_simulation.json", JSON.stringify(simulation, null, 2));
 
 console.log("Tournament simulation generated.");
 console.log(`Qualified teams: ${qualifiedTeams.length}`);
+console.log("Top winner:", winnerProbabilities[0]);

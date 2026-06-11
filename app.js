@@ -137,15 +137,26 @@ function renderBracket() {
   const bracket = document.getElementById("bracket");
   if (!bracket || !tournamentSimulation.qualifiedTeams) return;
 
-  const teams = tournamentSimulation.qualifiedTeams.slice(0, 32);
+  const qualified = tournamentSimulation.qualifiedTeams.slice(0, 32);
+  const winners = tournamentSimulation.winnerProbabilities.slice(0, 12);
 
   bracket.innerHTML = `
     <div class="bracket-round">
       <h3>Projected Round of 32</h3>
-      ${teams.map((team, index) => `
+      ${qualified.map((team, index) => `
         <div class="match">
           ${index + 1}. ${flag(team.team)} ${team.team}
           <br><small>${team.qualification}</small>
+        </div>
+      `).join("")}
+    </div>
+
+    <div class="bracket-round">
+      <h3>10,000-run Winner Model</h3>
+      ${winners.map((team, index) => `
+        <div class="match">
+          ${index + 1}. ${flag(team.team)} ${team.team}
+          <br><strong>${team.winProbability}%</strong> title probability
         </div>
       `).join("")}
     </div>

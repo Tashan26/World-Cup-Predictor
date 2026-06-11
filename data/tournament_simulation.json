@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-06-11T12:57:40.073Z",
+  "generatedAt": "2026-06-11T13:05:40.921Z",
   "groupTables": {
     "A": [
       {
         "team": "Mexico",
         "played": 3,
-        "won": 2,
-        "drawn": 1,
+        "won": 3,
+        "drawn": 0,
         "lost": 0,
-        "goalsFor": 5,
-        "goalsAgainst": 2,
-        "goalDifference": 3,
-        "points": 7
+        "goalsFor": 7,
+        "goalsAgainst": 3,
+        "goalDifference": 4,
+        "points": 9
       },
       {
         "team": "South Korea",
         "played": 3,
-        "won": 1,
-        "drawn": 2,
-        "lost": 0,
-        "goalsFor": 4,
-        "goalsAgainst": 3,
+        "won": 2,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 4,
         "goalDifference": 1,
-        "points": 5
+        "points": 6
       },
       {
         "team": "Czechia",
         "played": 3,
         "won": 1,
-        "drawn": 1,
-        "lost": 1,
+        "drawn": 0,
+        "lost": 2,
         "goalsFor": 4,
-        "goalsAgainst": 4,
-        "goalDifference": 0,
-        "points": 4
+        "goalsAgainst": 5,
+        "goalDifference": -1,
+        "points": 3
       },
       {
         "team": "South Africa",
@@ -41,8 +41,8 @@
         "won": 0,
         "drawn": 0,
         "lost": 3,
-        "goalsFor": 2,
-        "goalsAgainst": 6,
+        "goalsFor": 3,
+        "goalsAgainst": 7,
         "goalDifference": -4,
         "points": 0
       }
@@ -54,43 +54,43 @@
         "won": 3,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 6,
+        "goalsFor": 8,
         "goalsAgainst": 2,
-        "goalDifference": 4,
+        "goalDifference": 6,
         "points": 9
       },
       {
         "team": "Canada",
         "played": 3,
-        "won": 1,
-        "drawn": 1,
+        "won": 2,
+        "drawn": 0,
         "lost": 1,
-        "goalsFor": 4,
+        "goalsFor": 5,
         "goalsAgainst": 4,
-        "goalDifference": 0,
-        "points": 4
+        "goalDifference": 1,
+        "points": 6
       },
       {
         "team": "Bosnia and Herzegovina",
         "played": 3,
-        "won": 0,
-        "drawn": 2,
-        "lost": 1,
-        "goalsFor": 3,
-        "goalsAgainst": 4,
-        "goalDifference": -1,
-        "points": 2
+        "won": 1,
+        "drawn": 0,
+        "lost": 2,
+        "goalsFor": 4,
+        "goalsAgainst": 6,
+        "goalDifference": -2,
+        "points": 3
       },
       {
         "team": "Qatar",
         "played": 3,
         "won": 0,
-        "drawn": 1,
-        "lost": 2,
+        "drawn": 0,
+        "lost": 3,
         "goalsFor": 2,
-        "goalsAgainst": 5,
-        "goalDifference": -3,
-        "points": 1
+        "goalsAgainst": 7,
+        "goalDifference": -5,
+        "points": 0
       }
     ],
     "C": [
@@ -101,8 +101,8 @@
         "drawn": 0,
         "lost": 0,
         "goalsFor": 9,
-        "goalsAgainst": 0,
-        "goalDifference": 9,
+        "goalsAgainst": 1,
+        "goalDifference": 8,
         "points": 9
       },
       {
@@ -111,9 +111,9 @@
         "won": 2,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 5,
+        "goalsFor": 6,
         "goalsAgainst": 3,
-        "goalDifference": 2,
+        "goalDifference": 3,
         "points": 6
       },
       {
@@ -123,8 +123,8 @@
         "drawn": 0,
         "lost": 2,
         "goalsFor": 3,
-        "goalsAgainst": 5,
-        "goalDifference": -2,
+        "goalsAgainst": 6,
+        "goalDifference": -3,
         "points": 3
       },
       {
@@ -133,9 +133,9 @@
         "won": 0,
         "drawn": 0,
         "lost": 3,
-        "goalsFor": 0,
+        "goalsFor": 1,
         "goalsAgainst": 9,
-        "goalDifference": -9,
+        "goalDifference": -8,
         "points": 0
       }
     ],
@@ -143,46 +143,46 @@
       {
         "team": "USA",
         "played": 3,
-        "won": 2,
-        "drawn": 1,
+        "won": 3,
+        "drawn": 0,
         "lost": 0,
-        "goalsFor": 5,
+        "goalsFor": 6,
         "goalsAgainst": 3,
-        "goalDifference": 2,
-        "points": 7
+        "goalDifference": 3,
+        "points": 9
       },
       {
         "team": "Turkey",
         "played": 3,
-        "won": 1,
-        "drawn": 2,
-        "lost": 0,
-        "goalsFor": 4,
-        "goalsAgainst": 3,
+        "won": 2,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 5,
+        "goalsAgainst": 4,
         "goalDifference": 1,
-        "points": 5
+        "points": 6
       },
       {
         "team": "Australia",
         "played": 3,
-        "won": 0,
-        "drawn": 2,
-        "lost": 1,
-        "goalsFor": 3,
-        "goalsAgainst": 4,
+        "won": 1,
+        "drawn": 0,
+        "lost": 2,
+        "goalsFor": 4,
+        "goalsAgainst": 5,
         "goalDifference": -1,
-        "points": 2
+        "points": 3
       },
       {
         "team": "Paraguay",
         "played": 3,
         "won": 0,
-        "drawn": 1,
-        "lost": 2,
+        "drawn": 0,
+        "lost": 3,
         "goalsFor": 3,
-        "goalsAgainst": 5,
-        "goalDifference": -2,
-        "points": 1
+        "goalsAgainst": 6,
+        "goalDifference": -3,
+        "points": 0
       }
     ],
     "E": [
@@ -192,32 +192,32 @@
         "won": 3,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 7,
-        "goalsAgainst": 0,
+        "goalsFor": 9,
+        "goalsAgainst": 2,
         "goalDifference": 7,
         "points": 9
       },
       {
         "team": "Ecuador",
         "played": 3,
-        "won": 1,
-        "drawn": 1,
+        "won": 2,
+        "drawn": 0,
         "lost": 1,
-        "goalsFor": 4,
-        "goalsAgainst": 3,
-        "goalDifference": 1,
-        "points": 4
+        "goalsFor": 6,
+        "goalsAgainst": 4,
+        "goalDifference": 2,
+        "points": 6
       },
       {
         "team": "Côte d'Ivoire",
         "played": 3,
         "won": 1,
-        "drawn": 1,
-        "lost": 1,
-        "goalsFor": 3,
-        "goalsAgainst": 3,
-        "goalDifference": 0,
-        "points": 4
+        "drawn": 0,
+        "lost": 2,
+        "goalsFor": 5,
+        "goalsAgainst": 6,
+        "goalDifference": -1,
+        "points": 3
       },
       {
         "team": "Curaçao",
@@ -225,8 +225,8 @@
         "won": 0,
         "drawn": 0,
         "lost": 3,
-        "goalsFor": 0,
-        "goalsAgainst": 8,
+        "goalsFor": 1,
+        "goalsAgainst": 9,
         "goalDifference": -8,
         "points": 0
       }
@@ -238,8 +238,8 @@
         "won": 3,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 7,
-        "goalsAgainst": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 2,
         "goalDifference": 6,
         "points": 9
       },
@@ -260,8 +260,8 @@
         "won": 1,
         "drawn": 0,
         "lost": 2,
-        "goalsFor": 3,
-        "goalsAgainst": 5,
+        "goalsFor": 4,
+        "goalsAgainst": 6,
         "goalDifference": -2,
         "points": 3
       },
@@ -284,32 +284,32 @@
         "won": 3,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 7,
-        "goalsAgainst": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 2,
         "goalDifference": 6,
         "points": 9
       },
       {
         "team": "Iran",
         "played": 3,
-        "won": 1,
-        "drawn": 1,
+        "won": 2,
+        "drawn": 0,
         "lost": 1,
-        "goalsFor": 4,
+        "goalsFor": 6,
         "goalsAgainst": 3,
-        "goalDifference": 1,
-        "points": 4
+        "goalDifference": 3,
+        "points": 6
       },
       {
         "team": "Egypt",
         "played": 3,
         "won": 1,
-        "drawn": 1,
-        "lost": 1,
-        "goalsFor": 3,
-        "goalsAgainst": 3,
-        "goalDifference": 0,
-        "points": 4
+        "drawn": 0,
+        "lost": 2,
+        "goalsFor": 5,
+        "goalsAgainst": 6,
+        "goalDifference": -1,
+        "points": 3
       },
       {
         "team": "New Zealand",
@@ -317,9 +317,9 @@
         "won": 0,
         "drawn": 0,
         "lost": 3,
-        "goalsFor": 0,
-        "goalsAgainst": 7,
-        "goalDifference": -7,
+        "goalsFor": 1,
+        "goalsAgainst": 9,
+        "goalDifference": -8,
         "points": 0
       }
     ],
@@ -341,8 +341,8 @@
         "won": 2,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 6,
-        "goalsAgainst": 2,
+        "goalsFor": 7,
+        "goalsAgainst": 3,
         "goalDifference": 4,
         "points": 6
       },
@@ -352,8 +352,8 @@
         "won": 1,
         "drawn": 0,
         "lost": 2,
-        "goalsFor": 2,
-        "goalsAgainst": 6,
+        "goalsFor": 3,
+        "goalsAgainst": 7,
         "goalDifference": -4,
         "points": 3
       },
@@ -376,32 +376,32 @@
         "won": 3,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 8,
-        "goalsAgainst": 0,
-        "goalDifference": 8,
+        "goalsFor": 9,
+        "goalsAgainst": 2,
+        "goalDifference": 7,
         "points": 9
       },
       {
         "team": "Senegal",
         "played": 3,
-        "won": 1,
-        "drawn": 1,
+        "won": 2,
+        "drawn": 0,
         "lost": 1,
-        "goalsFor": 3,
-        "goalsAgainst": 3,
-        "goalDifference": 0,
-        "points": 4
+        "goalsFor": 6,
+        "goalsAgainst": 5,
+        "goalDifference": 1,
+        "points": 6
       },
       {
         "team": "Norway",
         "played": 3,
         "won": 1,
-        "drawn": 1,
-        "lost": 1,
-        "goalsFor": 3,
-        "goalsAgainst": 5,
-        "goalDifference": -2,
-        "points": 4
+        "drawn": 0,
+        "lost": 2,
+        "goalsFor": 5,
+        "goalsAgainst": 6,
+        "goalDifference": -1,
+        "points": 3
       },
       {
         "team": "Iraq",
@@ -409,9 +409,9 @@
         "won": 0,
         "drawn": 0,
         "lost": 3,
-        "goalsFor": 1,
-        "goalsAgainst": 7,
-        "goalDifference": -6,
+        "goalsFor": 2,
+        "goalsAgainst": 9,
+        "goalDifference": -7,
         "points": 0
       }
     ],
@@ -423,8 +423,8 @@
         "drawn": 0,
         "lost": 0,
         "goalsFor": 9,
-        "goalsAgainst": 0,
-        "goalDifference": 9,
+        "goalsAgainst": 1,
+        "goalDifference": 8,
         "points": 9
       },
       {
@@ -433,8 +433,8 @@
         "won": 2,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 4,
-        "goalsAgainst": 3,
+        "goalsFor": 6,
+        "goalsAgainst": 5,
         "goalDifference": 1,
         "points": 6
       },
@@ -455,9 +455,9 @@
         "won": 0,
         "drawn": 0,
         "lost": 3,
-        "goalsFor": 1,
+        "goalsFor": 2,
         "goalsAgainst": 8,
-        "goalDifference": -7,
+        "goalDifference": -6,
         "points": 0
       }
     ],
@@ -479,21 +479,10 @@
         "won": 2,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 5,
-        "goalsAgainst": 2,
+        "goalsFor": 7,
+        "goalsAgainst": 4,
         "goalDifference": 3,
         "points": 6
-      },
-      {
-        "team": "Uzbekistan",
-        "played": 3,
-        "won": 0,
-        "drawn": 1,
-        "lost": 2,
-        "goalsFor": 1,
-        "goalsAgainst": 6,
-        "goalDifference": -5,
-        "points": 1
       },
       {
         "team": "Congo DR",
@@ -501,8 +490,19 @@
         "won": 0,
         "drawn": 1,
         "lost": 2,
-        "goalsFor": 1,
-        "goalsAgainst": 6,
+        "goalsFor": 3,
+        "goalsAgainst": 8,
+        "goalDifference": -5,
+        "points": 1
+      },
+      {
+        "team": "Uzbekistan",
+        "played": 3,
+        "won": 0,
+        "drawn": 1,
+        "lost": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 8,
         "goalDifference": -5,
         "points": 1
       }
@@ -525,32 +525,32 @@
         "won": 2,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 5,
-        "goalsAgainst": 2,
+        "goalsFor": 7,
+        "goalsAgainst": 4,
         "goalDifference": 3,
         "points": 6
       },
       {
         "team": "Ghana",
         "played": 3,
-        "won": 0,
-        "drawn": 1,
+        "won": 1,
+        "drawn": 0,
         "lost": 2,
-        "goalsFor": 1,
-        "goalsAgainst": 6,
-        "goalDifference": -5,
-        "points": 1
+        "goalsFor": 3,
+        "goalsAgainst": 7,
+        "goalDifference": -4,
+        "points": 3
       },
       {
         "team": "Panama",
         "played": 3,
         "won": 0,
-        "drawn": 1,
-        "lost": 2,
-        "goalsFor": 1,
-        "goalsAgainst": 6,
-        "goalDifference": -5,
-        "points": 1
+        "drawn": 0,
+        "lost": 3,
+        "goalsFor": 2,
+        "goalsAgainst": 8,
+        "goalDifference": -6,
+        "points": 0
       }
     ]
   },
@@ -558,25 +558,25 @@
     {
       "team": "Mexico",
       "played": 3,
-      "won": 2,
-      "drawn": 1,
+      "won": 3,
+      "drawn": 0,
       "lost": 0,
-      "goalsFor": 5,
-      "goalsAgainst": 2,
-      "goalDifference": 3,
-      "points": 7,
+      "goalsFor": 7,
+      "goalsAgainst": 3,
+      "goalDifference": 4,
+      "points": 9,
       "qualification": "Winner Group A"
     },
     {
       "team": "South Korea",
       "played": 3,
-      "won": 1,
-      "drawn": 2,
-      "lost": 0,
-      "goalsFor": 4,
-      "goalsAgainst": 3,
+      "won": 2,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 5,
+      "goalsAgainst": 4,
       "goalDifference": 1,
-      "points": 5,
+      "points": 6,
       "qualification": "Runner-up Group A"
     },
     {
@@ -585,22 +585,22 @@
       "won": 3,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 6,
+      "goalsFor": 8,
       "goalsAgainst": 2,
-      "goalDifference": 4,
+      "goalDifference": 6,
       "points": 9,
       "qualification": "Winner Group B"
     },
     {
       "team": "Canada",
       "played": 3,
-      "won": 1,
-      "drawn": 1,
+      "won": 2,
+      "drawn": 0,
       "lost": 1,
-      "goalsFor": 4,
+      "goalsFor": 5,
       "goalsAgainst": 4,
-      "goalDifference": 0,
-      "points": 4,
+      "goalDifference": 1,
+      "points": 6,
       "qualification": "Runner-up Group B"
     },
     {
@@ -610,8 +610,8 @@
       "drawn": 0,
       "lost": 0,
       "goalsFor": 9,
-      "goalsAgainst": 0,
-      "goalDifference": 9,
+      "goalsAgainst": 1,
+      "goalDifference": 8,
       "points": 9,
       "qualification": "Winner Group C"
     },
@@ -621,34 +621,34 @@
       "won": 2,
       "drawn": 0,
       "lost": 1,
-      "goalsFor": 5,
+      "goalsFor": 6,
       "goalsAgainst": 3,
-      "goalDifference": 2,
+      "goalDifference": 3,
       "points": 6,
       "qualification": "Runner-up Group C"
     },
     {
       "team": "USA",
       "played": 3,
-      "won": 2,
-      "drawn": 1,
+      "won": 3,
+      "drawn": 0,
       "lost": 0,
-      "goalsFor": 5,
+      "goalsFor": 6,
       "goalsAgainst": 3,
-      "goalDifference": 2,
-      "points": 7,
+      "goalDifference": 3,
+      "points": 9,
       "qualification": "Winner Group D"
     },
     {
       "team": "Turkey",
       "played": 3,
-      "won": 1,
-      "drawn": 2,
-      "lost": 0,
-      "goalsFor": 4,
-      "goalsAgainst": 3,
+      "won": 2,
+      "drawn": 0,
+      "lost": 1,
+      "goalsFor": 5,
+      "goalsAgainst": 4,
       "goalDifference": 1,
-      "points": 5,
+      "points": 6,
       "qualification": "Runner-up Group D"
     },
     {
@@ -657,8 +657,8 @@
       "won": 3,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 7,
-      "goalsAgainst": 0,
+      "goalsFor": 9,
+      "goalsAgainst": 2,
       "goalDifference": 7,
       "points": 9,
       "qualification": "Winner Group E"
@@ -666,13 +666,13 @@
     {
       "team": "Ecuador",
       "played": 3,
-      "won": 1,
-      "drawn": 1,
+      "won": 2,
+      "drawn": 0,
       "lost": 1,
-      "goalsFor": 4,
-      "goalsAgainst": 3,
-      "goalDifference": 1,
-      "points": 4,
+      "goalsFor": 6,
+      "goalsAgainst": 4,
+      "goalDifference": 2,
+      "points": 6,
       "qualification": "Runner-up Group E"
     },
     {
@@ -681,8 +681,8 @@
       "won": 3,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 7,
-      "goalsAgainst": 1,
+      "goalsFor": 8,
+      "goalsAgainst": 2,
       "goalDifference": 6,
       "points": 9,
       "qualification": "Winner Group F"
@@ -705,8 +705,8 @@
       "won": 3,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 7,
-      "goalsAgainst": 1,
+      "goalsFor": 8,
+      "goalsAgainst": 2,
       "goalDifference": 6,
       "points": 9,
       "qualification": "Winner Group G"
@@ -714,13 +714,13 @@
     {
       "team": "Iran",
       "played": 3,
-      "won": 1,
-      "drawn": 1,
+      "won": 2,
+      "drawn": 0,
       "lost": 1,
-      "goalsFor": 4,
+      "goalsFor": 6,
       "goalsAgainst": 3,
-      "goalDifference": 1,
-      "points": 4,
+      "goalDifference": 3,
+      "points": 6,
       "qualification": "Runner-up Group G"
     },
     {
@@ -741,8 +741,8 @@
       "won": 2,
       "drawn": 0,
       "lost": 1,
-      "goalsFor": 6,
-      "goalsAgainst": 2,
+      "goalsFor": 7,
+      "goalsAgainst": 3,
       "goalDifference": 4,
       "points": 6,
       "qualification": "Runner-up Group H"
@@ -753,22 +753,22 @@
       "won": 3,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 8,
-      "goalsAgainst": 0,
-      "goalDifference": 8,
+      "goalsFor": 9,
+      "goalsAgainst": 2,
+      "goalDifference": 7,
       "points": 9,
       "qualification": "Winner Group I"
     },
     {
       "team": "Senegal",
       "played": 3,
-      "won": 1,
-      "drawn": 1,
+      "won": 2,
+      "drawn": 0,
       "lost": 1,
-      "goalsFor": 3,
-      "goalsAgainst": 3,
-      "goalDifference": 0,
-      "points": 4,
+      "goalsFor": 6,
+      "goalsAgainst": 5,
+      "goalDifference": 1,
+      "points": 6,
       "qualification": "Runner-up Group I"
     },
     {
@@ -778,8 +778,8 @@
       "drawn": 0,
       "lost": 0,
       "goalsFor": 9,
-      "goalsAgainst": 0,
-      "goalDifference": 9,
+      "goalsAgainst": 1,
+      "goalDifference": 8,
       "points": 9,
       "qualification": "Winner Group J"
     },
@@ -789,8 +789,8 @@
       "won": 2,
       "drawn": 0,
       "lost": 1,
-      "goalsFor": 4,
-      "goalsAgainst": 3,
+      "goalsFor": 6,
+      "goalsAgainst": 5,
       "goalDifference": 1,
       "points": 6,
       "qualification": "Runner-up Group J"
@@ -813,8 +813,8 @@
       "won": 2,
       "drawn": 0,
       "lost": 1,
-      "goalsFor": 5,
-      "goalsAgainst": 2,
+      "goalsFor": 7,
+      "goalsAgainst": 4,
       "goalDifference": 3,
       "points": 6,
       "qualification": "Runner-up Group K"
@@ -837,71 +837,71 @@
       "won": 2,
       "drawn": 0,
       "lost": 1,
-      "goalsFor": 5,
-      "goalsAgainst": 2,
+      "goalsFor": 7,
+      "goalsAgainst": 4,
       "goalDifference": 3,
       "points": 6,
       "qualification": "Runner-up Group L"
     },
     {
-      "team": "Czechia",
+      "team": "Norway",
       "played": 3,
       "won": 1,
-      "drawn": 1,
-      "lost": 1,
-      "goalsFor": 4,
-      "goalsAgainst": 4,
-      "goalDifference": 0,
-      "points": 4,
-      "qualification": "Third Group A"
-    },
-    {
-      "team": "Côte d'Ivoire",
-      "played": 3,
-      "won": 1,
-      "drawn": 1,
-      "lost": 1,
-      "goalsFor": 3,
-      "goalsAgainst": 3,
-      "goalDifference": 0,
-      "points": 4,
-      "qualification": "Third Group E"
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 5,
+      "goalsAgainst": 6,
+      "goalDifference": -1,
+      "points": 3,
+      "qualification": "Third Group I"
     },
     {
       "team": "Egypt",
       "played": 3,
       "won": 1,
-      "drawn": 1,
-      "lost": 1,
-      "goalsFor": 3,
-      "goalsAgainst": 3,
-      "goalDifference": 0,
-      "points": 4,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 5,
+      "goalsAgainst": 6,
+      "goalDifference": -1,
+      "points": 3,
       "qualification": "Third Group G"
     },
     {
-      "team": "Norway",
-      "played": 3,
-      "won": 1,
-      "drawn": 1,
-      "lost": 1,
-      "goalsFor": 3,
-      "goalsAgainst": 5,
-      "goalDifference": -2,
-      "points": 4,
-      "qualification": "Third Group I"
-    },
-    {
-      "team": "Scotland",
+      "team": "Côte d'Ivoire",
       "played": 3,
       "won": 1,
       "drawn": 0,
       "lost": 2,
-      "goalsFor": 3,
-      "goalsAgainst": 5,
-      "goalDifference": -2,
+      "goalsFor": 5,
+      "goalsAgainst": 6,
+      "goalDifference": -1,
       "points": 3,
-      "qualification": "Third Group C"
+      "qualification": "Third Group E"
+    },
+    {
+      "team": "Australia",
+      "played": 3,
+      "won": 1,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 4,
+      "goalsAgainst": 5,
+      "goalDifference": -1,
+      "points": 3,
+      "qualification": "Third Group D"
+    },
+    {
+      "team": "Czechia",
+      "played": 3,
+      "won": 1,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 4,
+      "goalsAgainst": 5,
+      "goalDifference": -1,
+      "points": 3,
+      "qualification": "Third Group A"
     },
     {
       "team": "Sweden",
@@ -909,11 +909,23 @@
       "won": 1,
       "drawn": 0,
       "lost": 2,
-      "goalsFor": 3,
-      "goalsAgainst": 5,
+      "goalsFor": 4,
+      "goalsAgainst": 6,
       "goalDifference": -2,
       "points": 3,
       "qualification": "Third Group F"
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "played": 3,
+      "won": 1,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 4,
+      "goalsAgainst": 6,
+      "goalDifference": -2,
+      "points": 3,
+      "qualification": "Third Group B"
     },
     {
       "team": "Algeria",
@@ -926,18 +938,200 @@
       "goalDifference": -3,
       "points": 3,
       "qualification": "Third Group J"
+    }
+  ],
+  "winnerProbabilities": [
+    {
+      "team": "Argentina",
+      "winProbability": 27.25
+    },
+    {
+      "team": "Brazil",
+      "winProbability": 27.05
+    },
+    {
+      "team": "France",
+      "winProbability": 26.31
+    },
+    {
+      "team": "Spain",
+      "winProbability": 9.93
+    },
+    {
+      "team": "England",
+      "winProbability": 6.42
+    },
+    {
+      "team": "Portugal",
+      "winProbability": 1.45
+    },
+    {
+      "team": "Netherlands",
+      "winProbability": 1.33
+    },
+    {
+      "team": "Germany",
+      "winProbability": 0.22
+    },
+    {
+      "team": "Mexico",
+      "winProbability": 0.01
+    },
+    {
+      "team": "Morocco",
+      "winProbability": 0.01
+    },
+    {
+      "team": "Belgium",
+      "winProbability": 0.01
+    },
+    {
+      "team": "Croatia",
+      "winProbability": 0.01
+    },
+    {
+      "team": "South Africa",
+      "winProbability": 0
+    },
+    {
+      "team": "South Korea",
+      "winProbability": 0
+    },
+    {
+      "team": "Czechia",
+      "winProbability": 0
+    },
+    {
+      "team": "Canada",
+      "winProbability": 0
+    },
+    {
+      "team": "Switzerland",
+      "winProbability": 0
+    },
+    {
+      "team": "Qatar",
+      "winProbability": 0
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "winProbability": 0
+    },
+    {
+      "team": "Haiti",
+      "winProbability": 0
+    },
+    {
+      "team": "Scotland",
+      "winProbability": 0
+    },
+    {
+      "team": "USA",
+      "winProbability": 0
+    },
+    {
+      "team": "Australia",
+      "winProbability": 0
+    },
+    {
+      "team": "Turkey",
+      "winProbability": 0
+    },
+    {
+      "team": "Paraguay",
+      "winProbability": 0
+    },
+    {
+      "team": "Côte d'Ivoire",
+      "winProbability": 0
+    },
+    {
+      "team": "Ecuador",
+      "winProbability": 0
+    },
+    {
+      "team": "Curaçao",
+      "winProbability": 0
+    },
+    {
+      "team": "Sweden",
+      "winProbability": 0
+    },
+    {
+      "team": "Tunisia",
+      "winProbability": 0
+    },
+    {
+      "team": "Japan",
+      "winProbability": 0
+    },
+    {
+      "team": "Iran",
+      "winProbability": 0
+    },
+    {
+      "team": "New Zealand",
+      "winProbability": 0
+    },
+    {
+      "team": "Egypt",
+      "winProbability": 0
     },
     {
       "team": "Saudi Arabia",
-      "played": 3,
-      "won": 1,
-      "drawn": 0,
-      "lost": 2,
-      "goalsFor": 2,
-      "goalsAgainst": 6,
-      "goalDifference": -4,
-      "points": 3,
-      "qualification": "Third Group H"
+      "winProbability": 0
+    },
+    {
+      "team": "Uruguay",
+      "winProbability": 0
+    },
+    {
+      "team": "Cabo Verde",
+      "winProbability": 0
+    },
+    {
+      "team": "Iraq",
+      "winProbability": 0
+    },
+    {
+      "team": "Norway",
+      "winProbability": 0
+    },
+    {
+      "team": "Senegal",
+      "winProbability": 0
+    },
+    {
+      "team": "Austria",
+      "winProbability": 0
+    },
+    {
+      "team": "Jordan",
+      "winProbability": 0
+    },
+    {
+      "team": "Algeria",
+      "winProbability": 0
+    },
+    {
+      "team": "Uzbekistan",
+      "winProbability": 0
+    },
+    {
+      "team": "Colombia",
+      "winProbability": 0
+    },
+    {
+      "team": "Congo DR",
+      "winProbability": 0
+    },
+    {
+      "team": "Ghana",
+      "winProbability": 0
+    },
+    {
+      "team": "Panama",
+      "winProbability": 0
     }
   ]
 }
