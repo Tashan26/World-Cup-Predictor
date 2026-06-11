@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T13:16:56.859Z",
+  "generatedAt": "2026-06-11T13:30:46.030Z",
   "groupTables": {
     "A": [
       {
@@ -9,8 +9,8 @@
         "drawn": 0,
         "lost": 0,
         "goalsFor": 7,
-        "goalsAgainst": 3,
-        "goalDifference": 4,
+        "goalsAgainst": 2,
+        "goalDifference": 5,
         "points": 9
       },
       {
@@ -41,9 +41,9 @@
         "won": 0,
         "drawn": 0,
         "lost": 3,
-        "goalsFor": 3,
+        "goalsFor": 2,
         "goalsAgainst": 7,
-        "goalDifference": -4,
+        "goalDifference": -5,
         "points": 0
       }
     ],
@@ -100,9 +100,9 @@
         "won": 3,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 9,
+        "goalsFor": 8,
         "goalsAgainst": 1,
-        "goalDifference": 8,
+        "goalDifference": 7,
         "points": 9
       },
       {
@@ -134,8 +134,8 @@
         "drawn": 0,
         "lost": 3,
         "goalsFor": 1,
-        "goalsAgainst": 9,
-        "goalDifference": -8,
+        "goalsAgainst": 8,
+        "goalDifference": -7,
         "points": 0
       }
     ],
@@ -306,9 +306,9 @@
         "won": 1,
         "drawn": 0,
         "lost": 2,
-        "goalsFor": 5,
+        "goalsFor": 4,
         "goalsAgainst": 6,
-        "goalDifference": -1,
+        "goalDifference": -2,
         "points": 3
       },
       {
@@ -318,8 +318,8 @@
         "drawn": 0,
         "lost": 3,
         "goalsFor": 1,
-        "goalsAgainst": 9,
-        "goalDifference": -8,
+        "goalsAgainst": 8,
+        "goalDifference": -7,
         "points": 0
       }
     ],
@@ -377,8 +377,8 @@
         "drawn": 0,
         "lost": 0,
         "goalsFor": 9,
-        "goalsAgainst": 2,
-        "goalDifference": 7,
+        "goalsAgainst": 0,
+        "goalDifference": 9,
         "points": 9
       },
       {
@@ -387,9 +387,9 @@
         "won": 2,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 6,
+        "goalsFor": 5,
         "goalsAgainst": 5,
-        "goalDifference": 1,
+        "goalDifference": 0,
         "points": 6
       },
       {
@@ -398,9 +398,9 @@
         "won": 1,
         "drawn": 0,
         "lost": 2,
-        "goalsFor": 5,
+        "goalsFor": 3,
         "goalsAgainst": 6,
-        "goalDifference": -1,
+        "goalDifference": -3,
         "points": 3
       },
       {
@@ -410,8 +410,8 @@
         "drawn": 0,
         "lost": 3,
         "goalsFor": 2,
-        "goalsAgainst": 9,
-        "goalDifference": -7,
+        "goalsAgainst": 8,
+        "goalDifference": -6,
         "points": 0
       }
     ],
@@ -423,8 +423,8 @@
         "drawn": 0,
         "lost": 0,
         "goalsFor": 9,
-        "goalsAgainst": 1,
-        "goalDifference": 8,
+        "goalsAgainst": 0,
+        "goalDifference": 9,
         "points": 9
       },
       {
@@ -433,9 +433,9 @@
         "won": 2,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 6,
+        "goalsFor": 5,
         "goalsAgainst": 5,
-        "goalDifference": 1,
+        "goalDifference": 0,
         "points": 6
       },
       {
@@ -480,8 +480,8 @@
         "drawn": 0,
         "lost": 1,
         "goalsFor": 7,
-        "goalsAgainst": 4,
-        "goalDifference": 3,
+        "goalsAgainst": 3,
+        "goalDifference": 4,
         "points": 6
       },
       {
@@ -501,9 +501,9 @@
         "won": 0,
         "drawn": 1,
         "lost": 2,
-        "goalsFor": 3,
+        "goalsFor": 2,
         "goalsAgainst": 8,
-        "goalDifference": -5,
+        "goalDifference": -6,
         "points": 1
       }
     ],
@@ -525,9 +525,9 @@
         "won": 2,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 7,
+        "goalsFor": 6,
         "goalsAgainst": 4,
-        "goalDifference": 3,
+        "goalDifference": 2,
         "points": 6
       },
       {
@@ -537,8 +537,8 @@
         "drawn": 0,
         "lost": 2,
         "goalsFor": 3,
-        "goalsAgainst": 7,
-        "goalDifference": -4,
+        "goalsAgainst": 6,
+        "goalDifference": -3,
         "points": 3
       },
       {
@@ -562,8 +562,8 @@
       "drawn": 0,
       "lost": 0,
       "goalsFor": 7,
-      "goalsAgainst": 3,
-      "goalDifference": 4,
+      "goalsAgainst": 2,
+      "goalDifference": 5,
       "points": 9,
       "qualification": "Winner Group A"
     },
@@ -609,9 +609,9 @@
       "won": 3,
       "drawn": 0,
       "lost": 0,
-      "goalsFor": 9,
+      "goalsFor": 8,
       "goalsAgainst": 1,
-      "goalDifference": 8,
+      "goalDifference": 7,
       "points": 9,
       "qualification": "Winner Group C"
     },
@@ -754,8 +754,8 @@
       "drawn": 0,
       "lost": 0,
       "goalsFor": 9,
-      "goalsAgainst": 2,
-      "goalDifference": 7,
+      "goalsAgainst": 0,
+      "goalDifference": 9,
       "points": 9,
       "qualification": "Winner Group I"
     },
@@ -765,9 +765,9 @@
       "won": 2,
       "drawn": 0,
       "lost": 1,
-      "goalsFor": 6,
+      "goalsFor": 5,
       "goalsAgainst": 5,
-      "goalDifference": 1,
+      "goalDifference": 0,
       "points": 6,
       "qualification": "Runner-up Group I"
     },
@@ -778,8 +778,8 @@
       "drawn": 0,
       "lost": 0,
       "goalsFor": 9,
-      "goalsAgainst": 1,
-      "goalDifference": 8,
+      "goalsAgainst": 0,
+      "goalDifference": 9,
       "points": 9,
       "qualification": "Winner Group J"
     },
@@ -789,9 +789,9 @@
       "won": 2,
       "drawn": 0,
       "lost": 1,
-      "goalsFor": 6,
+      "goalsFor": 5,
       "goalsAgainst": 5,
-      "goalDifference": 1,
+      "goalDifference": 0,
       "points": 6,
       "qualification": "Runner-up Group J"
     },
@@ -814,8 +814,8 @@
       "drawn": 0,
       "lost": 1,
       "goalsFor": 7,
-      "goalsAgainst": 4,
-      "goalDifference": 3,
+      "goalsAgainst": 3,
+      "goalDifference": 4,
       "points": 6,
       "qualification": "Runner-up Group K"
     },
@@ -837,35 +837,11 @@
       "won": 2,
       "drawn": 0,
       "lost": 1,
-      "goalsFor": 7,
+      "goalsFor": 6,
       "goalsAgainst": 4,
-      "goalDifference": 3,
+      "goalDifference": 2,
       "points": 6,
       "qualification": "Runner-up Group L"
-    },
-    {
-      "team": "Norway",
-      "played": 3,
-      "won": 1,
-      "drawn": 0,
-      "lost": 2,
-      "goalsFor": 5,
-      "goalsAgainst": 6,
-      "goalDifference": -1,
-      "points": 3,
-      "qualification": "Third Group I"
-    },
-    {
-      "team": "Egypt",
-      "played": 3,
-      "won": 1,
-      "drawn": 0,
-      "lost": 2,
-      "goalsFor": 5,
-      "goalsAgainst": 6,
-      "goalDifference": -1,
-      "points": 3,
-      "qualification": "Third Group G"
     },
     {
       "team": "Côte d'Ivoire",
@@ -916,6 +892,18 @@
       "qualification": "Third Group F"
     },
     {
+      "team": "Egypt",
+      "played": 3,
+      "won": 1,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 4,
+      "goalsAgainst": 6,
+      "goalDifference": -2,
+      "points": 3,
+      "qualification": "Third Group G"
+    },
+    {
       "team": "Bosnia and Herzegovina",
       "played": 3,
       "won": 1,
@@ -926,6 +914,18 @@
       "goalDifference": -2,
       "points": 3,
       "qualification": "Third Group B"
+    },
+    {
+      "team": "Norway",
+      "played": 3,
+      "won": 1,
+      "drawn": 0,
+      "lost": 2,
+      "goalsFor": 3,
+      "goalsAgainst": 6,
+      "goalDifference": -3,
+      "points": 3,
+      "qualification": "Third Group I"
     },
     {
       "team": "Algeria",
@@ -943,50 +943,42 @@
   "winnerProbabilities": [
     {
       "team": "Argentina",
-      "winProbability": 28.48
+      "winProbability": 27.78
     },
     {
       "team": "France",
-      "winProbability": 26.18
+      "winProbability": 26.87
     },
     {
       "team": "Brazil",
-      "winProbability": 26.1
+      "winProbability": 26.01
     },
     {
       "team": "Spain",
-      "winProbability": 10.3
+      "winProbability": 10.19
     },
     {
       "team": "England",
-      "winProbability": 6.2
+      "winProbability": 6.32
     },
     {
       "team": "Netherlands",
-      "winProbability": 1.16
+      "winProbability": 1.33
     },
     {
       "team": "Portugal",
-      "winProbability": 1.06
+      "winProbability": 1.07
     },
     {
       "team": "Germany",
-      "winProbability": 0.48
+      "winProbability": 0.41
     },
     {
-      "team": "Morocco",
+      "team": "Japan",
       "winProbability": 0.01
     },
     {
-      "team": "Belgium",
-      "winProbability": 0.01
-    },
-    {
-      "team": "Senegal",
-      "winProbability": 0.01
-    },
-    {
-      "team": "Colombia",
+      "team": "Croatia",
       "winProbability": 0.01
     },
     {
@@ -1030,6 +1022,10 @@
       "winProbability": 0
     },
     {
+      "team": "Morocco",
+      "winProbability": 0
+    },
+    {
       "team": "USA",
       "winProbability": 0
     },
@@ -1066,7 +1062,7 @@
       "winProbability": 0
     },
     {
-      "team": "Japan",
+      "team": "Belgium",
       "winProbability": 0
     },
     {
@@ -1102,6 +1098,10 @@
       "winProbability": 0
     },
     {
+      "team": "Senegal",
+      "winProbability": 0
+    },
+    {
       "team": "Austria",
       "winProbability": 0
     },
@@ -1118,6 +1118,10 @@
       "winProbability": 0
     },
     {
+      "team": "Colombia",
+      "winProbability": 0
+    },
+    {
       "team": "Congo DR",
       "winProbability": 0
     },
@@ -1127,10 +1131,6 @@
     },
     {
       "team": "Panama",
-      "winProbability": 0
-    },
-    {
-      "team": "Croatia",
       "winProbability": 0
     }
   ]

@@ -3,150 +3,150 @@
     "player": "Kylian Mbappe",
     "team": "France",
     "score": 88.9,
-    "probability": 4.44
+    "probability": 4.45
   },
   {
     "player": "Harry Kane",
     "team": "England",
     "score": 87.25000000000001,
-    "probability": 4.36
+    "probability": 4.37
   },
   {
     "player": "Vinicius Junior",
     "team": "Brazil",
     "score": 85.49999999999999,
-    "probability": 4.27
+    "probability": 4.28
   },
   {
     "player": "Lionel Messi",
     "team": "Argentina",
     "score": 83.65,
-    "probability": 4.18
+    "probability": 4.19
   },
   {
     "player": "Son Heung-min",
     "team": "South Korea",
     "score": 82.4,
-    "probability": 4.11
+    "probability": 4.12
   },
   {
     "player": "Jude Bellingham",
     "team": "England",
     "score": 81.94999999999999,
-    "probability": 4.09
+    "probability": 4.1
   },
   {
     "player": "Bukayo Saka",
     "team": "England",
     "score": 80.55000000000001,
-    "probability": 4.02
+    "probability": 4.03
   },
   {
     "player": "Jamal Musiala",
     "team": "Germany",
     "score": 80.55000000000001,
-    "probability": 4.02
-  },
-  {
-    "player": "Luis Diaz",
-    "team": "Colombia",
-    "score": 80.3,
-    "probability": 4.01
+    "probability": 4.03
   },
   {
     "player": "Florian Wirtz",
     "team": "Germany",
     "score": 80,
-    "probability": 3.99
+    "probability": 4
   },
   {
     "player": "Rodrygo",
     "team": "Brazil",
     "score": 79.85,
-    "probability": 3.99
+    "probability": 4
   },
   {
     "player": "Lamine Yamal",
     "team": "Spain",
     "score": 79.8,
-    "probability": 3.98
+    "probability": 3.99
   },
   {
     "player": "Lautaro Martinez",
     "team": "Argentina",
     "score": 79.64999999999999,
-    "probability": 3.98
+    "probability": 3.99
   },
   {
     "player": "Cody Gakpo",
     "team": "Netherlands",
     "score": 79.05,
-    "probability": 3.95
+    "probability": 3.96
   },
   {
     "player": "Bruno Fernandes",
     "team": "Portugal",
     "score": 78.85,
-    "probability": 3.94
+    "probability": 3.95
   },
   {
     "player": "Julian Alvarez",
     "team": "Argentina",
     "score": 78.75,
-    "probability": 3.93
+    "probability": 3.94
   },
   {
     "player": "Jonathan David",
     "team": "Canada",
     "score": 78.25,
-    "probability": 3.91
+    "probability": 3.92
   },
   {
     "player": "Christian Pulisic",
     "team": "USA",
     "score": 78.24999999999999,
-    "probability": 3.91
+    "probability": 3.92
   },
   {
     "player": "Rafael Leao",
     "team": "Portugal",
     "score": 77.94999999999999,
-    "probability": 3.89
+    "probability": 3.9
   },
   {
     "player": "Cristiano Ronaldo",
     "team": "Portugal",
     "score": 77.85,
-    "probability": 3.89
+    "probability": 3.9
+  },
+  {
+    "player": "Takefusa Kubo",
+    "team": "Japan",
+    "score": 77.05000000000001,
+    "probability": 3.86
   },
   {
     "player": "Ousmane Dembele",
     "team": "France",
     "score": 77,
-    "probability": 3.84
+    "probability": 3.85
   },
   {
     "player": "Neymar",
     "team": "Brazil",
     "score": 76.89999999999999,
-    "probability": 3.84
-  },
-  {
-    "player": "Kevin De Bruyne",
-    "team": "Belgium",
-    "score": 76.8,
-    "probability": 3.83
+    "probability": 3.85
   },
   {
     "player": "Antoine Griezmann",
     "team": "France",
     "score": 76.44999999999999,
-    "probability": 3.82
+    "probability": 3.83
   },
   {
-    "player": "Romelu Lukaku",
-    "team": "Belgium",
-    "score": 76.2,
-    "probability": 3.8
+    "player": "Xavi Simons",
+    "team": "Netherlands",
+    "score": 75.8,
+    "probability": 3.79
+  },
+  {
+    "player": "Kai Havertz",
+    "team": "Germany",
+    "score": 75.6,
+    "probability": 3.78
   }
 ]

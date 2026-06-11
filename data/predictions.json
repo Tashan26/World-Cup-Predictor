@@ -1,6 +1,7 @@
 [
   {
     "id": "match_001",
+    "matchNumber": 1,
     "stage": "Group Stage",
     "group": "A",
     "date": "2026-06-11T18:00:00+02:00",
@@ -9,12 +10,12 @@
     "stadium": "Estadio Azteca",
     "city": "Mexico City",
     "probabilities": {
-      "home": 84.2,
-      "draw": 9,
-      "away": 6.8
+      "home": 87.4,
+      "draw": 7.8,
+      "away": 4.9
     },
     "predictedWinner": "Mexico",
-    "predictedScore": "3-1",
+    "predictedScore": "3-0",
     "confidence": "High",
     "likelyScorer": {
       "team": "Mexico",
@@ -23,24 +24,38 @@
       "probability": 30.2
     },
     "redCardRisk": {
-      "Mexico": 5.8,
-      "South Africa": 6.2
+      "Mexico": 6.1,
+      "South Africa": 6.5
     },
     "modelScores": {
-      "Mexico": 132.2,
-      "South Africa": 109.6
+      "Mexico": 132.6,
+      "South Africa": 106.6
+    },
+    "travel": {
+      "Mexico": {
+        "distanceKm": 15,
+        "penalty": 0.2,
+        "impact": "Low"
+      },
+      "South Africa": {
+        "distanceKm": 14582,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 5,
+      "heatImpact": "Medium",
       "altitude": 2240,
-      "homeAdvantage": 3,
+      "altitudeImpact": "Very high",
+      "homeAdvantage": 3.5,
       "awayAdvantage": 0
     },
     "notes": [
-      "Mexico rate higher across the model's team strength indicators.",
-      "Venue factor included: Estadio Azteca, Mexico City, heat risk 5/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Mexico rate higher overall in the model.",
+      "Mexico travel distance: 15 km. South Africa travel distance: 14582 km.",
+      "Venue: Estadio Azteca, Mexico City. Heat impact: Medium. Altitude impact: Very high.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Mexico is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -107,6 +122,7 @@
   },
   {
     "id": "match_002",
+    "matchNumber": 2,
     "stage": "Group Stage",
     "group": "A",
     "date": "2026-06-11T21:00:00+02:00",
@@ -115,9 +131,9 @@
     "stadium": "Estadio BBVA",
     "city": "Monterrey",
     "probabilities": {
-      "home": 49.2,
-      "draw": 21.7,
-      "away": 29.1
+      "home": 47.3,
+      "draw": 22.1,
+      "away": 30.6
     },
     "predictedWinner": "South Korea",
     "predictedScore": "2-1",
@@ -129,24 +145,38 @@
       "probability": 32.9
     },
     "redCardRisk": {
-      "South Korea": 4.7,
-      "Czechia": 5.2
+      "South Korea": 5.3,
+      "Czechia": 5.8
     },
     "modelScores": {
-      "South Korea": 124.7,
-      "Czechia": 120
+      "South Korea": 121.8,
+      "Czechia": 117.9
+    },
+    "travel": {
+      "South Korea": {
+        "distanceKm": 11428,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Czechia": {
+        "distanceKm": 9429,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 8,
+      "heatImpact": "High",
       "altitude": 540,
+      "altitudeImpact": "Medium",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "South Korea rate higher across the model's team strength indicators.",
-      "Venue factor included: Estadio BBVA, Monterrey, heat risk 8/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "South Korea rate higher overall in the model.",
+      "South Korea travel distance: 11428 km. Czechia travel distance: 9429 km.",
+      "Venue: Estadio BBVA, Monterrey. Heat impact: High. Altitude impact: Medium.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "South Korea is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
@@ -213,6 +243,7 @@
   },
   {
     "id": "match_003",
+    "matchNumber": 3,
     "stage": "Group Stage",
     "group": "A",
     "date": "2026-06-11T18:00:00+02:00",
@@ -221,9 +252,9 @@
     "stadium": "Estadio Akron",
     "city": "Guadalajara",
     "probabilities": {
-      "home": 56.4,
-      "draw": 19.7,
-      "away": 23.9
+      "home": 63.9,
+      "draw": 17.3,
+      "away": 18.8
     },
     "predictedWinner": "Mexico",
     "predictedScore": "2-1",
@@ -235,24 +266,38 @@
       "probability": 30.2
     },
     "redCardRisk": {
-      "Mexico": 5.8,
-      "South Korea": 4.7
+      "Mexico": 6.4,
+      "South Korea": 5.3
     },
     "modelScores": {
-      "Mexico": 132,
-      "South Korea": 124.3
+      "Mexico": 132.7,
+      "South Korea": 121.6
+    },
+    "travel": {
+      "Mexico": {
+        "distanceKm": 473,
+        "penalty": 0.2,
+        "impact": "Low"
+      },
+      "South Korea": {
+        "distanceKm": 11663,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 7,
+      "heatImpact": "High",
       "altitude": 1566,
-      "homeAdvantage": 3,
+      "altitudeImpact": "High",
+      "homeAdvantage": 3.5,
       "awayAdvantage": 0
     },
     "notes": [
-      "Mexico rate higher across the model's team strength indicators.",
-      "Venue factor included: Estadio Akron, Guadalajara, heat risk 7/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Mexico rate higher overall in the model.",
+      "Mexico travel distance: 473 km. South Korea travel distance: 11663 km.",
+      "Venue: Estadio Akron, Guadalajara. Heat impact: High. Altitude impact: High.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Mexico is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
@@ -319,6 +364,7 @@
   },
   {
     "id": "match_004",
+    "matchNumber": 4,
     "stage": "Group Stage",
     "group": "A",
     "date": "2026-06-11T21:00:00+02:00",
@@ -327,9 +373,9 @@
     "stadium": "MetLife Stadium",
     "city": "New York",
     "probabilities": {
-      "home": 20,
-      "draw": 18,
-      "away": 62
+      "home": 17.8,
+      "draw": 16.8,
+      "away": 65.3
     },
     "predictedWinner": "Czechia",
     "predictedScore": "1-2",
@@ -340,24 +386,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "South Africa": 6.2,
-      "Czechia": 5.2
+      "South Africa": 6.3,
+      "Czechia": 5.3
     },
     "modelScores": {
-      "South Africa": 110.2,
-      "Czechia": 120.4
+      "South Africa": 107.4,
+      "Czechia": 119.1
+    },
+    "travel": {
+      "South Africa": {
+        "distanceKm": 12848,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Czechia": {
+        "distanceKm": 6569,
+        "penalty": 1.5,
+        "impact": "Medium"
+      }
     },
     "factors": {
       "venueHeatRisk": 4,
+      "heatImpact": "Low",
       "altitude": 8,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Czechia rate higher across the model's team strength indicators.",
-      "Venue factor included: MetLife Stadium, New York, heat risk 4/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Czechia rate higher overall in the model.",
+      "South Africa travel distance: 12848 km. Czechia travel distance: 6569 km.",
+      "Venue: MetLife Stadium, New York. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Czechia is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -424,6 +484,7 @@
   },
   {
     "id": "match_005",
+    "matchNumber": 5,
     "stage": "Group Stage",
     "group": "A",
     "date": "2026-06-12T18:00:00+02:00",
@@ -432,9 +493,9 @@
     "stadium": "AT&T Stadium",
     "city": "Dallas",
     "probabilities": {
-      "home": 60.4,
-      "draw": 18.5,
-      "away": 21.1
+      "home": 64.8,
+      "draw": 17,
+      "away": 18.2
     },
     "predictedWinner": "Mexico",
     "predictedScore": "2-1",
@@ -446,24 +507,38 @@
       "probability": 30.2
     },
     "redCardRisk": {
-      "Mexico": 5.8,
-      "Czechia": 5.2
+      "Mexico": 6.7,
+      "Czechia": 6.1
     },
     "modelScores": {
-      "Mexico": 129.4,
-      "Czechia": 119.9
+      "Mexico": 129.3,
+      "Czechia": 117.9
+    },
+    "travel": {
+      "Mexico": {
+        "distanceKm": 1494,
+        "penalty": 0.2,
+        "impact": "Low"
+      },
+      "Czechia": {
+        "distanceKm": 8616,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 9,
+      "heatImpact": "Very high",
       "altitude": 184,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Mexico rate higher across the model's team strength indicators.",
-      "Venue factor included: AT&T Stadium, Dallas, heat risk 9/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Mexico rate higher overall in the model.",
+      "Mexico travel distance: 1494 km. Czechia travel distance: 8616 km.",
+      "Venue: AT&T Stadium, Dallas. Heat impact: Very high. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Mexico is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
@@ -530,6 +605,7 @@
   },
   {
     "id": "match_006",
+    "matchNumber": 6,
     "stage": "Group Stage",
     "group": "A",
     "date": "2026-06-12T21:00:00+02:00",
@@ -552,24 +628,38 @@
       "probability": 32.9
     },
     "redCardRisk": {
-      "South Africa": 6.2,
-      "South Korea": 4.7
+      "South Africa": 7.1,
+      "South Korea": 5.6
     },
     "modelScores": {
-      "South Africa": 109.6,
-      "South Korea": 124.6
+      "South Africa": 106.9,
+      "South Korea": 121.8
+    },
+    "travel": {
+      "South Africa": {
+        "distanceKm": 14502,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "South Korea": {
+        "distanceKm": 11334,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 10,
+      "heatImpact": "Very high",
       "altitude": 13,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "South Korea rate higher across the model's team strength indicators.",
-      "Venue factor included: NRG Stadium, Houston, heat risk 10/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "South Korea rate higher overall in the model.",
+      "South Africa travel distance: 14502 km. South Korea travel distance: 11334 km.",
+      "Venue: NRG Stadium, Houston. Heat impact: Very high. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "South Korea is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -636,6 +726,7 @@
   },
   {
     "id": "match_007",
+    "matchNumber": 7,
     "stage": "Group Stage",
     "group": "B",
     "date": "2026-06-12T18:00:00+02:00",
@@ -644,9 +735,9 @@
     "stadium": "Hard Rock Stadium",
     "city": "Miami",
     "probabilities": {
-      "home": 17.7,
-      "draw": 16.8,
-      "away": 65.6
+      "home": 19.7,
+      "draw": 17.8,
+      "away": 62.5
     },
     "predictedWinner": "Switzerland",
     "predictedScore": "1-2",
@@ -657,24 +748,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Canada": 5.5,
-      "Switzerland": 4.5
+      "Canada": 6.4,
+      "Switzerland": 5.4
     },
     "modelScores": {
-      "Canada": 118.7,
-      "Switzerland": 130.5
+      "Canada": 118.2,
+      "Switzerland": 128.6
+    },
+    "travel": {
+      "Canada": {
+        "distanceKm": 2202,
+        "penalty": 0.8,
+        "impact": "Low"
+      },
+      "Switzerland": {
+        "distanceKm": 7766,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 10,
+      "heatImpact": "Very high",
       "altitude": 2,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Switzerland rate higher across the model's team strength indicators.",
-      "Venue factor included: Hard Rock Stadium, Miami, heat risk 10/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Switzerland rate higher overall in the model.",
+      "Canada travel distance: 2202 km. Switzerland travel distance: 7766 km.",
+      "Venue: Hard Rock Stadium, Miami. Heat impact: Very high. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Switzerland is favoured because of advantages across elo strength, world cup history, defence, recent form.",
@@ -741,6 +846,7 @@
   },
   {
     "id": "match_008",
+    "matchNumber": 8,
     "stage": "Group Stage",
     "group": "B",
     "date": "2026-06-12T21:00:00+02:00",
@@ -749,37 +855,51 @@
     "stadium": "Mercedes-Benz Stadium",
     "city": "Atlanta",
     "probabilities": {
-      "home": 28.2,
-      "draw": 21.3,
-      "away": 50.5
+      "home": 26.8,
+      "draw": 20.9,
+      "away": 52.4
     },
     "predictedWinner": "Bosnia and Herzegovina",
     "predictedScore": "1-2",
-    "confidence": "Low",
+    "confidence": "Medium",
     "likelyScorer": {
       "team": "Bosnia and Herzegovina",
       "name": "No player data available",
       "probability": 0
     },
     "redCardRisk": {
-      "Qatar": 5.3,
-      "Bosnia and Herzegovina": 5.7
+      "Qatar": 5.9,
+      "Bosnia and Herzegovina": 6.3
     },
     "modelScores": {
-      "Qatar": 110.5,
-      "Bosnia and Herzegovina": 115.7
+      "Qatar": 107.6,
+      "Bosnia and Herzegovina": 113.7
+    },
+    "travel": {
+      "Qatar": {
+        "distanceKm": 11968,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Bosnia and Herzegovina": {
+        "distanceKm": 8384,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 7,
+      "heatImpact": "High",
       "altitude": 320,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Bosnia and Herzegovina rate higher across the model's team strength indicators.",
-      "Venue factor included: Mercedes-Benz Stadium, Atlanta, heat risk 7/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Bosnia and Herzegovina rate higher overall in the model.",
+      "Qatar travel distance: 11968 km. Bosnia and Herzegovina travel distance: 8384 km.",
+      "Venue: Mercedes-Benz Stadium, Atlanta. Heat impact: High. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Bosnia and Herzegovina is favoured because of advantages across elo strength, world cup history, attack, squad rating.",
@@ -846,6 +966,7 @@
   },
   {
     "id": "match_009",
+    "matchNumber": 9,
     "stage": "Group Stage",
     "group": "B",
     "date": "2026-06-13T18:00:00+02:00",
@@ -854,9 +975,9 @@
     "stadium": "Lincoln Financial Field",
     "city": "Philadelphia",
     "probabilities": {
-      "home": 58.3,
-      "draw": 19.2,
-      "away": 22.6
+      "home": 64.6,
+      "draw": 17.1,
+      "away": 18.3
     },
     "predictedWinner": "Canada",
     "predictedScore": "2-1",
@@ -868,24 +989,38 @@
       "probability": 31.3
     },
     "redCardRisk": {
-      "Canada": 5.5,
-      "Qatar": 5.3
+      "Canada": 5.8,
+      "Qatar": 5.7
     },
     "modelScores": {
       "Canada": 119.2,
-      "Qatar": 110.6
+      "Qatar": 107.8
+    },
+    "travel": {
+      "Canada": {
+        "distanceKm": 615,
+        "penalty": 0.2,
+        "impact": "Low"
+      },
+      "Qatar": {
+        "distanceKm": 10906,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 5,
+      "heatImpact": "Medium",
       "altitude": 12,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Canada rate higher across the model's team strength indicators.",
-      "Venue factor included: Lincoln Financial Field, Philadelphia, heat risk 5/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Canada rate higher overall in the model.",
+      "Canada travel distance: 615 km. Qatar travel distance: 10906 km.",
+      "Venue: Lincoln Financial Field, Philadelphia. Heat impact: Medium. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Canada is favoured because of advantages across elo strength, attack, squad rating, recent form.",
@@ -952,6 +1087,7 @@
   },
   {
     "id": "match_010",
+    "matchNumber": 10,
     "stage": "Group Stage",
     "group": "B",
     "date": "2026-06-13T21:00:00+02:00",
@@ -973,24 +1109,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Switzerland": 4.5,
-      "Bosnia and Herzegovina": 5.7
+      "Switzerland": 4.6,
+      "Bosnia and Herzegovina": 5.8
     },
     "modelScores": {
-      "Switzerland": 131.2,
-      "Bosnia and Herzegovina": 116.1
+      "Switzerland": 129.1,
+      "Bosnia and Herzegovina": 114
+    },
+    "travel": {
+      "Switzerland": {
+        "distanceKm": 8430,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Bosnia and Herzegovina": {
+        "distanceKm": 9144,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 3,
+      "heatImpact": "Low",
       "altitude": 17,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Switzerland rate higher across the model's team strength indicators.",
-      "Venue factor included: Lumen Field, Seattle, heat risk 3/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Switzerland rate higher overall in the model.",
+      "Switzerland travel distance: 8430 km. Bosnia and Herzegovina travel distance: 9144 km.",
+      "Venue: Lumen Field, Seattle. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Switzerland is favoured because of advantages across elo strength, world cup history, defence, recent form.",
@@ -1057,6 +1207,7 @@
   },
   {
     "id": "match_011",
+    "matchNumber": 11,
     "stage": "Group Stage",
     "group": "B",
     "date": "2026-06-13T18:00:00+02:00",
@@ -1065,9 +1216,9 @@
     "stadium": "Levi's Stadium",
     "city": "San Francisco",
     "probabilities": {
-      "home": 45.8,
-      "draw": 22.4,
-      "away": 31.8
+      "home": 51.1,
+      "draw": 21.2,
+      "away": 27.7
     },
     "predictedWinner": "Canada",
     "predictedScore": "2-1",
@@ -1079,24 +1230,38 @@
       "probability": 31.3
     },
     "redCardRisk": {
-      "Canada": 5.5,
-      "Bosnia and Herzegovina": 5.7
+      "Canada": 5.8,
+      "Bosnia and Herzegovina": 6
     },
     "modelScores": {
-      "Canada": 119.1,
-      "Bosnia and Herzegovina": 115.8
+      "Canada": 118.6,
+      "Bosnia and Herzegovina": 113.1
+    },
+    "travel": {
+      "Canada": {
+        "distanceKm": 3904,
+        "penalty": 0.8,
+        "impact": "Low"
+      },
+      "Bosnia and Herzegovina": {
+        "distanceKm": 10138,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 6,
+      "heatImpact": "Medium",
       "altitude": 15,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Canada rate higher across the model's team strength indicators.",
-      "Venue factor included: Levi's Stadium, San Francisco, heat risk 6/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Canada rate higher overall in the model.",
+      "Canada travel distance: 3904 km. Bosnia and Herzegovina travel distance: 10138 km.",
+      "Venue: Levi's Stadium, San Francisco. Heat impact: Medium. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Canada is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
@@ -1163,6 +1328,7 @@
   },
   {
     "id": "match_012",
+    "matchNumber": 12,
     "stage": "Group Stage",
     "group": "B",
     "date": "2026-06-13T21:00:00+02:00",
@@ -1171,9 +1337,9 @@
     "stadium": "SoFi Stadium",
     "city": "Los Angeles",
     "probabilities": {
-      "home": 81.1,
-      "draw": 10.4,
-      "away": 8.5
+      "home": 82.3,
+      "draw": 9.8,
+      "away": 7.9
     },
     "predictedWinner": "Switzerland",
     "predictedScore": "3-0",
@@ -1184,24 +1350,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Switzerland": 4.5,
-      "Qatar": 5.3
+      "Switzerland": 4.8,
+      "Qatar": 5.7
     },
     "modelScores": {
-      "Switzerland": 130.9,
-      "Qatar": 110.6
+      "Switzerland": 129,
+      "Qatar": 107.8
+    },
+    "travel": {
+      "Switzerland": {
+        "distanceKm": 9517,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Qatar": {
+        "distanceKm": 13342,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 6,
+      "heatImpact": "Medium",
       "altitude": 30,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Switzerland rate higher across the model's team strength indicators.",
-      "Venue factor included: SoFi Stadium, Los Angeles, heat risk 6/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Switzerland rate higher overall in the model.",
+      "Switzerland travel distance: 9517 km. Qatar travel distance: 13342 km.",
+      "Venue: SoFi Stadium, Los Angeles. Heat impact: Medium. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Switzerland is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
@@ -1268,6 +1448,7 @@
   },
   {
     "id": "match_013",
+    "matchNumber": 13,
     "stage": "Group Stage",
     "group": "C",
     "date": "2026-06-14T18:00:00+02:00",
@@ -1276,12 +1457,12 @@
     "stadium": "GEHA Field at Arrowhead Stadium",
     "city": "Kansas City",
     "probabilities": {
-      "home": 97.3,
-      "draw": 2.3,
-      "away": 0.4
+      "home": 97,
+      "draw": 2.5,
+      "away": 0.5
     },
     "predictedWinner": "Brazil",
-    "predictedScore": "4-0",
+    "predictedScore": "3-0",
     "confidence": "High",
     "likelyScorer": {
       "team": "Brazil",
@@ -1290,24 +1471,38 @@
       "probability": 34.2
     },
     "redCardRisk": {
-      "Brazil": 4.6,
-      "Haiti": 6.4
+      "Brazil": 5.2,
+      "Haiti": 7
     },
     "modelScores": {
-      "Brazil": 148.4,
-      "Haiti": 99
+      "Brazil": 146.3,
+      "Haiti": 98.3
+    },
+    "travel": {
+      "Brazil": {
+        "distanceKm": 7784,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Haiti": {
+        "distanceKm": 3120,
+        "penalty": 0.8,
+        "impact": "Low"
+      }
     },
     "factors": {
       "venueHeatRisk": 7,
+      "heatImpact": "High",
       "altitude": 264,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Brazil rate higher across the model's team strength indicators.",
-      "Venue factor included: GEHA Field at Arrowhead Stadium, Kansas City, heat risk 7/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Brazil rate higher overall in the model.",
+      "Brazil travel distance: 7784 km. Haiti travel distance: 3120 km.",
+      "Venue: GEHA Field at Arrowhead Stadium, Kansas City. Heat impact: High. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Brazil is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -1374,6 +1569,7 @@
   },
   {
     "id": "match_014",
+    "matchNumber": 14,
     "stage": "Group Stage",
     "group": "C",
     "date": "2026-06-14T21:00:00+02:00",
@@ -1396,24 +1592,38 @@
       "probability": 30.1
     },
     "redCardRisk": {
-      "Scotland": 5.7,
-      "Morocco": 4.8
+      "Scotland": 5.8,
+      "Morocco": 4.9
     },
     "modelScores": {
-      "Scotland": 117.8,
-      "Morocco": 134.7
+      "Scotland": 116.5,
+      "Morocco": 133.5
+    },
+    "travel": {
+      "Scotland": {
+        "distanceKm": 4973,
+        "penalty": 1.5,
+        "impact": "Medium"
+      },
+      "Morocco": {
+        "distanceKm": 5578,
+        "penalty": 1.5,
+        "impact": "Medium"
+      }
     },
     "factors": {
       "venueHeatRisk": 4,
+      "heatImpact": "Low",
       "altitude": 90,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Morocco rate higher across the model's team strength indicators.",
-      "Venue factor included: Gillette Stadium, Boston, heat risk 4/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Morocco rate higher overall in the model.",
+      "Scotland travel distance: 4973 km. Morocco travel distance: 5578 km.",
+      "Venue: Gillette Stadium, Boston. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Morocco is favoured because of advantages across elo strength, world cup history, recent form, attack.",
@@ -1480,6 +1690,7 @@
   },
   {
     "id": "match_015",
+    "matchNumber": 15,
     "stage": "Group Stage",
     "group": "C",
     "date": "2026-06-14T18:00:00+02:00",
@@ -1488,9 +1699,9 @@
     "stadium": "BC Place",
     "city": "Vancouver",
     "probabilities": {
-      "home": 90.9,
-      "draw": 6.1,
-      "away": 2.9
+      "home": 90.4,
+      "draw": 6.4,
+      "away": 3.2
     },
     "predictedWinner": "Brazil",
     "predictedScore": "3-0",
@@ -1502,24 +1713,38 @@
       "probability": 34.2
     },
     "redCardRisk": {
-      "Brazil": 4.6,
-      "Scotland": 5.7
+      "Brazil": 4.7,
+      "Scotland": 5.8
     },
     "modelScores": {
-      "Brazil": 148.8,
-      "Scotland": 118
+      "Brazil": 145.9,
+      "Scotland": 115.8
+    },
+    "travel": {
+      "Brazil": {
+        "distanceKm": 10302,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Scotland": {
+        "distanceKm": 7064,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 2,
+      "heatImpact": "Low",
       "altitude": 5,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Brazil rate higher across the model's team strength indicators.",
-      "Venue factor included: BC Place, Vancouver, heat risk 2/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Brazil rate higher overall in the model.",
+      "Brazil travel distance: 10302 km. Scotland travel distance: 7064 km.",
+      "Venue: BC Place, Vancouver. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Brazil is favoured because of advantages across elo strength, world cup history, attack, squad rating.",
@@ -1586,6 +1811,7 @@
   },
   {
     "id": "match_016",
+    "matchNumber": 16,
     "stage": "Group Stage",
     "group": "C",
     "date": "2026-06-14T21:00:00+02:00",
@@ -1594,9 +1820,9 @@
     "stadium": "BMO Field",
     "city": "Toronto",
     "probabilities": {
-      "home": 1.8,
-      "draw": 4.9,
-      "away": 93.3
+      "home": 2,
+      "draw": 5.1,
+      "away": 93
     },
     "predictedWinner": "Morocco",
     "predictedScore": "0-3",
@@ -1608,24 +1834,38 @@
       "probability": 30.1
     },
     "redCardRisk": {
-      "Haiti": 6.4,
-      "Morocco": 4.8
+      "Haiti": 6.6,
+      "Morocco": 4.9
     },
     "modelScores": {
-      "Haiti": 99.2,
-      "Morocco": 134.7
+      "Haiti": 98.7,
+      "Morocco": 133.5
+    },
+    "travel": {
+      "Haiti": {
+        "distanceKm": 2863,
+        "penalty": 0.8,
+        "impact": "Low"
+      },
+      "Morocco": {
+        "distanceKm": 6177,
+        "penalty": 1.5,
+        "impact": "Medium"
+      }
     },
     "factors": {
       "venueHeatRisk": 4,
+      "heatImpact": "Low",
       "altitude": 76,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Morocco rate higher across the model's team strength indicators.",
-      "Venue factor included: BMO Field, Toronto, heat risk 4/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Morocco rate higher overall in the model.",
+      "Haiti travel distance: 2863 km. Morocco travel distance: 6177 km.",
+      "Venue: BMO Field, Toronto. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Morocco is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
@@ -1692,6 +1932,7 @@
   },
   {
     "id": "match_017",
+    "matchNumber": 17,
     "stage": "Group Stage",
     "group": "C",
     "date": "2026-06-15T18:00:00+02:00",
@@ -1700,9 +1941,9 @@
     "stadium": "Estadio Azteca",
     "city": "Mexico City",
     "probabilities": {
-      "home": 70,
-      "draw": 15.1,
-      "away": 14.9
+      "home": 71.4,
+      "draw": 14.6,
+      "away": 14
     },
     "predictedWinner": "Brazil",
     "predictedScore": "2-1",
@@ -1714,24 +1955,38 @@
       "probability": 34.2
     },
     "redCardRisk": {
-      "Brazil": 4.6,
-      "Morocco": 4.8
+      "Brazil": 4.9,
+      "Morocco": 5.1
     },
     "modelScores": {
-      "Brazil": 148,
-      "Morocco": 134.1
+      "Brazil": 146.6,
+      "Morocco": 131.9
+    },
+    "travel": {
+      "Brazil": {
+        "distanceKm": 6831,
+        "penalty": 1.5,
+        "impact": "Medium"
+      },
+      "Morocco": {
+        "distanceKm": 9026,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 5,
+      "heatImpact": "Medium",
       "altitude": 2240,
+      "altitudeImpact": "Very high",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Brazil rate higher across the model's team strength indicators.",
-      "Venue factor included: Estadio Azteca, Mexico City, heat risk 5/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Brazil rate higher overall in the model.",
+      "Brazil travel distance: 6831 km. Morocco travel distance: 9026 km.",
+      "Venue: Estadio Azteca, Mexico City. Heat impact: Medium. Altitude impact: Very high.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Brazil is favoured because of advantages across elo strength, world cup history, attack, squad rating.",
@@ -1798,6 +2053,7 @@
   },
   {
     "id": "match_018",
+    "matchNumber": 18,
     "stage": "Group Stage",
     "group": "C",
     "date": "2026-06-15T21:00:00+02:00",
@@ -1806,9 +2062,9 @@
     "stadium": "Estadio BBVA",
     "city": "Monterrey",
     "probabilities": {
-      "home": 10,
-      "draw": 11.6,
-      "away": 78.4
+      "home": 11.3,
+      "draw": 12.7,
+      "away": 76
     },
     "predictedWinner": "Scotland",
     "predictedScore": "1-2",
@@ -1819,24 +2075,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Haiti": 6.4,
-      "Scotland": 5.7
+      "Haiti": 7,
+      "Scotland": 6.3
     },
     "modelScores": {
-      "Haiti": 98.9,
-      "Scotland": 117.4
+      "Haiti": 98.2,
+      "Scotland": 115.3
+    },
+    "travel": {
+      "Haiti": {
+        "distanceKm": 2977,
+        "penalty": 0.8,
+        "impact": "Low"
+      },
+      "Scotland": {
+        "distanceKm": 8087,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 8,
+      "heatImpact": "High",
       "altitude": 540,
+      "altitudeImpact": "Medium",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Scotland rate higher across the model's team strength indicators.",
-      "Venue factor included: Estadio BBVA, Monterrey, heat risk 8/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Scotland rate higher overall in the model.",
+      "Haiti travel distance: 2977 km. Scotland travel distance: 8087 km.",
+      "Venue: Estadio BBVA, Monterrey. Heat impact: High. Altitude impact: Medium.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Scotland is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
@@ -1903,6 +2173,7 @@
   },
   {
     "id": "match_019",
+    "matchNumber": 19,
     "stage": "Group Stage",
     "group": "D",
     "date": "2026-06-15T18:00:00+02:00",
@@ -1911,9 +2182,9 @@
     "stadium": "Estadio Akron",
     "city": "Guadalajara",
     "probabilities": {
-      "home": 52.6,
-      "draw": 20.8,
-      "away": 26.6
+      "home": 57.8,
+      "draw": 19.3,
+      "away": 22.9
     },
     "predictedWinner": "USA",
     "predictedScore": "2-1",
@@ -1925,24 +2196,38 @@
       "probability": 31.3
     },
     "redCardRisk": {
-      "USA": 4.7,
-      "Australia": 5.5
+      "USA": 5.3,
+      "Australia": 6.2
     },
     "modelScores": {
-      "USA": 128.2,
-      "Australia": 122.1
+      "USA": 127.7,
+      "Australia": 119.4
+    },
+    "travel": {
+      "USA": {
+        "distanceKm": 3236,
+        "penalty": 0.8,
+        "impact": "Low"
+      },
+      "Australia": {
+        "distanceKm": 12857,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 7,
+      "heatImpact": "High",
       "altitude": 1566,
+      "altitudeImpact": "High",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "USA rate higher across the model's team strength indicators.",
-      "Venue factor included: Estadio Akron, Guadalajara, heat risk 7/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "USA rate higher overall in the model.",
+      "USA travel distance: 3236 km. Australia travel distance: 12857 km.",
+      "Venue: Estadio Akron, Guadalajara. Heat impact: High. Altitude impact: High.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "USA is favoured because of advantages across elo strength, squad rating, attack, recent form.",
@@ -2009,6 +2294,7 @@
   },
   {
     "id": "match_020",
+    "matchNumber": 20,
     "stage": "Group Stage",
     "group": "D",
     "date": "2026-06-15T21:00:00+02:00",
@@ -2030,24 +2316,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Turkey": 5.9,
-      "Paraguay": 6.2
+      "Turkey": 6,
+      "Paraguay": 6.3
     },
     "modelScores": {
-      "Turkey": 125.3,
-      "Paraguay": 117.5
+      "Turkey": 123.4,
+      "Paraguay": 115.6
+    },
+    "travel": {
+      "Turkey": {
+        "distanceKm": 8394,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Paraguay": {
+        "distanceKm": 7543,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 4,
+      "heatImpact": "Low",
       "altitude": 8,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Turkey rate higher across the model's team strength indicators.",
-      "Venue factor included: MetLife Stadium, New York, heat risk 4/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Turkey rate higher overall in the model.",
+      "Turkey travel distance: 8394 km. Paraguay travel distance: 7543 km.",
+      "Venue: MetLife Stadium, New York. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Turkey is favoured because of advantages across elo strength, attack, recent form, squad rating.",
@@ -2114,6 +2414,7 @@
   },
   {
     "id": "match_021",
+    "matchNumber": 21,
     "stage": "Group Stage",
     "group": "D",
     "date": "2026-06-16T18:00:00+02:00",
@@ -2122,9 +2423,9 @@
     "stadium": "AT&T Stadium",
     "city": "Dallas",
     "probabilities": {
-      "home": 53.9,
-      "draw": 20.5,
-      "away": 25.7
+      "home": 60.2,
+      "draw": 18.6,
+      "away": 21.2
     },
     "predictedWinner": "USA",
     "predictedScore": "2-1",
@@ -2136,24 +2437,38 @@
       "probability": 31.3
     },
     "redCardRisk": {
-      "USA": 4.7,
-      "Turkey": 5.9
+      "USA": 5.5,
+      "Turkey": 6.8
     },
     "modelScores": {
-      "USA": 131.6,
-      "Turkey": 124.9
+      "USA": 131.4,
+      "Turkey": 122
+    },
+    "travel": {
+      "USA": {
+        "distanceKm": 1929,
+        "penalty": 0.8,
+        "impact": "Low"
+      },
+      "Turkey": {
+        "distanceKm": 10434,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 9,
+      "heatImpact": "Very high",
       "altitude": 184,
-      "homeAdvantage": 3,
+      "altitudeImpact": "Low",
+      "homeAdvantage": 3.5,
       "awayAdvantage": 0
     },
     "notes": [
-      "USA rate higher across the model's team strength indicators.",
-      "Venue factor included: AT&T Stadium, Dallas, heat risk 9/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "USA rate higher overall in the model.",
+      "USA travel distance: 1929 km. Turkey travel distance: 10434 km.",
+      "Venue: AT&T Stadium, Dallas. Heat impact: Very high. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "USA is favoured because of advantages across elo strength, world cup history, defence, discipline risk.",
@@ -2220,6 +2535,7 @@
   },
   {
     "id": "match_022",
+    "matchNumber": 22,
     "stage": "Group Stage",
     "group": "D",
     "date": "2026-06-16T21:00:00+02:00",
@@ -2228,9 +2544,9 @@
     "stadium": "NRG Stadium",
     "city": "Houston",
     "probabilities": {
-      "home": 50.6,
-      "draw": 21.3,
-      "away": 28.1
+      "home": 48.7,
+      "draw": 21.8,
+      "away": 29.5
     },
     "predictedWinner": "Australia",
     "predictedScore": "2-1",
@@ -2241,24 +2557,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Australia": 5.5,
-      "Paraguay": 6.2
+      "Australia": 6.4,
+      "Paraguay": 7
     },
     "modelScores": {
-      "Australia": 122.3,
-      "Paraguay": 117
+      "Australia": 119.6,
+      "Paraguay": 115
+    },
+    "travel": {
+      "Australia": {
+        "distanceKm": 14035,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Paraguay": {
+        "distanceKm": 7322,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 10,
+      "heatImpact": "Very high",
       "altitude": 13,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Australia rate higher across the model's team strength indicators.",
-      "Venue factor included: NRG Stadium, Houston, heat risk 10/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Australia rate higher overall in the model.",
+      "Australia travel distance: 14035 km. Paraguay travel distance: 7322 km.",
+      "Venue: NRG Stadium, Houston. Heat impact: Very high. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Australia is favoured because of advantages across elo strength, recent form, attack, world cup history.",
@@ -2325,6 +2655,7 @@
   },
   {
     "id": "match_023",
+    "matchNumber": 23,
     "stage": "Group Stage",
     "group": "D",
     "date": "2026-06-16T18:00:00+02:00",
@@ -2333,9 +2664,9 @@
     "stadium": "Hard Rock Stadium",
     "city": "Miami",
     "probabilities": {
-      "home": 71,
-      "draw": 14.7,
-      "away": 14.3
+      "home": 74.4,
+      "draw": 13.3,
+      "away": 12.2
     },
     "predictedWinner": "USA",
     "predictedScore": "2-1",
@@ -2347,24 +2678,38 @@
       "probability": 31.3
     },
     "redCardRisk": {
-      "USA": 4.7,
-      "Paraguay": 6.2
+      "USA": 5.5,
+      "Paraguay": 7
     },
     "modelScores": {
-      "USA": 131.5,
-      "Paraguay": 117
+      "USA": 132,
+      "Paraguay": 115.7
+    },
+    "travel": {
+      "USA": {
+        "distanceKm": 1471,
+        "penalty": 0.2,
+        "impact": "Low"
+      },
+      "Paraguay": {
+        "distanceKm": 6194,
+        "penalty": 1.5,
+        "impact": "Medium"
+      }
     },
     "factors": {
       "venueHeatRisk": 10,
+      "heatImpact": "Very high",
       "altitude": 2,
-      "homeAdvantage": 3,
+      "altitudeImpact": "Low",
+      "homeAdvantage": 3.5,
       "awayAdvantage": 0
     },
     "notes": [
-      "USA rate higher across the model's team strength indicators.",
-      "Venue factor included: Hard Rock Stadium, Miami, heat risk 10/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "USA rate higher overall in the model.",
+      "USA travel distance: 1471 km. Paraguay travel distance: 6194 km.",
+      "Venue: Hard Rock Stadium, Miami. Heat impact: Very high. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "USA is favoured because of advantages across elo strength, attack, squad rating, recent form.",
@@ -2431,6 +2776,7 @@
   },
   {
     "id": "match_024",
+    "matchNumber": 24,
     "stage": "Group Stage",
     "group": "D",
     "date": "2026-06-16T21:00:00+02:00",
@@ -2439,9 +2785,9 @@
     "stadium": "Mercedes-Benz Stadium",
     "city": "Atlanta",
     "probabilities": {
-      "home": 33.3,
-      "draw": 22.8,
-      "away": 43.9
+      "home": 31.8,
+      "draw": 22.4,
+      "away": 45.8
     },
     "predictedWinner": "Turkey",
     "predictedScore": "1-2",
@@ -2452,24 +2798,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Australia": 5.5,
-      "Turkey": 5.9
+      "Australia": 6.2,
+      "Turkey": 6.5
     },
     "modelScores": {
-      "Australia": 122.6,
-      "Turkey": 125.1
+      "Australia": 119.8,
+      "Turkey": 123
+    },
+    "travel": {
+      "Australia": {
+        "distanceKm": 15169,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Turkey": {
+        "distanceKm": 9595,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 7,
+      "heatImpact": "High",
       "altitude": 320,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Turkey rate higher across the model's team strength indicators.",
-      "Venue factor included: Mercedes-Benz Stadium, Atlanta, heat risk 7/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Turkey rate higher overall in the model.",
+      "Australia travel distance: 15169 km. Turkey travel distance: 9595 km.",
+      "Venue: Mercedes-Benz Stadium, Atlanta. Heat impact: High. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Turkey is favoured because of advantages across elo strength, attack, squad rating, world cup history.",
@@ -2536,6 +2896,7 @@
   },
   {
     "id": "match_025",
+    "matchNumber": 25,
     "stage": "Group Stage",
     "group": "E",
     "date": "2026-06-17T18:00:00+02:00",
@@ -2544,9 +2905,9 @@
     "stadium": "Lincoln Financial Field",
     "city": "Philadelphia",
     "probabilities": {
-      "home": 85.2,
-      "draw": 8.6,
-      "away": 6.2
+      "home": 85.9,
+      "draw": 8.3,
+      "away": 5.8
     },
     "predictedWinner": "Germany",
     "predictedScore": "3-1",
@@ -2558,24 +2919,38 @@
       "probability": 32.3
     },
     "redCardRisk": {
-      "Germany": 3.8,
-      "Côte d'Ivoire": 6
+      "Germany": 4.1,
+      "Côte d'Ivoire": 6.4
     },
     "modelScores": {
-      "Germany": 140.9,
-      "Côte d'Ivoire": 117.3
+      "Germany": 139.6,
+      "Côte d'Ivoire": 115.3
+    },
+    "travel": {
+      "Germany": {
+        "distanceKm": 6519,
+        "penalty": 1.5,
+        "impact": "Medium"
+      },
+      "Côte d'Ivoire": {
+        "distanceKm": 8022,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 5,
+      "heatImpact": "Medium",
       "altitude": 12,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Germany rate higher across the model's team strength indicators.",
-      "Venue factor included: Lincoln Financial Field, Philadelphia, heat risk 5/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Germany rate higher overall in the model.",
+      "Germany travel distance: 6519 km. Côte d'Ivoire travel distance: 8022 km.",
+      "Venue: Lincoln Financial Field, Philadelphia. Heat impact: Medium. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Germany is favoured because of advantages across elo strength, world cup history, squad rating, defence.",
@@ -2642,6 +3017,7 @@
   },
   {
     "id": "match_026",
+    "matchNumber": 26,
     "stage": "Group Stage",
     "group": "E",
     "date": "2026-06-17T21:00:00+02:00",
@@ -2663,24 +3039,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Ecuador": 5.5,
-      "Curaçao": 6
+      "Ecuador": 5.6,
+      "Curaçao": 6.1
     },
     "modelScores": {
-      "Ecuador": 125.7,
-      "Curaçao": 97.9
+      "Ecuador": 124.4,
+      "Curaçao": 96.6
+    },
+    "travel": {
+      "Ecuador": {
+        "distanceKm": 6790,
+        "penalty": 1.5,
+        "impact": "Medium"
+      },
+      "Curaçao": {
+        "distanceKm": 6303,
+        "penalty": 1.5,
+        "impact": "Medium"
+      }
     },
     "factors": {
       "venueHeatRisk": 3,
+      "heatImpact": "Low",
       "altitude": 17,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Ecuador rate higher across the model's team strength indicators.",
-      "Venue factor included: Lumen Field, Seattle, heat risk 3/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Ecuador rate higher overall in the model.",
+      "Ecuador travel distance: 6790 km. Curaçao travel distance: 6303 km.",
+      "Venue: Lumen Field, Seattle. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Ecuador is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
@@ -2747,6 +3137,7 @@
   },
   {
     "id": "match_027",
+    "matchNumber": 27,
     "stage": "Group Stage",
     "group": "E",
     "date": "2026-06-17T18:00:00+02:00",
@@ -2755,9 +3146,9 @@
     "stadium": "Levi's Stadium",
     "city": "San Francisco",
     "probabilities": {
-      "home": 72.9,
-      "draw": 14,
-      "away": 13.1
+      "home": 71.5,
+      "draw": 14.5,
+      "away": 13.9
     },
     "predictedWinner": "Germany",
     "predictedScore": "3-1",
@@ -2769,24 +3160,38 @@
       "probability": 32.3
     },
     "redCardRisk": {
-      "Germany": 3.8,
-      "Ecuador": 5.5
+      "Germany": 4.1,
+      "Ecuador": 5.8
     },
     "modelScores": {
-      "Germany": 140.8,
-      "Ecuador": 125.4
+      "Germany": 138.9,
+      "Ecuador": 124.2
+    },
+    "travel": {
+      "Germany": {
+        "distanceKm": 9126,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Ecuador": {
+        "distanceKm": 6110,
+        "penalty": 1.5,
+        "impact": "Medium"
+      }
     },
     "factors": {
       "venueHeatRisk": 6,
+      "heatImpact": "Medium",
       "altitude": 15,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Germany rate higher across the model's team strength indicators.",
-      "Venue factor included: Levi's Stadium, San Francisco, heat risk 6/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Germany rate higher overall in the model.",
+      "Germany travel distance: 9126 km. Ecuador travel distance: 6110 km.",
+      "Venue: Levi's Stadium, San Francisco. Heat impact: Medium. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Germany is favoured because of advantages across elo strength, world cup history, attack, squad rating.",
@@ -2853,6 +3258,7 @@
   },
   {
     "id": "match_028",
+    "matchNumber": 28,
     "stage": "Group Stage",
     "group": "E",
     "date": "2026-06-17T21:00:00+02:00",
@@ -2861,9 +3267,9 @@
     "stadium": "SoFi Stadium",
     "city": "Los Angeles",
     "probabilities": {
-      "home": 80,
-      "draw": 10.9,
-      "away": 9.1
+      "home": 77.6,
+      "draw": 12,
+      "away": 10.4
     },
     "predictedWinner": "Côte d'Ivoire",
     "predictedScore": "3-1",
@@ -2874,24 +3280,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Côte d'Ivoire": 6,
-      "Curaçao": 6
+      "Côte d'Ivoire": 6.4,
+      "Curaçao": 6.3
     },
     "modelScores": {
-      "Côte d'Ivoire": 117.2,
-      "Curaçao": 97.6
+      "Côte d'Ivoire": 114.5,
+      "Curaçao": 96.4
+    },
+    "travel": {
+      "Côte d'Ivoire": {
+        "distanceKm": 11869,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Curaçao": {
+        "distanceKm": 5533,
+        "penalty": 1.5,
+        "impact": "Medium"
+      }
     },
     "factors": {
       "venueHeatRisk": 6,
+      "heatImpact": "Medium",
       "altitude": 30,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Côte d'Ivoire rate higher across the model's team strength indicators.",
-      "Venue factor included: SoFi Stadium, Los Angeles, heat risk 6/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Côte d'Ivoire rate higher overall in the model.",
+      "Côte d'Ivoire travel distance: 11869 km. Curaçao travel distance: 5533 km.",
+      "Venue: SoFi Stadium, Los Angeles. Heat impact: Medium. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Côte d'Ivoire is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -2958,6 +3378,7 @@
   },
   {
     "id": "match_029",
+    "matchNumber": 29,
     "stage": "Group Stage",
     "group": "E",
     "date": "2026-06-18T18:00:00+02:00",
@@ -2966,9 +3387,9 @@
     "stadium": "GEHA Field at Arrowhead Stadium",
     "city": "Kansas City",
     "probabilities": {
-      "home": 95.9,
-      "draw": 3.3,
-      "away": 0.8
+      "home": 95.6,
+      "draw": 3.5,
+      "away": 0.9
     },
     "predictedWinner": "Germany",
     "predictedScore": "3-0",
@@ -2980,24 +3401,38 @@
       "probability": 32.3
     },
     "redCardRisk": {
-      "Germany": 3.8,
-      "Curaçao": 6
+      "Germany": 4.4,
+      "Curaçao": 6.6
     },
     "modelScores": {
-      "Germany": 140.7,
-      "Curaçao": 97.5
+      "Germany": 138.7,
+      "Curaçao": 96.9
+    },
+    "travel": {
+      "Germany": {
+        "distanceKm": 7697,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Curaçao": {
+        "distanceKm": 3904,
+        "penalty": 0.8,
+        "impact": "Low"
+      }
     },
     "factors": {
       "venueHeatRisk": 7,
+      "heatImpact": "High",
       "altitude": 264,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Germany rate higher across the model's team strength indicators.",
-      "Venue factor included: GEHA Field at Arrowhead Stadium, Kansas City, heat risk 7/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Germany rate higher overall in the model.",
+      "Germany travel distance: 7697 km. Curaçao travel distance: 3904 km.",
+      "Venue: GEHA Field at Arrowhead Stadium, Kansas City. Heat impact: High. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Germany is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -3064,6 +3499,7 @@
   },
   {
     "id": "match_030",
+    "matchNumber": 30,
     "stage": "Group Stage",
     "group": "E",
     "date": "2026-06-18T21:00:00+02:00",
@@ -3072,9 +3508,9 @@
     "stadium": "Gillette Stadium",
     "city": "Boston",
     "probabilities": {
-      "home": 23.1,
-      "draw": 19.4,
-      "away": 57.5
+      "home": 22,
+      "draw": 18.9,
+      "away": 59.1
     },
     "predictedWinner": "Ecuador",
     "predictedScore": "1-2",
@@ -3085,24 +3521,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Côte d'Ivoire": 6,
-      "Ecuador": 5.5
+      "Côte d'Ivoire": 6.2,
+      "Ecuador": 5.6
     },
     "modelScores": {
-      "Côte d'Ivoire": 117.4,
-      "Ecuador": 125.6
+      "Côte d'Ivoire": 115.4,
+      "Ecuador": 124.4
+    },
+    "travel": {
+      "Côte d'Ivoire": {
+        "distanceKm": 7741,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Ecuador": {
+        "distanceKm": 4756,
+        "penalty": 1.5,
+        "impact": "Medium"
+      }
     },
     "factors": {
       "venueHeatRisk": 4,
+      "heatImpact": "Low",
       "altitude": 90,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Ecuador rate higher across the model's team strength indicators.",
-      "Venue factor included: Gillette Stadium, Boston, heat risk 4/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Ecuador rate higher overall in the model.",
+      "Côte d'Ivoire travel distance: 7741 km. Ecuador travel distance: 4756 km.",
+      "Venue: Gillette Stadium, Boston. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Ecuador is favoured because of advantages across elo strength, world cup history, defence, recent form.",
@@ -3169,6 +3619,7 @@
   },
   {
     "id": "match_031",
+    "matchNumber": 31,
     "stage": "Group Stage",
     "group": "F",
     "date": "2026-06-18T18:00:00+02:00",
@@ -3191,24 +3642,38 @@
       "probability": 31.6
     },
     "redCardRisk": {
-      "Netherlands": 4.1,
-      "Sweden": 4.7
+      "Netherlands": 4.2,
+      "Sweden": 4.9
     },
     "modelScores": {
-      "Netherlands": 143.4,
-      "Sweden": 122.6
+      "Netherlands": 141.3,
+      "Sweden": 120.5
+    },
+    "travel": {
+      "Netherlands": {
+        "distanceKm": 7696,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Sweden": {
+        "distanceKm": 7437,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 2,
+      "heatImpact": "Low",
       "altitude": 5,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Netherlands rate higher across the model's team strength indicators.",
-      "Venue factor included: BC Place, Vancouver, heat risk 2/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Netherlands rate higher overall in the model.",
+      "Netherlands travel distance: 7696 km. Sweden travel distance: 7437 km.",
+      "Venue: BC Place, Vancouver. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Netherlands is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -3275,6 +3740,7 @@
   },
   {
     "id": "match_032",
+    "matchNumber": 32,
     "stage": "Group Stage",
     "group": "F",
     "date": "2026-06-18T21:00:00+02:00",
@@ -3283,9 +3749,9 @@
     "stadium": "BMO Field",
     "city": "Toronto",
     "probabilities": {
-      "home": 15.9,
-      "draw": 15.7,
-      "away": 68.4
+      "home": 16.9,
+      "draw": 16.3,
+      "away": 66.8
     },
     "predictedWinner": "Japan",
     "predictedScore": "1-2",
@@ -3297,24 +3763,38 @@
       "probability": 30.9
     },
     "redCardRisk": {
-      "Tunisia": 5.7,
-      "Japan": 3.8
+      "Tunisia": 5.8,
+      "Japan": 3.9
     },
     "modelScores": {
-      "Tunisia": 116.8,
-      "Japan": 130
+      "Tunisia": 114.9,
+      "Japan": 127.3
+    },
+    "travel": {
+      "Tunisia": {
+        "distanceKm": 7264,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Japan": {
+        "distanceKm": 10352,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 4,
+      "heatImpact": "Low",
       "altitude": 76,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Japan rate higher across the model's team strength indicators.",
-      "Venue factor included: BMO Field, Toronto, heat risk 4/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Japan rate higher overall in the model.",
+      "Tunisia travel distance: 7264 km. Japan travel distance: 10352 km.",
+      "Venue: BMO Field, Toronto. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Japan is favoured because of advantages across elo strength, world cup history, attack, recent form.",
@@ -3381,6 +3861,7 @@
   },
   {
     "id": "match_033",
+    "matchNumber": 33,
     "stage": "Group Stage",
     "group": "F",
     "date": "2026-06-19T18:00:00+02:00",
@@ -3389,9 +3870,9 @@
     "stadium": "Estadio Azteca",
     "city": "Mexico City",
     "probabilities": {
-      "home": 87.7,
-      "draw": 7.6,
-      "away": 4.7
+      "home": 88.4,
+      "draw": 7.3,
+      "away": 4.3
     },
     "predictedWinner": "Netherlands",
     "predictedScore": "3-0",
@@ -3403,24 +3884,38 @@
       "probability": 31.6
     },
     "redCardRisk": {
-      "Netherlands": 4.1,
-      "Tunisia": 5.7
+      "Netherlands": 4.4,
+      "Tunisia": 6
     },
     "modelScores": {
-      "Netherlands": 142.6,
-      "Tunisia": 116.2
+      "Netherlands": 140.5,
+      "Tunisia": 113.3
+    },
+    "travel": {
+      "Netherlands": {
+        "distanceKm": 9229,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Tunisia": {
+        "distanceKm": 10340,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 5,
+      "heatImpact": "Medium",
       "altitude": 2240,
+      "altitudeImpact": "Very high",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Netherlands rate higher across the model's team strength indicators.",
-      "Venue factor included: Estadio Azteca, Mexico City, heat risk 5/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Netherlands rate higher overall in the model.",
+      "Netherlands travel distance: 9229 km. Tunisia travel distance: 10340 km.",
+      "Venue: Estadio Azteca, Mexico City. Heat impact: Medium. Altitude impact: Very high.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Netherlands is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -3487,6 +3982,7 @@
   },
   {
     "id": "match_034",
+    "matchNumber": 34,
     "stage": "Group Stage",
     "group": "F",
     "date": "2026-06-19T21:00:00+02:00",
@@ -3495,9 +3991,9 @@
     "stadium": "Estadio BBVA",
     "city": "Monterrey",
     "probabilities": {
-      "home": 24.2,
-      "draw": 19.9,
-      "away": 56
+      "home": 25.5,
+      "draw": 20.4,
+      "away": 54.1
     },
     "predictedWinner": "Japan",
     "predictedScore": "1-2",
@@ -3509,24 +4005,38 @@
       "probability": 30.9
     },
     "redCardRisk": {
-      "Sweden": 4.7,
-      "Japan": 3.8
+      "Sweden": 5.3,
+      "Japan": 4.4
     },
     "modelScores": {
-      "Sweden": 122.1,
-      "Japan": 129.7
+      "Sweden": 120,
+      "Japan": 126.7
+    },
+    "travel": {
+      "Sweden": {
+        "distanceKm": 9019,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Japan": {
+        "distanceKm": 10739,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 8,
+      "heatImpact": "High",
       "altitude": 540,
+      "altitudeImpact": "Medium",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Japan rate higher across the model's team strength indicators.",
-      "Venue factor included: Estadio BBVA, Monterrey, heat risk 8/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Japan rate higher overall in the model.",
+      "Sweden travel distance: 9019 km. Japan travel distance: 10739 km.",
+      "Venue: Estadio BBVA, Monterrey. Heat impact: High. Altitude impact: Medium.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Japan is favoured because of advantages across elo strength, recent form, attack, squad rating.",
@@ -3593,6 +4103,7 @@
   },
   {
     "id": "match_035",
+    "matchNumber": 35,
     "stage": "Group Stage",
     "group": "F",
     "date": "2026-06-19T18:00:00+02:00",
@@ -3601,9 +4112,9 @@
     "stadium": "Estadio Akron",
     "city": "Guadalajara",
     "probabilities": {
-      "home": 68.6,
-      "draw": 15.6,
-      "away": 15.7
+      "home": 70.2,
+      "draw": 15,
+      "away": 14.7
     },
     "predictedWinner": "Netherlands",
     "predictedScore": "2-1",
@@ -3615,24 +4126,38 @@
       "probability": 31.6
     },
     "redCardRisk": {
-      "Netherlands": 4.1,
-      "Japan": 3.8
+      "Netherlands": 4.7,
+      "Japan": 4.4
     },
     "modelScores": {
-      "Netherlands": 142.5,
-      "Japan": 129.2
+      "Netherlands": 140.6,
+      "Japan": 126.5
+    },
+    "travel": {
+      "Netherlands": {
+        "distanceKm": 9371,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Japan": {
+        "distanceKm": 10888,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 7,
+      "heatImpact": "High",
       "altitude": 1566,
+      "altitudeImpact": "High",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Netherlands rate higher across the model's team strength indicators.",
-      "Venue factor included: Estadio Akron, Guadalajara, heat risk 7/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Netherlands rate higher overall in the model.",
+      "Netherlands travel distance: 9371 km. Japan travel distance: 10888 km.",
+      "Venue: Estadio Akron, Guadalajara. Heat impact: High. Altitude impact: High.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Netherlands is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
@@ -3699,6 +4224,7 @@
   },
   {
     "id": "match_036",
+    "matchNumber": 36,
     "stage": "Group Stage",
     "group": "F",
     "date": "2026-06-19T21:00:00+02:00",
@@ -3707,37 +4233,51 @@
     "stadium": "MetLife Stadium",
     "city": "New York",
     "probabilities": {
-      "home": 51.3,
-      "draw": 21.1,
-      "away": 27.6
+      "home": 53,
+      "draw": 20.7,
+      "away": 26.3
     },
     "predictedWinner": "Sweden",
     "predictedScore": "2-1",
-    "confidence": "Low",
+    "confidence": "Medium",
     "likelyScorer": {
       "team": "Sweden",
       "name": "No player data available",
       "probability": 0
     },
     "redCardRisk": {
-      "Sweden": 4.7,
-      "Tunisia": 5.7
+      "Sweden": 4.9,
+      "Tunisia": 5.8
     },
     "modelScores": {
-      "Sweden": 122.4,
-      "Tunisia": 116.8
+      "Sweden": 121.2,
+      "Tunisia": 114.9
+    },
+    "travel": {
+      "Sweden": {
+        "distanceKm": 6315,
+        "penalty": 1.5,
+        "impact": "Medium"
+      },
+      "Tunisia": {
+        "distanceKm": 7018,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 4,
+      "heatImpact": "Low",
       "altitude": 8,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Sweden rate higher across the model's team strength indicators.",
-      "Venue factor included: MetLife Stadium, New York, heat risk 4/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Sweden rate higher overall in the model.",
+      "Sweden travel distance: 6315 km. Tunisia travel distance: 7018 km.",
+      "Venue: MetLife Stadium, New York. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Sweden is favoured because of advantages across elo strength, world cup history, attack, squad rating.",
@@ -3804,6 +4344,7 @@
   },
   {
     "id": "match_037",
+    "matchNumber": 37,
     "stage": "Group Stage",
     "group": "G",
     "date": "2026-06-20T18:00:00+02:00",
@@ -3812,9 +4353,9 @@
     "stadium": "AT&T Stadium",
     "city": "Dallas",
     "probabilities": {
-      "home": 67.7,
-      "draw": 16,
-      "away": 16.3
+      "home": 69.3,
+      "draw": 15.4,
+      "away": 15.3
     },
     "predictedWinner": "Belgium",
     "predictedScore": "2-1",
@@ -3826,24 +4367,38 @@
       "probability": 30.8
     },
     "redCardRisk": {
-      "Belgium": 4.2,
-      "Iran": 5.5
+      "Belgium": 5.1,
+      "Iran": 6.4
     },
     "modelScores": {
-      "Belgium": 136.9,
-      "Iran": 124.1
+      "Belgium": 134.9,
+      "Iran": 121.3
+    },
+    "travel": {
+      "Belgium": {
+        "distanceKm": 7972,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Iran": {
+        "distanceKm": 11728,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 9,
+      "heatImpact": "Very high",
       "altitude": 184,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Belgium rate higher across the model's team strength indicators.",
-      "Venue factor included: AT&T Stadium, Dallas, heat risk 9/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Belgium rate higher overall in the model.",
+      "Belgium travel distance: 7972 km. Iran travel distance: 11728 km.",
+      "Venue: AT&T Stadium, Dallas. Heat impact: Very high. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Belgium is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -3910,6 +4465,7 @@
   },
   {
     "id": "match_038",
+    "matchNumber": 38,
     "stage": "Group Stage",
     "group": "G",
     "date": "2026-06-20T21:00:00+02:00",
@@ -3923,7 +4479,7 @@
       "away": 81.8
     },
     "predictedWinner": "Egypt",
-    "predictedScore": "1-3",
+    "predictedScore": "1-2",
     "confidence": "High",
     "likelyScorer": {
       "team": "Egypt",
@@ -3931,24 +4487,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "New Zealand": 5.5,
-      "Egypt": 5.1
+      "New Zealand": 6.4,
+      "Egypt": 6
     },
     "modelScores": {
-      "New Zealand": 98.7,
-      "Egypt": 119.5
+      "New Zealand": 95.9,
+      "Egypt": 116.7
+    },
+    "travel": {
+      "New Zealand": {
+        "distanceKm": 12114,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Egypt": {
+        "distanceKm": 11296,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 10,
+      "heatImpact": "Very high",
       "altitude": 13,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Egypt rate higher across the model's team strength indicators.",
-      "Venue factor included: NRG Stadium, Houston, heat risk 10/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Egypt rate higher overall in the model.",
+      "New Zealand travel distance: 12114 km. Egypt travel distance: 11296 km.",
+      "Venue: NRG Stadium, Houston. Heat impact: Very high. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Egypt is favoured because of advantages across elo strength, world cup history, attack, squad rating.",
@@ -4015,6 +4585,7 @@
   },
   {
     "id": "match_039",
+    "matchNumber": 39,
     "stage": "Group Stage",
     "group": "G",
     "date": "2026-06-20T18:00:00+02:00",
@@ -4023,9 +4594,9 @@
     "stadium": "Hard Rock Stadium",
     "city": "Miami",
     "probabilities": {
-      "home": 94.4,
-      "draw": 4.3,
-      "away": 1.4
+      "home": 94.7,
+      "draw": 4.1,
+      "away": 1.3
     },
     "predictedWinner": "Belgium",
     "predictedScore": "3-0",
@@ -4037,24 +4608,38 @@
       "probability": 30.8
     },
     "redCardRisk": {
-      "Belgium": 4.2,
-      "New Zealand": 5.5
+      "Belgium": 5.1,
+      "New Zealand": 6.4
     },
     "modelScores": {
-      "Belgium": 136.8,
-      "New Zealand": 98.7
+      "Belgium": 134.9,
+      "New Zealand": 95.9
+    },
+    "travel": {
+      "Belgium": {
+        "distanceKm": 7435,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "New Zealand": {
+        "distanceKm": 13078,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 10,
+      "heatImpact": "Very high",
       "altitude": 2,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Belgium rate higher across the model's team strength indicators.",
-      "Venue factor included: Hard Rock Stadium, Miami, heat risk 10/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Belgium rate higher overall in the model.",
+      "Belgium travel distance: 7435 km. New Zealand travel distance: 13078 km.",
+      "Venue: Hard Rock Stadium, Miami. Heat impact: Very high. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Belgium is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -4121,6 +4706,7 @@
   },
   {
     "id": "match_040",
+    "matchNumber": 40,
     "stage": "Group Stage",
     "group": "G",
     "date": "2026-06-20T21:00:00+02:00",
@@ -4142,24 +4728,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Iran": 5.5,
-      "Egypt": 5.1
+      "Iran": 6.1,
+      "Egypt": 5.7
     },
     "modelScores": {
-      "Iran": 124.3,
-      "Egypt": 119.8
+      "Iran": 121.5,
+      "Egypt": 116.9
+    },
+    "travel": {
+      "Iran": {
+        "distanceKm": 11030,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Egypt": {
+        "distanceKm": 10219,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 7,
+      "heatImpact": "High",
       "altitude": 320,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Iran rate higher across the model's team strength indicators.",
-      "Venue factor included: Mercedes-Benz Stadium, Atlanta, heat risk 7/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Iran rate higher overall in the model.",
+      "Iran travel distance: 11030 km. Egypt travel distance: 10219 km.",
+      "Venue: Mercedes-Benz Stadium, Atlanta. Heat impact: High. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Iran is favoured because of advantages across elo strength, world cup history, recent form, attack.",
@@ -4226,6 +4826,7 @@
   },
   {
     "id": "match_041",
+    "matchNumber": 41,
     "stage": "Group Stage",
     "group": "G",
     "date": "2026-06-21T18:00:00+02:00",
@@ -4234,9 +4835,9 @@
     "stadium": "Lincoln Financial Field",
     "city": "Philadelphia",
     "probabilities": {
-      "home": 76.3,
-      "draw": 12.5,
-      "away": 11.1
+      "home": 77.5,
+      "draw": 12,
+      "away": 10.5
     },
     "predictedWinner": "Belgium",
     "predictedScore": "3-1",
@@ -4248,24 +4849,38 @@
       "probability": 30.8
     },
     "redCardRisk": {
-      "Belgium": 4.2,
-      "Egypt": 5.1
+      "Belgium": 4.5,
+      "Egypt": 5.5
     },
     "modelScores": {
-      "Belgium": 137.3,
-      "Egypt": 120
+      "Belgium": 136,
+      "Egypt": 118
+    },
+    "travel": {
+      "Belgium": {
+        "distanceKm": 6022,
+        "penalty": 1.5,
+        "impact": "Medium"
+      },
+      "Egypt": {
+        "distanceKm": 9154,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 5,
+      "heatImpact": "Medium",
       "altitude": 12,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Belgium rate higher across the model's team strength indicators.",
-      "Venue factor included: Lincoln Financial Field, Philadelphia, heat risk 5/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Belgium rate higher overall in the model.",
+      "Belgium travel distance: 6022 km. Egypt travel distance: 9154 km.",
+      "Venue: Lincoln Financial Field, Philadelphia. Heat impact: Medium. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Belgium is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -4332,6 +4947,7 @@
   },
   {
     "id": "match_042",
+    "matchNumber": 42,
     "stage": "Group Stage",
     "group": "G",
     "date": "2026-06-21T21:00:00+02:00",
@@ -4353,24 +4969,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Iran": 5.5,
-      "New Zealand": 5.5
+      "Iran": 5.6,
+      "New Zealand": 5.6
     },
     "modelScores": {
-      "Iran": 124.7,
-      "New Zealand": 99.3
+      "Iran": 121.8,
+      "New Zealand": 96.5
+    },
+    "travel": {
+      "Iran": {
+        "distanceKm": 10733,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "New Zealand": {
+        "distanceKm": 11659,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 3,
+      "heatImpact": "Low",
       "altitude": 17,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Iran rate higher across the model's team strength indicators.",
-      "Venue factor included: Lumen Field, Seattle, heat risk 3/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Iran rate higher overall in the model.",
+      "Iran travel distance: 10733 km. New Zealand travel distance: 11659 km.",
+      "Venue: Lumen Field, Seattle. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Iran is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -4437,6 +5067,7 @@
   },
   {
     "id": "match_043",
+    "matchNumber": 43,
     "stage": "Group Stage",
     "group": "H",
     "date": "2026-06-21T18:00:00+02:00",
@@ -4445,9 +5076,9 @@
     "stadium": "Levi's Stadium",
     "city": "San Francisco",
     "probabilities": {
-      "home": 93.9,
-      "draw": 4.5,
-      "away": 1.6
+      "home": 94.2,
+      "draw": 4.4,
+      "away": 1.4
     },
     "predictedWinner": "Spain",
     "predictedScore": "3-0",
@@ -4459,24 +5090,38 @@
       "probability": 32
     },
     "redCardRisk": {
-      "Spain": 3.3,
-      "Saudi Arabia": 5.8
+      "Spain": 3.6,
+      "Saudi Arabia": 6.1
     },
     "modelScores": {
-      "Spain": 147.5,
-      "Saudi Arabia": 110.6
+      "Spain": 145.6,
+      "Saudi Arabia": 107.9
+    },
+    "travel": {
+      "Spain": {
+        "distanceKm": 9322,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Saudi Arabia": {
+        "distanceKm": 13007,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 6,
+      "heatImpact": "Medium",
       "altitude": 15,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Spain rate higher across the model's team strength indicators.",
-      "Venue factor included: Levi's Stadium, San Francisco, heat risk 6/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Spain rate higher overall in the model.",
+      "Spain travel distance: 9322 km. Saudi Arabia travel distance: 13007 km.",
+      "Venue: Levi's Stadium, San Francisco. Heat impact: Medium. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Spain is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -4543,6 +5188,7 @@
   },
   {
     "id": "match_044",
+    "matchNumber": 44,
     "stage": "Group Stage",
     "group": "H",
     "date": "2026-06-21T21:00:00+02:00",
@@ -4551,9 +5197,9 @@
     "stadium": "SoFi Stadium",
     "city": "Los Angeles",
     "probabilities": {
-      "home": 92.9,
-      "draw": 5.1,
-      "away": 2
+      "home": 92.5,
+      "draw": 5.3,
+      "away": 2.2
     },
     "predictedWinner": "Uruguay",
     "predictedScore": "3-0",
@@ -4565,24 +5211,38 @@
       "probability": 31.4
     },
     "redCardRisk": {
-      "Uruguay": 6.1,
-      "Cabo Verde": 5.8
+      "Uruguay": 6.5,
+      "Cabo Verde": 6.2
     },
     "modelScores": {
-      "Uruguay": 137.2,
-      "Cabo Verde": 102.6
+      "Uruguay": 134.5,
+      "Cabo Verde": 100.7
+    },
+    "travel": {
+      "Uruguay": {
+        "distanceKm": 10020,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Cabo Verde": {
+        "distanceKm": 9520,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 6,
+      "heatImpact": "Medium",
       "altitude": 30,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Uruguay rate higher across the model's team strength indicators.",
-      "Venue factor included: SoFi Stadium, Los Angeles, heat risk 6/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Uruguay rate higher overall in the model.",
+      "Uruguay travel distance: 10020 km. Cabo Verde travel distance: 9520 km.",
+      "Venue: SoFi Stadium, Los Angeles. Heat impact: Medium. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Uruguay is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -4649,6 +5309,7 @@
   },
   {
     "id": "match_045",
+    "matchNumber": 45,
     "stage": "Group Stage",
     "group": "H",
     "date": "2026-06-22T18:00:00+02:00",
@@ -4671,24 +5332,38 @@
       "probability": 32
     },
     "redCardRisk": {
-      "Spain": 3.3,
-      "Uruguay": 6.1
+      "Spain": 3.9,
+      "Uruguay": 6.7
     },
     "modelScores": {
-      "Spain": 147.4,
-      "Uruguay": 137.1
+      "Spain": 145.4,
+      "Uruguay": 135.1
+    },
+    "travel": {
+      "Spain": {
+        "distanceKm": 7383,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Uruguay": {
+        "distanceKm": 9117,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 7,
+      "heatImpact": "High",
       "altitude": 264,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Spain rate higher across the model's team strength indicators.",
-      "Venue factor included: GEHA Field at Arrowhead Stadium, Kansas City, heat risk 7/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Spain rate higher overall in the model.",
+      "Spain travel distance: 7383 km. Uruguay travel distance: 9117 km.",
+      "Venue: GEHA Field at Arrowhead Stadium, Kansas City. Heat impact: High. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Spain is favoured because of advantages across elo strength, recent form, squad rating, defence.",
@@ -4755,6 +5430,7 @@
   },
   {
     "id": "match_046",
+    "matchNumber": 46,
     "stage": "Group Stage",
     "group": "H",
     "date": "2026-06-22T21:00:00+02:00",
@@ -4763,9 +5439,9 @@
     "stadium": "Gillette Stadium",
     "city": "Boston",
     "probabilities": {
-      "home": 57,
-      "draw": 19.6,
-      "away": 23.5
+      "home": 53.4,
+      "draw": 20.6,
+      "away": 26
     },
     "predictedWinner": "Saudi Arabia",
     "predictedScore": "2-1",
@@ -4776,24 +5452,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Saudi Arabia": 5.8,
-      "Cabo Verde": 5.8
+      "Saudi Arabia": 5.9,
+      "Cabo Verde": 6
     },
     "modelScores": {
-      "Saudi Arabia": 110.8,
-      "Cabo Verde": 102.8
+      "Saudi Arabia": 108.1,
+      "Cabo Verde": 101.6
+    },
+    "travel": {
+      "Saudi Arabia": {
+        "distanceKm": 10234,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Cabo Verde": {
+        "distanceKm": 5459,
+        "penalty": 1.5,
+        "impact": "Medium"
+      }
     },
     "factors": {
       "venueHeatRisk": 4,
+      "heatImpact": "Low",
       "altitude": 90,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Saudi Arabia rate higher across the model's team strength indicators.",
-      "Venue factor included: Gillette Stadium, Boston, heat risk 4/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Saudi Arabia rate higher overall in the model.",
+      "Saudi Arabia travel distance: 10234 km. Cabo Verde travel distance: 5459 km.",
+      "Venue: Gillette Stadium, Boston. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Saudi Arabia is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
@@ -4860,6 +5550,7 @@
   },
   {
     "id": "match_047",
+    "matchNumber": 47,
     "stage": "Group Stage",
     "group": "H",
     "date": "2026-06-22T18:00:00+02:00",
@@ -4882,24 +5573,38 @@
       "probability": 32
     },
     "redCardRisk": {
-      "Spain": 3.3,
-      "Cabo Verde": 5.8
+      "Spain": 3.4,
+      "Cabo Verde": 6
     },
     "modelScores": {
-      "Spain": 147.9,
-      "Cabo Verde": 103
+      "Spain": 145.8,
+      "Cabo Verde": 100.9
+    },
+    "travel": {
+      "Spain": {
+        "distanceKm": 8414,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Cabo Verde": {
+        "distanceKm": 9432,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 2,
+      "heatImpact": "Low",
       "altitude": 5,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Spain rate higher across the model's team strength indicators.",
-      "Venue factor included: BC Place, Vancouver, heat risk 2/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Spain rate higher overall in the model.",
+      "Spain travel distance: 8414 km. Cabo Verde travel distance: 9432 km.",
+      "Venue: BC Place, Vancouver. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Spain is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -4966,6 +5671,7 @@
   },
   {
     "id": "match_048",
+    "matchNumber": 48,
     "stage": "Group Stage",
     "group": "H",
     "date": "2026-06-22T21:00:00+02:00",
@@ -4974,9 +5680,9 @@
     "stadium": "BMO Field",
     "city": "Toronto",
     "probabilities": {
-      "home": 4.6,
-      "draw": 7.5,
-      "away": 87.9
+      "home": 4.2,
+      "draw": 7.2,
+      "away": 88.5
     },
     "predictedWinner": "Uruguay",
     "predictedScore": "1-3",
@@ -4988,24 +5694,38 @@
       "probability": 31.4
     },
     "redCardRisk": {
-      "Saudi Arabia": 5.8,
-      "Uruguay": 6.1
+      "Saudi Arabia": 5.9,
+      "Uruguay": 6.3
     },
     "modelScores": {
-      "Saudi Arabia": 110.8,
-      "Uruguay": 137.4
+      "Saudi Arabia": 108.1,
+      "Uruguay": 135.5
+    },
+    "travel": {
+      "Saudi Arabia": {
+        "distanceKm": 10638,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Uruguay": {
+        "distanceKm": 9045,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 4,
+      "heatImpact": "Low",
       "altitude": 76,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Uruguay rate higher across the model's team strength indicators.",
-      "Venue factor included: BMO Field, Toronto, heat risk 4/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Uruguay rate higher overall in the model.",
+      "Saudi Arabia travel distance: 10638 km. Uruguay travel distance: 9045 km.",
+      "Venue: BMO Field, Toronto. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Uruguay is favoured because of advantages across elo strength, world cup history, attack, squad rating.",
@@ -5072,6 +5792,7 @@
   },
   {
     "id": "match_049",
+    "matchNumber": 49,
     "stage": "Group Stage",
     "group": "I",
     "date": "2026-06-23T18:00:00+02:00",
@@ -5080,9 +5801,9 @@
     "stadium": "Estadio Azteca",
     "city": "Mexico City",
     "probabilities": {
-      "home": 96.3,
-      "draw": 3.1,
-      "away": 0.7
+      "home": 96.4,
+      "draw": 2.9,
+      "away": 0.6
     },
     "predictedWinner": "France",
     "predictedScore": "3-0",
@@ -5094,24 +5815,38 @@
       "probability": 35.5
     },
     "redCardRisk": {
-      "France": 3.6,
-      "Iraq": 5.8
+      "France": 3.9,
+      "Iraq": 6.1
     },
     "modelScores": {
-      "France": 151,
-      "Iraq": 106.5
+      "France": 148.8,
+      "Iraq": 103.6
+    },
+    "travel": {
+      "France": {
+        "distanceKm": 9208,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Iraq": {
+        "distanceKm": 13000,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 5,
+      "heatImpact": "Medium",
       "altitude": 2240,
+      "altitudeImpact": "Very high",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "France rate higher across the model's team strength indicators.",
-      "Venue factor included: Estadio Azteca, Mexico City, heat risk 5/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "France rate higher overall in the model.",
+      "France travel distance: 9208 km. Iraq travel distance: 13000 km.",
+      "Venue: Estadio Azteca, Mexico City. Heat impact: Medium. Altitude impact: Very high.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "France is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -5178,6 +5913,7 @@
   },
   {
     "id": "match_050",
+    "matchNumber": 50,
     "stage": "Group Stage",
     "group": "I",
     "date": "2026-06-23T21:00:00+02:00",
@@ -5200,24 +5936,38 @@
       "probability": 30.4
     },
     "redCardRisk": {
-      "Norway": 4.2,
-      "Senegal": 5.3
+      "Norway": 4.8,
+      "Senegal": 5.9
     },
     "modelScores": {
-      "Norway": 123.9,
-      "Senegal": 130
+      "Norway": 121.8,
+      "Senegal": 127.9
+    },
+    "travel": {
+      "Norway": {
+        "distanceKm": 8641,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Senegal": {
+        "distanceKm": 8597,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 8,
+      "heatImpact": "High",
       "altitude": 540,
+      "altitudeImpact": "Medium",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Senegal rate higher across the model's team strength indicators.",
-      "Venue factor included: Estadio BBVA, Monterrey, heat risk 8/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Senegal rate higher overall in the model.",
+      "Norway travel distance: 8641 km. Senegal travel distance: 8597 km.",
+      "Venue: Estadio BBVA, Monterrey. Heat impact: High. Altitude impact: Medium.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Senegal is favoured because of advantages across elo strength, world cup history, defence, attack.",
@@ -5284,6 +6034,7 @@
   },
   {
     "id": "match_051",
+    "matchNumber": 51,
     "stage": "Group Stage",
     "group": "I",
     "date": "2026-06-23T18:00:00+02:00",
@@ -5297,7 +6048,7 @@
       "away": 4.3
     },
     "predictedWinner": "France",
-    "predictedScore": "3-1",
+    "predictedScore": "3-0",
     "confidence": "High",
     "likelyScorer": {
       "team": "France",
@@ -5306,24 +6057,38 @@
       "probability": 35.5
     },
     "redCardRisk": {
-      "France": 3.6,
-      "Norway": 4.2
+      "France": 4.2,
+      "Norway": 4.8
     },
     "modelScores": {
-      "France": 150.8,
-      "Norway": 123.5
+      "France": 148.9,
+      "Norway": 121.6
+    },
+    "travel": {
+      "France": {
+        "distanceKm": 9381,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Norway": {
+        "distanceKm": 9284,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 7,
+      "heatImpact": "High",
       "altitude": 1566,
+      "altitudeImpact": "High",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "France rate higher across the model's team strength indicators.",
-      "Venue factor included: Estadio Akron, Guadalajara, heat risk 7/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "France rate higher overall in the model.",
+      "France travel distance: 9381 km. Norway travel distance: 9284 km.",
+      "Venue: Estadio Akron, Guadalajara. Heat impact: High. Altitude impact: High.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "France is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
@@ -5390,6 +6155,7 @@
   },
   {
     "id": "match_052",
+    "matchNumber": 52,
     "stage": "Group Stage",
     "group": "I",
     "date": "2026-06-23T21:00:00+02:00",
@@ -5398,9 +6164,9 @@
     "stadium": "MetLife Stadium",
     "city": "New York",
     "probabilities": {
-      "home": 6.4,
-      "draw": 8.7,
-      "away": 84.8
+      "home": 6,
+      "draw": 8.5,
+      "away": 85.5
     },
     "predictedWinner": "Senegal",
     "predictedScore": "1-3",
@@ -5412,24 +6178,38 @@
       "probability": 30.4
     },
     "redCardRisk": {
-      "Iraq": 5.8,
-      "Senegal": 5.3
+      "Iraq": 5.9,
+      "Senegal": 5.4
     },
     "modelScores": {
-      "Iraq": 107.1,
-      "Senegal": 130.4
+      "Iraq": 105.2,
+      "Senegal": 129.1
+    },
+    "travel": {
+      "Iraq": {
+        "distanceKm": 9639,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Senegal": {
+        "distanceKm": 6152,
+        "penalty": 1.5,
+        "impact": "Medium"
+      }
     },
     "factors": {
       "venueHeatRisk": 4,
+      "heatImpact": "Low",
       "altitude": 8,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Senegal rate higher across the model's team strength indicators.",
-      "Venue factor included: MetLife Stadium, New York, heat risk 4/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Senegal rate higher overall in the model.",
+      "Iraq travel distance: 9639 km. Senegal travel distance: 6152 km.",
+      "Venue: MetLife Stadium, New York. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Senegal is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
@@ -5496,6 +6276,7 @@
   },
   {
     "id": "match_053",
+    "matchNumber": 53,
     "stage": "Group Stage",
     "group": "I",
     "date": "2026-06-24T18:00:00+02:00",
@@ -5509,7 +6290,7 @@
       "away": 7.8
     },
     "predictedWinner": "France",
-    "predictedScore": "3-1",
+    "predictedScore": "3-0",
     "confidence": "High",
     "likelyScorer": {
       "team": "France",
@@ -5518,24 +6299,38 @@
       "probability": 35.5
     },
     "redCardRisk": {
-      "France": 3.6,
-      "Senegal": 5.3
+      "France": 4.5,
+      "Senegal": 6.2
     },
     "modelScores": {
-      "France": 151.1,
-      "Senegal": 129.9
+      "France": 149.1,
+      "Senegal": 127.9
+    },
+    "travel": {
+      "France": {
+        "distanceKm": 7956,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Senegal": {
+        "distanceKm": 8174,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 9,
+      "heatImpact": "Very high",
       "altitude": 184,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "France rate higher across the model's team strength indicators.",
-      "Venue factor included: AT&T Stadium, Dallas, heat risk 9/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "France rate higher overall in the model.",
+      "France travel distance: 7956 km. Senegal travel distance: 8174 km.",
+      "Venue: AT&T Stadium, Dallas. Heat impact: Very high. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "France is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -5602,6 +6397,7 @@
   },
   {
     "id": "match_054",
+    "matchNumber": 54,
     "stage": "Group Stage",
     "group": "I",
     "date": "2026-06-24T21:00:00+02:00",
@@ -5610,12 +6406,12 @@
     "stadium": "NRG Stadium",
     "city": "Houston",
     "probabilities": {
-      "home": 11.3,
-      "draw": 12.7,
-      "away": 76.1
+      "home": 10.5,
+      "draw": 12.1,
+      "away": 77.4
     },
     "predictedWinner": "Norway",
-    "predictedScore": "1-3",
+    "predictedScore": "1-2",
     "confidence": "High",
     "likelyScorer": {
       "team": "Norway",
@@ -5624,24 +6420,38 @@
       "probability": 35.1
     },
     "redCardRisk": {
-      "Iraq": 5.8,
-      "Norway": 4.2
+      "Iraq": 6.7,
+      "Norway": 5.1
     },
     "modelScores": {
-      "Iraq": 106.6,
-      "Norway": 123.8
+      "Iraq": 103.8,
+      "Norway": 121.8
+    },
+    "travel": {
+      "Iraq": {
+        "distanceKm": 11831,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Norway": {
+        "distanceKm": 8018,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 10,
+      "heatImpact": "Very high",
       "altitude": 13,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Norway rate higher across the model's team strength indicators.",
-      "Venue factor included: NRG Stadium, Houston, heat risk 10/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Norway rate higher overall in the model.",
+      "Iraq travel distance: 11831 km. Norway travel distance: 8018 km.",
+      "Venue: NRG Stadium, Houston. Heat impact: Very high. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Norway is favoured because of advantages across elo strength, attack, squad rating, recent form.",
@@ -5708,6 +6518,7 @@
   },
   {
     "id": "match_055",
+    "matchNumber": 55,
     "stage": "Group Stage",
     "group": "J",
     "date": "2026-06-24T18:00:00+02:00",
@@ -5721,7 +6532,7 @@
       "away": 5.9
     },
     "predictedWinner": "Argentina",
-    "predictedScore": "3-1",
+    "predictedScore": "3-0",
     "confidence": "High",
     "likelyScorer": {
       "team": "Argentina",
@@ -5730,24 +6541,38 @@
       "probability": 33.4
     },
     "redCardRisk": {
-      "Argentina": 4.1,
-      "Austria": 4.5
+      "Argentina": 5,
+      "Austria": 5.4
     },
     "modelScores": {
-      "Argentina": 151.4,
-      "Austria": 127.4
+      "Argentina": 149.4,
+      "Austria": 125.4
+    },
+    "travel": {
+      "Argentina": {
+        "distanceKm": 7117,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Austria": {
+        "distanceKm": 8349,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 10,
+      "heatImpact": "Very high",
       "altitude": 2,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Argentina rate higher across the model's team strength indicators.",
-      "Venue factor included: Hard Rock Stadium, Miami, heat risk 10/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Argentina rate higher overall in the model.",
+      "Argentina travel distance: 7117 km. Austria travel distance: 8349 km.",
+      "Venue: Hard Rock Stadium, Miami. Heat impact: Very high. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Argentina is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
@@ -5814,6 +6639,7 @@
   },
   {
     "id": "match_056",
+    "matchNumber": 56,
     "stage": "Group Stage",
     "group": "J",
     "date": "2026-06-24T21:00:00+02:00",
@@ -5822,9 +6648,9 @@
     "stadium": "Mercedes-Benz Stadium",
     "city": "Atlanta",
     "probabilities": {
-      "home": 12,
-      "draw": 13.2,
-      "away": 74.8
+      "home": 11.2,
+      "draw": 12.6,
+      "away": 76.2
     },
     "predictedWinner": "Algeria",
     "predictedScore": "1-2",
@@ -5835,24 +6661,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Jordan": 5.8,
-      "Algeria": 5.6
+      "Jordan": 6.3,
+      "Algeria": 6.2
     },
     "modelScores": {
-      "Jordan": 103.6,
-      "Algeria": 120.1
+      "Jordan": 100.8,
+      "Algeria": 118
+    },
+    "travel": {
+      "Jordan": {
+        "distanceKm": 10403,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Algeria": {
+        "distanceKm": 7648,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 7,
+      "heatImpact": "High",
       "altitude": 320,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Algeria rate higher across the model's team strength indicators.",
-      "Venue factor included: Mercedes-Benz Stadium, Atlanta, heat risk 7/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Algeria rate higher overall in the model.",
+      "Jordan travel distance: 10403 km. Algeria travel distance: 7648 km.",
+      "Venue: Mercedes-Benz Stadium, Atlanta. Heat impact: High. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Algeria is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -5919,6 +6759,7 @@
   },
   {
     "id": "match_057",
+    "matchNumber": 57,
     "stage": "Group Stage",
     "group": "J",
     "date": "2026-06-25T18:00:00+02:00",
@@ -5941,24 +6782,38 @@
       "probability": 33.4
     },
     "redCardRisk": {
-      "Argentina": 4.1,
-      "Jordan": 5.8
+      "Argentina": 4.4,
+      "Jordan": 6.1
     },
     "modelScores": {
-      "Argentina": 151.8,
-      "Jordan": 103.8
+      "Argentina": 149.8,
+      "Jordan": 101.8
+    },
+    "travel": {
+      "Argentina": {
+        "distanceKm": 8462,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Jordan": {
+        "distanceKm": 9335,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 5,
+      "heatImpact": "Medium",
       "altitude": 12,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Argentina rate higher across the model's team strength indicators.",
-      "Venue factor included: Lincoln Financial Field, Philadelphia, heat risk 5/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Argentina rate higher overall in the model.",
+      "Argentina travel distance: 8462 km. Jordan travel distance: 9335 km.",
+      "Venue: Lincoln Financial Field, Philadelphia. Heat impact: Medium. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Argentina is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -6025,6 +6880,7 @@
   },
   {
     "id": "match_058",
+    "matchNumber": 58,
     "stage": "Group Stage",
     "group": "J",
     "date": "2026-06-25T21:00:00+02:00",
@@ -6046,24 +6902,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Austria": 4.5,
-      "Algeria": 5.6
+      "Austria": 4.6,
+      "Algeria": 5.8
     },
     "modelScores": {
-      "Austria": 128,
-      "Algeria": 120.4
+      "Austria": 126,
+      "Algeria": 118.4
+    },
+    "travel": {
+      "Austria": {
+        "distanceKm": 8641,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Algeria": {
+        "distanceKm": 9184,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 3,
+      "heatImpact": "Low",
       "altitude": 17,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Austria rate higher across the model's team strength indicators.",
-      "Venue factor included: Lumen Field, Seattle, heat risk 3/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Austria rate higher overall in the model.",
+      "Austria travel distance: 8641 km. Algeria travel distance: 9184 km.",
+      "Venue: Lumen Field, Seattle. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Austria is favoured because of advantages across elo strength, recent form, defence, squad rating.",
@@ -6130,6 +7000,7 @@
   },
   {
     "id": "match_059",
+    "matchNumber": 59,
     "stage": "Group Stage",
     "group": "J",
     "date": "2026-06-25T18:00:00+02:00",
@@ -6152,24 +7023,38 @@
       "probability": 33.4
     },
     "redCardRisk": {
-      "Argentina": 4.1,
-      "Algeria": 5.6
+      "Argentina": 4.4,
+      "Algeria": 6
     },
     "modelScores": {
-      "Argentina": 151.7,
-      "Algeria": 120.2
+      "Argentina": 149,
+      "Algeria": 117.4
+    },
+    "travel": {
+      "Argentina": {
+        "distanceKm": 10352,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Algeria": {
+        "distanceKm": 10019,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 6,
+      "heatImpact": "Medium",
       "altitude": 15,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Argentina rate higher across the model's team strength indicators.",
-      "Venue factor included: Levi's Stadium, San Francisco, heat risk 6/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Argentina rate higher overall in the model.",
+      "Argentina travel distance: 10352 km. Algeria travel distance: 10019 km.",
+      "Venue: Levi's Stadium, San Francisco. Heat impact: Medium. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Argentina is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
@@ -6236,6 +7121,7 @@
   },
   {
     "id": "match_060",
+    "matchNumber": 60,
     "stage": "Group Stage",
     "group": "J",
     "date": "2026-06-25T21:00:00+02:00",
@@ -6244,9 +7130,9 @@
     "stadium": "SoFi Stadium",
     "city": "Los Angeles",
     "probabilities": {
-      "home": 85.6,
-      "draw": 8.4,
-      "away": 5.9
+      "home": 86.4,
+      "draw": 8.1,
+      "away": 5.5
     },
     "predictedWinner": "Austria",
     "predictedScore": "3-1",
@@ -6257,24 +7143,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Austria": 4.5,
-      "Jordan": 5.8
+      "Austria": 4.8,
+      "Jordan": 6.1
     },
     "modelScores": {
-      "Austria": 127.7,
-      "Jordan": 103.7
+      "Austria": 125.8,
+      "Jordan": 101
+    },
+    "travel": {
+      "Austria": {
+        "distanceKm": 9832,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Jordan": {
+        "distanceKm": 12206,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 6,
+      "heatImpact": "Medium",
       "altitude": 30,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Austria rate higher across the model's team strength indicators.",
-      "Venue factor included: SoFi Stadium, Los Angeles, heat risk 6/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Austria rate higher overall in the model.",
+      "Austria travel distance: 9832 km. Jordan travel distance: 12206 km.",
+      "Venue: SoFi Stadium, Los Angeles. Heat impact: Medium. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Austria is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -6341,6 +7241,7 @@
   },
   {
     "id": "match_061",
+    "matchNumber": 61,
     "stage": "Group Stage",
     "group": "K",
     "date": "2026-06-26T18:00:00+02:00",
@@ -6349,9 +7250,9 @@
     "stadium": "GEHA Field at Arrowhead Stadium",
     "city": "Kansas City",
     "probabilities": {
-      "home": 93.7,
-      "draw": 4.6,
-      "away": 1.6
+      "home": 94.1,
+      "draw": 4.4,
+      "away": 1.5
     },
     "predictedWinner": "Portugal",
     "predictedScore": "3-0",
@@ -6363,24 +7264,38 @@
       "probability": 31.6
     },
     "redCardRisk": {
-      "Portugal": 4.1,
-      "Uzbekistan": 5.3
+      "Portugal": 4.7,
+      "Uzbekistan": 5.9
     },
     "modelScores": {
-      "Portugal": 142.2,
-      "Uzbekistan": 105.7
+      "Portugal": 140.2,
+      "Uzbekistan": 102.9
+    },
+    "travel": {
+      "Portugal": {
+        "distanceKm": 7082,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Uzbekistan": {
+        "distanceKm": 10930,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 7,
+      "heatImpact": "High",
       "altitude": 264,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Portugal rate higher across the model's team strength indicators.",
-      "Venue factor included: GEHA Field at Arrowhead Stadium, Kansas City, heat risk 7/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Portugal rate higher overall in the model.",
+      "Portugal travel distance: 7082 km. Uzbekistan travel distance: 10930 km.",
+      "Venue: GEHA Field at Arrowhead Stadium, Kansas City. Heat impact: High. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Portugal is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -6447,6 +7362,7 @@
   },
   {
     "id": "match_062",
+    "matchNumber": 62,
     "stage": "Group Stage",
     "group": "K",
     "date": "2026-06-26T21:00:00+02:00",
@@ -6455,9 +7371,9 @@
     "stadium": "Gillette Stadium",
     "city": "Boston",
     "probabilities": {
-      "home": 88,
-      "draw": 7.5,
-      "away": 4.5
+      "home": 89.2,
+      "draw": 7,
+      "away": 3.9
     },
     "predictedWinner": "Colombia",
     "predictedScore": "3-1",
@@ -6469,24 +7385,38 @@
       "probability": 32.1
     },
     "redCardRisk": {
-      "Colombia": 5.3,
-      "Congo DR": 6.2
+      "Colombia": 5.5,
+      "Congo DR": 6.4
     },
     "modelScores": {
-      "Colombia": 133.5,
-      "Congo DR": 106.7
+      "Colombia": 132.2,
+      "Congo DR": 104
+    },
+    "travel": {
+      "Colombia": {
+        "distanceKm": 4166,
+        "penalty": 1.5,
+        "impact": "Medium"
+      },
+      "Congo DR": {
+        "distanceKm": 10053,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 4,
+      "heatImpact": "Low",
       "altitude": 90,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Colombia rate higher across the model's team strength indicators.",
-      "Venue factor included: Gillette Stadium, Boston, heat risk 4/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Colombia rate higher overall in the model.",
+      "Colombia travel distance: 4166 km. Congo DR travel distance: 10053 km.",
+      "Venue: Gillette Stadium, Boston. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Colombia is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
@@ -6553,6 +7483,7 @@
   },
   {
     "id": "match_063",
+    "matchNumber": 63,
     "stage": "Group Stage",
     "group": "K",
     "date": "2026-06-26T18:00:00+02:00",
@@ -6561,9 +7492,9 @@
     "stadium": "BC Place",
     "city": "Vancouver",
     "probabilities": {
-      "home": 59.3,
-      "draw": 18.8,
-      "away": 21.8
+      "home": 57.7,
+      "draw": 19.3,
+      "away": 22.9
     },
     "predictedWinner": "Portugal",
     "predictedScore": "2-1",
@@ -6575,24 +7506,38 @@
       "probability": 31.6
     },
     "redCardRisk": {
-      "Portugal": 4.1,
-      "Colombia": 5.3
+      "Portugal": 4.3,
+      "Colombia": 5.5
     },
     "modelScores": {
-      "Portugal": 142.6,
-      "Colombia": 133.6
+      "Portugal": 140.5,
+      "Colombia": 132.2
+    },
+    "travel": {
+      "Portugal": {
+        "distanceKm": 8284,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Colombia": {
+        "distanceKm": 6756,
+        "penalty": 1.5,
+        "impact": "Medium"
+      }
     },
     "factors": {
       "venueHeatRisk": 2,
+      "heatImpact": "Low",
       "altitude": 5,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Portugal rate higher across the model's team strength indicators.",
-      "Venue factor included: BC Place, Vancouver, heat risk 2/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Portugal rate higher overall in the model.",
+      "Portugal travel distance: 8284 km. Colombia travel distance: 6756 km.",
+      "Venue: BC Place, Vancouver. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Portugal is favoured because of advantages across elo strength, squad rating, attack, world cup history.",
@@ -6659,6 +7604,7 @@
   },
   {
     "id": "match_064",
+    "matchNumber": 64,
     "stage": "Group Stage",
     "group": "K",
     "date": "2026-06-26T21:00:00+02:00",
@@ -6680,24 +7626,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Uzbekistan": 5.3,
-      "Congo DR": 6.2
+      "Uzbekistan": 5.4,
+      "Congo DR": 6.4
     },
     "modelScores": {
-      "Uzbekistan": 106,
-      "Congo DR": 106.7
+      "Uzbekistan": 103.2,
+      "Congo DR": 104
+    },
+    "travel": {
+      "Uzbekistan": {
+        "distanceKm": 10065,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Congo DR": {
+        "distanceKm": 10725,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 4,
+      "heatImpact": "Low",
       "altitude": 76,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Congo DR rate higher across the model's team strength indicators.",
-      "Venue factor included: BMO Field, Toronto, heat risk 4/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Congo DR rate higher overall in the model.",
+      "Uzbekistan travel distance: 10065 km. Congo DR travel distance: 10725 km.",
+      "Venue: BMO Field, Toronto. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Congo DR is favoured because of advantages across elo strength, world cup history, attack, discipline risk.",
@@ -6764,6 +7724,7 @@
   },
   {
     "id": "match_065",
+    "matchNumber": 65,
     "stage": "Group Stage",
     "group": "K",
     "date": "2026-06-27T18:00:00+02:00",
@@ -6772,9 +7733,9 @@
     "stadium": "Estadio Azteca",
     "city": "Mexico City",
     "probabilities": {
-      "home": 93.4,
-      "draw": 4.8,
-      "away": 1.8
+      "home": 93.8,
+      "draw": 4.6,
+      "away": 1.6
     },
     "predictedWinner": "Portugal",
     "predictedScore": "3-0",
@@ -6786,24 +7747,38 @@
       "probability": 31.6
     },
     "redCardRisk": {
-      "Portugal": 4.1,
-      "Congo DR": 6.2
+      "Portugal": 4.5,
+      "Congo DR": 6.6
     },
     "modelScores": {
-      "Portugal": 141.9,
-      "Congo DR": 106.1
+      "Portugal": 139.7,
+      "Congo DR": 103.2
+    },
+    "travel": {
+      "Portugal": {
+        "distanceKm": 8681,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Congo DR": {
+        "distanceKm": 12731,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 5,
+      "heatImpact": "Medium",
       "altitude": 2240,
+      "altitudeImpact": "Very high",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Portugal rate higher across the model's team strength indicators.",
-      "Venue factor included: Estadio Azteca, Mexico City, heat risk 5/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Portugal rate higher overall in the model.",
+      "Portugal travel distance: 8681 km. Congo DR travel distance: 12731 km.",
+      "Venue: Estadio Azteca, Mexico City. Heat impact: Medium. Altitude impact: Very high.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Portugal is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -6870,6 +7845,7 @@
   },
   {
     "id": "match_066",
+    "matchNumber": 66,
     "stage": "Group Stage",
     "group": "K",
     "date": "2026-06-27T21:00:00+02:00",
@@ -6878,12 +7854,12 @@
     "stadium": "Estadio BBVA",
     "city": "Monterrey",
     "probabilities": {
-      "home": 4.2,
-      "draw": 7.2,
-      "away": 88.6
+      "home": 3.3,
+      "draw": 6.5,
+      "away": 90.2
     },
     "predictedWinner": "Colombia",
-    "predictedScore": "1-3",
+    "predictedScore": "0-3",
     "confidence": "High",
     "likelyScorer": {
       "team": "Colombia",
@@ -6892,24 +7868,38 @@
       "probability": 32.1
     },
     "redCardRisk": {
-      "Uzbekistan": 5.3,
-      "Colombia": 5.3
+      "Uzbekistan": 5.9,
+      "Colombia": 5.9
     },
     "modelScores": {
-      "Uzbekistan": 105.6,
-      "Colombia": 133.1
+      "Uzbekistan": 102.7,
+      "Colombia": 132.4
+    },
+    "travel": {
+      "Uzbekistan": {
+        "distanceKm": 12490,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Colombia": {
+        "distanceKm": 3633,
+        "penalty": 0.8,
+        "impact": "Low"
+      }
     },
     "factors": {
       "venueHeatRisk": 8,
+      "heatImpact": "High",
       "altitude": 540,
+      "altitudeImpact": "Medium",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Colombia rate higher across the model's team strength indicators.",
-      "Venue factor included: Estadio BBVA, Monterrey, heat risk 8/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Colombia rate higher overall in the model.",
+      "Uzbekistan travel distance: 12490 km. Colombia travel distance: 3633 km.",
+      "Venue: Estadio BBVA, Monterrey. Heat impact: High. Altitude impact: Medium.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Colombia is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -6976,6 +7966,7 @@
   },
   {
     "id": "match_067",
+    "matchNumber": 67,
     "stage": "Group Stage",
     "group": "L",
     "date": "2026-06-27T18:00:00+02:00",
@@ -6984,9 +7975,9 @@
     "stadium": "Estadio Akron",
     "city": "Guadalajara",
     "probabilities": {
-      "home": 90.7,
-      "draw": 6.2,
-      "away": 3.1
+      "home": 91.2,
+      "draw": 6,
+      "away": 2.8
     },
     "predictedWinner": "England",
     "predictedScore": "3-0",
@@ -6998,24 +7989,38 @@
       "probability": 34.8
     },
     "redCardRisk": {
-      "England": 3.3,
-      "Ghana": 6.2
+      "England": 3.9,
+      "Ghana": 6.8
     },
     "modelScores": {
-      "England": 145.3,
-      "Ghana": 114.8
+      "England": 143.5,
+      "Ghana": 112.2
+    },
+    "travel": {
+      "England": {
+        "distanceKm": 9099,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Ghana": {
+        "distanceKm": 11156,
+        "penalty": 3,
+        "impact": "Very high"
+      }
     },
     "factors": {
       "venueHeatRisk": 7,
+      "heatImpact": "High",
       "altitude": 1566,
+      "altitudeImpact": "High",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "England rate higher across the model's team strength indicators.",
-      "Venue factor included: Estadio Akron, Guadalajara, heat risk 7/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "England rate higher overall in the model.",
+      "England travel distance: 9099 km. Ghana travel distance: 11156 km.",
+      "Venue: Estadio Akron, Guadalajara. Heat impact: High. Altitude impact: High.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "England is favoured because of advantages across elo strength, squad rating, attack, recent form.",
@@ -7082,6 +8087,7 @@
   },
   {
     "id": "match_068",
+    "matchNumber": 68,
     "stage": "Group Stage",
     "group": "L",
     "date": "2026-06-27T21:00:00+02:00",
@@ -7090,9 +8096,9 @@
     "stadium": "MetLife Stadium",
     "city": "New York",
     "probabilities": {
-      "home": 5.9,
-      "draw": 8.4,
-      "away": 85.7
+      "home": 6.3,
+      "draw": 8.7,
+      "away": 85
     },
     "predictedWinner": "Croatia",
     "predictedScore": "1-3",
@@ -7103,24 +8109,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Panama": 6.1,
-      "Croatia": 4.5
+      "Panama": 6.2,
+      "Croatia": 4.6
     },
     "modelScores": {
-      "Panama": 113.2,
-      "Croatia": 137.4
+      "Panama": 112.7,
+      "Croatia": 136.1
+    },
+    "travel": {
+      "Panama": {
+        "distanceKm": 3580,
+        "penalty": 0.8,
+        "impact": "Low"
+      },
+      "Croatia": {
+        "distanceKm": 6903,
+        "penalty": 1.5,
+        "impact": "Medium"
+      }
     },
     "factors": {
       "venueHeatRisk": 4,
+      "heatImpact": "Low",
       "altitude": 8,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Croatia rate higher across the model's team strength indicators.",
-      "Venue factor included: MetLife Stadium, New York, heat risk 4/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Croatia rate higher overall in the model.",
+      "Panama travel distance: 3580 km. Croatia travel distance: 6903 km.",
+      "Venue: MetLife Stadium, New York. Heat impact: Low. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Croatia is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -7187,6 +8207,7 @@
   },
   {
     "id": "match_069",
+    "matchNumber": 69,
     "stage": "Group Stage",
     "group": "L",
     "date": "2026-06-28T18:00:00+02:00",
@@ -7195,9 +8216,9 @@
     "stadium": "AT&T Stadium",
     "city": "Dallas",
     "probabilities": {
-      "home": 92.1,
-      "draw": 5.6,
-      "away": 2.4
+      "home": 91.3,
+      "draw": 6,
+      "away": 2.8
     },
     "predictedWinner": "England",
     "predictedScore": "3-0",
@@ -7209,24 +8230,38 @@
       "probability": 34.8
     },
     "redCardRisk": {
-      "England": 3.3,
-      "Panama": 6.1
+      "England": 4.2,
+      "Panama": 7
     },
     "modelScores": {
-      "England": 145.7,
-      "Panama": 112.8
+      "England": 143.6,
+      "Panama": 112.1
+    },
+    "travel": {
+      "England": {
+        "distanceKm": 7662,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Panama": {
+        "distanceKm": 3201,
+        "penalty": 0.8,
+        "impact": "Low"
+      }
     },
     "factors": {
       "venueHeatRisk": 9,
+      "heatImpact": "Very high",
       "altitude": 184,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "England rate higher across the model's team strength indicators.",
-      "Venue factor included: AT&T Stadium, Dallas, heat risk 9/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "England rate higher overall in the model.",
+      "England travel distance: 7662 km. Panama travel distance: 3201 km.",
+      "Venue: AT&T Stadium, Dallas. Heat impact: Very high. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "England is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
@@ -7293,6 +8328,7 @@
   },
   {
     "id": "match_070",
+    "matchNumber": 70,
     "stage": "Group Stage",
     "group": "L",
     "date": "2026-06-28T21:00:00+02:00",
@@ -7301,12 +8337,12 @@
     "stadium": "NRG Stadium",
     "city": "Houston",
     "probabilities": {
-      "home": 7.4,
-      "draw": 9.4,
-      "away": 83.1
+      "home": 6.9,
+      "draw": 9,
+      "away": 84.1
     },
     "predictedWinner": "Croatia",
-    "predictedScore": "1-3",
+    "predictedScore": "1-2",
     "confidence": "High",
     "likelyScorer": {
       "team": "Croatia",
@@ -7314,24 +8350,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Ghana": 6.2,
-      "Croatia": 4.5
+      "Ghana": 7.1,
+      "Croatia": 5.3
     },
     "modelScores": {
-      "Ghana": 115.1,
-      "Croatia": 136.8
+      "Ghana": 112.3,
+      "Croatia": 134.9
+    },
+    "travel": {
+      "Ghana": {
+        "distanceKm": 10201,
+        "penalty": 3,
+        "impact": "Very high"
+      },
+      "Croatia": {
+        "distanceKm": 9150,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 10,
+      "heatImpact": "Very high",
       "altitude": 13,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Croatia rate higher across the model's team strength indicators.",
-      "Venue factor included: NRG Stadium, Houston, heat risk 10/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Croatia rate higher overall in the model.",
+      "Ghana travel distance: 10201 km. Croatia travel distance: 9150 km.",
+      "Venue: NRG Stadium, Houston. Heat impact: Very high. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Croatia is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
@@ -7398,6 +8448,7 @@
   },
   {
     "id": "match_071",
+    "matchNumber": 71,
     "stage": "Group Stage",
     "group": "L",
     "date": "2026-06-28T18:00:00+02:00",
@@ -7420,24 +8471,38 @@
       "probability": 34.8
     },
     "redCardRisk": {
-      "England": 3.3,
-      "Croatia": 4.5
+      "England": 4.2,
+      "Croatia": 5.3
     },
     "modelScores": {
-      "England": 145.6,
-      "Croatia": 136.8
+      "England": 143.6,
+      "Croatia": 134.9
+    },
+    "travel": {
+      "England": {
+        "distanceKm": 7114,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Croatia": {
+        "distanceKm": 8424,
+        "penalty": 2.2,
+        "impact": "High"
+      }
     },
     "factors": {
       "venueHeatRisk": 10,
+      "heatImpact": "Very high",
       "altitude": 2,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "England rate higher across the model's team strength indicators.",
-      "Venue factor included: Hard Rock Stadium, Miami, heat risk 10/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "England rate higher overall in the model.",
+      "England travel distance: 7114 km. Croatia travel distance: 8424 km.",
+      "Venue: Hard Rock Stadium, Miami. Heat impact: Very high. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "England is favoured because of advantages across elo strength, attack, squad rating, recent form.",
@@ -7504,6 +8569,7 @@
   },
   {
     "id": "match_072",
+    "matchNumber": 72,
     "stage": "Group Stage",
     "group": "L",
     "date": "2026-06-28T21:00:00+02:00",
@@ -7512,9 +8578,9 @@
     "stadium": "Mercedes-Benz Stadium",
     "city": "Atlanta",
     "probabilities": {
-      "home": 43.6,
-      "draw": 22.9,
-      "away": 33.5
+      "home": 40.3,
+      "draw": 23.5,
+      "away": 36.2
     },
     "predictedWinner": "Ghana",
     "predictedScore": "2-1",
@@ -7525,24 +8591,38 @@
       "probability": 0
     },
     "redCardRisk": {
-      "Ghana": 6.2,
-      "Panama": 6.1
+      "Ghana": 6.8,
+      "Panama": 6.7
     },
     "modelScores": {
-      "Ghana": 115.4,
-      "Panama": 113
+      "Ghana": 113.3,
+      "Panama": 112.3
+    },
+    "travel": {
+      "Ghana": {
+        "distanceKm": 9128,
+        "penalty": 2.2,
+        "impact": "High"
+      },
+      "Panama": {
+        "distanceKm": 2800,
+        "penalty": 0.8,
+        "impact": "Low"
+      }
     },
     "factors": {
       "venueHeatRisk": 7,
+      "heatImpact": "High",
       "altitude": 320,
+      "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
     "notes": [
-      "Ghana rate higher across the model's team strength indicators.",
-      "Venue factor included: Mercedes-Benz Stadium, Atlanta, heat risk 7/10.",
-      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
-      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+      "Ghana rate higher overall in the model.",
+      "Ghana travel distance: 9128 km. Panama travel distance: 2800 km.",
+      "Venue: Mercedes-Benz Stadium, Atlanta. Heat impact: High. Altitude impact: Low.",
+      "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
       "summary": "Ghana is favoured because of advantages across world cup history, elo strength, attack, squad rating.",
