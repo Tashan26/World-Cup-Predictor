@@ -1,20 +1,86 @@
 [
   {
     "id": "match_001",
+    "stage": "Group Stage",
+    "group": null,
     "date": "2026-06-11T21:00:00+02:00",
     "home": "Mexico",
     "away": "South Africa",
-    "venue": "Mexico City",
-    "stage": "Group Stage",
-    "error": "Missing team data"
+    "city": "Unknown",
+    "probabilities": {
+      "home": 80.1,
+      "draw": 10.9,
+      "away": 9
+    },
+    "predictedWinner": "Mexico",
+    "predictedScore": "3-1",
+    "confidence": "High",
+    "likelyScorer": {
+      "team": "Mexico",
+      "name": "Santiago Gimenez",
+      "position": "Forward",
+      "probability": 30.2
+    },
+    "redCardRisk": {
+      "Mexico": 5.8,
+      "South Africa": 6.2
+    },
+    "modelScores": {
+      "Mexico": 130.2,
+      "South Africa": 110.5
+    },
+    "factors": {
+      "venueHeatRisk": null,
+      "altitude": null,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Mexico rate higher across the model's team strength indicators.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
   },
   {
     "id": "match_002",
+    "stage": "Group Stage",
+    "group": null,
     "date": "2026-06-12T03:00:00+02:00",
     "home": "Canada",
     "away": "Japan",
-    "venue": "Toronto",
-    "stage": "Group Stage",
-    "error": "Missing team data"
+    "city": "Unknown",
+    "probabilities": {
+      "home": 19.2,
+      "draw": 17.6,
+      "away": 63.2
+    },
+    "predictedWinner": "Japan",
+    "predictedScore": "1-2",
+    "confidence": "Medium",
+    "likelyScorer": {
+      "team": "Japan",
+      "name": "Takefusa Kubo",
+      "position": "Forward",
+      "probability": 30.9
+    },
+    "redCardRisk": {
+      "Canada": 5.5,
+      "Japan": 3.8
+    },
+    "modelScores": {
+      "Canada": 119.6,
+      "Japan": 130.3
+    },
+    "factors": {
+      "venueHeatRisk": null,
+      "altitude": null,
+      "homeAdvantage": 0,
+      "awayAdvantage": 0
+    },
+    "notes": [
+      "Japan rate higher across the model's team strength indicators.",
+      "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
+      "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
+    ]
   }
 ]
