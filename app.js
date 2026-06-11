@@ -339,3 +339,20 @@ function askChat() {
 }
 
 loadData();
+
+function toggleTheme() {
+  document.body.classList.toggle("dark");
+
+  const mode = document.body.classList.contains("dark") ? "dark" : "light";
+  localStorage.setItem("theme", mode);
+}
+
+function loadTheme() {
+  const savedTheme = localStorage.getItem("theme");
+
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark");
+  }
+}
+
+loadTheme();
