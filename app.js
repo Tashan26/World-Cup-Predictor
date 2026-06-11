@@ -28,7 +28,10 @@ async function loadData() {
 }
 
 function flag(team) {
-  return flags[team] || "";
+  const code = flags[team];
+  if (!code) return "";
+
+  return `<img class="flag" src="https://flagcdn.com/w40/${code}.png" alt="${team} flag">`;
 }
 
 function populateFixtures() {
