@@ -1,0 +1,18 @@
+[
+  {
+    "id": "match_001",
+    "date": "2026-06-11T21:00:00+02:00",
+    "home": "Mexico",
+    "away": "South Africa",
+    "venue": "Mexico City",
+    "stage": "Group Stage"
+  },
+  {
+    "id": "match_002",
+    "date": "2026-06-12T03:00:00+02:00",
+    "home": "Canada",
+    "away": "Japan",
+    "venue": "Toronto",
+    "stage": "Group Stage"
+  }
+]

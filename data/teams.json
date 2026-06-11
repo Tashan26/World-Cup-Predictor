@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Argentina",
+    "elo": 92,
+    "form": 90,
+    "squadRating": 91,
+    "playerForm": 89,
+    "worldCupHistory": 95,
+    "injuryRisk": 8,
+    "travelFatigue": 7,
+    "heatImpact": 6
+  },
+  {
+    "name": "France",
+    "elo": 94,
+    "form": 88,
+    "squadRating": 95,
+    "playerForm": 91,
+    "worldCupHistory": 96,
+    "injuryRisk": 7,
+    "travelFatigue": 6,
+    "heatImpact": 6
+  }
+]
