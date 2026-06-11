@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Estadio Azteca",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "latitude": 19.3029,
+    "longitude": -99.1505,
+    "altitude": 2240,
+    "heatRisk": 5,
+    "travelWeight": 7
+  },
+  {
+    "name": "Estadio BBVA",
+    "city": "Monterrey",
+    "country": "Mexico",
+    "latitude": 25.6692,
+    "longitude": -100.2446,
+    "altitude": 540,
+    "heatRisk": 8,
+    "travelWeight": 7
+  },
+  {
+    "name": "Estadio Akron",
+    "city": "Guadalajara",
+    "country": "Mexico",
+    "latitude": 20.6828,
+    "longitude": -103.4627,
+    "altitude": 1566,
+    "heatRisk": 7,
+    "travelWeight": 6
+  },
+  {
+    "name": "MetLife Stadium",
+    "city": "New York",
+    "country": "USA",
+    "latitude": 40.8135,
+    "longitude": -74.0745,
+    "altitude": 8,
+    "heatRisk": 4,
+    "travelWeight": 5
+  },
+  {
+    "name": "AT&T Stadium",
+    "city": "Dallas",
+    "country": "USA",
+    "latitude": 32.7473,
+    "longitude": -97.0945,
+    "altitude": 184,
+    "heatRisk": 9,
+    "travelWeight": 8
+  },
+  {
+    "name": "NRG Stadium",
+    "city": "Houston",
+    "country": "USA",
+    "latitude": 29.6847,
+    "longitude": -95.4107,
+    "altitude": 13,
+    "heatRisk": 10,
+    "travelWeight": 8
+  },
+  {
+    "name": "Hard Rock Stadium",
+    "city": "Miami",
+    "country": "USA",
+    "latitude": 25.958,
+    "longitude": -80.2389,
+    "altitude": 2,
+    "heatRisk": 10,
+    "travelWeight": 8
+  },
+  {
+    "name": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "country": "USA",
+    "latitude": 33.7554,
+    "longitude": -84.4009,
+    "altitude": 320,
+    "heatRisk": 7,
+    "travelWeight": 6
+  },
+  {
+    "name": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "country": "USA",
+    "latitude": 39.9008,
+    "longitude": -75.1675,
+    "altitude": 12,
+    "heatRisk": 5,
+    "travelWeight": 5
+  },
+  {
+    "name": "Lumen Field",
+    "city": "Seattle",
+    "country": "USA",
+    "latitude": 47.5952,
+    "longitude": -122.3316,
+    "altitude": 17,
+    "heatRisk": 3,
+    "travelWeight": 7
+  },
+  {
+    "name": "Levi's Stadium",
+    "city": "San Francisco",
+    "country": "USA",
+    "latitude": 37.403,
+    "longitude": -121.97,
+    "altitude": 15,
+    "heatRisk": 6,
+    "travelWeight": 7
+  },
+  {
+    "name": "SoFi Stadium",
+    "city": "Los Angeles",
+    "country": "USA",
+    "latitude": 33.9535,
+    "longitude": -118.3392,
+    "altitude": 30,
+    "heatRisk": 6,
+    "travelWeight": 8
+  },
+  {
+    "name": "GEHA Field at Arrowhead Stadium",
+    "city": "Kansas City",
+    "country": "USA",
+    "latitude": 39.0489,
+    "longitude": -94.4839,
+    "altitude": 264,
+    "heatRisk": 7,
+    "travelWeight": 7
+  },
+  {
+    "name": "Gillette Stadium",
+    "city": "Boston",
+    "country": "USA",
+    "latitude": 42.0909,
+    "longitude": -71.2643,
+    "altitude": 90,
+    "heatRisk": 4,
+    "travelWeight": 5
+  },
+  {
+    "name": "BC Place",
+    "city": "Vancouver",
+    "country": "Canada",
+    "latitude": 49.2768,
+    "longitude": -123.1118,
+    "altitude": 5,
+    "heatRisk": 2,
+    "travelWeight": 6
+  },
+  {
+    "name": "BMO Field",
+    "city": "Toronto",
+    "country": "Canada",
+    "latitude": 43.6332,
+    "longitude": -79.4186,
+    "altitude": 76,
+    "heatRisk": 4,
+    "travelWeight": 5
+  }
+]
