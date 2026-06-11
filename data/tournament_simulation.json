@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T13:05:40.921Z",
+  "generatedAt": "2026-06-11T13:16:56.859Z",
   "groupTables": {
     "A": [
       {
@@ -943,39 +943,35 @@
   "winnerProbabilities": [
     {
       "team": "Argentina",
-      "winProbability": 27.25
-    },
-    {
-      "team": "Brazil",
-      "winProbability": 27.05
+      "winProbability": 28.48
     },
     {
       "team": "France",
-      "winProbability": 26.31
+      "winProbability": 26.18
+    },
+    {
+      "team": "Brazil",
+      "winProbability": 26.1
     },
     {
       "team": "Spain",
-      "winProbability": 9.93
+      "winProbability": 10.3
     },
     {
       "team": "England",
-      "winProbability": 6.42
-    },
-    {
-      "team": "Portugal",
-      "winProbability": 1.45
+      "winProbability": 6.2
     },
     {
       "team": "Netherlands",
-      "winProbability": 1.33
+      "winProbability": 1.16
+    },
+    {
+      "team": "Portugal",
+      "winProbability": 1.06
     },
     {
       "team": "Germany",
-      "winProbability": 0.22
-    },
-    {
-      "team": "Mexico",
-      "winProbability": 0.01
+      "winProbability": 0.48
     },
     {
       "team": "Morocco",
@@ -986,8 +982,16 @@
       "winProbability": 0.01
     },
     {
-      "team": "Croatia",
+      "team": "Senegal",
       "winProbability": 0.01
+    },
+    {
+      "team": "Colombia",
+      "winProbability": 0.01
+    },
+    {
+      "team": "Mexico",
+      "winProbability": 0
     },
     {
       "team": "South Africa",
@@ -1098,10 +1102,6 @@
       "winProbability": 0
     },
     {
-      "team": "Senegal",
-      "winProbability": 0
-    },
-    {
       "team": "Austria",
       "winProbability": 0
     },
@@ -1118,10 +1118,6 @@
       "winProbability": 0
     },
     {
-      "team": "Colombia",
-      "winProbability": 0
-    },
-    {
       "team": "Congo DR",
       "winProbability": 0
     },
@@ -1131,6 +1127,10 @@
     },
     {
       "team": "Panama",
+      "winProbability": 0
+    },
+    {
+      "team": "Croatia",
       "winProbability": 0
     }
   ]

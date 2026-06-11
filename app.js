@@ -1,6 +1,7 @@
 let predictions = [];
 let teamsData = [];
 let flags = {};
+let goldenBoot = [];
 let tournamentSimulation = {};
 
 async function loadData() {
@@ -8,16 +9,19 @@ async function loadData() {
   const teamsRes = await fetch("data/teams.json");
   const flagsRes = await fetch("data/flags.json");
   const simRes = await fetch("data/tournament_simulation.json");
+  const goldenBootRes = await fetch("data/golden_boot.json");
 
   predictions = await predictionsRes.json();
   teamsData = await teamsRes.json();
   flags = await flagsRes.json();
   tournamentSimulation = await simRes.json();
+  goldenBoot = await goldenBootRes.json();
 
   populateFixtures();
   renderTeamCards();
   renderGroupTables();
   renderBracket();
+  renderGoldenBoot();
 }
 
 function flag(team) {
@@ -46,6 +50,7 @@ function showPrediction() {
 
   document.getElementById("prediction").innerHTML = `
     <h3>${flag(match.home)} ${match.home} vs ${flag(match.away)} ${match.away}</h3>
+
     <strong>Predicted score:</strong> ${match.predictedScore}<br>
     <strong>Predicted winner:</strong> ${flag(match.predictedWinner)} ${match.predictedWinner}<br>
     <strong>Confidence:</strong> ${match.confidence}<br><br>
@@ -63,6 +68,15 @@ function showPrediction() {
     <strong>Venue:</strong> ${match.stadium}, ${match.city}<br>
     <strong>Heat risk:</strong> ${match.factors.venueHeatRisk}/10<br>
     <strong>Altitude:</strong> ${match.factors.altitude}m<br><br>
+
+    <strong>Why this prediction?</strong>
+    <p>${match.explanation?.summary || "No explanation available."}</p>
+
+    <ul>
+      ${(match.explanation?.strongestFactors || []).map(f => `
+        <li>${f.advantage} advantage: ${f.factor} +${f.difference}</li>
+      `).join("")}
+    </ul>
 
     <strong>Model notes:</strong>
     <ul>
@@ -161,6 +175,19 @@ function renderBracket() {
       `).join("")}
     </div>
   `;
+}
+
+function renderGoldenBoot() {
+  const container = document.getElementById("goldenBoot");
+  if (!container || !goldenBoot.length) return;
+
+  container.innerHTML = goldenBoot.slice(0, 12).map((player, index) => `
+    <div class="match">
+      ${index + 1}. <strong>${player.player}</strong>
+      <br>${flag(player.team)} ${player.team}
+      <br><strong>${player.probability}%</strong> Golden Boot probability
+    </div>
+  `).join("");
 }
 
 function askChat() {

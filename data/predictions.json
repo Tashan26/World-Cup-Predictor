@@ -41,7 +41,69 @@
       "Venue factor included: Estadio Azteca, Mexico City, heat risk 5/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Mexico is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Mexico",
+          "difference": 175
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Mexico",
+          "difference": 20
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Mexico",
+          "difference": 9
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Mexico",
+          "difference": 9
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Mexico",
+          "difference": 175
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Mexico",
+          "difference": 8
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Mexico",
+          "difference": 9
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Mexico",
+          "difference": 9
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Mexico",
+          "difference": 7
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Mexico",
+          "difference": 20
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Mexico",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_002",
@@ -85,7 +147,69 @@
       "Venue factor included: Estadio BBVA, Monterrey, heat risk 8/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "South Korea is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "South Korea",
+          "difference": 30
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "South Korea",
+          "difference": 5
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "South Korea",
+          "difference": 3
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "South Korea",
+          "difference": 2
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "South Korea",
+          "difference": 30
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "South Korea",
+          "difference": 3
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "South Korea",
+          "difference": 2
+        },
+        {
+          "factor": "Attack",
+          "advantage": "South Korea",
+          "difference": 2
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Even",
+          "difference": 0
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "South Korea",
+          "difference": 5
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Even",
+          "difference": 0
+        }
+      ]
+    }
   },
   {
     "id": "match_003",
@@ -129,7 +253,69 @@
       "Venue factor included: Estadio Akron, Guadalajara, heat risk 7/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Mexico is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Mexico",
+          "difference": 70
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Mexico",
+          "difference": 3
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Mexico",
+          "difference": 2
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Mexico",
+          "difference": 1
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Mexico",
+          "difference": 70
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Mexico",
+          "difference": 2
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Mexico",
+          "difference": 1
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Mexico",
+          "difference": 1
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Mexico",
+          "difference": 1
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Mexico",
+          "difference": 3
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "South Korea",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_004",
@@ -172,7 +358,69 @@
       "Venue factor included: MetLife Stadium, New York, heat risk 4/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Czechia is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Czechia",
+          "difference": 75
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Czechia",
+          "difference": 12
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Czechia",
+          "difference": 6
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Czechia",
+          "difference": 6
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Czechia",
+          "difference": 75
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Czechia",
+          "difference": 3
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Czechia",
+          "difference": 6
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Czechia",
+          "difference": 6
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Czechia",
+          "difference": 6
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Czechia",
+          "difference": 12
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Czechia",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_005",
@@ -216,7 +464,69 @@
       "Venue factor included: AT&T Stadium, Dallas, heat risk 9/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Mexico is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Mexico",
+          "difference": 100
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Mexico",
+          "difference": 8
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Mexico",
+          "difference": 5
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Mexico",
+          "difference": 3
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Mexico",
+          "difference": 100
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Mexico",
+          "difference": 5
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Mexico",
+          "difference": 3
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Mexico",
+          "difference": 3
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Mexico",
+          "difference": 1
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Mexico",
+          "difference": 8
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Czechia",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_006",
@@ -260,7 +570,69 @@
       "Venue factor included: NRG Stadium, Houston, heat risk 10/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "South Korea is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "South Korea",
+          "difference": 105
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "South Korea",
+          "difference": 17
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "South Korea",
+          "difference": 8
+        },
+        {
+          "factor": "Attack",
+          "advantage": "South Korea",
+          "difference": 8
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "South Korea",
+          "difference": 105
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "South Korea",
+          "difference": 6
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "South Korea",
+          "difference": 8
+        },
+        {
+          "factor": "Attack",
+          "advantage": "South Korea",
+          "difference": 8
+        },
+        {
+          "factor": "Defence",
+          "advantage": "South Korea",
+          "difference": 6
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "South Korea",
+          "difference": 17
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "South Korea",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_007",
@@ -303,7 +675,69 @@
       "Venue factor included: Hard Rock Stadium, Miami, heat risk 10/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Switzerland is favoured because of advantages across elo strength, world cup history, defence, recent form.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Switzerland",
+          "difference": 90
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Switzerland",
+          "difference": 27
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Switzerland",
+          "difference": 10
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Switzerland",
+          "difference": 5
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Switzerland",
+          "difference": 90
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Switzerland",
+          "difference": 5
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Switzerland",
+          "difference": 5
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Switzerland",
+          "difference": 2
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Switzerland",
+          "difference": 10
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Switzerland",
+          "difference": 27
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Switzerland",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_008",
@@ -346,7 +780,69 @@
       "Venue factor included: Mercedes-Benz Stadium, Atlanta, heat risk 7/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Bosnia and Herzegovina is favoured because of advantages across elo strength, world cup history, attack, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Bosnia and Herzegovina",
+          "difference": 25
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Bosnia and Herzegovina",
+          "difference": 10
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Bosnia and Herzegovina",
+          "difference": 7
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Bosnia and Herzegovina",
+          "difference": 5
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Bosnia and Herzegovina",
+          "difference": 25
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Bosnia and Herzegovina",
+          "difference": 2
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Bosnia and Herzegovina",
+          "difference": 5
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Bosnia and Herzegovina",
+          "difference": 7
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Bosnia and Herzegovina",
+          "difference": 2
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Bosnia and Herzegovina",
+          "difference": 10
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Qatar",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_009",
@@ -390,7 +886,69 @@
       "Venue factor included: Lincoln Financial Field, Philadelphia, heat risk 5/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Canada is favoured because of advantages across elo strength, attack, squad rating, recent form.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Canada",
+          "difference": 45
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Canada",
+          "difference": 10
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Canada",
+          "difference": 8
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Canada",
+          "difference": 5
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Canada",
+          "difference": 45
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Canada",
+          "difference": 5
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Canada",
+          "difference": 8
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Canada",
+          "difference": 10
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Canada",
+          "difference": 4
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Canada",
+          "difference": 5
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Qatar",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_010",
@@ -433,7 +991,69 @@
       "Venue factor included: Lumen Field, Seattle, heat risk 3/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Switzerland is favoured because of advantages across elo strength, world cup history, defence, recent form.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Switzerland",
+          "difference": 110
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Switzerland",
+          "difference": 22
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Switzerland",
+          "difference": 12
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Switzerland",
+          "difference": 8
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Switzerland",
+          "difference": 110
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Switzerland",
+          "difference": 8
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Switzerland",
+          "difference": 8
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Switzerland",
+          "difference": 5
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Switzerland",
+          "difference": 12
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Switzerland",
+          "difference": 22
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Switzerland",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_011",
@@ -477,7 +1097,69 @@
       "Venue factor included: Levi's Stadium, San Francisco, heat risk 6/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Canada is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Canada",
+          "difference": 20
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Bosnia and Herzegovina",
+          "difference": 5
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Canada",
+          "difference": 3
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Canada",
+          "difference": 3
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Canada",
+          "difference": 20
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Canada",
+          "difference": 3
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Canada",
+          "difference": 3
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Canada",
+          "difference": 3
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Canada",
+          "difference": 2
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Bosnia and Herzegovina",
+          "difference": 5
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Even",
+          "difference": 0
+        }
+      ]
+    }
   },
   {
     "id": "match_012",
@@ -520,7 +1202,69 @@
       "Venue factor included: SoFi Stadium, Los Angeles, heat risk 6/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Switzerland is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Switzerland",
+          "difference": 135
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Switzerland",
+          "difference": 32
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Switzerland",
+          "difference": 14
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Switzerland",
+          "difference": 13
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Switzerland",
+          "difference": 135
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Switzerland",
+          "difference": 10
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Switzerland",
+          "difference": 13
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Switzerland",
+          "difference": 12
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Switzerland",
+          "difference": 14
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Switzerland",
+          "difference": 32
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Switzerland",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_013",
@@ -564,7 +1308,69 @@
       "Venue factor included: GEHA Field at Arrowhead Stadium, Kansas City, heat risk 7/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Brazil is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Brazil",
+          "difference": 545
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Brazil",
+          "difference": 57
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Brazil",
+          "difference": 29
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Brazil",
+          "difference": 28
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Brazil",
+          "difference": 545
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Brazil",
+          "difference": 21
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Brazil",
+          "difference": 29
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Brazil",
+          "difference": 28
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Brazil",
+          "difference": 25
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Brazil",
+          "difference": 57
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Brazil",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_014",
@@ -608,7 +1414,69 @@
       "Venue factor included: Gillette Stadium, Boston, heat risk 4/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Morocco is favoured because of advantages across elo strength, world cup history, recent form, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Morocco",
+          "difference": 130
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Morocco",
+          "difference": 24
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Morocco",
+          "difference": 10
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Morocco",
+          "difference": 9
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Morocco",
+          "difference": 130
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Morocco",
+          "difference": 10
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Morocco",
+          "difference": 8
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Morocco",
+          "difference": 9
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Morocco",
+          "difference": 9
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Morocco",
+          "difference": 24
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Morocco",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_015",
@@ -652,7 +1520,69 @@
       "Venue factor included: BC Place, Vancouver, heat risk 2/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Brazil is favoured because of advantages across elo strength, world cup history, attack, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Brazil",
+          "difference": 350
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Brazil",
+          "difference": 37
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Brazil",
+          "difference": 19
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Brazil",
+          "difference": 17
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Brazil",
+          "difference": 350
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Brazil",
+          "difference": 13
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Brazil",
+          "difference": 17
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Brazil",
+          "difference": 19
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Brazil",
+          "difference": 12
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Brazil",
+          "difference": 37
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Brazil",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_016",
@@ -696,7 +1626,69 @@
       "Venue factor included: BMO Field, Toronto, heat risk 4/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Morocco is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Morocco",
+          "difference": 325
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Morocco",
+          "difference": 44
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Morocco",
+          "difference": 22
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Morocco",
+          "difference": 20
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Morocco",
+          "difference": 325
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Morocco",
+          "difference": 18
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Morocco",
+          "difference": 20
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Morocco",
+          "difference": 18
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Morocco",
+          "difference": 22
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Morocco",
+          "difference": 44
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Morocco",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_017",
@@ -740,7 +1732,69 @@
       "Venue factor included: Estadio Azteca, Mexico City, heat risk 5/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Brazil is favoured because of advantages across elo strength, world cup history, attack, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Brazil",
+          "difference": 220
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Brazil",
+          "difference": 13
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Brazil",
+          "difference": 10
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Brazil",
+          "difference": 9
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Brazil",
+          "difference": 220
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Brazil",
+          "difference": 3
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Brazil",
+          "difference": 9
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Brazil",
+          "difference": 10
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Brazil",
+          "difference": 3
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Brazil",
+          "difference": 13
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Even",
+          "difference": 0
+        }
+      ]
+    }
   },
   {
     "id": "match_018",
@@ -783,7 +1837,69 @@
       "Venue factor included: Estadio BBVA, Monterrey, heat risk 8/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Scotland is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Scotland",
+          "difference": 195
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Scotland",
+          "difference": 20
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Scotland",
+          "difference": 13
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Scotland",
+          "difference": 12
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Scotland",
+          "difference": 195
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Scotland",
+          "difference": 8
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Scotland",
+          "difference": 12
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Scotland",
+          "difference": 9
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Scotland",
+          "difference": 13
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Scotland",
+          "difference": 20
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Scotland",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_019",
@@ -827,7 +1943,69 @@
       "Venue factor included: Estadio Akron, Guadalajara, heat risk 7/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "USA is favoured because of advantages across elo strength, squad rating, attack, recent form.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "USA",
+          "difference": 55
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "USA",
+          "difference": 6
+        },
+        {
+          "factor": "Attack",
+          "advantage": "USA",
+          "difference": 6
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "USA",
+          "difference": 2
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "USA",
+          "difference": 55
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "USA",
+          "difference": 2
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "USA",
+          "difference": 6
+        },
+        {
+          "factor": "Attack",
+          "advantage": "USA",
+          "difference": 6
+        },
+        {
+          "factor": "Defence",
+          "advantage": "USA",
+          "difference": 2
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "USA",
+          "difference": 2
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "USA",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_020",
@@ -870,7 +2048,69 @@
       "Venue factor included: MetLife Stadium, New York, heat risk 4/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Turkey is favoured because of advantages across elo strength, attack, recent form, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Turkey",
+          "difference": 65
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Turkey",
+          "difference": 9
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Turkey",
+          "difference": 7
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Turkey",
+          "difference": 6
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Turkey",
+          "difference": 65
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Turkey",
+          "difference": 7
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Turkey",
+          "difference": 6
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Turkey",
+          "difference": 9
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Turkey",
+          "difference": 1
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Paraguay",
+          "difference": 3
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Even",
+          "difference": 0
+        }
+      ]
+    }
   },
   {
     "id": "match_021",
@@ -914,7 +2154,69 @@
       "Venue factor included: AT&T Stadium, Dallas, heat risk 9/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "USA is favoured because of advantages across elo strength, world cup history, defence, discipline risk.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "USA",
+          "difference": 30
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "USA",
+          "difference": 7
+        },
+        {
+          "factor": "Defence",
+          "advantage": "USA",
+          "difference": 2
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "USA",
+          "difference": 2
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "USA",
+          "difference": 30
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Turkey",
+          "difference": 1
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "USA",
+          "difference": 1
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Turkey",
+          "difference": 1
+        },
+        {
+          "factor": "Defence",
+          "advantage": "USA",
+          "difference": 2
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "USA",
+          "difference": 7
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "USA",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_022",
@@ -957,7 +2259,69 @@
       "Venue factor included: NRG Stadium, Houston, heat risk 10/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Australia is favoured because of advantages across elo strength, recent form, attack, world cup history.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Australia",
+          "difference": 40
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Australia",
+          "difference": 4
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Australia",
+          "difference": 2
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Australia",
+          "difference": 2
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Australia",
+          "difference": 40
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Australia",
+          "difference": 4
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Australia",
+          "difference": 1
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Australia",
+          "difference": 2
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Australia",
+          "difference": 1
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Australia",
+          "difference": 2
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Australia",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_023",
@@ -1001,7 +2365,69 @@
       "Venue factor included: Hard Rock Stadium, Miami, heat risk 10/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "USA is favoured because of advantages across elo strength, attack, squad rating, recent form.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "USA",
+          "difference": 95
+        },
+        {
+          "factor": "Attack",
+          "advantage": "USA",
+          "difference": 8
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "USA",
+          "difference": 7
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "USA",
+          "difference": 6
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "USA",
+          "difference": 95
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "USA",
+          "difference": 6
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "USA",
+          "difference": 7
+        },
+        {
+          "factor": "Attack",
+          "advantage": "USA",
+          "difference": 8
+        },
+        {
+          "factor": "Defence",
+          "advantage": "USA",
+          "difference": 3
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "USA",
+          "difference": 4
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "USA",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_024",
@@ -1044,7 +2470,69 @@
       "Venue factor included: Mercedes-Benz Stadium, Atlanta, heat risk 7/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Turkey is favoured because of advantages across elo strength, attack, squad rating, world cup history.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Turkey",
+          "difference": 25
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Turkey",
+          "difference": 7
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Turkey",
+          "difference": 5
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Australia",
+          "difference": 5
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Turkey",
+          "difference": 25
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Turkey",
+          "difference": 3
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Turkey",
+          "difference": 5
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Turkey",
+          "difference": 7
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Even",
+          "difference": 0
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Australia",
+          "difference": 5
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Australia",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_025",
@@ -1088,7 +2576,69 @@
       "Venue factor included: Lincoln Financial Field, Philadelphia, heat risk 5/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Germany is favoured because of advantages across elo strength, world cup history, squad rating, defence.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Germany",
+          "difference": 210
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Germany",
+          "difference": 37
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Germany",
+          "difference": 12
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Germany",
+          "difference": 12
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Germany",
+          "difference": 210
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Germany",
+          "difference": 8
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Germany",
+          "difference": 12
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Germany",
+          "difference": 10
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Germany",
+          "difference": 12
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Germany",
+          "difference": 37
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Germany",
+          "difference": 3
+        }
+      ]
+    }
   },
   {
     "id": "match_026",
@@ -1131,7 +2681,69 @@
       "Venue factor included: Lumen Field, Seattle, heat risk 3/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Ecuador is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Ecuador",
+          "difference": 265
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Ecuador",
+          "difference": 38
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Ecuador",
+          "difference": 18
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Ecuador",
+          "difference": 16
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Ecuador",
+          "difference": 265
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Ecuador",
+          "difference": 12
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Ecuador",
+          "difference": 16
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Ecuador",
+          "difference": 13
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Ecuador",
+          "difference": 18
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Ecuador",
+          "difference": 38
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Even",
+          "difference": 0
+        }
+      ]
+    }
   },
   {
     "id": "match_027",
@@ -1175,7 +2787,69 @@
       "Venue factor included: Levi's Stadium, San Francisco, heat risk 6/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Germany is favoured because of advantages across elo strength, world cup history, attack, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Germany",
+          "difference": 135
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Germany",
+          "difference": 25
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Germany",
+          "difference": 12
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Germany",
+          "difference": 11
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Germany",
+          "difference": 135
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Germany",
+          "difference": 6
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Germany",
+          "difference": 11
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Germany",
+          "difference": 12
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Germany",
+          "difference": 6
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Germany",
+          "difference": 25
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Germany",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_028",
@@ -1218,7 +2892,69 @@
       "Venue factor included: SoFi Stadium, Los Angeles, heat risk 6/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Côte d'Ivoire is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Côte d'Ivoire",
+          "difference": 190
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Côte d'Ivoire",
+          "difference": 26
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Côte d'Ivoire",
+          "difference": 15
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Côte d'Ivoire",
+          "difference": 15
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Côte d'Ivoire",
+          "difference": 190
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Côte d'Ivoire",
+          "difference": 10
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Côte d'Ivoire",
+          "difference": 15
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Côte d'Ivoire",
+          "difference": 15
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Côte d'Ivoire",
+          "difference": 12
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Côte d'Ivoire",
+          "difference": 26
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Curaçao",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_029",
@@ -1262,7 +2998,69 @@
       "Venue factor included: GEHA Field at Arrowhead Stadium, Kansas City, heat risk 7/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Germany is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Germany",
+          "difference": 400
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Germany",
+          "difference": 63
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Germany",
+          "difference": 27
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Germany",
+          "difference": 25
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Germany",
+          "difference": 400
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Germany",
+          "difference": 18
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Germany",
+          "difference": 27
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Germany",
+          "difference": 25
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Germany",
+          "difference": 24
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Germany",
+          "difference": 63
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Germany",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_030",
@@ -1305,7 +3103,69 @@
       "Venue factor included: Gillette Stadium, Boston, heat risk 4/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Ecuador is favoured because of advantages across elo strength, world cup history, defence, recent form.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Ecuador",
+          "difference": 75
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Ecuador",
+          "difference": 12
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Ecuador",
+          "difference": 6
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Ecuador",
+          "difference": 2
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Ecuador",
+          "difference": 75
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Ecuador",
+          "difference": 2
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Ecuador",
+          "difference": 1
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Côte d'Ivoire",
+          "difference": 2
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Ecuador",
+          "difference": 6
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Ecuador",
+          "difference": 12
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Ecuador",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_031",
@@ -1349,7 +3209,69 @@
       "Venue factor included: BC Place, Vancouver, heat risk 2/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Netherlands is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Netherlands",
+          "difference": 240
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Netherlands",
+          "difference": 15
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Netherlands",
+          "difference": 13
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Netherlands",
+          "difference": 12
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Netherlands",
+          "difference": 240
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Netherlands",
+          "difference": 11
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Netherlands",
+          "difference": 13
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Netherlands",
+          "difference": 12
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Netherlands",
+          "difference": 11
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Netherlands",
+          "difference": 15
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Even",
+          "difference": 0
+        }
+      ]
+    }
   },
   {
     "id": "match_032",
@@ -1393,7 +3315,69 @@
       "Venue factor included: BMO Field, Toronto, heat risk 4/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Japan is favoured because of advantages across elo strength, world cup history, attack, recent form.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Japan",
+          "difference": 95
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Japan",
+          "difference": 14
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Japan",
+          "difference": 10
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Japan",
+          "difference": 9
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Japan",
+          "difference": 95
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Japan",
+          "difference": 9
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Japan",
+          "difference": 8
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Japan",
+          "difference": 10
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Japan",
+          "difference": 5
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Japan",
+          "difference": 14
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Japan",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_033",
@@ -1437,7 +3421,69 @@
       "Venue factor included: Estadio Azteca, Mexico City, heat risk 5/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Netherlands is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Netherlands",
+          "difference": 275
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Netherlands",
+          "difference": 26
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Netherlands",
+          "difference": 16
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Netherlands",
+          "difference": 16
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Netherlands",
+          "difference": 275
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Netherlands",
+          "difference": 12
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Netherlands",
+          "difference": 16
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Netherlands",
+          "difference": 16
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Netherlands",
+          "difference": 14
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Netherlands",
+          "difference": 26
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Netherlands",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_034",
@@ -1481,7 +3527,69 @@
       "Venue factor included: Estadio BBVA, Monterrey, heat risk 8/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Japan is favoured because of advantages across elo strength, recent form, attack, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Japan",
+          "difference": 60
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Japan",
+          "difference": 8
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Japan",
+          "difference": 6
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Japan",
+          "difference": 5
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Japan",
+          "difference": 60
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Japan",
+          "difference": 8
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Japan",
+          "difference": 5
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Japan",
+          "difference": 6
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Japan",
+          "difference": 2
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Japan",
+          "difference": 3
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Even",
+          "difference": 0
+        }
+      ]
+    }
   },
   {
     "id": "match_035",
@@ -1525,7 +3633,69 @@
       "Venue factor included: Estadio Akron, Guadalajara, heat risk 7/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Netherlands is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Netherlands",
+          "difference": 180
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Netherlands",
+          "difference": 12
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Netherlands",
+          "difference": 9
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Netherlands",
+          "difference": 8
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Netherlands",
+          "difference": 180
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Netherlands",
+          "difference": 3
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Netherlands",
+          "difference": 8
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Netherlands",
+          "difference": 6
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Netherlands",
+          "difference": 9
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Netherlands",
+          "difference": 12
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Even",
+          "difference": 0
+        }
+      ]
+    }
   },
   {
     "id": "match_036",
@@ -1568,7 +3738,69 @@
       "Venue factor included: MetLife Stadium, New York, heat risk 4/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Sweden is favoured because of advantages across elo strength, world cup history, attack, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Sweden",
+          "difference": 35
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Sweden",
+          "difference": 11
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Sweden",
+          "difference": 4
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Sweden",
+          "difference": 3
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Sweden",
+          "difference": 35
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Sweden",
+          "difference": 1
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Sweden",
+          "difference": 3
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Sweden",
+          "difference": 4
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Sweden",
+          "difference": 3
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Sweden",
+          "difference": 11
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Sweden",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_037",
@@ -1612,7 +3844,69 @@
       "Venue factor included: AT&T Stadium, Dallas, heat risk 9/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Belgium is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Belgium",
+          "difference": 120
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Belgium",
+          "difference": 17
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Belgium",
+          "difference": 11
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Belgium",
+          "difference": 11
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Belgium",
+          "difference": 120
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Belgium",
+          "difference": 4
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Belgium",
+          "difference": 11
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Belgium",
+          "difference": 11
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Belgium",
+          "difference": 6
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Belgium",
+          "difference": 17
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Belgium",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_038",
@@ -1655,7 +3949,69 @@
       "Venue factor included: NRG Stadium, Houston, heat risk 10/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Egypt is favoured because of advantages across elo strength, world cup history, attack, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Egypt",
+          "difference": 245
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Egypt",
+          "difference": 15
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Egypt",
+          "difference": 14
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Egypt",
+          "difference": 13
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Egypt",
+          "difference": 245
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Egypt",
+          "difference": 9
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Egypt",
+          "difference": 13
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Egypt",
+          "difference": 14
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Egypt",
+          "difference": 9
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Egypt",
+          "difference": 15
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Even",
+          "difference": 0
+        }
+      ]
+    }
   },
   {
     "id": "match_039",
@@ -1699,7 +4055,69 @@
       "Venue factor included: Hard Rock Stadium, Miami, heat risk 10/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Belgium is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Belgium",
+          "difference": 405
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Belgium",
+          "difference": 39
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Belgium",
+          "difference": 23
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Belgium",
+          "difference": 23
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Belgium",
+          "difference": 405
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Belgium",
+          "difference": 15
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Belgium",
+          "difference": 23
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Belgium",
+          "difference": 23
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Belgium",
+          "difference": 17
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Belgium",
+          "difference": 39
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Belgium",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_040",
@@ -1742,7 +4160,69 @@
       "Venue factor included: Mercedes-Benz Stadium, Atlanta, heat risk 7/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Iran is favoured because of advantages across elo strength, world cup history, recent form, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Iran",
+          "difference": 40
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Iran",
+          "difference": 7
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Iran",
+          "difference": 2
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Egypt",
+          "difference": 2
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Iran",
+          "difference": 40
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Iran",
+          "difference": 2
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Egypt",
+          "difference": 1
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Egypt",
+          "difference": 2
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Iran",
+          "difference": 2
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Iran",
+          "difference": 7
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Egypt",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_041",
@@ -1786,7 +4266,69 @@
       "Venue factor included: Lincoln Financial Field, Philadelphia, heat risk 5/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Belgium is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Belgium",
+          "difference": 160
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Belgium",
+          "difference": 24
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Belgium",
+          "difference": 10
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Belgium",
+          "difference": 9
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Belgium",
+          "difference": 160
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Belgium",
+          "difference": 6
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Belgium",
+          "difference": 10
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Belgium",
+          "difference": 9
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Belgium",
+          "difference": 8
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Belgium",
+          "difference": 24
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Belgium",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_042",
@@ -1829,7 +4371,69 @@
       "Venue factor included: Lumen Field, Seattle, heat risk 3/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Iran is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Iran",
+          "difference": 285
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Iran",
+          "difference": 22
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Iran",
+          "difference": 12
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Iran",
+          "difference": 12
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Iran",
+          "difference": 285
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Iran",
+          "difference": 11
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Iran",
+          "difference": 12
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Iran",
+          "difference": 12
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Iran",
+          "difference": 11
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Iran",
+          "difference": 22
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "New Zealand",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_043",
@@ -1873,7 +4477,69 @@
       "Venue factor included: Levi's Stadium, San Francisco, heat risk 6/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Spain is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Spain",
+          "difference": 390
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Spain",
+          "difference": 28
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Spain",
+          "difference": 22
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Spain",
+          "difference": 22
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Spain",
+          "difference": 390
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Spain",
+          "difference": 20
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Spain",
+          "difference": 22
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Spain",
+          "difference": 22
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Spain",
+          "difference": 20
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Spain",
+          "difference": 28
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Spain",
+          "difference": 3
+        }
+      ]
+    }
   },
   {
     "id": "match_044",
@@ -1917,7 +4583,69 @@
       "Venue factor included: SoFi Stadium, Los Angeles, heat risk 6/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Uruguay is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Uruguay",
+          "difference": 300
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Uruguay",
+          "difference": 55
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Uruguay",
+          "difference": 18
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Uruguay",
+          "difference": 18
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Uruguay",
+          "difference": 300
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Uruguay",
+          "difference": 15
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Uruguay",
+          "difference": 18
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Uruguay",
+          "difference": 18
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Uruguay",
+          "difference": 17
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Uruguay",
+          "difference": 55
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Cabo Verde",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_045",
@@ -1961,7 +4689,69 @@
       "Venue factor included: GEHA Field at Arrowhead Stadium, Kansas City, heat risk 7/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Spain is favoured because of advantages across elo strength, recent form, squad rating, defence.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Spain",
+          "difference": 160
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Spain",
+          "difference": 6
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Spain",
+          "difference": 6
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Spain",
+          "difference": 6
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Spain",
+          "difference": 160
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Spain",
+          "difference": 6
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Spain",
+          "difference": 6
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Spain",
+          "difference": 5
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Spain",
+          "difference": 6
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Even",
+          "difference": 0
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Spain",
+          "difference": 4
+        }
+      ]
+    }
   },
   {
     "id": "match_046",
@@ -2004,7 +4794,69 @@
       "Venue factor included: Gillette Stadium, Boston, heat risk 4/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Saudi Arabia is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Saudi Arabia",
+          "difference": 70
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Saudi Arabia",
+          "difference": 27
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Saudi Arabia",
+          "difference": 3
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Saudi Arabia",
+          "difference": 2
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Saudi Arabia",
+          "difference": 70
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Saudi Arabia",
+          "difference": 1
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Saudi Arabia",
+          "difference": 2
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Saudi Arabia",
+          "difference": 1
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Saudi Arabia",
+          "difference": 3
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Saudi Arabia",
+          "difference": 27
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Even",
+          "difference": 0
+        }
+      ]
+    }
   },
   {
     "id": "match_047",
@@ -2048,7 +4900,69 @@
       "Venue factor included: BC Place, Vancouver, heat risk 2/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Spain is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Spain",
+          "difference": 460
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Spain",
+          "difference": 55
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Spain",
+          "difference": 24
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Spain",
+          "difference": 23
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Spain",
+          "difference": 460
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Spain",
+          "difference": 21
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Spain",
+          "difference": 24
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Spain",
+          "difference": 23
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Spain",
+          "difference": 23
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Spain",
+          "difference": 55
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Spain",
+          "difference": 3
+        }
+      ]
+    }
   },
   {
     "id": "match_048",
@@ -2092,7 +5006,69 @@
       "Venue factor included: BMO Field, Toronto, heat risk 4/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Uruguay is favoured because of advantages across elo strength, world cup history, attack, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Uruguay",
+          "difference": 230
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Uruguay",
+          "difference": 28
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Uruguay",
+          "difference": 17
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Uruguay",
+          "difference": 16
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Uruguay",
+          "difference": 230
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Uruguay",
+          "difference": 14
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Uruguay",
+          "difference": 16
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Uruguay",
+          "difference": 17
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Uruguay",
+          "difference": 14
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Uruguay",
+          "difference": 28
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Saudi Arabia",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_049",
@@ -2136,7 +5112,69 @@
       "Venue factor included: Estadio Azteca, Mexico City, heat risk 5/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "France is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "France",
+          "difference": 460
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "France",
+          "difference": 49
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "France",
+          "difference": 27
+        },
+        {
+          "factor": "Attack",
+          "advantage": "France",
+          "difference": 25
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "France",
+          "difference": 460
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "France",
+          "difference": 20
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "France",
+          "difference": 27
+        },
+        {
+          "factor": "Attack",
+          "advantage": "France",
+          "difference": 25
+        },
+        {
+          "factor": "Defence",
+          "advantage": "France",
+          "difference": 23
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "France",
+          "difference": 49
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "France",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_050",
@@ -2180,7 +5218,69 @@
       "Venue factor included: Estadio BBVA, Monterrey, heat risk 8/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Senegal is favoured because of advantages across elo strength, world cup history, defence, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Senegal",
+          "difference": 45
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Senegal",
+          "difference": 23
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Senegal",
+          "difference": 6
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Norway",
+          "difference": 5
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Senegal",
+          "difference": 45
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Senegal",
+          "difference": 1
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Norway",
+          "difference": 2
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Norway",
+          "difference": 5
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Senegal",
+          "difference": 6
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Senegal",
+          "difference": 23
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Norway",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_051",
@@ -2224,7 +5324,69 @@
       "Venue factor included: Estadio Akron, Guadalajara, heat risk 7/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "France is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "France",
+          "difference": 325
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "France",
+          "difference": 42
+        },
+        {
+          "factor": "Defence",
+          "advantage": "France",
+          "difference": 15
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "France",
+          "difference": 12
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "France",
+          "difference": 325
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "France",
+          "difference": 11
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "France",
+          "difference": 12
+        },
+        {
+          "factor": "Attack",
+          "advantage": "France",
+          "difference": 8
+        },
+        {
+          "factor": "Defence",
+          "advantage": "France",
+          "difference": 15
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "France",
+          "difference": 42
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Even",
+          "difference": 0
+        }
+      ]
+    }
   },
   {
     "id": "match_052",
@@ -2268,7 +5430,69 @@
       "Venue factor included: MetLife Stadium, New York, heat risk 4/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Senegal is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Senegal",
+          "difference": 180
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Senegal",
+          "difference": 30
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Senegal",
+          "difference": 14
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Senegal",
+          "difference": 13
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Senegal",
+          "difference": 180
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Senegal",
+          "difference": 10
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Senegal",
+          "difference": 13
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Senegal",
+          "difference": 12
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Senegal",
+          "difference": 14
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Senegal",
+          "difference": 30
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Even",
+          "difference": 0
+        }
+      ]
+    }
   },
   {
     "id": "match_053",
@@ -2312,7 +5536,69 @@
       "Venue factor included: AT&T Stadium, Dallas, heat risk 9/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "France is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "France",
+          "difference": 280
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "France",
+          "difference": 19
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "France",
+          "difference": 14
+        },
+        {
+          "factor": "Attack",
+          "advantage": "France",
+          "difference": 13
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "France",
+          "difference": 280
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "France",
+          "difference": 10
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "France",
+          "difference": 14
+        },
+        {
+          "factor": "Attack",
+          "advantage": "France",
+          "difference": 13
+        },
+        {
+          "factor": "Defence",
+          "advantage": "France",
+          "difference": 9
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "France",
+          "difference": 19
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "France",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_054",
@@ -2356,7 +5642,69 @@
       "Venue factor included: NRG Stadium, Houston, heat risk 10/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Norway is favoured because of advantages across elo strength, attack, squad rating, recent form.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Norway",
+          "difference": 135
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Norway",
+          "difference": 17
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Norway",
+          "difference": 15
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Norway",
+          "difference": 9
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Norway",
+          "difference": 135
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Norway",
+          "difference": 9
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Norway",
+          "difference": 15
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Norway",
+          "difference": 17
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Norway",
+          "difference": 8
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Norway",
+          "difference": 7
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Norway",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_055",
@@ -2400,7 +5748,69 @@
       "Venue factor included: Hard Rock Stadium, Miami, heat risk 10/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Argentina is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Argentina",
+          "difference": 325
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Argentina",
+          "difference": 26
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Argentina",
+          "difference": 12
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Argentina",
+          "difference": 11
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Argentina",
+          "difference": 325
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Argentina",
+          "difference": 12
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Argentina",
+          "difference": 11
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Argentina",
+          "difference": 11
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Argentina",
+          "difference": 10
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Argentina",
+          "difference": 26
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Austria",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_056",
@@ -2443,7 +5853,69 @@
       "Venue factor included: Mercedes-Benz Stadium, Atlanta, heat risk 7/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Algeria is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Algeria",
+          "difference": 120
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Algeria",
+          "difference": 35
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Algeria",
+          "difference": 10
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Algeria",
+          "difference": 10
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Algeria",
+          "difference": 120
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Algeria",
+          "difference": 3
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Algeria",
+          "difference": 10
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Algeria",
+          "difference": 10
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Algeria",
+          "difference": 8
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Algeria",
+          "difference": 35
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Even",
+          "difference": 0
+        }
+      ]
+    }
   },
   {
     "id": "match_057",
@@ -2487,7 +5959,69 @@
       "Venue factor included: Lincoln Financial Field, Philadelphia, heat risk 5/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Argentina is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Argentina",
+          "difference": 515
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Argentina",
+          "difference": 61
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Argentina",
+          "difference": 25
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Argentina",
+          "difference": 24
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Argentina",
+          "difference": 515
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Argentina",
+          "difference": 21
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Argentina",
+          "difference": 25
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Argentina",
+          "difference": 24
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Argentina",
+          "difference": 23
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Argentina",
+          "difference": 61
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Argentina",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_058",
@@ -2530,7 +6064,69 @@
       "Venue factor included: Lumen Field, Seattle, heat risk 3/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Austria is favoured because of advantages across elo strength, recent form, defence, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Austria",
+          "difference": 70
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Austria",
+          "difference": 6
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Austria",
+          "difference": 5
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Austria",
+          "difference": 4
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Austria",
+          "difference": 70
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Austria",
+          "difference": 6
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Austria",
+          "difference": 4
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Austria",
+          "difference": 3
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Austria",
+          "difference": 5
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Even",
+          "difference": 0
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Austria",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_059",
@@ -2574,7 +6170,69 @@
       "Venue factor included: Levi's Stadium, San Francisco, heat risk 6/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Argentina is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Argentina",
+          "difference": 395
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Argentina",
+          "difference": 26
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Argentina",
+          "difference": 18
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Argentina",
+          "difference": 15
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Argentina",
+          "difference": 395
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Argentina",
+          "difference": 18
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Argentina",
+          "difference": 15
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Argentina",
+          "difference": 14
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Argentina",
+          "difference": 15
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Argentina",
+          "difference": 26
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Argentina",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_060",
@@ -2617,7 +6275,69 @@
       "Venue factor included: SoFi Stadium, Los Angeles, heat risk 6/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Austria is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Austria",
+          "difference": 190
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Austria",
+          "difference": 35
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Austria",
+          "difference": 14
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Austria",
+          "difference": 13
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Austria",
+          "difference": 190
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Austria",
+          "difference": 9
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Austria",
+          "difference": 14
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Austria",
+          "difference": 13
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Austria",
+          "difference": 13
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Austria",
+          "difference": 35
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Austria",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_061",
@@ -2661,7 +6381,69 @@
       "Venue factor included: GEHA Field at Arrowhead Stadium, Kansas City, heat risk 7/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Portugal is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Portugal",
+          "difference": 330
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Portugal",
+          "difference": 49
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Portugal",
+          "difference": 22
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Portugal",
+          "difference": 22
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Portugal",
+          "difference": 330
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Portugal",
+          "difference": 15
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Portugal",
+          "difference": 22
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Portugal",
+          "difference": 22
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Portugal",
+          "difference": 18
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Portugal",
+          "difference": 49
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Portugal",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_062",
@@ -2705,7 +6487,69 @@
       "Venue factor included: Gillette Stadium, Boston, heat risk 4/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Colombia is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Colombia",
+          "difference": 240
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Colombia",
+          "difference": 28
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Colombia",
+          "difference": 14
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Colombia",
+          "difference": 14
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Colombia",
+          "difference": 240
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Colombia",
+          "difference": 14
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Colombia",
+          "difference": 14
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Colombia",
+          "difference": 13
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Colombia",
+          "difference": 13
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Colombia",
+          "difference": 28
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Colombia",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_063",
@@ -2749,7 +6593,69 @@
       "Venue factor included: BC Place, Vancouver, heat risk 2/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Portugal is favoured because of advantages across elo strength, squad rating, attack, world cup history.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Portugal",
+          "difference": 115
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Portugal",
+          "difference": 7
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Portugal",
+          "difference": 7
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Portugal",
+          "difference": 6
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Portugal",
+          "difference": 115
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Portugal",
+          "difference": 2
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Portugal",
+          "difference": 7
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Portugal",
+          "difference": 7
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Portugal",
+          "difference": 5
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Portugal",
+          "difference": 6
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Portugal",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_064",
@@ -2792,7 +6698,69 @@
       "Venue factor included: BMO Field, Toronto, heat risk 4/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Congo DR is favoured because of advantages across elo strength, world cup history, attack, discipline risk.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Uzbekistan",
+          "difference": 25
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Congo DR",
+          "difference": 15
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Congo DR",
+          "difference": 2
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Uzbekistan",
+          "difference": 2
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Uzbekistan",
+          "difference": 25
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Uzbekistan",
+          "difference": 1
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Congo DR",
+          "difference": 1
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Congo DR",
+          "difference": 2
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Even",
+          "difference": 0
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Congo DR",
+          "difference": 15
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Uzbekistan",
+          "difference": 2
+        }
+      ]
+    }
   },
   {
     "id": "match_065",
@@ -2836,7 +6804,69 @@
       "Venue factor included: Estadio Azteca, Mexico City, heat risk 5/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Portugal is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Portugal",
+          "difference": 355
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Portugal",
+          "difference": 34
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Portugal",
+          "difference": 21
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Portugal",
+          "difference": 20
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Portugal",
+          "difference": 355
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Portugal",
+          "difference": 16
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Portugal",
+          "difference": 21
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Portugal",
+          "difference": 20
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Portugal",
+          "difference": 18
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Portugal",
+          "difference": 34
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Portugal",
+          "difference": 3
+        }
+      ]
+    }
   },
   {
     "id": "match_066",
@@ -2880,7 +6910,69 @@
       "Venue factor included: Estadio BBVA, Monterrey, heat risk 8/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Colombia is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Colombia",
+          "difference": 215
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Colombia",
+          "difference": 43
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Colombia",
+          "difference": 15
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Colombia",
+          "difference": 15
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Colombia",
+          "difference": 215
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Colombia",
+          "difference": 13
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Colombia",
+          "difference": 15
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Colombia",
+          "difference": 15
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Colombia",
+          "difference": 13
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Colombia",
+          "difference": 43
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Uzbekistan",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_067",
@@ -2924,7 +7016,69 @@
       "Venue factor included: Estadio Akron, Guadalajara, heat risk 7/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "England is favoured because of advantages across elo strength, squad rating, attack, recent form.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "England",
+          "difference": 355
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "England",
+          "difference": 18
+        },
+        {
+          "factor": "Attack",
+          "advantage": "England",
+          "difference": 17
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "England",
+          "difference": 16
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "England",
+          "difference": 355
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "England",
+          "difference": 16
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "England",
+          "difference": 18
+        },
+        {
+          "factor": "Attack",
+          "advantage": "England",
+          "difference": 17
+        },
+        {
+          "factor": "Defence",
+          "advantage": "England",
+          "difference": 16
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "England",
+          "difference": 12
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "England",
+          "difference": 4
+        }
+      ]
+    }
   },
   {
     "id": "match_068",
@@ -2967,7 +7121,69 @@
       "Venue factor included: MetLife Stadium, New York, heat risk 4/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Croatia is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Croatia",
+          "difference": 195
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Croatia",
+          "difference": 41
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Croatia",
+          "difference": 14
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Croatia",
+          "difference": 13
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Croatia",
+          "difference": 195
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Croatia",
+          "difference": 8
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Croatia",
+          "difference": 14
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Croatia",
+          "difference": 13
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Croatia",
+          "difference": 13
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Croatia",
+          "difference": 41
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Croatia",
+          "difference": 3
+        }
+      ]
+    }
   },
   {
     "id": "match_069",
@@ -3011,7 +7227,69 @@
       "Venue factor included: AT&T Stadium, Dallas, heat risk 9/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "England is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "England",
+          "difference": 330
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "England",
+          "difference": 38
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "England",
+          "difference": 21
+        },
+        {
+          "factor": "Attack",
+          "advantage": "England",
+          "difference": 21
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "England",
+          "difference": 330
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "England",
+          "difference": 14
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "England",
+          "difference": 21
+        },
+        {
+          "factor": "Attack",
+          "advantage": "England",
+          "difference": 21
+        },
+        {
+          "factor": "Defence",
+          "advantage": "England",
+          "difference": 16
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "England",
+          "difference": 38
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "England",
+          "difference": 4
+        }
+      ]
+    }
   },
   {
     "id": "match_070",
@@ -3054,7 +7332,69 @@
       "Venue factor included: NRG Stadium, Houston, heat risk 10/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Croatia is favoured because of advantages across elo strength, world cup history, defence, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Croatia",
+          "difference": 220
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Croatia",
+          "difference": 15
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Croatia",
+          "difference": 13
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Croatia",
+          "difference": 11
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Croatia",
+          "difference": 220
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Croatia",
+          "difference": 10
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Croatia",
+          "difference": 11
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Croatia",
+          "difference": 9
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Croatia",
+          "difference": 13
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Croatia",
+          "difference": 15
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Croatia",
+          "difference": 3
+        }
+      ]
+    }
   },
   {
     "id": "match_071",
@@ -3098,7 +7438,69 @@
       "Venue factor included: Hard Rock Stadium, Miami, heat risk 10/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "England is favoured because of advantages across elo strength, attack, squad rating, recent form.",
+      "strongestFactors": [
+        {
+          "factor": "Elo strength",
+          "advantage": "England",
+          "difference": 135
+        },
+        {
+          "factor": "Attack",
+          "advantage": "England",
+          "difference": 8
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "England",
+          "difference": 7
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "England",
+          "difference": 6
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "England",
+          "difference": 135
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "England",
+          "difference": 6
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "England",
+          "difference": 7
+        },
+        {
+          "factor": "Attack",
+          "advantage": "England",
+          "difference": 8
+        },
+        {
+          "factor": "Defence",
+          "advantage": "England",
+          "difference": 3
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Croatia",
+          "difference": 3
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "England",
+          "difference": 1
+        }
+      ]
+    }
   },
   {
     "id": "match_072",
@@ -3141,6 +7543,68 @@
       "Venue factor included: Mercedes-Benz Stadium, Atlanta, heat risk 7/10.",
       "Model uses Elo seed, FIFA rank strength, recent form, squad strength, attack, defence, World Cup history and discipline risk.",
       "Scorer and red-card predictions are probabilistic estimates based on player threat and discipline scores."
-    ]
+    ],
+    "explanation": {
+      "summary": "Ghana is favoured because of advantages across world cup history, elo strength, attack, squad rating.",
+      "strongestFactors": [
+        {
+          "factor": "World Cup history",
+          "advantage": "Ghana",
+          "difference": 26
+        },
+        {
+          "factor": "Elo strength",
+          "advantage": "Panama",
+          "difference": 25
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Ghana",
+          "difference": 4
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Ghana",
+          "difference": 3
+        }
+      ],
+      "comparisonTable": [
+        {
+          "factor": "Elo strength",
+          "advantage": "Panama",
+          "difference": 25
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "Panama",
+          "difference": 2
+        },
+        {
+          "factor": "Squad rating",
+          "advantage": "Ghana",
+          "difference": 3
+        },
+        {
+          "factor": "Attack",
+          "advantage": "Ghana",
+          "difference": 4
+        },
+        {
+          "factor": "Defence",
+          "advantage": "Even",
+          "difference": 0
+        },
+        {
+          "factor": "World Cup history",
+          "advantage": "Ghana",
+          "difference": 26
+        },
+        {
+          "factor": "Discipline risk",
+          "advantage": "Even",
+          "difference": 0
+        }
+      ]
+    }
   }
 ]

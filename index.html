@@ -12,13 +12,14 @@
       <p class="eyebrow">2026 Tournament Intelligence</p>
       <h1>World Cup Predictor</h1>
       <p class="subtitle">
-        Predict matches, simulate tournament paths, compare teams and generate data-backed World Cup insights.
+        Predict matches, simulate tournament paths, compare teams, project Golden Boot candidates and explain model-driven World Cup outcomes.
       </p>
     </div>
+
     <div class="hero-card">
-      <span>Model Confidence</span>
-      <strong id="modelConfidence">Live Demo</strong>
-      <p>Ready for Elo, fixtures, weather, injuries and AI upgrades.</p>
+      <span>Model Status</span>
+      <strong>10,000 Runs</strong>
+      <p>Static free-data model with teams, players, stadiums, groups and knockout simulations.</p>
     </div>
   </header>
 
@@ -27,60 +28,59 @@
       <div class="section-header">
         <div>
           <p class="eyebrow">Match Engine</p>
-          <h2>Predict a Match</h2>
+          <h2>Match Prediction</h2>
         </div>
       </div>
 
       <div class="predictor-grid">
-  <select id="fixtureSelect"></select>
-  <button onclick="showPrediction()">Show Prediction</button>
-</div>
+        <select id="fixtureSelect"></select>
+        <button onclick="showPrediction()">Show Prediction</button>
+      </div>
 
       <div id="prediction" class="result-box empty">
-        Select two teams to generate a prediction.
+        Select a fixture to generate the prediction.
       </div>
     </section>
 
-    <section class="card">
+    <section class="card large">
       <p class="eyebrow">Tournament Simulation</p>
-      <h2>Monte Carlo Simulator</h2>
-      <p class="muted">Runs a 10,000 simulation model using current team strength scores.</p>
-      <button onclick="runMonteCarlo()">Run Simulation</button>
-      <div id="simulation" class="result-box empty">No simulation run yet.</div>
-    </section>
-
-    <section class="card">
-      <p class="eyebrow">Group Stage</p>
-      <h2>Team Rankings</h2>
-      <button onclick="simulateGroups()">Simulate Groups</button>
-      <div id="groups" class="result-box empty">No group simulation yet.</div>
+      <h2>Projected Group Tables</h2>
+      <div id="groups" class="result-box empty">
+        Loading simulated group tables...
+      </div>
     </section>
 
     <section class="card large">
-      <p class="eyebrow">Dynamic Bracket</p>
-      <h2>Knockout Path</h2>
+      <p class="eyebrow">Knockout Model</p>
+      <h2>Projected Knockout Path</h2>
       <div id="bracket" class="bracket"></div>
     </section>
 
     <section class="card large">
+      <p class="eyebrow">Player Model</p>
+      <h2>Golden Boot Predictions</h2>
+      <div id="goldenBoot" class="bracket"></div>
+    </section>
+
+    <section class="card large">
       <p class="eyebrow">Team Intelligence</p>
-      <h2>Team Strength Dashboard</h2>
+      <h2>Top Team Strength Dashboard</h2>
       <div id="teamCards" class="team-grid"></div>
     </section>
 
     <section class="card large">
-      <p class="eyebrow">AI Assistant</p>
-      <h2>World Cup Chat</h2>
+      <p class="eyebrow">Analyst Chat</p>
+      <h2>World Cup Model Assistant</h2>
       <div class="chat-row">
-        <input id="chatInput" placeholder="Ask about teams, fixtures, form, players or World Cup history..." />
+        <input id="chatInput" placeholder="Ask about Argentina, France, Brazil, groups, odds, scorers or model logic..." />
         <button onclick="askChat()">Ask</button>
       </div>
-      <div id="chatOutput" class="result-box empty">Ask a question to get started.</div>
+      <div id="chatOutput" class="result-box empty">
+        Ask about a team currently in the model.
+      </div>
     </section>
   </main>
 
-  <script src="data.js"></script>
-  <script src="model.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
