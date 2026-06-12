@@ -19,10 +19,11 @@
     <div class="hero-card">
       <span>Model Status</span>
       <strong>10,000 Runs</strong>
-      <p>Static free-data model with teams, players, stadiums, groups and knockout simulations.</p>
-    <div class="top-actions">
-  <button class="secondary" onclick="toggleTheme()">Toggle Dark Mode</button>
-</div>
+      <p>Free static-data model with teams, players, stadiums, travel, conditions, groups and knockout simulations.</p>
+      <div class="top-actions">
+        <button class="secondary" onclick="toggleTheme()">Toggle Dark Mode</button>
+      </div>
+    </div>
   </header>
 
   <main class="layout">
@@ -31,15 +32,19 @@
     <section class="card">
       <p class="eyebrow">Match Engine</p>
       <h2>Match Prediction</h2>
-
       <div class="predictor-grid">
         <select id="fixtureSelect"></select>
         <button onclick="showPrediction()">Show Prediction</button>
       </div>
-
       <div id="prediction" class="result-box empty">
         Select a fixture to generate the prediction.
       </div>
+    </section>
+
+    <section class="card">
+      <p class="eyebrow">Upcoming Fixtures</p>
+      <h2>Match Cards</h2>
+      <div id="matchCards" class="match-card-grid"></div>
     </section>
 
     <section class="card half">
@@ -57,9 +62,7 @@
     <section class="card">
       <p class="eyebrow">Tournament Simulation</p>
       <h2>Projected Group Tables</h2>
-      <div id="groups" class="result-box empty">
-        Loading simulated group tables...
-      </div>
+      <div id="groups" class="result-box empty">Loading simulated group tables...</div>
     </section>
 
     <section class="card">
@@ -77,15 +80,11 @@
     <section class="card">
       <p class="eyebrow">Analyst Chat</p>
       <h2>World Cup Model Assistant</h2>
-
       <div class="predictor-grid">
         <input id="chatInput" placeholder="Ask about Argentina, France, Brazil, groups, scorers or model logic..." />
         <button onclick="askChat()">Ask</button>
       </div>
-
-      <div id="chatOutput" class="result-box empty">
-        Ask about a team currently in the model.
-      </div>
+      <div id="chatOutput" class="result-box empty">Ask about a team currently in the model.</div>
     </section>
   </main>
 

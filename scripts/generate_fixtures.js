@@ -10,7 +10,6 @@ const stadiums = [
 ];
 
 const grouped = {};
-
 teams.forEach(team => {
   if (!grouped[team.group]) grouped[team.group] = [];
   grouped[team.group].push(team.name);

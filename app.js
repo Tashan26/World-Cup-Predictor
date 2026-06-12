@@ -6,27 +6,36 @@ let tournamentSimulation = {};
 let knockout = {};
 
 async function loadData() {
-  const predictionsRes = await fetch("data/predictions.json");
-  const teamsRes = await fetch("data/teams.json");
-  const flagsRes = await fetch("data/flags.json");
-  const simRes = await fetch("data/tournament_simulation.json");
-  const goldenBootRes = await fetch("data/golden_boot.json");
-  const knockoutRes = await fetch("data/knockout.json");
+  try {
+    const [predictionsRes, teamsRes, flagsRes, simRes, goldenBootRes, knockoutRes] = await Promise.all([
+      fetch("data/predictions.json"),
+      fetch("data/teams.json"),
+      fetch("data/flags.json"),
+      fetch("data/tournament_simulation.json"),
+      fetch("data/golden_boot.json"),
+      fetch("data/knockout.json")
+    ]);
 
-  predictions = await predictionsRes.json();
-  teamsData = await teamsRes.json();
-  flags = await flagsRes.json();
-  tournamentSimulation = await simRes.json();
-  goldenBoot = await goldenBootRes.json();
-  knockout = await knockoutRes.json();
+    predictions = await predictionsRes.json();
+    teamsData = await teamsRes.json();
+    flags = await flagsRes.json();
+    tournamentSimulation = await simRes.json();
+    goldenBoot = await goldenBootRes.json();
+    knockout = await knockoutRes.json();
 
-  populateFixtures();
-  renderKpis();
-  renderTeamCards();
-  renderGroupTables();
-  renderBracket();
-  renderGoldenBoot();
-  renderWinnerChart();
+    populateFixtures();
+    renderKpis();
+    renderMatchCards();
+    renderTeamCards();
+    renderGroupTables();
+    renderBracket();
+    renderGoldenBoot();
+    renderWinnerChart();
+    showFirstPrediction();
+  } catch (error) {
+    console.error(error);
+    document.body.insertAdjacentHTML("afterbegin", `<div style="padding:16px;background:#fee2e2;color:#991b1b;">Data loading error. Run all scripts and commit generated JSON files.</div>`);
+  }
 }
 
 function flag(team) {
@@ -46,12 +55,19 @@ function populateFixtures() {
   `).join("");
 }
 
+function showFirstPrediction() {
+  if (predictions.length && document.getElementById("fixtureSelect")) {
+    document.getElementById("fixtureSelect").value = predictions[0].id;
+    showPrediction();
+  }
+}
+
 function renderKpis() {
   const container = document.getElementById("kpiGrid");
   if (!container) return;
 
-  const favourite = tournamentSimulation.winnerProbabilities?.[0];
-  const golden = goldenBoot?.[0];
+  const favourite = tournamentSimulation.winnerProbabilities?.[0] || { team: "TBD", winProbability: 0 };
+  const golden = goldenBoot?.[0] || { player: "TBD", team: "TBD", probability: 0 };
 
   container.innerHTML = `
     <div class="kpi-card">
@@ -59,19 +75,16 @@ function renderKpis() {
       <strong>${flag(favourite.team)} ${favourite.team}</strong>
       <p class="muted">${favourite.winProbability}% title probability</p>
     </div>
-
     <div class="kpi-card">
       <span>Golden Boot Favourite</span>
       <strong>${golden.player}</strong>
       <p class="muted">${flag(golden.team)} ${golden.team} · ${golden.probability}%</p>
     </div>
-
     <div class="kpi-card">
       <span>Fixtures Modelled</span>
       <strong>${predictions.length}</strong>
       <p class="muted">Group-stage predictions generated</p>
     </div>
-
     <div class="kpi-card">
       <span>Simulation Runs</span>
       <strong>10,000</strong>
@@ -89,18 +102,9 @@ function showPrediction() {
     <h3>${flag(match.home)} ${match.home} vs ${flag(match.away)} ${match.away}</h3>
 
     <div class="prediction-grid">
-      <div>
-        <strong>Predicted score</strong>
-        <p class="big-number">${match.predictedScore}</p>
-      </div>
-      <div>
-        <strong>Predicted winner</strong>
-        <p>${flag(match.predictedWinner)} ${match.predictedWinner}</p>
-      </div>
-      <div>
-        <strong>Confidence</strong>
-        <p>${match.confidence}</p>
-      </div>
+      <div><strong>Predicted score</strong><p class="big-number">${match.predictedScore}</p></div>
+      <div><strong>Predicted winner</strong><p>${flag(match.predictedWinner)} ${match.predictedWinner}</p></div>
+      <div><strong>Confidence</strong><p>${match.confidence}</p></div>
     </div>
 
     <div class="info-grid">
@@ -110,34 +114,29 @@ function showPrediction() {
         ${probabilityLine("Draw", match.probabilities.draw)}
         ${probabilityLine(match.away, match.probabilities.away)}
       </div>
-
       <div class="info-card">
         <strong>Player intelligence</strong>
         Likely scorer: ${match.likelyScorer.name}<br>
         Team: ${flag(match.likelyScorer.team)} ${match.likelyScorer.team}<br>
         Scorer probability: ${match.likelyScorer.probability}%
       </div>
-
       <div class="info-card">
         <strong>Cards model</strong>
         ${flag(match.home)} ${match.home}: ${match.redCardRisk[match.home]}% red-card risk<br>
         ${flag(match.away)} ${match.away}: ${match.redCardRisk[match.away]}% red-card risk
       </div>
-
       <div class="info-card">
         <strong>Venue conditions</strong>
         ${match.stadium}, ${match.city}<br>
         Heat: ${match.factors.heatImpact} (${match.factors.venueHeatRisk}/10)<br>
         Altitude: ${match.factors.altitudeImpact} (${match.factors.altitude}m)
       </div>
-
       <div class="info-card">
         <strong>${flag(match.home)} ${match.home} travel</strong>
         ${match.travel[match.home].distanceKm.toLocaleString()} km<br>
         Impact: ${match.travel[match.home].impact}<br>
         Penalty: -${match.travel[match.home].penalty} pts
       </div>
-
       <div class="info-card">
         <strong>${flag(match.away)} ${match.away} travel</strong>
         ${match.travel[match.away].distanceKm.toLocaleString()} km<br>
@@ -147,10 +146,8 @@ function showPrediction() {
     </div>
 
     <hr>
-
     <h3>Why this prediction?</h3>
     <p>${match.explanation?.summary || "No explanation available."}</p>
-
     <ul>
       ${(match.explanation?.strongestFactors || []).map(f => `
         <li><strong>${f.advantage}</strong> advantage: ${f.factor} +${f.difference}</li>
@@ -158,26 +155,47 @@ function showPrediction() {
     </ul>
 
     <h3>Model notes</h3>
-    <ul>
-      ${match.notes.map(note => `<li>${note}</li>`).join("")}
-    </ul>
+    <ul>${(match.notes || []).map(note => `<li>${note}</li>`).join("")}</ul>
   `;
 }
 
 function probabilityLine(label, value) {
   const cleanLabel = label === "Draw" ? "Draw" : `${flag(label)} ${label}`;
-
   return `
     <div class="chart-row">
-      <div class="chart-label">
-        <span>${cleanLabel}</span>
-        <span>${value}%</span>
-      </div>
-      <div class="chart-bar">
-        <span style="width:${value}%"></span>
-      </div>
+      <div class="chart-label"><span>${cleanLabel}</span><span>${value}%</span></div>
+      <div class="chart-bar"><span style="width:${value}%"></span></div>
     </div>
   `;
+}
+
+function renderMatchCards() {
+  const container = document.getElementById("matchCards");
+  if (!container) return;
+
+  container.innerHTML = predictions.slice(0, 12).map(match => `
+    <div class="fixture-card">
+      <p class="muted">Group ${match.group} · Match ${match.matchNumber}</p>
+      <h3>${flag(match.home)} ${match.home}</h3>
+      <p class="vs-small">vs</p>
+      <h3>${flag(match.away)} ${match.away}</h3>
+      <div class="score-preview">${match.predictedScore}</div>
+      <p>
+        <strong>Winner:</strong> ${flag(match.predictedWinner)} ${match.predictedWinner}<br>
+        <strong>Likely scorer:</strong> ${match.likelyScorer.name}<br>
+        <strong>Confidence:</strong> ${match.confidence}
+      </p>
+      <button onclick="selectMatch('${match.id}')">View Analysis</button>
+    </div>
+  `).join("");
+}
+
+function selectMatch(matchId) {
+  const select = document.getElementById("fixtureSelect");
+  if (!select) return;
+  select.value = matchId;
+  showPrediction();
+  document.getElementById("prediction").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function renderWinnerChart() {
@@ -186,13 +204,8 @@ function renderWinnerChart() {
 
   container.innerHTML = tournamentSimulation.winnerProbabilities.slice(0, 12).map(team => `
     <div class="chart-row">
-      <div class="chart-label">
-        <span>${flag(team.team)} ${team.team}</span>
-        <span>${team.winProbability}%</span>
-      </div>
-      <div class="chart-bar">
-        <span style="width:${team.winProbability * 4}%"></span>
-      </div>
+      <div class="chart-label"><span>${flag(team.team)} ${team.team}</span><span>${team.winProbability}%</span></div>
+      <div class="chart-bar"><span style="width:${team.winProbability * 4}%"></span></div>
     </div>
   `).join("");
 }
@@ -201,19 +214,15 @@ function renderTeamCards() {
   const container = document.getElementById("teamCards");
   if (!container) return;
 
-  const ranked = [...teamsData]
-    .sort((a, b) => b.elo - a.elo)
-    .slice(0, 12);
+  const ranked = [...teamsData].sort((a, b) => b.elo - a.elo).slice(0, 12);
 
   container.innerHTML = ranked.map(team => `
     <div class="team-card">
       <strong>${flag(team.name)} ${team.name}</strong>
       <p class="muted">${team.confederation} | Group ${team.group}</p>
-
       ${statBar("Attack", team.attack)}
       ${statBar("Defence", team.defence)}
       ${statBar("Form", team.recentForm)}
-
       <span class="score-pill">Elo ${team.elo}</span>
     </div>
   `).join("");
@@ -233,24 +242,14 @@ function renderGroupTables() {
   if (!container || !tournamentSimulation.groupTables) return;
 
   let html = "";
-
   Object.keys(tournamentSimulation.groupTables).sort().forEach(group => {
     const table = tournamentSimulation.groupTables[group];
-
     html += `
       <div class="group-table">
         <h3>Group ${group}</h3>
         <table>
           <thead>
-            <tr>
-              <th>Team</th>
-              <th>P</th>
-              <th>W</th>
-              <th>D</th>
-              <th>L</th>
-              <th>GD</th>
-              <th>Pts</th>
-            </tr>
+            <tr><th>Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr>
           </thead>
           <tbody>
             ${table.map(row => `
@@ -269,7 +268,6 @@ function renderGroupTables() {
       </div>
     `;
   });
-
   container.innerHTML = html;
 }
 
@@ -302,13 +300,8 @@ function renderGoldenBoot() {
 
   container.innerHTML = goldenBoot.slice(0, 12).map(player => `
     <div class="chart-row">
-      <div class="chart-label">
-        <span>${flag(player.team)} ${player.player}</span>
-        <span>${player.probability}%</span>
-      </div>
-      <div class="chart-bar">
-        <span style="width:${player.probability * 5}%"></span>
-      </div>
+      <div class="chart-label"><span>${flag(player.team)} ${player.player}</span><span>${player.probability}%</span></div>
+      <div class="chart-bar"><span style="width:${player.probability * 5}%"></span></div>
     </div>
   `).join("");
 }
@@ -316,7 +309,6 @@ function renderGoldenBoot() {
 function askChat() {
   const input = document.getElementById("chatInput").value.toLowerCase();
   const output = document.getElementById("chatOutput");
-
   const team = teamsData.find(t => input.includes(t.name.toLowerCase()));
 
   if (team) {
@@ -326,7 +318,6 @@ function askChat() {
       <p><strong>Confederation:</strong> ${team.confederation}</p>
       <p><strong>FIFA rank seed:</strong> ${team.fifaRank}</p>
       <p><strong>Elo seed:</strong> ${team.elo}</p>
-
       ${statBar("Attack", team.attack)}
       ${statBar("Defence", team.defence)}
       ${statBar("Recent form", team.recentForm)}
@@ -338,21 +329,16 @@ function askChat() {
   output.innerHTML = "Ask about a team currently in the model.";
 }
 
-loadData();
-
 function toggleTheme() {
   document.body.classList.toggle("dark");
-
   const mode = document.body.classList.contains("dark") ? "dark" : "light";
   localStorage.setItem("theme", mode);
 }
 
 function loadTheme() {
   const savedTheme = localStorage.getItem("theme");
-
-  if (savedTheme === "dark") {
-    document.body.classList.add("dark");
-  }
+  if (savedTheme === "dark") document.body.classList.add("dark");
 }
 
 loadTheme();
+loadData();

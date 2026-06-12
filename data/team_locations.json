@@ -1,50 +1,194 @@
 {
-  "Mexico":{"lat":19.4326,"lon":-99.1332},
-  "South Africa":{"lat":-26.2041,"lon":28.0473},
-  "South Korea":{"lat":37.5665,"lon":126.9780},
-  "Czechia":{"lat":50.0755,"lon":14.4378},
-  "Canada":{"lat":45.4215,"lon":-75.6972},
-  "Switzerland":{"lat":46.9480,"lon":7.4474},
-  "Qatar":{"lat":25.2854,"lon":51.5310},
-  "Bosnia and Herzegovina":{"lat":43.8563,"lon":18.4131},
-  "Brazil":{"lat":-15.7939,"lon":-47.8828},
-  "Haiti":{"lat":18.5944,"lon":-72.3074},
-  "Scotland":{"lat":55.9533,"lon":-3.1883},
-  "Morocco":{"lat":34.0209,"lon":-6.8416},
-  "USA":{"lat":38.9072,"lon":-77.0369},
-  "Australia":{"lat":-35.2809,"lon":149.1300},
-  "Turkey":{"lat":39.9334,"lon":32.8597},
-  "Paraguay":{"lat":-25.2637,"lon":-57.5759},
-  "Germany":{"lat":52.5200,"lon":13.4050},
-  "Côte d'Ivoire":{"lat":5.3600,"lon":-4.0083},
-  "Ecuador":{"lat":-0.1807,"lon":-78.4678},
-  "Curaçao":{"lat":12.1696,"lon":-68.9900},
-  "Netherlands":{"lat":52.3676,"lon":4.9041},
-  "Sweden":{"lat":59.3293,"lon":18.0686},
-  "Tunisia":{"lat":36.8065,"lon":10.1815},
-  "Japan":{"lat":35.6762,"lon":139.6503},
-  "Belgium":{"lat":50.8503,"lon":4.3517},
-  "Iran":{"lat":35.6892,"lon":51.3890},
-  "New Zealand":{"lat":-41.2865,"lon":174.7762},
-  "Egypt":{"lat":30.0444,"lon":31.2357},
-  "Spain":{"lat":40.4168,"lon":-3.7038},
-  "Saudi Arabia":{"lat":24.7136,"lon":46.6753},
-  "Uruguay":{"lat":-34.9011,"lon":-56.1645},
-  "Cabo Verde":{"lat":14.9331,"lon":-23.5133},
-  "France":{"lat":48.8566,"lon":2.3522},
-  "Iraq":{"lat":33.3152,"lon":44.3661},
-  "Norway":{"lat":59.9139,"lon":10.7522},
-  "Senegal":{"lat":14.7167,"lon":-17.4677},
-  "Argentina":{"lat":-34.6037,"lon":-58.3816},
-  "Austria":{"lat":48.2082,"lon":16.3738},
-  "Jordan":{"lat":31.9539,"lon":35.9106},
-  "Algeria":{"lat":36.7538,"lon":3.0588},
-  "Portugal":{"lat":38.7223,"lon":-9.1393},
-  "Uzbekistan":{"lat":41.2995,"lon":69.2401},
-  "Colombia":{"lat":4.7110,"lon":-74.0721},
-  "Congo DR":{"lat":-4.4419,"lon":15.2663},
-  "England":{"lat":51.5072,"lon":-0.1276},
-  "Ghana":{"lat":5.6037,"lon":-0.1870},
-  "Panama":{"lat":8.9824,"lon":-79.5199},
-  "Croatia":{"lat":45.8150,"lon":15.9819}
+  "Mexico": {
+    "lat": 19.4326,
+    "lon": -99.1332
+  },
+  "South Africa": {
+    "lat": -26.2041,
+    "lon": 28.0473
+  },
+  "South Korea": {
+    "lat": 37.5665,
+    "lon": 126.978
+  },
+  "Czechia": {
+    "lat": 50.0755,
+    "lon": 14.4378
+  },
+  "Canada": {
+    "lat": 45.4215,
+    "lon": -75.6972
+  },
+  "Switzerland": {
+    "lat": 46.948,
+    "lon": 7.4474
+  },
+  "Qatar": {
+    "lat": 25.2854,
+    "lon": 51.531
+  },
+  "Bosnia and Herzegovina": {
+    "lat": 43.8563,
+    "lon": 18.4131
+  },
+  "Brazil": {
+    "lat": -15.7939,
+    "lon": -47.8828
+  },
+  "Haiti": {
+    "lat": 18.5944,
+    "lon": -72.3074
+  },
+  "Scotland": {
+    "lat": 55.9533,
+    "lon": -3.1883
+  },
+  "Morocco": {
+    "lat": 34.0209,
+    "lon": -6.8416
+  },
+  "USA": {
+    "lat": 38.9072,
+    "lon": -77.0369
+  },
+  "Australia": {
+    "lat": -35.2809,
+    "lon": 149.13
+  },
+  "Turkey": {
+    "lat": 39.9334,
+    "lon": 32.8597
+  },
+  "Paraguay": {
+    "lat": -25.2637,
+    "lon": -57.5759
+  },
+  "Germany": {
+    "lat": 52.52,
+    "lon": 13.405
+  },
+  "Côte d'Ivoire": {
+    "lat": 5.36,
+    "lon": -4.0083
+  },
+  "Ecuador": {
+    "lat": -0.1807,
+    "lon": -78.4678
+  },
+  "Curaçao": {
+    "lat": 12.1696,
+    "lon": -68.99
+  },
+  "Netherlands": {
+    "lat": 52.3676,
+    "lon": 4.9041
+  },
+  "Sweden": {
+    "lat": 59.3293,
+    "lon": 18.0686
+  },
+  "Tunisia": {
+    "lat": 36.8065,
+    "lon": 10.1815
+  },
+  "Japan": {
+    "lat": 35.6762,
+    "lon": 139.6503
+  },
+  "Belgium": {
+    "lat": 50.8503,
+    "lon": 4.3517
+  },
+  "Iran": {
+    "lat": 35.6892,
+    "lon": 51.389
+  },
+  "New Zealand": {
+    "lat": -41.2865,
+    "lon": 174.7762
+  },
+  "Egypt": {
+    "lat": 30.0444,
+    "lon": 31.2357
+  },
+  "Spain": {
+    "lat": 40.4168,
+    "lon": -3.7038
+  },
+  "Saudi Arabia": {
+    "lat": 24.7136,
+    "lon": 46.6753
+  },
+  "Uruguay": {
+    "lat": -34.9011,
+    "lon": -56.1645
+  },
+  "Cabo Verde": {
+    "lat": 14.9331,
+    "lon": -23.5133
+  },
+  "France": {
+    "lat": 48.8566,
+    "lon": 2.3522
+  },
+  "Iraq": {
+    "lat": 33.3152,
+    "lon": 44.3661
+  },
+  "Norway": {
+    "lat": 59.9139,
+    "lon": 10.7522
+  },
+  "Senegal": {
+    "lat": 14.7167,
+    "lon": -17.4677
+  },
+  "Argentina": {
+    "lat": -34.6037,
+    "lon": -58.3816
+  },
+  "Austria": {
+    "lat": 48.2082,
+    "lon": 16.3738
+  },
+  "Jordan": {
+    "lat": 31.9539,
+    "lon": 35.9106
+  },
+  "Algeria": {
+    "lat": 36.7538,
+    "lon": 3.0588
+  },
+  "Portugal": {
+    "lat": 38.7223,
+    "lon": -9.1393
+  },
+  "Uzbekistan": {
+    "lat": 41.2995,
+    "lon": 69.2401
+  },
+  "Colombia": {
+    "lat": 4.711,
+    "lon": -74.0721
+  },
+  "Congo DR": {
+    "lat": -4.4419,
+    "lon": 15.2663
+  },
+  "England": {
+    "lat": 51.5072,
+    "lon": -0.1276
+  },
+  "Ghana": {
+    "lat": 5.6037,
+    "lon": -0.187
+  },
+  "Panama": {
+    "lat": 8.9824,
+    "lon": -79.5199
+  },
+  "Croatia": {
+    "lat": 45.815,
+    "lon": 15.9819
+  }
 }

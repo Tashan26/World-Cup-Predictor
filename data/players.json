@@ -1,77 +1,1208 @@
 [
-  {"team":"Argentina","name":"Lionel Messi","position":"Forward","goalThreat":88,"assistThreat":92,"form":87,"redCardRisk":2},
-  {"team":"Argentina","name":"Julian Alvarez","position":"Forward","goalThreat":84,"assistThreat":75,"form":84,"redCardRisk":3},
-  {"team":"Argentina","name":"Lautaro Martinez","position":"Forward","goalThreat":86,"assistThreat":70,"form":85,"redCardRisk":4},
-
-  {"team":"France","name":"Kylian Mbappe","position":"Forward","goalThreat":96,"assistThreat":84,"form":92,"redCardRisk":2},
-  {"team":"France","name":"Antoine Griezmann","position":"Midfielder","goalThreat":78,"assistThreat":88,"form":84,"redCardRisk":3},
-  {"team":"France","name":"Ousmane Dembele","position":"Forward","goalThreat":80,"assistThreat":84,"form":83,"redCardRisk":3},
-
-  {"team":"Brazil","name":"Vinicius Junior","position":"Forward","goalThreat":91,"assistThreat":86,"form":90,"redCardRisk":4},
-  {"team":"Brazil","name":"Rodrygo","position":"Forward","goalThreat":85,"assistThreat":80,"form":84,"redCardRisk":3},
-  {"team":"Brazil","name":"Neymar","position":"Forward","goalThreat":82,"assistThreat":89,"form":76,"redCardRisk":4},
-
-  {"team":"England","name":"Harry Kane","position":"Forward","goalThreat":94,"assistThreat":82,"form":91,"redCardRisk":2},
-  {"team":"England","name":"Jude Bellingham","position":"Midfielder","goalThreat":86,"assistThreat":83,"form":89,"redCardRisk":4},
-  {"team":"England","name":"Bukayo Saka","position":"Forward","goalThreat":84,"assistThreat":85,"form":87,"redCardRisk":2},
-
-  {"team":"Spain","name":"Lamine Yamal","position":"Forward","goalThreat":82,"assistThreat":87,"form":88,"redCardRisk":2},
-  {"team":"Spain","name":"Pedri","position":"Midfielder","goalThreat":70,"assistThreat":88,"form":82,"redCardRisk":3},
-  {"team":"Spain","name":"Alvaro Morata","position":"Forward","goalThreat":80,"assistThreat":67,"form":78,"redCardRisk":4},
-
-  {"team":"Germany","name":"Jamal Musiala","position":"Midfielder","goalThreat":84,"assistThreat":85,"form":87,"redCardRisk":2},
-  {"team":"Germany","name":"Florian Wirtz","position":"Midfielder","goalThreat":82,"assistThreat":89,"form":88,"redCardRisk":2},
-  {"team":"Germany","name":"Kai Havertz","position":"Forward","goalThreat":80,"assistThreat":75,"form":81,"redCardRisk":3},
-
-  {"team":"Portugal","name":"Cristiano Ronaldo","position":"Forward","goalThreat":85,"assistThreat":70,"form":80,"redCardRisk":3},
-  {"team":"Portugal","name":"Bruno Fernandes","position":"Midfielder","goalThreat":81,"assistThreat":90,"form":86,"redCardRisk":5},
-  {"team":"Portugal","name":"Rafael Leao","position":"Forward","goalThreat":83,"assistThreat":78,"form":82,"redCardRisk":3},
-
-  {"team":"Netherlands","name":"Cody Gakpo","position":"Forward","goalThreat":84,"assistThreat":78,"form":84,"redCardRisk":3},
-  {"team":"Netherlands","name":"Memphis Depay","position":"Forward","goalThreat":80,"assistThreat":75,"form":76,"redCardRisk":4},
-  {"team":"Netherlands","name":"Xavi Simons","position":"Midfielder","goalThreat":78,"assistThreat":84,"form":83,"redCardRisk":3},
-
-  {"team":"Belgium","name":"Kevin De Bruyne","position":"Midfielder","goalThreat":78,"assistThreat":94,"form":83,"redCardRisk":3},
-  {"team":"Belgium","name":"Romelu Lukaku","position":"Forward","goalThreat":84,"assistThreat":65,"form":78,"redCardRisk":4},
-  {"team":"Belgium","name":"Jeremy Doku","position":"Forward","goalThreat":78,"assistThreat":82,"form":80,"redCardRisk":3},
-
-  {"team":"Uruguay","name":"Darwin Nunez","position":"Forward","goalThreat":86,"assistThreat":70,"form":82,"redCardRisk":6},
-  {"team":"Uruguay","name":"Federico Valverde","position":"Midfielder","goalThreat":78,"assistThreat":82,"form":86,"redCardRisk":4},
-  {"team":"Uruguay","name":"Luis Suarez","position":"Forward","goalThreat":75,"assistThreat":68,"form":70,"redCardRisk":6},
-
-  {"team":"Colombia","name":"Luis Diaz","position":"Forward","goalThreat":85,"assistThreat":80,"form":86,"redCardRisk":4},
-  {"team":"Colombia","name":"James Rodriguez","position":"Midfielder","goalThreat":74,"assistThreat":88,"form":78,"redCardRisk":4},
-  {"team":"Colombia","name":"Jhon Duran","position":"Forward","goalThreat":80,"assistThreat":65,"form":79,"redCardRisk":5},
-
-  {"team":"Morocco","name":"Achraf Hakimi","position":"Defender","goalThreat":70,"assistThreat":82,"form":84,"redCardRisk":5},
-  {"team":"Morocco","name":"Hakim Ziyech","position":"Forward","goalThreat":78,"assistThreat":84,"form":77,"redCardRisk":4},
-  {"team":"Morocco","name":"Youssef En-Nesyri","position":"Forward","goalThreat":82,"assistThreat":62,"form":80,"redCardRisk":3},
-
-  {"team":"Japan","name":"Takefusa Kubo","position":"Forward","goalThreat":80,"assistThreat":84,"form":83,"redCardRisk":2},
-  {"team":"Japan","name":"Kaoru Mitoma","position":"Forward","goalThreat":78,"assistThreat":83,"form":82,"redCardRisk":2},
-  {"team":"Japan","name":"Takumi Minamino","position":"Midfielder","goalThreat":76,"assistThreat":78,"form":78,"redCardRisk":3},
-
-  {"team":"Mexico","name":"Santiago Gimenez","position":"Forward","goalThreat":82,"assistThreat":66,"form":80,"redCardRisk":4},
-  {"team":"Mexico","name":"Hirving Lozano","position":"Forward","goalThreat":78,"assistThreat":76,"form":76,"redCardRisk":4},
-  {"team":"Mexico","name":"Edson Alvarez","position":"Midfielder","goalThreat":62,"assistThreat":66,"form":76,"redCardRisk":7},
-
-  {"team":"USA","name":"Christian Pulisic","position":"Forward","goalThreat":82,"assistThreat":82,"form":84,"redCardRisk":3},
-  {"team":"USA","name":"Giovanni Reyna","position":"Midfielder","goalThreat":74,"assistThreat":82,"form":75,"redCardRisk":3},
-  {"team":"USA","name":"Folarin Balogun","position":"Forward","goalThreat":78,"assistThreat":64,"form":76,"redCardRisk":3},
-
-  {"team":"Canada","name":"Jonathan David","position":"Forward","goalThreat":84,"assistThreat":70,"form":84,"redCardRisk":3},
-  {"team":"Canada","name":"Alphonso Davies","position":"Defender","goalThreat":70,"assistThreat":82,"form":83,"redCardRisk":4},
-  {"team":"Canada","name":"Tajon Buchanan","position":"Forward","goalThreat":72,"assistThreat":74,"form":75,"redCardRisk":4},
-
-  {"team":"South Korea","name":"Son Heung-min","position":"Forward","goalThreat":88,"assistThreat":82,"form":86,"redCardRisk":2},
-  {"team":"South Korea","name":"Lee Kang-in","position":"Midfielder","goalThreat":76,"assistThreat":82,"form":80,"redCardRisk":3},
-  {"team":"South Korea","name":"Hwang Hee-chan","position":"Forward","goalThreat":78,"assistThreat":70,"form":78,"redCardRisk":4},
-
-  {"team":"Senegal","name":"Sadio Mane","position":"Forward","goalThreat":82,"assistThreat":76,"form":78,"redCardRisk":4},
-  {"team":"Senegal","name":"Nicolas Jackson","position":"Forward","goalThreat":80,"assistThreat":68,"form":80,"redCardRisk":4},
-  {"team":"Senegal","name":"Ismaila Sarr","position":"Forward","goalThreat":76,"assistThreat":75,"form":76,"redCardRisk":3},
-
-  {"team":"Norway","name":"Erling Haaland","position":"Forward","goalThreat":97,"assistThreat":70,"form":92,"redCardRisk":3},
-  {"team":"Norway","name":"Martin Odegaard","position":"Midfielder","goalThreat":78,"assistThreat":92,"form":88,"redCardRisk":2},
-  {"team":"Norway","name":"Alexander Sorloth","position":"Forward","goalThreat":80,"assistThreat":65,"form":80,"redCardRisk":4}
+  {
+    "team": "Argentina",
+    "name": "Lionel Messi",
+    "position": "Forward",
+    "goalThreat": 88,
+    "assistThreat": 92,
+    "form": 87,
+    "redCardRisk": 2
+  },
+  {
+    "team": "Argentina",
+    "name": "Julian Alvarez",
+    "position": "Forward",
+    "goalThreat": 84,
+    "assistThreat": 75,
+    "form": 84,
+    "redCardRisk": 3
+  },
+  {
+    "team": "Argentina",
+    "name": "Lautaro Martinez",
+    "position": "Forward",
+    "goalThreat": 86,
+    "assistThreat": 70,
+    "form": 85,
+    "redCardRisk": 4
+  },
+  {
+    "team": "France",
+    "name": "Kylian Mbappe",
+    "position": "Forward",
+    "goalThreat": 96,
+    "assistThreat": 84,
+    "form": 92,
+    "redCardRisk": 2
+  },
+  {
+    "team": "France",
+    "name": "Antoine Griezmann",
+    "position": "Midfielder",
+    "goalThreat": 78,
+    "assistThreat": 88,
+    "form": 84,
+    "redCardRisk": 3
+  },
+  {
+    "team": "France",
+    "name": "Ousmane Dembele",
+    "position": "Forward",
+    "goalThreat": 80,
+    "assistThreat": 84,
+    "form": 83,
+    "redCardRisk": 3
+  },
+  {
+    "team": "Brazil",
+    "name": "Vinicius Junior",
+    "position": "Forward",
+    "goalThreat": 91,
+    "assistThreat": 86,
+    "form": 90,
+    "redCardRisk": 4
+  },
+  {
+    "team": "Brazil",
+    "name": "Rodrygo",
+    "position": "Forward",
+    "goalThreat": 85,
+    "assistThreat": 80,
+    "form": 84,
+    "redCardRisk": 3
+  },
+  {
+    "team": "England",
+    "name": "Harry Kane",
+    "position": "Forward",
+    "goalThreat": 94,
+    "assistThreat": 82,
+    "form": 91,
+    "redCardRisk": 2
+  },
+  {
+    "team": "England",
+    "name": "Jude Bellingham",
+    "position": "Midfielder",
+    "goalThreat": 86,
+    "assistThreat": 83,
+    "form": 89,
+    "redCardRisk": 4
+  },
+  {
+    "team": "Spain",
+    "name": "Lamine Yamal",
+    "position": "Forward",
+    "goalThreat": 82,
+    "assistThreat": 87,
+    "form": 88,
+    "redCardRisk": 2
+  },
+  {
+    "team": "Germany",
+    "name": "Jamal Musiala",
+    "position": "Midfielder",
+    "goalThreat": 84,
+    "assistThreat": 85,
+    "form": 87,
+    "redCardRisk": 2
+  },
+  {
+    "team": "Portugal",
+    "name": "Cristiano Ronaldo",
+    "position": "Forward",
+    "goalThreat": 85,
+    "assistThreat": 70,
+    "form": 80,
+    "redCardRisk": 3
+  },
+  {
+    "team": "Norway",
+    "name": "Erling Haaland",
+    "position": "Forward",
+    "goalThreat": 97,
+    "assistThreat": 70,
+    "form": 92,
+    "redCardRisk": 3
+  },
+  {
+    "team": "Mexico",
+    "name": "Mexico Main Forward",
+    "position": "Forward",
+    "goalThreat": 77,
+    "assistThreat": 72,
+    "form": 78,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Mexico",
+    "name": "Mexico Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 69,
+    "assistThreat": 77,
+    "form": 78,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Mexico",
+    "name": "Mexico Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 52,
+    "assistThreat": 56,
+    "form": 78,
+    "redCardRisk": 7
+  },
+  {
+    "team": "South Africa",
+    "name": "South Africa Main Forward",
+    "position": "Forward",
+    "goalThreat": 68,
+    "assistThreat": 63,
+    "form": 70,
+    "redCardRisk": 6
+  },
+  {
+    "team": "South Africa",
+    "name": "South Africa Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 60,
+    "assistThreat": 68,
+    "form": 70,
+    "redCardRisk": 7
+  },
+  {
+    "team": "South Africa",
+    "name": "South Africa Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 43,
+    "assistThreat": 49,
+    "form": 70,
+    "redCardRisk": 8
+  },
+  {
+    "team": "South Korea",
+    "name": "South Korea Main Forward",
+    "position": "Forward",
+    "goalThreat": 76,
+    "assistThreat": 71,
+    "form": 76,
+    "redCardRisk": 4
+  },
+  {
+    "team": "South Korea",
+    "name": "South Korea Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 68,
+    "assistThreat": 76,
+    "form": 76,
+    "redCardRisk": 5
+  },
+  {
+    "team": "South Korea",
+    "name": "South Korea Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 51,
+    "assistThreat": 55,
+    "form": 76,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Czechia",
+    "name": "Czechia Main Forward",
+    "position": "Forward",
+    "goalThreat": 74,
+    "assistThreat": 69,
+    "form": 73,
+    "redCardRisk": 4
+  },
+  {
+    "team": "Czechia",
+    "name": "Czechia Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 66,
+    "assistThreat": 74,
+    "form": 73,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Czechia",
+    "name": "Czechia Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 49,
+    "assistThreat": 55,
+    "form": 73,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Canada",
+    "name": "Canada Main Forward",
+    "position": "Forward",
+    "goalThreat": 77,
+    "assistThreat": 72,
+    "form": 74,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Canada",
+    "name": "Canada Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 69,
+    "assistThreat": 77,
+    "form": 74,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Canada",
+    "name": "Canada Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 52,
+    "assistThreat": 52,
+    "form": 74,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Switzerland",
+    "name": "Switzerland Main Forward",
+    "position": "Forward",
+    "goalThreat": 79,
+    "assistThreat": 74,
+    "form": 79,
+    "redCardRisk": 3
+  },
+  {
+    "team": "Switzerland",
+    "name": "Switzerland Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 71,
+    "assistThreat": 79,
+    "form": 79,
+    "redCardRisk": 4
+  },
+  {
+    "team": "Switzerland",
+    "name": "Switzerland Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 54,
+    "assistThreat": 62,
+    "form": 79,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Qatar",
+    "name": "Qatar Main Forward",
+    "position": "Forward",
+    "goalThreat": 67,
+    "assistThreat": 62,
+    "form": 69,
+    "redCardRisk": 4
+  },
+  {
+    "team": "Qatar",
+    "name": "Qatar Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 59,
+    "assistThreat": 67,
+    "form": 69,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Qatar",
+    "name": "Qatar Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 42,
+    "assistThreat": 48,
+    "form": 69,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Bosnia and Herzegovina",
+    "name": "Bosnia and Herzegovina Main Forward",
+    "position": "Forward",
+    "goalThreat": 74,
+    "assistThreat": 69,
+    "form": 71,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Bosnia and Herzegovina",
+    "name": "Bosnia and Herzegovina Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 66,
+    "assistThreat": 74,
+    "form": 71,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Bosnia and Herzegovina",
+    "name": "Bosnia and Herzegovina Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 49,
+    "assistThreat": 50,
+    "form": 71,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Haiti",
+    "name": "Haiti Main Forward",
+    "position": "Forward",
+    "goalThreat": 63,
+    "assistThreat": 58,
+    "form": 64,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Haiti",
+    "name": "Haiti Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 55,
+    "assistThreat": 63,
+    "form": 64,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Haiti",
+    "name": "Haiti Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 38,
+    "assistThreat": 41,
+    "form": 64,
+    "redCardRisk": 8
+  },
+  {
+    "team": "Scotland",
+    "name": "Scotland Main Forward",
+    "position": "Forward",
+    "goalThreat": 72,
+    "assistThreat": 67,
+    "form": 72,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Scotland",
+    "name": "Scotland Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 64,
+    "assistThreat": 72,
+    "form": 72,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Scotland",
+    "name": "Scotland Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 47,
+    "assistThreat": 54,
+    "form": 72,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Morocco",
+    "name": "Morocco Main Forward",
+    "position": "Forward",
+    "goalThreat": 81,
+    "assistThreat": 76,
+    "form": 82,
+    "redCardRisk": 4
+  },
+  {
+    "team": "Morocco",
+    "name": "Morocco Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 73,
+    "assistThreat": 81,
+    "form": 82,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Morocco",
+    "name": "Morocco Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 56,
+    "assistThreat": 63,
+    "form": 82,
+    "redCardRisk": 6
+  },
+  {
+    "team": "USA",
+    "name": "USA Main Forward",
+    "position": "Forward",
+    "goalThreat": 79,
+    "assistThreat": 74,
+    "form": 77,
+    "redCardRisk": 4
+  },
+  {
+    "team": "USA",
+    "name": "USA Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 71,
+    "assistThreat": 79,
+    "form": 77,
+    "redCardRisk": 5
+  },
+  {
+    "team": "USA",
+    "name": "USA Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 54,
+    "assistThreat": 57,
+    "form": 77,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Australia",
+    "name": "Australia Main Forward",
+    "position": "Forward",
+    "goalThreat": 73,
+    "assistThreat": 68,
+    "form": 75,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Australia",
+    "name": "Australia Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 65,
+    "assistThreat": 73,
+    "form": 75,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Australia",
+    "name": "Australia Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 48,
+    "assistThreat": 55,
+    "form": 75,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Turkey",
+    "name": "Turkey Main Forward",
+    "position": "Forward",
+    "goalThreat": 80,
+    "assistThreat": 75,
+    "form": 78,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Turkey",
+    "name": "Turkey Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 72,
+    "assistThreat": 80,
+    "form": 78,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Turkey",
+    "name": "Turkey Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 55,
+    "assistThreat": 55,
+    "form": 78,
+    "redCardRisk": 8
+  },
+  {
+    "team": "Paraguay",
+    "name": "Paraguay Main Forward",
+    "position": "Forward",
+    "goalThreat": 71,
+    "assistThreat": 66,
+    "form": 71,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Paraguay",
+    "name": "Paraguay Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 63,
+    "assistThreat": 71,
+    "form": 71,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Paraguay",
+    "name": "Paraguay Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 46,
+    "assistThreat": 54,
+    "form": 71,
+    "redCardRisk": 8
+  },
+  {
+    "team": "Côte d'Ivoire",
+    "name": "Côte d'Ivoire Main Forward",
+    "position": "Forward",
+    "goalThreat": 77,
+    "assistThreat": 72,
+    "form": 74,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Côte d'Ivoire",
+    "name": "Côte d'Ivoire Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 69,
+    "assistThreat": 77,
+    "form": 74,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Côte d'Ivoire",
+    "name": "Côte d'Ivoire Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 52,
+    "assistThreat": 52,
+    "form": 74,
+    "redCardRisk": 8
+  },
+  {
+    "team": "Ecuador",
+    "name": "Ecuador Main Forward",
+    "position": "Forward",
+    "goalThreat": 75,
+    "assistThreat": 70,
+    "form": 76,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Ecuador",
+    "name": "Ecuador Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 67,
+    "assistThreat": 75,
+    "form": 76,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Ecuador",
+    "name": "Ecuador Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 50,
+    "assistThreat": 58,
+    "form": 76,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Curaçao",
+    "name": "Curaçao Main Forward",
+    "position": "Forward",
+    "goalThreat": 62,
+    "assistThreat": 57,
+    "form": 64,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Curaçao",
+    "name": "Curaçao Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 54,
+    "assistThreat": 62,
+    "form": 64,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Curaçao",
+    "name": "Curaçao Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 37,
+    "assistThreat": 40,
+    "form": 64,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Netherlands",
+    "name": "Netherlands Main Forward",
+    "position": "Forward",
+    "goalThreat": 86,
+    "assistThreat": 81,
+    "form": 84,
+    "redCardRisk": 3
+  },
+  {
+    "team": "Netherlands",
+    "name": "Netherlands Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 78,
+    "assistThreat": 86,
+    "form": 84,
+    "redCardRisk": 4
+  },
+  {
+    "team": "Netherlands",
+    "name": "Netherlands Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 61,
+    "assistThreat": 67,
+    "form": 84,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Sweden",
+    "name": "Sweden Main Forward",
+    "position": "Forward",
+    "goalThreat": 74,
+    "assistThreat": 69,
+    "form": 73,
+    "redCardRisk": 3
+  },
+  {
+    "team": "Sweden",
+    "name": "Sweden Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 66,
+    "assistThreat": 74,
+    "form": 73,
+    "redCardRisk": 4
+  },
+  {
+    "team": "Sweden",
+    "name": "Sweden Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 49,
+    "assistThreat": 56,
+    "form": 73,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Tunisia",
+    "name": "Tunisia Main Forward",
+    "position": "Forward",
+    "goalThreat": 70,
+    "assistThreat": 65,
+    "form": 72,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Tunisia",
+    "name": "Tunisia Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 62,
+    "assistThreat": 70,
+    "form": 72,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Tunisia",
+    "name": "Tunisia Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 45,
+    "assistThreat": 53,
+    "form": 72,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Japan",
+    "name": "Japan Main Forward",
+    "position": "Forward",
+    "goalThreat": 80,
+    "assistThreat": 75,
+    "form": 81,
+    "redCardRisk": 3
+  },
+  {
+    "team": "Japan",
+    "name": "Japan Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 72,
+    "assistThreat": 80,
+    "form": 81,
+    "redCardRisk": 4
+  },
+  {
+    "team": "Japan",
+    "name": "Japan Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 55,
+    "assistThreat": 58,
+    "form": 81,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Belgium",
+    "name": "Belgium Main Forward",
+    "position": "Forward",
+    "goalThreat": 85,
+    "assistThreat": 80,
+    "form": 80,
+    "redCardRisk": 3
+  },
+  {
+    "team": "Belgium",
+    "name": "Belgium Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 77,
+    "assistThreat": 85,
+    "form": 80,
+    "redCardRisk": 4
+  },
+  {
+    "team": "Belgium",
+    "name": "Belgium Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 60,
+    "assistThreat": 61,
+    "form": 80,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Iran",
+    "name": "Iran Main Forward",
+    "position": "Forward",
+    "goalThreat": 74,
+    "assistThreat": 69,
+    "form": 76,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Iran",
+    "name": "Iran Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 66,
+    "assistThreat": 74,
+    "form": 76,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Iran",
+    "name": "Iran Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 49,
+    "assistThreat": 55,
+    "form": 76,
+    "redCardRisk": 7
+  },
+  {
+    "team": "New Zealand",
+    "name": "New Zealand Main Forward",
+    "position": "Forward",
+    "goalThreat": 62,
+    "assistThreat": 57,
+    "form": 65,
+    "redCardRisk": 4
+  },
+  {
+    "team": "New Zealand",
+    "name": "New Zealand Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 54,
+    "assistThreat": 62,
+    "form": 65,
+    "redCardRisk": 5
+  },
+  {
+    "team": "New Zealand",
+    "name": "New Zealand Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 37,
+    "assistThreat": 44,
+    "form": 65,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Egypt",
+    "name": "Egypt Main Forward",
+    "position": "Forward",
+    "goalThreat": 76,
+    "assistThreat": 71,
+    "form": 74,
+    "redCardRisk": 4
+  },
+  {
+    "team": "Egypt",
+    "name": "Egypt Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 68,
+    "assistThreat": 76,
+    "form": 74,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Egypt",
+    "name": "Egypt Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 51,
+    "assistThreat": 53,
+    "form": 74,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Saudi Arabia",
+    "name": "Saudi Arabia Main Forward",
+    "position": "Forward",
+    "goalThreat": 67,
+    "assistThreat": 62,
+    "form": 69,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Saudi Arabia",
+    "name": "Saudi Arabia Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 59,
+    "assistThreat": 67,
+    "form": 69,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Saudi Arabia",
+    "name": "Saudi Arabia Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 42,
+    "assistThreat": 48,
+    "form": 69,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Uruguay",
+    "name": "Uruguay Main Forward",
+    "position": "Forward",
+    "goalThreat": 84,
+    "assistThreat": 79,
+    "form": 83,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Uruguay",
+    "name": "Uruguay Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 76,
+    "assistThreat": 84,
+    "form": 83,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Uruguay",
+    "name": "Uruguay Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 59,
+    "assistThreat": 62,
+    "form": 83,
+    "redCardRisk": 8
+  },
+  {
+    "team": "Cabo Verde",
+    "name": "Cabo Verde Main Forward",
+    "position": "Forward",
+    "goalThreat": 66,
+    "assistThreat": 61,
+    "form": 68,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Cabo Verde",
+    "name": "Cabo Verde Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 58,
+    "assistThreat": 66,
+    "form": 68,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Cabo Verde",
+    "name": "Cabo Verde Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 41,
+    "assistThreat": 45,
+    "form": 68,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Iraq",
+    "name": "Iraq Main Forward",
+    "position": "Forward",
+    "goalThreat": 67,
+    "assistThreat": 62,
+    "form": 69,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Iraq",
+    "name": "Iraq Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 59,
+    "assistThreat": 67,
+    "form": 69,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Iraq",
+    "name": "Iraq Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 42,
+    "assistThreat": 46,
+    "form": 69,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Senegal",
+    "name": "Senegal Main Forward",
+    "position": "Forward",
+    "goalThreat": 79,
+    "assistThreat": 74,
+    "form": 79,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Senegal",
+    "name": "Senegal Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 71,
+    "assistThreat": 79,
+    "form": 79,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Senegal",
+    "name": "Senegal Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 54,
+    "assistThreat": 60,
+    "form": 79,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Austria",
+    "name": "Austria Main Forward",
+    "position": "Forward",
+    "goalThreat": 79,
+    "assistThreat": 74,
+    "form": 79,
+    "redCardRisk": 3
+  },
+  {
+    "team": "Austria",
+    "name": "Austria Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 71,
+    "assistThreat": 79,
+    "form": 79,
+    "redCardRisk": 4
+  },
+  {
+    "team": "Austria",
+    "name": "Austria Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 54,
+    "assistThreat": 58,
+    "form": 79,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Jordan",
+    "name": "Jordan Main Forward",
+    "position": "Forward",
+    "goalThreat": 66,
+    "assistThreat": 61,
+    "form": 70,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Jordan",
+    "name": "Jordan Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 58,
+    "assistThreat": 66,
+    "form": 70,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Jordan",
+    "name": "Jordan Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 41,
+    "assistThreat": 45,
+    "form": 70,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Algeria",
+    "name": "Algeria Main Forward",
+    "position": "Forward",
+    "goalThreat": 76,
+    "assistThreat": 71,
+    "form": 73,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Algeria",
+    "name": "Algeria Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 68,
+    "assistThreat": 76,
+    "form": 73,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Algeria",
+    "name": "Algeria Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 51,
+    "assistThreat": 53,
+    "form": 73,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Uzbekistan",
+    "name": "Uzbekistan Main Forward",
+    "position": "Forward",
+    "goalThreat": 67,
+    "assistThreat": 62,
+    "form": 70,
+    "redCardRisk": 4
+  },
+  {
+    "team": "Uzbekistan",
+    "name": "Uzbekistan Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 59,
+    "assistThreat": 67,
+    "form": 70,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Uzbekistan",
+    "name": "Uzbekistan Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 42,
+    "assistThreat": 46,
+    "form": 70,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Colombia",
+    "name": "Colombia Main Forward",
+    "position": "Forward",
+    "goalThreat": 82,
+    "assistThreat": 77,
+    "form": 83,
+    "redCardRisk": 5
+  },
+  {
+    "team": "Colombia",
+    "name": "Colombia Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 74,
+    "assistThreat": 82,
+    "form": 83,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Colombia",
+    "name": "Colombia Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 57,
+    "assistThreat": 59,
+    "form": 83,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Congo DR",
+    "name": "Congo DR Main Forward",
+    "position": "Forward",
+    "goalThreat": 69,
+    "assistThreat": 64,
+    "form": 69,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Congo DR",
+    "name": "Congo DR Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 61,
+    "assistThreat": 69,
+    "form": 69,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Congo DR",
+    "name": "Congo DR Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 44,
+    "assistThreat": 46,
+    "form": 69,
+    "redCardRisk": 8
+  },
+  {
+    "team": "Ghana",
+    "name": "Ghana Main Forward",
+    "position": "Forward",
+    "goalThreat": 73,
+    "assistThreat": 68,
+    "form": 70,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Ghana",
+    "name": "Ghana Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 65,
+    "assistThreat": 73,
+    "form": 70,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Ghana",
+    "name": "Ghana Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 48,
+    "assistThreat": 50,
+    "form": 70,
+    "redCardRisk": 8
+  },
+  {
+    "team": "Panama",
+    "name": "Panama Main Forward",
+    "position": "Forward",
+    "goalThreat": 69,
+    "assistThreat": 64,
+    "form": 72,
+    "redCardRisk": 6
+  },
+  {
+    "team": "Panama",
+    "name": "Panama Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 61,
+    "assistThreat": 69,
+    "form": 72,
+    "redCardRisk": 7
+  },
+  {
+    "team": "Panama",
+    "name": "Panama Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 44,
+    "assistThreat": 50,
+    "form": 72,
+    "redCardRisk": 8
+  },
+  {
+    "team": "Croatia",
+    "name": "Croatia Main Forward",
+    "position": "Forward",
+    "goalThreat": 82,
+    "assistThreat": 77,
+    "form": 80,
+    "redCardRisk": 3
+  },
+  {
+    "team": "Croatia",
+    "name": "Croatia Creative Midfielder",
+    "position": "Midfielder",
+    "goalThreat": 74,
+    "assistThreat": 82,
+    "form": 80,
+    "redCardRisk": 4
+  },
+  {
+    "team": "Croatia",
+    "name": "Croatia Defensive Leader",
+    "position": "Defender",
+    "goalThreat": 57,
+    "assistThreat": 63,
+    "form": 80,
+    "redCardRisk": 5
+  }
 ]

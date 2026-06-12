@@ -19,13 +19,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Mexico",
-      "name": "Santiago Gimenez",
+      "name": "Mexico Main Forward",
       "position": "Forward",
-      "probability": 30.2
+      "probability": 29.1
     },
     "redCardRisk": {
-      "Mexico": 6.1,
-      "South Africa": 6.5
+      "Mexico": 6.5,
+      "South Africa": 7.6
     },
     "modelScores": {
       "Mexico": 132.6,
@@ -54,7 +54,7 @@
     "notes": [
       "Mexico rate higher overall in the model.",
       "Mexico travel distance: 15 km. South Africa travel distance: 14582 km.",
-      "Venue: Estadio Azteca, Mexico City. Heat impact: Medium. Altitude impact: Very high.",
+      "Venue: Estadio Azteca, Mexico City. Heat risk 5/10. Altitude 2240m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -113,7 +113,7 @@
           "difference": 20
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Mexico",
           "difference": 1
         }
@@ -140,13 +140,13 @@
     "confidence": "Low",
     "likelyScorer": {
       "team": "South Korea",
-      "name": "Son Heung-min",
+      "name": "South Korea Main Forward",
       "position": "Forward",
-      "probability": 32.9
+      "probability": 28.6
     },
     "redCardRisk": {
-      "South Korea": 5.3,
-      "Czechia": 5.8
+      "South Korea": 6,
+      "Czechia": 6.1
     },
     "modelScores": {
       "South Korea": 121.8,
@@ -175,7 +175,7 @@
     "notes": [
       "South Korea rate higher overall in the model.",
       "South Korea travel distance: 11428 km. Czechia travel distance: 9429 km.",
-      "Venue: Estadio BBVA, Monterrey. Heat impact: High. Altitude impact: Medium.",
+      "Venue: Estadio BBVA, Monterrey. Heat risk 8/10. Altitude 540m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -234,7 +234,7 @@
           "difference": 5
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Even",
           "difference": 0
         }
@@ -261,13 +261,13 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "Mexico",
-      "name": "Santiago Gimenez",
+      "name": "Mexico Main Forward",
       "position": "Forward",
-      "probability": 30.2
+      "probability": 29.1
     },
     "redCardRisk": {
-      "Mexico": 6.4,
-      "South Korea": 5.3
+      "Mexico": 6.7,
+      "South Korea": 6
     },
     "modelScores": {
       "Mexico": 132.7,
@@ -296,7 +296,7 @@
     "notes": [
       "Mexico rate higher overall in the model.",
       "Mexico travel distance: 473 km. South Korea travel distance: 11663 km.",
-      "Venue: Estadio Akron, Guadalajara. Heat impact: High. Altitude impact: High.",
+      "Venue: Estadio Akron, Guadalajara. Heat risk 7/10. Altitude 1566m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -355,7 +355,7 @@
           "difference": 3
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "South Korea",
           "difference": 1
         }
@@ -382,12 +382,13 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "Czechia",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Czechia Main Forward",
+      "position": "Forward",
+      "probability": 27.7
     },
     "redCardRisk": {
-      "South Africa": 6.3,
-      "Czechia": 5.3
+      "South Africa": 7.4,
+      "Czechia": 5.7
     },
     "modelScores": {
       "South Africa": 107.4,
@@ -416,7 +417,7 @@
     "notes": [
       "Czechia rate higher overall in the model.",
       "South Africa travel distance: 12848 km. Czechia travel distance: 6569 km.",
-      "Venue: MetLife Stadium, New York. Heat impact: Low. Altitude impact: Low.",
+      "Venue: MetLife Stadium, New York. Heat risk 4/10. Altitude 8m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -475,7 +476,7 @@
           "difference": 12
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Czechia",
           "difference": 2
         }
@@ -502,13 +503,13 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "Mexico",
-      "name": "Santiago Gimenez",
+      "name": "Mexico Main Forward",
       "position": "Forward",
-      "probability": 30.2
+      "probability": 29.1
     },
     "redCardRisk": {
-      "Mexico": 6.7,
-      "Czechia": 6.1
+      "Mexico": 7,
+      "Czechia": 6.4
     },
     "modelScores": {
       "Mexico": 129.3,
@@ -537,7 +538,7 @@
     "notes": [
       "Mexico rate higher overall in the model.",
       "Mexico travel distance: 1494 km. Czechia travel distance: 8616 km.",
-      "Venue: AT&T Stadium, Dallas. Heat impact: Very high. Altitude impact: Low.",
+      "Venue: AT&T Stadium, Dallas. Heat risk 9/10. Altitude 184m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -596,7 +597,7 @@
           "difference": 8
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Czechia",
           "difference": 1
         }
@@ -623,13 +624,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "South Korea",
-      "name": "Son Heung-min",
+      "name": "South Korea Main Forward",
       "position": "Forward",
-      "probability": 32.9
+      "probability": 28.6
     },
     "redCardRisk": {
-      "South Africa": 7.1,
-      "South Korea": 5.6
+      "South Africa": 8.1,
+      "South Korea": 6.3
     },
     "modelScores": {
       "South Africa": 106.9,
@@ -658,7 +659,7 @@
     "notes": [
       "South Korea rate higher overall in the model.",
       "South Africa travel distance: 14502 km. South Korea travel distance: 11334 km.",
-      "Venue: NRG Stadium, Houston. Heat impact: Very high. Altitude impact: Low.",
+      "Venue: NRG Stadium, Houston. Heat risk 10/10. Altitude 13m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -717,7 +718,7 @@
           "difference": 17
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "South Korea",
           "difference": 2
         }
@@ -744,11 +745,12 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "Switzerland",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Switzerland Main Forward",
+      "position": "Forward",
+      "probability": 29.8
     },
     "redCardRisk": {
-      "Canada": 6.4,
+      "Canada": 7.2,
       "Switzerland": 5.4
     },
     "modelScores": {
@@ -778,7 +780,7 @@
     "notes": [
       "Switzerland rate higher overall in the model.",
       "Canada travel distance: 2202 km. Switzerland travel distance: 7766 km.",
-      "Venue: Hard Rock Stadium, Miami. Heat impact: Very high. Altitude impact: Low.",
+      "Venue: Hard Rock Stadium, Miami. Heat risk 10/10. Altitude 2m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -837,7 +839,7 @@
           "difference": 27
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Switzerland",
           "difference": 2
         }
@@ -864,12 +866,13 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "Bosnia and Herzegovina",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Bosnia and Herzegovina Main Forward",
+      "position": "Forward",
+      "probability": 27.5
     },
     "redCardRisk": {
-      "Qatar": 5.9,
-      "Bosnia and Herzegovina": 6.3
+      "Qatar": 6.3,
+      "Bosnia and Herzegovina": 7
     },
     "modelScores": {
       "Qatar": 107.6,
@@ -898,7 +901,7 @@
     "notes": [
       "Bosnia and Herzegovina rate higher overall in the model.",
       "Qatar travel distance: 11968 km. Bosnia and Herzegovina travel distance: 8384 km.",
-      "Venue: Mercedes-Benz Stadium, Atlanta. Heat impact: High. Altitude impact: Low.",
+      "Venue: Mercedes-Benz Stadium, Atlanta. Heat risk 7/10. Altitude 320m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -957,7 +960,7 @@
           "difference": 10
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Qatar",
           "difference": 1
         }
@@ -984,13 +987,13 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "Canada",
-      "name": "Jonathan David",
+      "name": "Canada Main Forward",
       "position": "Forward",
-      "probability": 31.3
+      "probability": 28.6
     },
     "redCardRisk": {
-      "Canada": 5.8,
-      "Qatar": 5.7
+      "Canada": 6.6,
+      "Qatar": 6
     },
     "modelScores": {
       "Canada": 119.2,
@@ -1019,7 +1022,7 @@
     "notes": [
       "Canada rate higher overall in the model.",
       "Canada travel distance: 615 km. Qatar travel distance: 10906 km.",
-      "Venue: Lincoln Financial Field, Philadelphia. Heat impact: Medium. Altitude impact: Low.",
+      "Venue: Lincoln Financial Field, Philadelphia. Heat risk 5/10. Altitude 12m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -1078,7 +1081,7 @@
           "difference": 5
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Qatar",
           "difference": 1
         }
@@ -1105,12 +1108,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Switzerland",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Switzerland Main Forward",
+      "position": "Forward",
+      "probability": 29.8
     },
     "redCardRisk": {
       "Switzerland": 4.6,
-      "Bosnia and Herzegovina": 5.8
+      "Bosnia and Herzegovina": 6.5
     },
     "modelScores": {
       "Switzerland": 129.1,
@@ -1139,7 +1143,7 @@
     "notes": [
       "Switzerland rate higher overall in the model.",
       "Switzerland travel distance: 8430 km. Bosnia and Herzegovina travel distance: 9144 km.",
-      "Venue: Lumen Field, Seattle. Heat impact: Low. Altitude impact: Low.",
+      "Venue: Lumen Field, Seattle. Heat risk 3/10. Altitude 17m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -1198,7 +1202,7 @@
           "difference": 22
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Switzerland",
           "difference": 2
         }
@@ -1225,13 +1229,13 @@
     "confidence": "Low",
     "likelyScorer": {
       "team": "Canada",
-      "name": "Jonathan David",
+      "name": "Canada Main Forward",
       "position": "Forward",
-      "probability": 31.3
+      "probability": 28.6
     },
     "redCardRisk": {
-      "Canada": 5.8,
-      "Bosnia and Herzegovina": 6
+      "Canada": 6.6,
+      "Bosnia and Herzegovina": 6.7
     },
     "modelScores": {
       "Canada": 118.6,
@@ -1260,7 +1264,7 @@
     "notes": [
       "Canada rate higher overall in the model.",
       "Canada travel distance: 3904 km. Bosnia and Herzegovina travel distance: 10138 km.",
-      "Venue: Levi's Stadium, San Francisco. Heat impact: Medium. Altitude impact: Low.",
+      "Venue: Levi's Stadium, San Francisco. Heat risk 6/10. Altitude 15m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -1319,7 +1323,7 @@
           "difference": 5
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Even",
           "difference": 0
         }
@@ -1346,12 +1350,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Switzerland",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Switzerland Main Forward",
+      "position": "Forward",
+      "probability": 29.8
     },
     "redCardRisk": {
       "Switzerland": 4.8,
-      "Qatar": 5.7
+      "Qatar": 6
     },
     "modelScores": {
       "Switzerland": 129,
@@ -1380,7 +1385,7 @@
     "notes": [
       "Switzerland rate higher overall in the model.",
       "Switzerland travel distance: 9517 km. Qatar travel distance: 13342 km.",
-      "Venue: SoFi Stadium, Los Angeles. Heat impact: Medium. Altitude impact: Low.",
+      "Venue: SoFi Stadium, Los Angeles. Heat risk 6/10. Altitude 30m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -1439,7 +1444,7 @@
           "difference": 32
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Switzerland",
           "difference": 1
         }
@@ -1471,8 +1476,8 @@
       "probability": 34.2
     },
     "redCardRisk": {
-      "Brazil": 5.2,
-      "Haiti": 7
+      "Brazil": 5.1,
+      "Haiti": 8.1
     },
     "modelScores": {
       "Brazil": 146.3,
@@ -1501,7 +1506,7 @@
     "notes": [
       "Brazil rate higher overall in the model.",
       "Brazil travel distance: 7784 km. Haiti travel distance: 3120 km.",
-      "Venue: GEHA Field at Arrowhead Stadium, Kansas City. Heat impact: High. Altitude impact: Low.",
+      "Venue: GEHA Field at Arrowhead Stadium, Kansas City. Heat risk 7/10. Altitude 264m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -1560,7 +1565,7 @@
           "difference": 57
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Brazil",
           "difference": 2
         }
@@ -1587,13 +1592,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Morocco",
-      "name": "Youssef En-Nesyri",
+      "name": "Morocco Main Forward",
       "position": "Forward",
-      "probability": 30.1
+      "probability": 30.6
     },
     "redCardRisk": {
-      "Scotland": 5.8,
-      "Morocco": 4.9
+      "Scotland": 6.5,
+      "Morocco": 5.3
     },
     "modelScores": {
       "Scotland": 116.5,
@@ -1622,7 +1627,7 @@
     "notes": [
       "Morocco rate higher overall in the model.",
       "Scotland travel distance: 4973 km. Morocco travel distance: 5578 km.",
-      "Venue: Gillette Stadium, Boston. Heat impact: Low. Altitude impact: Low.",
+      "Venue: Gillette Stadium, Boston. Heat risk 4/10. Altitude 90m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -1681,7 +1686,7 @@
           "difference": 24
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Morocco",
           "difference": 1
         }
@@ -1713,8 +1718,8 @@
       "probability": 34.2
     },
     "redCardRisk": {
-      "Brazil": 4.7,
-      "Scotland": 5.8
+      "Brazil": 4.6,
+      "Scotland": 6.5
     },
     "modelScores": {
       "Brazil": 145.9,
@@ -1743,7 +1748,7 @@
     "notes": [
       "Brazil rate higher overall in the model.",
       "Brazil travel distance: 10302 km. Scotland travel distance: 7064 km.",
-      "Venue: BC Place, Vancouver. Heat impact: Low. Altitude impact: Low.",
+      "Venue: BC Place, Vancouver. Heat risk 2/10. Altitude 5m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -1802,7 +1807,7 @@
           "difference": 37
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Brazil",
           "difference": 1
         }
@@ -1829,13 +1834,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Morocco",
-      "name": "Youssef En-Nesyri",
+      "name": "Morocco Main Forward",
       "position": "Forward",
-      "probability": 30.1
+      "probability": 30.6
     },
     "redCardRisk": {
-      "Haiti": 6.6,
-      "Morocco": 4.9
+      "Haiti": 7.6,
+      "Morocco": 5.3
     },
     "modelScores": {
       "Haiti": 98.7,
@@ -1864,7 +1869,7 @@
     "notes": [
       "Morocco rate higher overall in the model.",
       "Haiti travel distance: 2863 km. Morocco travel distance: 6177 km.",
-      "Venue: BMO Field, Toronto. Heat impact: Low. Altitude impact: Low.",
+      "Venue: BMO Field, Toronto. Heat risk 4/10. Altitude 76m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -1923,7 +1928,7 @@
           "difference": 44
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Morocco",
           "difference": 2
         }
@@ -1955,8 +1960,8 @@
       "probability": 34.2
     },
     "redCardRisk": {
-      "Brazil": 4.9,
-      "Morocco": 5.1
+      "Brazil": 4.8,
+      "Morocco": 5.5
     },
     "modelScores": {
       "Brazil": 146.6,
@@ -1985,7 +1990,7 @@
     "notes": [
       "Brazil rate higher overall in the model.",
       "Brazil travel distance: 6831 km. Morocco travel distance: 9026 km.",
-      "Venue: Estadio Azteca, Mexico City. Heat impact: Medium. Altitude impact: Very high.",
+      "Venue: Estadio Azteca, Mexico City. Heat risk 5/10. Altitude 2240m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -2044,7 +2049,7 @@
           "difference": 13
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Even",
           "difference": 0
         }
@@ -2071,12 +2076,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Scotland",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Scotland Main Forward",
+      "position": "Forward",
+      "probability": 27.1
     },
     "redCardRisk": {
-      "Haiti": 7,
-      "Scotland": 6.3
+      "Haiti": 8.1,
+      "Scotland": 7
     },
     "modelScores": {
       "Haiti": 98.2,
@@ -2105,7 +2111,7 @@
     "notes": [
       "Scotland rate higher overall in the model.",
       "Haiti travel distance: 2977 km. Scotland travel distance: 8087 km.",
-      "Venue: Estadio BBVA, Monterrey. Heat impact: High. Altitude impact: Medium.",
+      "Venue: Estadio BBVA, Monterrey. Heat risk 8/10. Altitude 540m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -2164,7 +2170,7 @@
           "difference": 20
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Scotland",
           "difference": 1
         }
@@ -2191,13 +2197,13 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "USA",
-      "name": "Christian Pulisic",
+      "name": "USA Main Forward",
       "position": "Forward",
-      "probability": 31.3
+      "probability": 29.5
     },
     "redCardRisk": {
-      "USA": 5.3,
-      "Australia": 6.2
+      "USA": 6,
+      "Australia": 6.8
     },
     "modelScores": {
       "USA": 127.7,
@@ -2226,7 +2232,7 @@
     "notes": [
       "USA rate higher overall in the model.",
       "USA travel distance: 3236 km. Australia travel distance: 12857 km.",
-      "Venue: Estadio Akron, Guadalajara. Heat impact: High. Altitude impact: High.",
+      "Venue: Estadio Akron, Guadalajara. Heat risk 7/10. Altitude 1566m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -2285,7 +2291,7 @@
           "difference": 2
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "USA",
           "difference": 1
         }
@@ -2312,12 +2318,13 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "Turkey",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Turkey Main Forward",
+      "position": "Forward",
+      "probability": 29.8
     },
     "redCardRisk": {
-      "Turkey": 6,
-      "Paraguay": 6.3
+      "Turkey": 7,
+      "Paraguay": 7.3
     },
     "modelScores": {
       "Turkey": 123.4,
@@ -2346,7 +2353,7 @@
     "notes": [
       "Turkey rate higher overall in the model.",
       "Turkey travel distance: 8394 km. Paraguay travel distance: 7543 km.",
-      "Venue: MetLife Stadium, New York. Heat impact: Low. Altitude impact: Low.",
+      "Venue: MetLife Stadium, New York. Heat risk 4/10. Altitude 8m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -2405,7 +2412,7 @@
           "difference": 3
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Even",
           "difference": 0
         }
@@ -2432,13 +2439,13 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "USA",
-      "name": "Christian Pulisic",
+      "name": "USA Main Forward",
       "position": "Forward",
-      "probability": 31.3
+      "probability": 29.5
     },
     "redCardRisk": {
-      "USA": 5.5,
-      "Turkey": 6.8
+      "USA": 6.3,
+      "Turkey": 7.8
     },
     "modelScores": {
       "USA": 131.4,
@@ -2467,11 +2474,11 @@
     "notes": [
       "USA rate higher overall in the model.",
       "USA travel distance: 1929 km. Turkey travel distance: 10434 km.",
-      "Venue: AT&T Stadium, Dallas. Heat impact: Very high. Altitude impact: Low.",
+      "Venue: AT&T Stadium, Dallas. Heat risk 9/10. Altitude 184m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
-      "summary": "USA is favoured because of advantages across elo strength, world cup history, defence, discipline risk.",
+      "summary": "USA is favoured because of advantages across elo strength, world cup history, defence, lower discipline risk.",
       "strongestFactors": [
         {
           "factor": "Elo strength",
@@ -2489,7 +2496,7 @@
           "difference": 2
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "USA",
           "difference": 2
         }
@@ -2526,7 +2533,7 @@
           "difference": 7
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "USA",
           "difference": 2
         }
@@ -2553,12 +2560,13 @@
     "confidence": "Low",
     "likelyScorer": {
       "team": "Australia",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Australia Main Forward",
+      "position": "Forward",
+      "probability": 27.7
     },
     "redCardRisk": {
-      "Australia": 6.4,
-      "Paraguay": 7
+      "Australia": 7.1,
+      "Paraguay": 8.1
     },
     "modelScores": {
       "Australia": 119.6,
@@ -2587,7 +2595,7 @@
     "notes": [
       "Australia rate higher overall in the model.",
       "Australia travel distance: 14035 km. Paraguay travel distance: 7322 km.",
-      "Venue: NRG Stadium, Houston. Heat impact: Very high. Altitude impact: Low.",
+      "Venue: NRG Stadium, Houston. Heat risk 10/10. Altitude 13m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -2646,7 +2654,7 @@
           "difference": 2
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Australia",
           "difference": 1
         }
@@ -2673,13 +2681,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "USA",
-      "name": "Christian Pulisic",
+      "name": "USA Main Forward",
       "position": "Forward",
-      "probability": 31.3
+      "probability": 29.5
     },
     "redCardRisk": {
-      "USA": 5.5,
-      "Paraguay": 7
+      "USA": 6.3,
+      "Paraguay": 8.1
     },
     "modelScores": {
       "USA": 132,
@@ -2708,7 +2716,7 @@
     "notes": [
       "USA rate higher overall in the model.",
       "USA travel distance: 1471 km. Paraguay travel distance: 6194 km.",
-      "Venue: Hard Rock Stadium, Miami. Heat impact: Very high. Altitude impact: Low.",
+      "Venue: Hard Rock Stadium, Miami. Heat risk 10/10. Altitude 2m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -2767,7 +2775,7 @@
           "difference": 4
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "USA",
           "difference": 2
         }
@@ -2794,12 +2802,13 @@
     "confidence": "Low",
     "likelyScorer": {
       "team": "Turkey",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Turkey Main Forward",
+      "position": "Forward",
+      "probability": 29.8
     },
     "redCardRisk": {
-      "Australia": 6.2,
-      "Turkey": 6.5
+      "Australia": 6.8,
+      "Turkey": 7.5
     },
     "modelScores": {
       "Australia": 119.8,
@@ -2828,7 +2837,7 @@
     "notes": [
       "Turkey rate higher overall in the model.",
       "Australia travel distance: 15169 km. Turkey travel distance: 9595 km.",
-      "Venue: Mercedes-Benz Stadium, Atlanta. Heat impact: High. Altitude impact: Low.",
+      "Venue: Mercedes-Benz Stadium, Atlanta. Heat risk 7/10. Altitude 320m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -2887,7 +2896,7 @@
           "difference": 5
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Australia",
           "difference": 1
         }
@@ -2919,8 +2928,8 @@
       "probability": 32.3
     },
     "redCardRisk": {
-      "Germany": 4.1,
-      "Côte d'Ivoire": 6.4
+      "Germany": 4,
+      "Côte d'Ivoire": 7.4
     },
     "modelScores": {
       "Germany": 139.6,
@@ -2949,7 +2958,7 @@
     "notes": [
       "Germany rate higher overall in the model.",
       "Germany travel distance: 6519 km. Côte d'Ivoire travel distance: 8022 km.",
-      "Venue: Lincoln Financial Field, Philadelphia. Heat impact: Medium. Altitude impact: Low.",
+      "Venue: Lincoln Financial Field, Philadelphia. Heat risk 5/10. Altitude 12m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -3008,7 +3017,7 @@
           "difference": 37
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Germany",
           "difference": 3
         }
@@ -3035,12 +3044,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Ecuador",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Ecuador Main Forward",
+      "position": "Forward",
+      "probability": 28.3
     },
     "redCardRisk": {
-      "Ecuador": 5.6,
-      "Curaçao": 6.1
+      "Ecuador": 6.3,
+      "Curaçao": 6.8
     },
     "modelScores": {
       "Ecuador": 124.4,
@@ -3069,7 +3079,7 @@
     "notes": [
       "Ecuador rate higher overall in the model.",
       "Ecuador travel distance: 6790 km. Curaçao travel distance: 6303 km.",
-      "Venue: Lumen Field, Seattle. Heat impact: Low. Altitude impact: Low.",
+      "Venue: Lumen Field, Seattle. Heat risk 3/10. Altitude 17m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -3128,7 +3138,7 @@
           "difference": 38
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Even",
           "difference": 0
         }
@@ -3160,8 +3170,8 @@
       "probability": 32.3
     },
     "redCardRisk": {
-      "Germany": 4.1,
-      "Ecuador": 5.8
+      "Germany": 4,
+      "Ecuador": 6.5
     },
     "modelScores": {
       "Germany": 138.9,
@@ -3190,7 +3200,7 @@
     "notes": [
       "Germany rate higher overall in the model.",
       "Germany travel distance: 9126 km. Ecuador travel distance: 6110 km.",
-      "Venue: Levi's Stadium, San Francisco. Heat impact: Medium. Altitude impact: Low.",
+      "Venue: Levi's Stadium, San Francisco. Heat risk 6/10. Altitude 15m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -3249,7 +3259,7 @@
           "difference": 25
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Germany",
           "difference": 2
         }
@@ -3276,12 +3286,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Côte d'Ivoire",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Côte d'Ivoire Main Forward",
+      "position": "Forward",
+      "probability": 28.6
     },
     "redCardRisk": {
-      "Côte d'Ivoire": 6.4,
-      "Curaçao": 6.3
+      "Côte d'Ivoire": 7.4,
+      "Curaçao": 7
     },
     "modelScores": {
       "Côte d'Ivoire": 114.5,
@@ -3310,7 +3321,7 @@
     "notes": [
       "Côte d'Ivoire rate higher overall in the model.",
       "Côte d'Ivoire travel distance: 11869 km. Curaçao travel distance: 5533 km.",
-      "Venue: SoFi Stadium, Los Angeles. Heat impact: Medium. Altitude impact: Low.",
+      "Venue: SoFi Stadium, Los Angeles. Heat risk 6/10. Altitude 30m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -3369,7 +3380,7 @@
           "difference": 26
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Curaçao",
           "difference": 1
         }
@@ -3401,8 +3412,8 @@
       "probability": 32.3
     },
     "redCardRisk": {
-      "Germany": 4.4,
-      "Curaçao": 6.6
+      "Germany": 4.3,
+      "Curaçao": 7.3
     },
     "modelScores": {
       "Germany": 138.7,
@@ -3431,7 +3442,7 @@
     "notes": [
       "Germany rate higher overall in the model.",
       "Germany travel distance: 7697 km. Curaçao travel distance: 3904 km.",
-      "Venue: GEHA Field at Arrowhead Stadium, Kansas City. Heat impact: High. Altitude impact: Low.",
+      "Venue: GEHA Field at Arrowhead Stadium, Kansas City. Heat risk 7/10. Altitude 264m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -3490,7 +3501,7 @@
           "difference": 63
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Germany",
           "difference": 2
         }
@@ -3517,12 +3528,13 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "Ecuador",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Ecuador Main Forward",
+      "position": "Forward",
+      "probability": 28.3
     },
     "redCardRisk": {
-      "Côte d'Ivoire": 6.2,
-      "Ecuador": 5.6
+      "Côte d'Ivoire": 7.2,
+      "Ecuador": 6.3
     },
     "modelScores": {
       "Côte d'Ivoire": 115.4,
@@ -3551,7 +3563,7 @@
     "notes": [
       "Ecuador rate higher overall in the model.",
       "Côte d'Ivoire travel distance: 7741 km. Ecuador travel distance: 4756 km.",
-      "Venue: Gillette Stadium, Boston. Heat impact: Low. Altitude impact: Low.",
+      "Venue: Gillette Stadium, Boston. Heat risk 4/10. Altitude 90m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -3610,7 +3622,7 @@
           "difference": 12
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Ecuador",
           "difference": 1
         }
@@ -3637,12 +3649,12 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Netherlands",
-      "name": "Cody Gakpo",
+      "name": "Netherlands Main Forward",
       "position": "Forward",
-      "probability": 31.6
+      "probability": 32.2
     },
     "redCardRisk": {
-      "Netherlands": 4.2,
+      "Netherlands": 4.4,
       "Sweden": 4.9
     },
     "modelScores": {
@@ -3672,7 +3684,7 @@
     "notes": [
       "Netherlands rate higher overall in the model.",
       "Netherlands travel distance: 7696 km. Sweden travel distance: 7437 km.",
-      "Venue: BC Place, Vancouver. Heat impact: Low. Altitude impact: Low.",
+      "Venue: BC Place, Vancouver. Heat risk 2/10. Altitude 5m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -3731,7 +3743,7 @@
           "difference": 15
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Even",
           "difference": 0
         }
@@ -3758,13 +3770,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Japan",
-      "name": "Takefusa Kubo",
+      "name": "Japan Main Forward",
       "position": "Forward",
-      "probability": 30.9
+      "probability": 30.3
     },
     "redCardRisk": {
-      "Tunisia": 5.8,
-      "Japan": 3.9
+      "Tunisia": 6.5,
+      "Japan": 4.5
     },
     "modelScores": {
       "Tunisia": 114.9,
@@ -3793,7 +3805,7 @@
     "notes": [
       "Japan rate higher overall in the model.",
       "Tunisia travel distance: 7264 km. Japan travel distance: 10352 km.",
-      "Venue: BMO Field, Toronto. Heat impact: Low. Altitude impact: Low.",
+      "Venue: BMO Field, Toronto. Heat risk 4/10. Altitude 76m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -3852,7 +3864,7 @@
           "difference": 14
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Japan",
           "difference": 2
         }
@@ -3879,13 +3891,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Netherlands",
-      "name": "Cody Gakpo",
+      "name": "Netherlands Main Forward",
       "position": "Forward",
-      "probability": 31.6
+      "probability": 32.2
     },
     "redCardRisk": {
-      "Netherlands": 4.4,
-      "Tunisia": 6
+      "Netherlands": 4.6,
+      "Tunisia": 6.7
     },
     "modelScores": {
       "Netherlands": 140.5,
@@ -3914,7 +3926,7 @@
     "notes": [
       "Netherlands rate higher overall in the model.",
       "Netherlands travel distance: 9229 km. Tunisia travel distance: 10340 km.",
-      "Venue: Estadio Azteca, Mexico City. Heat impact: Medium. Altitude impact: Very high.",
+      "Venue: Estadio Azteca, Mexico City. Heat risk 5/10. Altitude 2240m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -3973,7 +3985,7 @@
           "difference": 26
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Netherlands",
           "difference": 2
         }
@@ -4000,13 +4012,13 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "Japan",
-      "name": "Takefusa Kubo",
+      "name": "Japan Main Forward",
       "position": "Forward",
-      "probability": 30.9
+      "probability": 30.3
     },
     "redCardRisk": {
       "Sweden": 5.3,
-      "Japan": 4.4
+      "Japan": 5
     },
     "modelScores": {
       "Sweden": 120,
@@ -4035,7 +4047,7 @@
     "notes": [
       "Japan rate higher overall in the model.",
       "Sweden travel distance: 9019 km. Japan travel distance: 10739 km.",
-      "Venue: Estadio BBVA, Monterrey. Heat impact: High. Altitude impact: Medium.",
+      "Venue: Estadio BBVA, Monterrey. Heat risk 8/10. Altitude 540m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -4094,7 +4106,7 @@
           "difference": 3
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Even",
           "difference": 0
         }
@@ -4121,13 +4133,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Netherlands",
-      "name": "Cody Gakpo",
+      "name": "Netherlands Main Forward",
       "position": "Forward",
-      "probability": 31.6
+      "probability": 32.2
     },
     "redCardRisk": {
-      "Netherlands": 4.7,
-      "Japan": 4.4
+      "Netherlands": 4.9,
+      "Japan": 5
     },
     "modelScores": {
       "Netherlands": 140.6,
@@ -4156,7 +4168,7 @@
     "notes": [
       "Netherlands rate higher overall in the model.",
       "Netherlands travel distance: 9371 km. Japan travel distance: 10888 km.",
-      "Venue: Estadio Akron, Guadalajara. Heat impact: High. Altitude impact: High.",
+      "Venue: Estadio Akron, Guadalajara. Heat risk 7/10. Altitude 1566m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -4215,7 +4227,7 @@
           "difference": 12
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Even",
           "difference": 0
         }
@@ -4242,12 +4254,13 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "Sweden",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Sweden Main Forward",
+      "position": "Forward",
+      "probability": 27.7
     },
     "redCardRisk": {
       "Sweden": 4.9,
-      "Tunisia": 5.8
+      "Tunisia": 6.5
     },
     "modelScores": {
       "Sweden": 121.2,
@@ -4276,7 +4289,7 @@
     "notes": [
       "Sweden rate higher overall in the model.",
       "Sweden travel distance: 6315 km. Tunisia travel distance: 7018 km.",
-      "Venue: MetLife Stadium, New York. Heat impact: Low. Altitude impact: Low.",
+      "Venue: MetLife Stadium, New York. Heat risk 4/10. Altitude 8m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -4335,7 +4348,7 @@
           "difference": 11
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Sweden",
           "difference": 2
         }
@@ -4362,13 +4375,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Belgium",
-      "name": "Kevin De Bruyne",
-      "position": "Midfielder",
-      "probability": 30.8
+      "name": "Belgium Main Forward",
+      "position": "Forward",
+      "probability": 31.4
     },
     "redCardRisk": {
-      "Belgium": 5.1,
-      "Iran": 6.4
+      "Belgium": 5.3,
+      "Iran": 7.1
     },
     "modelScores": {
       "Belgium": 134.9,
@@ -4397,7 +4410,7 @@
     "notes": [
       "Belgium rate higher overall in the model.",
       "Belgium travel distance: 7972 km. Iran travel distance: 11728 km.",
-      "Venue: AT&T Stadium, Dallas. Heat impact: Very high. Altitude impact: Low.",
+      "Venue: AT&T Stadium, Dallas. Heat risk 9/10. Altitude 184m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -4456,7 +4469,7 @@
           "difference": 17
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Belgium",
           "difference": 2
         }
@@ -4483,12 +4496,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Egypt",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Egypt Main Forward",
+      "position": "Forward",
+      "probability": 28.4
     },
     "redCardRisk": {
-      "New Zealand": 6.4,
-      "Egypt": 6
+      "New Zealand": 6.7,
+      "Egypt": 6.4
     },
     "modelScores": {
       "New Zealand": 95.9,
@@ -4517,7 +4531,7 @@
     "notes": [
       "Egypt rate higher overall in the model.",
       "New Zealand travel distance: 12114 km. Egypt travel distance: 11296 km.",
-      "Venue: NRG Stadium, Houston. Heat impact: Very high. Altitude impact: Low.",
+      "Venue: NRG Stadium, Houston. Heat risk 10/10. Altitude 13m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -4576,7 +4590,7 @@
           "difference": 15
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Even",
           "difference": 0
         }
@@ -4603,13 +4617,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Belgium",
-      "name": "Kevin De Bruyne",
-      "position": "Midfielder",
-      "probability": 30.8
+      "name": "Belgium Main Forward",
+      "position": "Forward",
+      "probability": 31.4
     },
     "redCardRisk": {
-      "Belgium": 5.1,
-      "New Zealand": 6.4
+      "Belgium": 5.3,
+      "New Zealand": 6.7
     },
     "modelScores": {
       "Belgium": 134.9,
@@ -4638,7 +4652,7 @@
     "notes": [
       "Belgium rate higher overall in the model.",
       "Belgium travel distance: 7435 km. New Zealand travel distance: 13078 km.",
-      "Venue: Hard Rock Stadium, Miami. Heat impact: Very high. Altitude impact: Low.",
+      "Venue: Hard Rock Stadium, Miami. Heat risk 10/10. Altitude 2m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -4697,7 +4711,7 @@
           "difference": 39
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Belgium",
           "difference": 1
         }
@@ -4724,12 +4738,13 @@
     "confidence": "Low",
     "likelyScorer": {
       "team": "Iran",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Iran Main Forward",
+      "position": "Forward",
+      "probability": 28.1
     },
     "redCardRisk": {
-      "Iran": 6.1,
-      "Egypt": 5.7
+      "Iran": 6.8,
+      "Egypt": 6.1
     },
     "modelScores": {
       "Iran": 121.5,
@@ -4758,7 +4773,7 @@
     "notes": [
       "Iran rate higher overall in the model.",
       "Iran travel distance: 11030 km. Egypt travel distance: 10219 km.",
-      "Venue: Mercedes-Benz Stadium, Atlanta. Heat impact: High. Altitude impact: Low.",
+      "Venue: Mercedes-Benz Stadium, Atlanta. Heat risk 7/10. Altitude 320m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -4817,7 +4832,7 @@
           "difference": 7
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Egypt",
           "difference": 1
         }
@@ -4844,13 +4859,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Belgium",
-      "name": "Kevin De Bruyne",
-      "position": "Midfielder",
-      "probability": 30.8
+      "name": "Belgium Main Forward",
+      "position": "Forward",
+      "probability": 31.4
     },
     "redCardRisk": {
-      "Belgium": 4.5,
-      "Egypt": 5.5
+      "Belgium": 4.8,
+      "Egypt": 5.8
     },
     "modelScores": {
       "Belgium": 136,
@@ -4879,7 +4894,7 @@
     "notes": [
       "Belgium rate higher overall in the model.",
       "Belgium travel distance: 6022 km. Egypt travel distance: 9154 km.",
-      "Venue: Lincoln Financial Field, Philadelphia. Heat impact: Medium. Altitude impact: Low.",
+      "Venue: Lincoln Financial Field, Philadelphia. Heat risk 5/10. Altitude 12m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -4938,7 +4953,7 @@
           "difference": 24
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Belgium",
           "difference": 1
         }
@@ -4965,12 +4980,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Iran",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Iran Main Forward",
+      "position": "Forward",
+      "probability": 28.1
     },
     "redCardRisk": {
-      "Iran": 5.6,
-      "New Zealand": 5.6
+      "Iran": 6.3,
+      "New Zealand": 6
     },
     "modelScores": {
       "Iran": 121.8,
@@ -4999,7 +5015,7 @@
     "notes": [
       "Iran rate higher overall in the model.",
       "Iran travel distance: 10733 km. New Zealand travel distance: 11659 km.",
-      "Venue: Lumen Field, Seattle. Heat impact: Low. Altitude impact: Low.",
+      "Venue: Lumen Field, Seattle. Heat risk 3/10. Altitude 17m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -5058,7 +5074,7 @@
           "difference": 22
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "New Zealand",
           "difference": 1
         }
@@ -5090,8 +5106,8 @@
       "probability": 32
     },
     "redCardRisk": {
-      "Spain": 3.6,
-      "Saudi Arabia": 6.1
+      "Spain": 3.3,
+      "Saudi Arabia": 6.8
     },
     "modelScores": {
       "Spain": 145.6,
@@ -5120,7 +5136,7 @@
     "notes": [
       "Spain rate higher overall in the model.",
       "Spain travel distance: 9322 km. Saudi Arabia travel distance: 13007 km.",
-      "Venue: Levi's Stadium, San Francisco. Heat impact: Medium. Altitude impact: Low.",
+      "Venue: Levi's Stadium, San Francisco. Heat risk 6/10. Altitude 15m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -5179,7 +5195,7 @@
           "difference": 28
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Spain",
           "difference": 3
         }
@@ -5206,13 +5222,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Uruguay",
-      "name": "Darwin Nunez",
+      "name": "Uruguay Main Forward",
       "position": "Forward",
-      "probability": 31.4
+      "probability": 31.5
     },
     "redCardRisk": {
-      "Uruguay": 6.5,
-      "Cabo Verde": 6.2
+      "Uruguay": 7,
+      "Cabo Verde": 6.9
     },
     "modelScores": {
       "Uruguay": 134.5,
@@ -5241,7 +5257,7 @@
     "notes": [
       "Uruguay rate higher overall in the model.",
       "Uruguay travel distance: 10020 km. Cabo Verde travel distance: 9520 km.",
-      "Venue: SoFi Stadium, Los Angeles. Heat impact: Medium. Altitude impact: Low.",
+      "Venue: SoFi Stadium, Los Angeles. Heat risk 6/10. Altitude 30m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -5300,7 +5316,7 @@
           "difference": 55
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Cabo Verde",
           "difference": 1
         }
@@ -5332,8 +5348,8 @@
       "probability": 32
     },
     "redCardRisk": {
-      "Spain": 3.9,
-      "Uruguay": 6.7
+      "Spain": 3.5,
+      "Uruguay": 7.3
     },
     "modelScores": {
       "Spain": 145.4,
@@ -5362,7 +5378,7 @@
     "notes": [
       "Spain rate higher overall in the model.",
       "Spain travel distance: 7383 km. Uruguay travel distance: 9117 km.",
-      "Venue: GEHA Field at Arrowhead Stadium, Kansas City. Heat impact: High. Altitude impact: Low.",
+      "Venue: GEHA Field at Arrowhead Stadium, Kansas City. Heat risk 7/10. Altitude 264m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -5421,7 +5437,7 @@
           "difference": 0
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Spain",
           "difference": 4
         }
@@ -5448,12 +5464,13 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "Saudi Arabia",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Saudi Arabia Main Forward",
+      "position": "Forward",
+      "probability": 25.4
     },
     "redCardRisk": {
-      "Saudi Arabia": 5.9,
-      "Cabo Verde": 6
+      "Saudi Arabia": 6.6,
+      "Cabo Verde": 6.7
     },
     "modelScores": {
       "Saudi Arabia": 108.1,
@@ -5482,7 +5499,7 @@
     "notes": [
       "Saudi Arabia rate higher overall in the model.",
       "Saudi Arabia travel distance: 10234 km. Cabo Verde travel distance: 5459 km.",
-      "Venue: Gillette Stadium, Boston. Heat impact: Low. Altitude impact: Low.",
+      "Venue: Gillette Stadium, Boston. Heat risk 4/10. Altitude 90m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -5541,7 +5558,7 @@
           "difference": 27
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Even",
           "difference": 0
         }
@@ -5573,8 +5590,8 @@
       "probability": 32
     },
     "redCardRisk": {
-      "Spain": 3.4,
-      "Cabo Verde": 6
+      "Spain": 3.1,
+      "Cabo Verde": 6.7
     },
     "modelScores": {
       "Spain": 145.8,
@@ -5603,7 +5620,7 @@
     "notes": [
       "Spain rate higher overall in the model.",
       "Spain travel distance: 8414 km. Cabo Verde travel distance: 9432 km.",
-      "Venue: BC Place, Vancouver. Heat impact: Low. Altitude impact: Low.",
+      "Venue: BC Place, Vancouver. Heat risk 2/10. Altitude 5m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -5662,7 +5679,7 @@
           "difference": 55
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Spain",
           "difference": 3
         }
@@ -5689,13 +5706,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Uruguay",
-      "name": "Darwin Nunez",
+      "name": "Uruguay Main Forward",
       "position": "Forward",
-      "probability": 31.4
+      "probability": 31.5
     },
     "redCardRisk": {
-      "Saudi Arabia": 5.9,
-      "Uruguay": 6.3
+      "Saudi Arabia": 6.6,
+      "Uruguay": 6.8
     },
     "modelScores": {
       "Saudi Arabia": 108.1,
@@ -5724,7 +5741,7 @@
     "notes": [
       "Uruguay rate higher overall in the model.",
       "Saudi Arabia travel distance: 10638 km. Uruguay travel distance: 9045 km.",
-      "Venue: BMO Field, Toronto. Heat impact: Low. Altitude impact: Low.",
+      "Venue: BMO Field, Toronto. Heat risk 4/10. Altitude 76m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -5783,7 +5800,7 @@
           "difference": 28
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Saudi Arabia",
           "difference": 1
         }
@@ -5816,7 +5833,7 @@
     },
     "redCardRisk": {
       "France": 3.9,
-      "Iraq": 6.1
+      "Iraq": 6.8
     },
     "modelScores": {
       "France": 148.8,
@@ -5845,7 +5862,7 @@
     "notes": [
       "France rate higher overall in the model.",
       "France travel distance: 9208 km. Iraq travel distance: 13000 km.",
-      "Venue: Estadio Azteca, Mexico City. Heat impact: Medium. Altitude impact: Very high.",
+      "Venue: Estadio Azteca, Mexico City. Heat risk 5/10. Altitude 2240m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -5904,7 +5921,7 @@
           "difference": 49
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "France",
           "difference": 2
         }
@@ -5931,13 +5948,13 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "Senegal",
-      "name": "Sadio Mane",
+      "name": "Senegal Main Forward",
       "position": "Forward",
-      "probability": 30.4
+      "probability": 29.7
     },
     "redCardRisk": {
       "Norway": 4.8,
-      "Senegal": 5.9
+      "Senegal": 6.7
     },
     "modelScores": {
       "Norway": 121.8,
@@ -5966,7 +5983,7 @@
     "notes": [
       "Senegal rate higher overall in the model.",
       "Norway travel distance: 8641 km. Senegal travel distance: 8597 km.",
-      "Venue: Estadio BBVA, Monterrey. Heat impact: High. Altitude impact: Medium.",
+      "Venue: Estadio BBVA, Monterrey. Heat risk 8/10. Altitude 540m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -6025,7 +6042,7 @@
           "difference": 23
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Norway",
           "difference": 2
         }
@@ -6087,7 +6104,7 @@
     "notes": [
       "France rate higher overall in the model.",
       "France travel distance: 9381 km. Norway travel distance: 9284 km.",
-      "Venue: Estadio Akron, Guadalajara. Heat impact: High. Altitude impact: High.",
+      "Venue: Estadio Akron, Guadalajara. Heat risk 7/10. Altitude 1566m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -6146,7 +6163,7 @@
           "difference": 42
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Even",
           "difference": 0
         }
@@ -6173,13 +6190,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Senegal",
-      "name": "Sadio Mane",
+      "name": "Senegal Main Forward",
       "position": "Forward",
-      "probability": 30.4
+      "probability": 29.7
     },
     "redCardRisk": {
-      "Iraq": 5.9,
-      "Senegal": 5.4
+      "Iraq": 6.6,
+      "Senegal": 6.2
     },
     "modelScores": {
       "Iraq": 105.2,
@@ -6208,7 +6225,7 @@
     "notes": [
       "Senegal rate higher overall in the model.",
       "Iraq travel distance: 9639 km. Senegal travel distance: 6152 km.",
-      "Venue: MetLife Stadium, New York. Heat impact: Low. Altitude impact: Low.",
+      "Venue: MetLife Stadium, New York. Heat risk 4/10. Altitude 8m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -6267,7 +6284,7 @@
           "difference": 30
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Even",
           "difference": 0
         }
@@ -6300,7 +6317,7 @@
     },
     "redCardRisk": {
       "France": 4.5,
-      "Senegal": 6.2
+      "Senegal": 7
     },
     "modelScores": {
       "France": 149.1,
@@ -6329,7 +6346,7 @@
     "notes": [
       "France rate higher overall in the model.",
       "France travel distance: 7956 km. Senegal travel distance: 8174 km.",
-      "Venue: AT&T Stadium, Dallas. Heat impact: Very high. Altitude impact: Low.",
+      "Venue: AT&T Stadium, Dallas. Heat risk 9/10. Altitude 184m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -6388,7 +6405,7 @@
           "difference": 19
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "France",
           "difference": 2
         }
@@ -6420,7 +6437,7 @@
       "probability": 35.1
     },
     "redCardRisk": {
-      "Iraq": 6.7,
+      "Iraq": 7.4,
       "Norway": 5.1
     },
     "modelScores": {
@@ -6450,7 +6467,7 @@
     "notes": [
       "Norway rate higher overall in the model.",
       "Iraq travel distance: 11831 km. Norway travel distance: 8018 km.",
-      "Venue: NRG Stadium, Houston. Heat impact: Very high. Altitude impact: Low.",
+      "Venue: NRG Stadium, Houston. Heat risk 10/10. Altitude 13m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -6509,7 +6526,7 @@
           "difference": 7
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Norway",
           "difference": 2
         }
@@ -6571,7 +6588,7 @@
     "notes": [
       "Argentina rate higher overall in the model.",
       "Argentina travel distance: 7117 km. Austria travel distance: 8349 km.",
-      "Venue: Hard Rock Stadium, Miami. Heat impact: Very high. Altitude impact: Low.",
+      "Venue: Hard Rock Stadium, Miami. Heat risk 10/10. Altitude 2m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -6630,7 +6647,7 @@
           "difference": 26
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Austria",
           "difference": 1
         }
@@ -6657,12 +6674,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Algeria",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Algeria Main Forward",
+      "position": "Forward",
+      "probability": 28.2
     },
     "redCardRisk": {
-      "Jordan": 6.3,
-      "Algeria": 6.2
+      "Jordan": 7.1,
+      "Algeria": 6.9
     },
     "modelScores": {
       "Jordan": 100.8,
@@ -6691,7 +6709,7 @@
     "notes": [
       "Algeria rate higher overall in the model.",
       "Jordan travel distance: 10403 km. Algeria travel distance: 7648 km.",
-      "Venue: Mercedes-Benz Stadium, Atlanta. Heat impact: High. Altitude impact: Low.",
+      "Venue: Mercedes-Benz Stadium, Atlanta. Heat risk 7/10. Altitude 320m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -6750,7 +6768,7 @@
           "difference": 35
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Even",
           "difference": 0
         }
@@ -6783,7 +6801,7 @@
     },
     "redCardRisk": {
       "Argentina": 4.4,
-      "Jordan": 6.1
+      "Jordan": 6.8
     },
     "modelScores": {
       "Argentina": 149.8,
@@ -6812,7 +6830,7 @@
     "notes": [
       "Argentina rate higher overall in the model.",
       "Argentina travel distance: 8462 km. Jordan travel distance: 9335 km.",
-      "Venue: Lincoln Financial Field, Philadelphia. Heat impact: Medium. Altitude impact: Low.",
+      "Venue: Lincoln Financial Field, Philadelphia. Heat risk 5/10. Altitude 12m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -6871,7 +6889,7 @@
           "difference": 61
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Argentina",
           "difference": 1
         }
@@ -6898,12 +6916,13 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "Austria",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Austria Main Forward",
+      "position": "Forward",
+      "probability": 29.8
     },
     "redCardRisk": {
       "Austria": 4.6,
-      "Algeria": 5.8
+      "Algeria": 6.5
     },
     "modelScores": {
       "Austria": 126,
@@ -6932,7 +6951,7 @@
     "notes": [
       "Austria rate higher overall in the model.",
       "Austria travel distance: 8641 km. Algeria travel distance: 9184 km.",
-      "Venue: Lumen Field, Seattle. Heat impact: Low. Altitude impact: Low.",
+      "Venue: Lumen Field, Seattle. Heat risk 3/10. Altitude 17m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -6991,7 +7010,7 @@
           "difference": 0
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Austria",
           "difference": 2
         }
@@ -7024,7 +7043,7 @@
     },
     "redCardRisk": {
       "Argentina": 4.4,
-      "Algeria": 6
+      "Algeria": 6.7
     },
     "modelScores": {
       "Argentina": 149,
@@ -7053,7 +7072,7 @@
     "notes": [
       "Argentina rate higher overall in the model.",
       "Argentina travel distance: 10352 km. Algeria travel distance: 10019 km.",
-      "Venue: Levi's Stadium, San Francisco. Heat impact: Medium. Altitude impact: Low.",
+      "Venue: Levi's Stadium, San Francisco. Heat risk 6/10. Altitude 15m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -7112,7 +7131,7 @@
           "difference": 26
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Argentina",
           "difference": 1
         }
@@ -7139,12 +7158,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Austria",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Austria Main Forward",
+      "position": "Forward",
+      "probability": 29.8
     },
     "redCardRisk": {
       "Austria": 4.8,
-      "Jordan": 6.1
+      "Jordan": 6.8
     },
     "modelScores": {
       "Austria": 125.8,
@@ -7173,7 +7193,7 @@
     "notes": [
       "Austria rate higher overall in the model.",
       "Austria travel distance: 9832 km. Jordan travel distance: 12206 km.",
-      "Venue: SoFi Stadium, Los Angeles. Heat impact: Medium. Altitude impact: Low.",
+      "Venue: SoFi Stadium, Los Angeles. Heat risk 6/10. Altitude 30m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -7232,7 +7252,7 @@
           "difference": 35
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Austria",
           "difference": 2
         }
@@ -7259,13 +7279,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Portugal",
-      "name": "Bruno Fernandes",
-      "position": "Midfielder",
-      "probability": 31.6
+      "name": "Cristiano Ronaldo",
+      "position": "Forward",
+      "probability": 31
     },
     "redCardRisk": {
-      "Portugal": 4.7,
-      "Uzbekistan": 5.9
+      "Portugal": 4.5,
+      "Uzbekistan": 6.3
     },
     "modelScores": {
       "Portugal": 140.2,
@@ -7294,7 +7314,7 @@
     "notes": [
       "Portugal rate higher overall in the model.",
       "Portugal travel distance: 7082 km. Uzbekistan travel distance: 10930 km.",
-      "Venue: GEHA Field at Arrowhead Stadium, Kansas City. Heat impact: High. Altitude impact: Low.",
+      "Venue: GEHA Field at Arrowhead Stadium, Kansas City. Heat risk 7/10. Altitude 264m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -7353,7 +7373,7 @@
           "difference": 49
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Portugal",
           "difference": 1
         }
@@ -7380,13 +7400,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Colombia",
-      "name": "Luis Diaz",
+      "name": "Colombia Main Forward",
       "position": "Forward",
-      "probability": 32.1
+      "probability": 31
     },
     "redCardRisk": {
-      "Colombia": 5.5,
-      "Congo DR": 6.4
+      "Colombia": 6,
+      "Congo DR": 7.4
     },
     "modelScores": {
       "Colombia": 132.2,
@@ -7415,7 +7435,7 @@
     "notes": [
       "Colombia rate higher overall in the model.",
       "Colombia travel distance: 4166 km. Congo DR travel distance: 10053 km.",
-      "Venue: Gillette Stadium, Boston. Heat impact: Low. Altitude impact: Low.",
+      "Venue: Gillette Stadium, Boston. Heat risk 4/10. Altitude 90m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -7474,7 +7494,7 @@
           "difference": 28
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Colombia",
           "difference": 1
         }
@@ -7501,13 +7521,13 @@
     "confidence": "Medium",
     "likelyScorer": {
       "team": "Portugal",
-      "name": "Bruno Fernandes",
-      "position": "Midfielder",
-      "probability": 31.6
+      "name": "Cristiano Ronaldo",
+      "position": "Forward",
+      "probability": 31
     },
     "redCardRisk": {
-      "Portugal": 4.3,
-      "Colombia": 5.5
+      "Portugal": 4,
+      "Colombia": 6
     },
     "modelScores": {
       "Portugal": 140.5,
@@ -7536,7 +7556,7 @@
     "notes": [
       "Portugal rate higher overall in the model.",
       "Portugal travel distance: 8284 km. Colombia travel distance: 6756 km.",
-      "Venue: BC Place, Vancouver. Heat impact: Low. Altitude impact: Low.",
+      "Venue: BC Place, Vancouver. Heat risk 2/10. Altitude 5m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -7595,7 +7615,7 @@
           "difference": 6
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Portugal",
           "difference": 2
         }
@@ -7622,12 +7642,13 @@
     "confidence": "Low",
     "likelyScorer": {
       "team": "Congo DR",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Congo DR Main Forward",
+      "position": "Forward",
+      "probability": 25.9
     },
     "redCardRisk": {
-      "Uzbekistan": 5.4,
-      "Congo DR": 6.4
+      "Uzbekistan": 5.8,
+      "Congo DR": 7.4
     },
     "modelScores": {
       "Uzbekistan": 103.2,
@@ -7656,11 +7677,11 @@
     "notes": [
       "Congo DR rate higher overall in the model.",
       "Uzbekistan travel distance: 10065 km. Congo DR travel distance: 10725 km.",
-      "Venue: BMO Field, Toronto. Heat impact: Low. Altitude impact: Low.",
+      "Venue: BMO Field, Toronto. Heat risk 4/10. Altitude 76m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
-      "summary": "Congo DR is favoured because of advantages across elo strength, world cup history, attack, discipline risk.",
+      "summary": "Congo DR is favoured because of advantages across elo strength, world cup history, attack, lower discipline risk.",
       "strongestFactors": [
         {
           "factor": "Elo strength",
@@ -7678,7 +7699,7 @@
           "difference": 2
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Uzbekistan",
           "difference": 2
         }
@@ -7715,7 +7736,7 @@
           "difference": 15
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Uzbekistan",
           "difference": 2
         }
@@ -7742,13 +7763,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Portugal",
-      "name": "Bruno Fernandes",
-      "position": "Midfielder",
-      "probability": 31.6
+      "name": "Cristiano Ronaldo",
+      "position": "Forward",
+      "probability": 31
     },
     "redCardRisk": {
-      "Portugal": 4.5,
-      "Congo DR": 6.6
+      "Portugal": 4.2,
+      "Congo DR": 7.6
     },
     "modelScores": {
       "Portugal": 139.7,
@@ -7777,7 +7798,7 @@
     "notes": [
       "Portugal rate higher overall in the model.",
       "Portugal travel distance: 8681 km. Congo DR travel distance: 12731 km.",
-      "Venue: Estadio Azteca, Mexico City. Heat impact: Medium. Altitude impact: Very high.",
+      "Venue: Estadio Azteca, Mexico City. Heat risk 5/10. Altitude 2240m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -7836,7 +7857,7 @@
           "difference": 34
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Portugal",
           "difference": 3
         }
@@ -7863,13 +7884,13 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Colombia",
-      "name": "Luis Diaz",
+      "name": "Colombia Main Forward",
       "position": "Forward",
-      "probability": 32.1
+      "probability": 31
     },
     "redCardRisk": {
-      "Uzbekistan": 5.9,
-      "Colombia": 5.9
+      "Uzbekistan": 6.3,
+      "Colombia": 6.5
     },
     "modelScores": {
       "Uzbekistan": 102.7,
@@ -7898,7 +7919,7 @@
     "notes": [
       "Colombia rate higher overall in the model.",
       "Uzbekistan travel distance: 12490 km. Colombia travel distance: 3633 km.",
-      "Venue: Estadio BBVA, Monterrey. Heat impact: High. Altitude impact: Medium.",
+      "Venue: Estadio BBVA, Monterrey. Heat risk 8/10. Altitude 540m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -7957,7 +7978,7 @@
           "difference": 43
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Uzbekistan",
           "difference": 1
         }
@@ -7989,8 +8010,8 @@
       "probability": 34.8
     },
     "redCardRisk": {
-      "England": 3.9,
-      "Ghana": 6.8
+      "England": 4,
+      "Ghana": 7.8
     },
     "modelScores": {
       "England": 143.5,
@@ -8019,7 +8040,7 @@
     "notes": [
       "England rate higher overall in the model.",
       "England travel distance: 9099 km. Ghana travel distance: 11156 km.",
-      "Venue: Estadio Akron, Guadalajara. Heat impact: High. Altitude impact: High.",
+      "Venue: Estadio Akron, Guadalajara. Heat risk 7/10. Altitude 1566m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -8078,7 +8099,7 @@
           "difference": 12
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "England",
           "difference": 4
         }
@@ -8105,11 +8126,12 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Croatia",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Croatia Main Forward",
+      "position": "Forward",
+      "probability": 30.7
     },
     "redCardRisk": {
-      "Panama": 6.2,
+      "Panama": 7.3,
       "Croatia": 4.6
     },
     "modelScores": {
@@ -8139,7 +8161,7 @@
     "notes": [
       "Croatia rate higher overall in the model.",
       "Panama travel distance: 3580 km. Croatia travel distance: 6903 km.",
-      "Venue: MetLife Stadium, New York. Heat impact: Low. Altitude impact: Low.",
+      "Venue: MetLife Stadium, New York. Heat risk 4/10. Altitude 8m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -8198,7 +8220,7 @@
           "difference": 41
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Croatia",
           "difference": 3
         }
@@ -8230,8 +8252,8 @@
       "probability": 34.8
     },
     "redCardRisk": {
-      "England": 4.2,
-      "Panama": 7
+      "England": 4.3,
+      "Panama": 8.1
     },
     "modelScores": {
       "England": 143.6,
@@ -8260,7 +8282,7 @@
     "notes": [
       "England rate higher overall in the model.",
       "England travel distance: 7662 km. Panama travel distance: 3201 km.",
-      "Venue: AT&T Stadium, Dallas. Heat impact: Very high. Altitude impact: Low.",
+      "Venue: AT&T Stadium, Dallas. Heat risk 9/10. Altitude 184m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -8319,7 +8341,7 @@
           "difference": 38
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "England",
           "difference": 4
         }
@@ -8346,11 +8368,12 @@
     "confidence": "High",
     "likelyScorer": {
       "team": "Croatia",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Croatia Main Forward",
+      "position": "Forward",
+      "probability": 30.7
     },
     "redCardRisk": {
-      "Ghana": 7.1,
+      "Ghana": 8.1,
       "Croatia": 5.3
     },
     "modelScores": {
@@ -8380,7 +8403,7 @@
     "notes": [
       "Croatia rate higher overall in the model.",
       "Ghana travel distance: 10201 km. Croatia travel distance: 9150 km.",
-      "Venue: NRG Stadium, Houston. Heat impact: Very high. Altitude impact: Low.",
+      "Venue: NRG Stadium, Houston. Heat risk 10/10. Altitude 13m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -8439,7 +8462,7 @@
           "difference": 15
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Croatia",
           "difference": 3
         }
@@ -8471,7 +8494,7 @@
       "probability": 34.8
     },
     "redCardRisk": {
-      "England": 4.2,
+      "England": 4.3,
       "Croatia": 5.3
     },
     "modelScores": {
@@ -8501,7 +8524,7 @@
     "notes": [
       "England rate higher overall in the model.",
       "England travel distance: 7114 km. Croatia travel distance: 8424 km.",
-      "Venue: Hard Rock Stadium, Miami. Heat impact: Very high. Altitude impact: Low.",
+      "Venue: Hard Rock Stadium, Miami. Heat risk 10/10. Altitude 2m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -8560,7 +8583,7 @@
           "difference": 3
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "England",
           "difference": 1
         }
@@ -8587,12 +8610,13 @@
     "confidence": "Low",
     "likelyScorer": {
       "team": "Ghana",
-      "name": "No player data available",
-      "probability": 0
+      "name": "Ghana Main Forward",
+      "position": "Forward",
+      "probability": 27.1
     },
     "redCardRisk": {
-      "Ghana": 6.8,
-      "Panama": 6.7
+      "Ghana": 7.8,
+      "Panama": 7.8
     },
     "modelScores": {
       "Ghana": 113.3,
@@ -8621,7 +8645,7 @@
     "notes": [
       "Ghana rate higher overall in the model.",
       "Ghana travel distance: 9128 km. Panama travel distance: 2800 km.",
-      "Venue: Mercedes-Benz Stadium, Atlanta. Heat impact: High. Altitude impact: Low.",
+      "Venue: Mercedes-Benz Stadium, Atlanta. Heat risk 7/10. Altitude 320m.",
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
@@ -8680,7 +8704,7 @@
           "difference": 26
         },
         {
-          "factor": "Discipline risk",
+          "factor": "Lower discipline risk",
           "advantage": "Even",
           "difference": 0
         }

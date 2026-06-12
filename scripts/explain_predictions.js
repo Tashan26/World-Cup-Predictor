@@ -3,9 +3,7 @@ const fs = require("fs");
 const teams = JSON.parse(fs.readFileSync("data/teams.json", "utf8"));
 const predictions = JSON.parse(fs.readFileSync("data/predictions.json", "utf8"));
 
-function getTeam(name) {
-  return teams.find(t => t.name === name);
-}
+const getTeam = name => teams.find(t => t.name === name);
 
 function compare(home, away) {
   return [
@@ -15,25 +13,20 @@ function compare(home, away) {
     { label: "Attack", home: home.attack, away: away.attack },
     { label: "Defence", home: home.defence, away: away.defence },
     { label: "World Cup history", home: home.worldCupHistory, away: away.worldCupHistory },
-    { label: "Discipline risk", home: away.disciplineRisk, away: home.disciplineRisk }
+    { label: "Lower discipline risk", home: away.disciplineRisk, away: home.disciplineRisk }
   ];
 }
 
 const explained = predictions.map(match => {
   const home = getTeam(match.home);
   const away = getTeam(match.away);
-
   if (!home || !away) return match;
 
   const comparisons = compare(home, away).map(item => {
     const diff = item.home - item.away;
-
     return {
       factor: item.label,
-      advantage:
-        diff > 0 ? home.name :
-        diff < 0 ? away.name :
-        "Even",
+      advantage: diff > 0 ? home.name : diff < 0 ? away.name : "Even",
       difference: Math.abs(diff)
     };
   });

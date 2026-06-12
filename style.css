@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 :root {
   --bg: #f6f8fb;
@@ -100,13 +98,8 @@ body {
   border: 1px solid var(--border);
 }
 
-.half {
-  grid-column: span 6;
-}
-
-.third {
-  grid-column: span 4;
-}
+.half { grid-column: span 6; }
+.third { grid-column: span 4; }
 
 .kpi-grid {
   grid-column: span 12;
@@ -145,8 +138,7 @@ body {
   align-items: center;
 }
 
-select,
-input {
+select, input {
   width: 100%;
   padding: 15px 16px;
   border-radius: 16px;
@@ -188,7 +180,8 @@ button.secondary {
   margin: 18px 0;
 }
 
-.prediction-grid div {
+.prediction-grid div,
+.info-card {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 18px;
@@ -207,18 +200,6 @@ button.secondary {
   grid-template-columns: repeat(2, 1fr);
   gap: 14px;
   margin: 18px 0;
-}
-
-.info-card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  padding: 16px;
-}
-
-.info-card strong {
-  display: block;
-  margin-bottom: 6px;
 }
 
 .flag {
@@ -244,9 +225,7 @@ button.secondary {
   padding: 18px;
 }
 
-.stat-bar {
-  margin-top: 10px;
-}
+.stat-bar { margin-top: 10px; }
 
 .stat-bar label {
   display: flex;
@@ -255,18 +234,20 @@ button.secondary {
   color: var(--muted);
 }
 
-.bar {
-  height: 8px;
+.bar, .chart-bar {
   background: #dbeafe;
   border-radius: 999px;
   overflow: hidden;
-  margin-top: 4px;
 }
 
-.bar span {
+.bar { height: 8px; margin-top: 4px; }
+.chart-bar { height: 12px; }
+
+.bar span, .chart-bar span {
   display: block;
   height: 100%;
   background: linear-gradient(90deg, var(--primary), var(--accent));
+  max-width: 100%;
 }
 
 .score-pill {
@@ -292,8 +273,7 @@ button.secondary {
   font-size: 13px;
 }
 
-.group-table th,
-.group-table td {
+.group-table th, .group-table td {
   padding: 9px;
   border-bottom: 1px solid var(--border);
   text-align: left;
@@ -332,9 +312,7 @@ button.secondary {
   border-left: 4px solid var(--primary);
 }
 
-.chart-row {
-  margin: 12px 0;
-}
+.chart-row { margin: 12px 0; }
 
 .chart-label {
   display: flex;
@@ -343,22 +321,42 @@ button.secondary {
   margin-bottom: 5px;
 }
 
-.chart-bar {
-  height: 12px;
-  background: #dbeafe;
-  border-radius: 999px;
-  overflow: hidden;
+.match-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
 }
 
-.chart-bar span {
-  display: block;
-  height: 100%;
-  background: linear-gradient(90deg, var(--primary), var(--accent));
+.fixture-card {
+  background: var(--soft);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  padding: 20px;
 }
 
-.muted {
+.fixture-card h3 { margin: 8px 0; }
+
+.vs-small {
   color: var(--muted);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 4px 0;
 }
+
+.score-preview {
+  font-size: 34px;
+  font-weight: 950;
+  color: var(--primary);
+  margin: 14px 0;
+}
+
+.fixture-card button {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.muted { color: var(--muted); }
 
 hr {
   border: none;
@@ -367,40 +365,21 @@ hr {
 }
 
 @media (max-width: 1000px) {
-  .hero,
-  .layout,
-  .predictor-grid {
-    display: block;
-  }
+  .hero, .layout, .predictor-grid { display: block; }
 
-  .kpi-grid,
-  .team-grid,
-  #groups,
-  .bracket,
-  .prediction-grid,
-  .info-grid {
+  .kpi-grid, .team-grid, #groups, .bracket,
+  .prediction-grid, .info-grid, .match-card-grid {
     grid-template-columns: 1fr;
   }
 
-  .kpi-grid {
-    margin-top: 20px;
-  }
+  .kpi-grid { margin-top: 20px; }
 
-  .card,
-  .half,
-  .third {
+  .card, .half, .third {
     grid-column: span 12;
     margin-bottom: 22px;
   }
 
-  h1,
-  .hero h1 {
-    font-size: 40px;
-  }
+  .hero h1 { font-size: 40px; }
 
-  button,
-  select,
-  input {
-    margin-top: 10px;
-  }
+  button, select, input { margin-top: 10px; }
 }
