@@ -24,6 +24,9 @@ jobs:
       - name: Generate fixtures
         run: node scripts/generate_fixtures.js
 
+      - name: Apply manual updates
+        run: node scripts/apply_manual_updates.js
+
       - name: Build predictions
         run: node scripts/build_predictions.js
 
