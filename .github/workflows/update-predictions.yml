@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Generate fixtures
         run: node scripts/generate_fixtures.js
@@ -42,10 +42,13 @@ jobs:
       - name: Generate knockout bracket
         run: node scripts/generate_knockout.js
 
-      - name: Commit updated data
+      - name: Generate daily report
+        run: node scripts/generate_report.js
+
+      - name: Commit updated data and reports
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add data/*.json
-          git commit -m "Update prediction data" || echo "No changes"
+          git add data/*.json reports/*.html
+          git commit -m "Update prediction data and reports" || echo "No changes"
           git push

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T09:42:45.067Z",
+  "generatedAt": "2026-06-18T10:00:33.660Z",
   "rounds": [
     {
       "name": "Round of 32",
@@ -77,22 +77,22 @@
           "awayQualification": "Runner-up Group L"
         },
         {
-          "home": "Côte d'Ivoire",
-          "away": "Australia",
-          "homeQualification": "Third Group E",
-          "awayQualification": "Third Group D"
+          "home": "Bosnia and Herzegovina",
+          "away": "Côte d'Ivoire",
+          "homeQualification": "Third Group B",
+          "awayQualification": "Third Group E"
         },
         {
-          "home": "Czechia",
-          "away": "Sweden",
-          "homeQualification": "Third Group A",
-          "awayQualification": "Third Group F"
+          "home": "Australia",
+          "away": "Czechia",
+          "homeQualification": "Third Group D",
+          "awayQualification": "Third Group A"
         },
         {
-          "home": "Egypt",
-          "away": "Bosnia and Herzegovina",
-          "homeQualification": "Third Group G",
-          "awayQualification": "Third Group B"
+          "home": "Sweden",
+          "away": "Egypt",
+          "homeQualification": "Third Group F",
+          "awayQualification": "Third Group G"
         },
         {
           "home": "Norway",

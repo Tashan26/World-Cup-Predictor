@@ -5,7 +5,7 @@
     "confederation": "CONCACAF",
     "fifaRank": 15,
     "elo": 1815,
-    "recentForm": 78,
+    "recentForm": 82,
     "worldCupHistory": 78,
     "squadRating": 78,
     "attack": 77,
@@ -13,7 +13,7 @@
     "disciplineRisk": 7,
     "injuries": [],
     "suspensions": [],
-    "notes": ""
+    "notes": "Won opening match 2-0 against South Africa."
   },
   {
     "name": "South Africa",
@@ -645,7 +645,7 @@
     "confederation": "UEFA",
     "fifaRank": 6,
     "elo": 1960,
-    "recentForm": 85,
+    "recentForm": 82,
     "worldCupHistory": 84,
     "squadRating": 89,
     "attack": 89,
@@ -653,7 +653,7 @@
     "disciplineRisk": 5,
     "injuries": [],
     "suspensions": [],
-    "notes": ""
+    "notes": "Drew 1-1 with Congo DR."
   },
   {
     "name": "Uzbekistan",
@@ -693,7 +693,7 @@
     "confederation": "CAF",
     "fifaRank": 61,
     "elo": 1605,
-    "recentForm": 69,
+    "recentForm": 72,
     "worldCupHistory": 50,
     "squadRating": 68,
     "attack": 69,
@@ -701,7 +701,7 @@
     "disciplineRisk": 8,
     "injuries": [],
     "suspensions": [],
-    "notes": ""
+    "notes": "Strong result against Portugal."
   },
   {
     "name": "England",
@@ -709,7 +709,7 @@
     "confederation": "UEFA",
     "fifaRank": 4,
     "elo": 2015,
-    "recentForm": 86,
+    "recentForm": 89,
     "worldCupHistory": 88,
     "squadRating": 91,
     "attack": 90,
@@ -717,7 +717,7 @@
     "disciplineRisk": 4,
     "injuries": [],
     "suspensions": [],
-    "notes": ""
+    "notes": "Won 4-2 against Croatia, boosting attacking form."
   },
   {
     "name": "Ghana",
@@ -725,15 +725,22 @@
     "confederation": "CAF",
     "fifaRank": 49,
     "elo": 1660,
-    "recentForm": 70,
+    "recentForm": 73,
     "worldCupHistory": 76,
     "squadRating": 73,
     "attack": 73,
     "defence": 70,
     "disciplineRisk": 8,
-    "injuries": [],
+    "injuries": [
+      {
+        "team": "Ghana",
+        "player": "Lawrence Ati-Zigi",
+        "impact": -2,
+        "note": "Goalkeeper injury concern after Ghana vs Panama."
+      }
+    ],
     "suspensions": [],
-    "notes": ""
+    "notes": "Won 1-0 against Panama with late goal."
   },
   {
     "name": "Panama",

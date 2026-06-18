@@ -1,9 +1,80 @@
 {
-  "lastUpdated": "2026-06-01T00:00:00Z",
-  "results": [],
+  "lastUpdated": "2026-06-18T10:00:32.920Z",
+  "results": [
+    {
+      "home": "Mexico",
+      "away": "South Africa",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "status": "completed"
+    },
+    {
+      "home": "Canada",
+      "away": "Bosnia and Herzegovina",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "completed"
+    },
+    {
+      "home": "England",
+      "away": "Croatia",
+      "homeGoals": 4,
+      "awayGoals": 2,
+      "status": "completed"
+    },
+    {
+      "home": "Ghana",
+      "away": "Panama",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "completed"
+    },
+    {
+      "home": "Portugal",
+      "away": "Congo DR",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "completed"
+    }
+  ],
+  "formUpdates": [
+    {
+      "team": "Mexico",
+      "recentForm": 82
+    },
+    {
+      "team": "England",
+      "recentForm": 89
+    },
+    {
+      "team": "Ghana",
+      "recentForm": 73
+    },
+    {
+      "team": "Portugal",
+      "recentForm": 82
+    },
+    {
+      "team": "Congo DR",
+      "recentForm": 72
+    }
+  ],
   "teamFormUpdates": {},
-  "injuries": {},
-  "suspensions": {},
-  "notes": {},
+  "injuries": [
+    {
+      "team": "Ghana",
+      "player": "Lawrence Ati-Zigi",
+      "impact": -2,
+      "note": "Goalkeeper injury concern after Ghana vs Panama."
+    }
+  ],
+  "suspensions": [],
+  "notes": {
+    "Mexico": "Won opening match 2-0 against South Africa.",
+    "England": "Won 4-2 against Croatia, boosting attacking form.",
+    "Ghana": "Won 1-0 against Panama with late goal.",
+    "Portugal": "Drew 1-1 with Congo DR.",
+    "Congo DR": "Strong result against Portugal."
+  },
   "redCards": []
 }

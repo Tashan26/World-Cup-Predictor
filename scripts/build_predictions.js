@@ -61,6 +61,8 @@ function homeAdvantage(team, stadium) {
 
 function teamPower(team) {
   const fifaStrength = Math.max(40, 100 - team.fifaRank);
+  const injuryPenalty = (team.injuries || []).length * 1.1;
+  const suspensionPenalty = (team.suspensions || []).length * 1.5;
   return team.elo * 0.035 +
     fifaStrength * 0.15 +
     team.recentForm * 0.17 +
@@ -68,7 +70,9 @@ function teamPower(team) {
     team.squadRating * 0.16 +
     team.attack * 0.12 +
     team.defence * 0.12 -
-    team.disciplineRisk * 0.05;
+    team.disciplineRisk * 0.05 -
+    injuryPenalty -
+    suspensionPenalty;
 }
 
 function normalize(homeRaw, drawRaw, awayRaw) {
@@ -167,6 +171,8 @@ const predictions = fixtures.map(fixture => {
       homeAdvantage: homeAdvantage(home, stadium),
       awayAdvantage: homeAdvantage(away, stadium)
     },
+    injuries: { [home.name]: home.injuries || [], [away.name]: away.injuries || [] },
+    suspensions: { [home.name]: home.suspensions || [], [away.name]: away.suspensions || [] },
     notes: predictionNotes(home, away, stadium, homeTravel, awayTravel, homeScore, awayScore)
   };
 });

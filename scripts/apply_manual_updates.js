@@ -1,43 +1,20 @@
 const fs = require("fs");
-
 const updatesPath = "data/manual_updates.json";
 const fixturesPath = "data/fixtures.json";
 const teamsPath = "data/teams.json";
-
+const playersPath = "data/players.json";
 const updates = JSON.parse(fs.readFileSync(updatesPath, "utf8"));
 let fixtures = JSON.parse(fs.readFileSync(fixturesPath, "utf8"));
 let teams = JSON.parse(fs.readFileSync(teamsPath, "utf8"));
-
-fixtures = fixtures.map(fixture => {
-  const result = updates.results.find(r => r.matchId === fixture.id);
-
-  if (!result) return fixture;
-
-  return {
-    ...fixture,
-    actualResult: {
-      homeGoals: result.homeGoals,
-      awayGoals: result.awayGoals,
-      status: result.status || "completed"
-    },
-    status: result.status || "completed"
-  };
-});
-
-teams = teams.map(team => {
-  const updatedForm = updates.teamFormUpdates[team.name];
-
-  return {
-    ...team,
-    recentForm: updatedForm !== undefined ? updatedForm : team.recentForm,
-    injuries: updates.injuries[team.name] || [],
-    suspensions: updates.suspensions[team.name] || [],
-    notes: updates.notes[team.name] || ""
-  };
-});
-
+let players = JSON.parse(fs.readFileSync(playersPath, "utf8"));
+function sameFixture(fixture, result) { if (result.matchId && fixture.id === result.matchId) return true; return (fixture.home === result.home && fixture.away === result.away) || (fixture.home === result.away && fixture.away === result.home); }
+fixtures = fixtures.map(fixture => { const result = (updates.results || []).find(r => sameFixture(fixture, r)); if (!result) return fixture; const reverse = fixture.home === result.away && fixture.away === result.home; const homeGoals = reverse ? result.awayGoals : result.homeGoals; const awayGoals = reverse ? result.homeGoals : result.awayGoals; const redCards = (updates.redCards || []).filter(card => card.matchId === fixture.id || sameFixture(fixture, card)); return { ...fixture, actualResult: { homeGoals: Number(homeGoals), awayGoals: Number(awayGoals), status: result.status || "completed" }, redCards, status: result.status || "completed" }; });
+teams = teams.map(team => { const formObject = (updates.formUpdates || []).find(item => item.team === team.name); const formDirect = updates.teamFormUpdates ? updates.teamFormUpdates[team.name] : undefined; const updatedForm = formObject?.recentForm ?? formDirect; const teamInjuries = [ ...((updates.injuries && !Array.isArray(updates.injuries)) ? (updates.injuries[team.name] || []) : []), ...((updates.injuries || []).filter ? (updates.injuries || []).filter(item => item.team === team.name) : []) ]; const teamSuspensions = [ ...((updates.suspensions && !Array.isArray(updates.suspensions)) ? (updates.suspensions[team.name] || []) : []), ...((updates.suspensions || []).filter ? (updates.suspensions || []).filter(item => item.team === team.name) : []) ]; return { ...team, recentForm: updatedForm !== undefined ? Number(updatedForm) : team.recentForm, injuries: teamInjuries, suspensions: teamSuspensions, notes: updates.notes?.[team.name] || "" }; });
+players = players.map(player => { const injury = (updates.injuries || []).find ? (updates.injuries || []).find(item => item.player === player.name && item.team === player.team) : null; const suspension = (updates.suspensions || []).find ? (updates.suspensions || []).find(item => item.player === player.name && item.team === player.team) : null; const impact = Number(injury?.impact || 0) + Number(suspension?.impact || 0); if (!impact) return player; return { ...player, form: Math.max(20, player.form + impact), goalThreat: Math.max(20, player.goalThreat + impact), updateNote: injury?.note || suspension?.note || "Manual update applied" }; });
+updates.lastUpdated = new Date().toISOString();
 fs.writeFileSync(fixturesPath, JSON.stringify(fixtures, null, 2));
 fs.writeFileSync(teamsPath, JSON.stringify(teams, null, 2));
-
+fs.writeFileSync(playersPath, JSON.stringify(players, null, 2));
+fs.writeFileSync(updatesPath, JSON.stringify(updates, null, 2));
 console.log("Manual updates applied.");
-console.log(`Results updated: ${updates.results.length}`);
+console.log(`Results updated: ${(updates.results || []).length}`);

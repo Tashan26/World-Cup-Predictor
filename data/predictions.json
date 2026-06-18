@@ -8,11 +8,18 @@
     "home": "Mexico",
     "away": "South Africa",
     "stadium": "Estadio Azteca",
+    "actualResult": {
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "status": "completed"
+    },
+    "redCards": [],
+    "status": "completed",
     "city": "Mexico City",
     "probabilities": {
-      "home": 87.4,
-      "draw": 7.8,
-      "away": 4.9
+      "home": 87.9,
+      "draw": 7.5,
+      "away": 4.6
     },
     "predictedWinner": "Mexico",
     "predictedScore": "3-0",
@@ -24,11 +31,11 @@
       "probability": 29.1
     },
     "redCardRisk": {
-      "Mexico": 6.5,
+      "Mexico": 6.3,
       "South Africa": 7.6
     },
     "modelScores": {
-      "Mexico": 132.6,
+      "Mexico": 133.2,
       "South Africa": 106.6
     },
     "travel": {
@@ -51,6 +58,14 @@
       "homeAdvantage": 3.5,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Mexico": [],
+      "South Africa": []
+    },
+    "suspensions": {
+      "Mexico": [],
+      "South Africa": []
+    },
     "notes": [
       "Mexico rate higher overall in the model.",
       "Mexico travel distance: 15 km. South Africa travel distance: 14582 km.",
@@ -58,7 +73,7 @@
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
-      "summary": "Mexico is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
+      "summary": "Mexico is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
       "strongestFactors": [
         {
           "factor": "Elo strength",
@@ -71,12 +86,12 @@
           "difference": 20
         },
         {
-          "factor": "Squad rating",
+          "factor": "Recent form",
           "advantage": "Mexico",
-          "difference": 9
+          "difference": 12
         },
         {
-          "factor": "Attack",
+          "factor": "Squad rating",
           "advantage": "Mexico",
           "difference": 9
         }
@@ -90,7 +105,7 @@
         {
           "factor": "Recent form",
           "advantage": "Mexico",
-          "difference": 8
+          "difference": 12
         },
         {
           "factor": "Squad rating",
@@ -172,6 +187,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "South Korea": [],
+      "Czechia": []
+    },
+    "suspensions": {
+      "South Korea": [],
+      "Czechia": []
+    },
     "notes": [
       "South Korea rate higher overall in the model.",
       "South Korea travel distance: 11428 km. Czechia travel distance: 9429 km.",
@@ -252,9 +275,9 @@
     "stadium": "Estadio Akron",
     "city": "Guadalajara",
     "probabilities": {
-      "home": 63.9,
-      "draw": 17.3,
-      "away": 18.8
+      "home": 65.4,
+      "draw": 16.8,
+      "away": 17.8
     },
     "predictedWinner": "Mexico",
     "predictedScore": "2-1",
@@ -266,11 +289,11 @@
       "probability": 29.1
     },
     "redCardRisk": {
-      "Mexico": 6.7,
+      "Mexico": 6.6,
       "South Korea": 6
     },
     "modelScores": {
-      "Mexico": 132.7,
+      "Mexico": 133.3,
       "South Korea": 121.6
     },
     "travel": {
@@ -293,6 +316,14 @@
       "homeAdvantage": 3.5,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Mexico": [],
+      "South Korea": []
+    },
+    "suspensions": {
+      "Mexico": [],
+      "South Korea": []
+    },
     "notes": [
       "Mexico rate higher overall in the model.",
       "Mexico travel distance: 473 km. South Korea travel distance: 11663 km.",
@@ -300,7 +331,7 @@
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
-      "summary": "Mexico is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
+      "summary": "Mexico is favoured because of advantages across elo strength, recent form, world cup history, squad rating.",
       "strongestFactors": [
         {
           "factor": "Elo strength",
@@ -308,14 +339,14 @@
           "difference": 70
         },
         {
+          "factor": "Recent form",
+          "advantage": "Mexico",
+          "difference": 6
+        },
+        {
           "factor": "World Cup history",
           "advantage": "Mexico",
           "difference": 3
-        },
-        {
-          "factor": "Recent form",
-          "advantage": "Mexico",
-          "difference": 2
         },
         {
           "factor": "Squad rating",
@@ -332,7 +363,7 @@
         {
           "factor": "Recent form",
           "advantage": "Mexico",
-          "difference": 2
+          "difference": 6
         },
         {
           "factor": "Squad rating",
@@ -414,6 +445,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "South Africa": [],
+      "Czechia": []
+    },
+    "suspensions": {
+      "South Africa": [],
+      "Czechia": []
+    },
     "notes": [
       "Czechia rate higher overall in the model.",
       "South Africa travel distance: 12848 km. Czechia travel distance: 6569 km.",
@@ -494,13 +533,13 @@
     "stadium": "AT&T Stadium",
     "city": "Dallas",
     "probabilities": {
-      "home": 64.8,
-      "draw": 17,
-      "away": 18.2
+      "home": 66.3,
+      "draw": 16.5,
+      "away": 17.2
     },
     "predictedWinner": "Mexico",
     "predictedScore": "2-1",
-    "confidence": "Medium",
+    "confidence": "High",
     "likelyScorer": {
       "team": "Mexico",
       "name": "Mexico Main Forward",
@@ -508,11 +547,11 @@
       "probability": 29.1
     },
     "redCardRisk": {
-      "Mexico": 7,
+      "Mexico": 6.8,
       "Czechia": 6.4
     },
     "modelScores": {
-      "Mexico": 129.3,
+      "Mexico": 130,
       "Czechia": 117.9
     },
     "travel": {
@@ -535,6 +574,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Mexico": [],
+      "Czechia": []
+    },
+    "suspensions": {
+      "Mexico": [],
+      "Czechia": []
+    },
     "notes": [
       "Mexico rate higher overall in the model.",
       "Mexico travel distance: 1494 km. Czechia travel distance: 8616 km.",
@@ -542,7 +589,7 @@
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
-      "summary": "Mexico is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
+      "summary": "Mexico is favoured because of advantages across elo strength, recent form, world cup history, squad rating.",
       "strongestFactors": [
         {
           "factor": "Elo strength",
@@ -550,14 +597,14 @@
           "difference": 100
         },
         {
+          "factor": "Recent form",
+          "advantage": "Mexico",
+          "difference": 9
+        },
+        {
           "factor": "World Cup history",
           "advantage": "Mexico",
           "difference": 8
-        },
-        {
-          "factor": "Recent form",
-          "advantage": "Mexico",
-          "difference": 5
         },
         {
           "factor": "Squad rating",
@@ -574,7 +621,7 @@
         {
           "factor": "Recent form",
           "advantage": "Mexico",
-          "difference": 5
+          "difference": 9
         },
         {
           "factor": "Squad rating",
@@ -655,6 +702,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "South Africa": [],
+      "South Korea": []
+    },
+    "suspensions": {
+      "South Africa": [],
+      "South Korea": []
     },
     "notes": [
       "South Korea rate higher overall in the model.",
@@ -777,6 +832,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Canada": [],
+      "Switzerland": []
+    },
+    "suspensions": {
+      "Canada": [],
+      "Switzerland": []
+    },
     "notes": [
       "Switzerland rate higher overall in the model.",
       "Canada travel distance: 2202 km. Switzerland travel distance: 7766 km.",
@@ -897,6 +960,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Qatar": [],
+      "Bosnia and Herzegovina": []
+    },
+    "suspensions": {
+      "Qatar": [],
+      "Bosnia and Herzegovina": []
     },
     "notes": [
       "Bosnia and Herzegovina rate higher overall in the model.",
@@ -1019,6 +1090,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Canada": [],
+      "Qatar": []
+    },
+    "suspensions": {
+      "Canada": [],
+      "Qatar": []
+    },
     "notes": [
       "Canada rate higher overall in the model.",
       "Canada travel distance: 615 km. Qatar travel distance: 10906 km.",
@@ -1140,6 +1219,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Switzerland": [],
+      "Bosnia and Herzegovina": []
+    },
+    "suspensions": {
+      "Switzerland": [],
+      "Bosnia and Herzegovina": []
+    },
     "notes": [
       "Switzerland rate higher overall in the model.",
       "Switzerland travel distance: 8430 km. Bosnia and Herzegovina travel distance: 9144 km.",
@@ -1218,6 +1305,13 @@
     "home": "Canada",
     "away": "Bosnia and Herzegovina",
     "stadium": "Levi's Stadium",
+    "actualResult": {
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "completed"
+    },
+    "redCards": [],
+    "status": "completed",
     "city": "San Francisco",
     "probabilities": {
       "home": 51.1,
@@ -1260,6 +1354,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Canada": [],
+      "Bosnia and Herzegovina": []
+    },
+    "suspensions": {
+      "Canada": [],
+      "Bosnia and Herzegovina": []
     },
     "notes": [
       "Canada rate higher overall in the model.",
@@ -1382,6 +1484,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Switzerland": [],
+      "Qatar": []
+    },
+    "suspensions": {
+      "Switzerland": [],
+      "Qatar": []
+    },
     "notes": [
       "Switzerland rate higher overall in the model.",
       "Switzerland travel distance: 9517 km. Qatar travel distance: 13342 km.",
@@ -1502,6 +1612,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Brazil": [],
+      "Haiti": []
+    },
+    "suspensions": {
+      "Brazil": [],
+      "Haiti": []
     },
     "notes": [
       "Brazil rate higher overall in the model.",
@@ -1624,6 +1742,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Scotland": [],
+      "Morocco": []
+    },
+    "suspensions": {
+      "Scotland": [],
+      "Morocco": []
+    },
     "notes": [
       "Morocco rate higher overall in the model.",
       "Scotland travel distance: 4973 km. Morocco travel distance: 5578 km.",
@@ -1744,6 +1870,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Brazil": [],
+      "Scotland": []
+    },
+    "suspensions": {
+      "Brazil": [],
+      "Scotland": []
     },
     "notes": [
       "Brazil rate higher overall in the model.",
@@ -1866,6 +2000,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Haiti": [],
+      "Morocco": []
+    },
+    "suspensions": {
+      "Haiti": [],
+      "Morocco": []
+    },
     "notes": [
       "Morocco rate higher overall in the model.",
       "Haiti travel distance: 2863 km. Morocco travel distance: 6177 km.",
@@ -1986,6 +2128,14 @@
       "altitudeImpact": "Very high",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Brazil": [],
+      "Morocco": []
+    },
+    "suspensions": {
+      "Brazil": [],
+      "Morocco": []
     },
     "notes": [
       "Brazil rate higher overall in the model.",
@@ -2108,6 +2258,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Haiti": [],
+      "Scotland": []
+    },
+    "suspensions": {
+      "Haiti": [],
+      "Scotland": []
+    },
     "notes": [
       "Scotland rate higher overall in the model.",
       "Haiti travel distance: 2977 km. Scotland travel distance: 8087 km.",
@@ -2228,6 +2386,14 @@
       "altitudeImpact": "High",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "USA": [],
+      "Australia": []
+    },
+    "suspensions": {
+      "USA": [],
+      "Australia": []
     },
     "notes": [
       "USA rate higher overall in the model.",
@@ -2350,6 +2516,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Turkey": [],
+      "Paraguay": []
+    },
+    "suspensions": {
+      "Turkey": [],
+      "Paraguay": []
+    },
     "notes": [
       "Turkey rate higher overall in the model.",
       "Turkey travel distance: 8394 km. Paraguay travel distance: 7543 km.",
@@ -2470,6 +2644,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 3.5,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "USA": [],
+      "Turkey": []
+    },
+    "suspensions": {
+      "USA": [],
+      "Turkey": []
     },
     "notes": [
       "USA rate higher overall in the model.",
@@ -2592,6 +2774,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Australia": [],
+      "Paraguay": []
+    },
+    "suspensions": {
+      "Australia": [],
+      "Paraguay": []
+    },
     "notes": [
       "Australia rate higher overall in the model.",
       "Australia travel distance: 14035 km. Paraguay travel distance: 7322 km.",
@@ -2712,6 +2902,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 3.5,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "USA": [],
+      "Paraguay": []
+    },
+    "suspensions": {
+      "USA": [],
+      "Paraguay": []
     },
     "notes": [
       "USA rate higher overall in the model.",
@@ -2834,6 +3032,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Australia": [],
+      "Turkey": []
+    },
+    "suspensions": {
+      "Australia": [],
+      "Turkey": []
+    },
     "notes": [
       "Turkey rate higher overall in the model.",
       "Australia travel distance: 15169 km. Turkey travel distance: 9595 km.",
@@ -2954,6 +3160,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Germany": [],
+      "Côte d'Ivoire": []
+    },
+    "suspensions": {
+      "Germany": [],
+      "Côte d'Ivoire": []
     },
     "notes": [
       "Germany rate higher overall in the model.",
@@ -3076,6 +3290,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Ecuador": [],
+      "Curaçao": []
+    },
+    "suspensions": {
+      "Ecuador": [],
+      "Curaçao": []
+    },
     "notes": [
       "Ecuador rate higher overall in the model.",
       "Ecuador travel distance: 6790 km. Curaçao travel distance: 6303 km.",
@@ -3196,6 +3418,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Germany": [],
+      "Ecuador": []
+    },
+    "suspensions": {
+      "Germany": [],
+      "Ecuador": []
     },
     "notes": [
       "Germany rate higher overall in the model.",
@@ -3318,6 +3548,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Côte d'Ivoire": [],
+      "Curaçao": []
+    },
+    "suspensions": {
+      "Côte d'Ivoire": [],
+      "Curaçao": []
+    },
     "notes": [
       "Côte d'Ivoire rate higher overall in the model.",
       "Côte d'Ivoire travel distance: 11869 km. Curaçao travel distance: 5533 km.",
@@ -3438,6 +3676,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Germany": [],
+      "Curaçao": []
+    },
+    "suspensions": {
+      "Germany": [],
+      "Curaçao": []
     },
     "notes": [
       "Germany rate higher overall in the model.",
@@ -3560,6 +3806,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Côte d'Ivoire": [],
+      "Ecuador": []
+    },
+    "suspensions": {
+      "Côte d'Ivoire": [],
+      "Ecuador": []
+    },
     "notes": [
       "Ecuador rate higher overall in the model.",
       "Côte d'Ivoire travel distance: 7741 km. Ecuador travel distance: 4756 km.",
@@ -3680,6 +3934,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Netherlands": [],
+      "Sweden": []
+    },
+    "suspensions": {
+      "Netherlands": [],
+      "Sweden": []
     },
     "notes": [
       "Netherlands rate higher overall in the model.",
@@ -3802,6 +4064,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Tunisia": [],
+      "Japan": []
+    },
+    "suspensions": {
+      "Tunisia": [],
+      "Japan": []
+    },
     "notes": [
       "Japan rate higher overall in the model.",
       "Tunisia travel distance: 7264 km. Japan travel distance: 10352 km.",
@@ -3922,6 +4192,14 @@
       "altitudeImpact": "Very high",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Netherlands": [],
+      "Tunisia": []
+    },
+    "suspensions": {
+      "Netherlands": [],
+      "Tunisia": []
     },
     "notes": [
       "Netherlands rate higher overall in the model.",
@@ -4044,6 +4322,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Sweden": [],
+      "Japan": []
+    },
+    "suspensions": {
+      "Sweden": [],
+      "Japan": []
+    },
     "notes": [
       "Japan rate higher overall in the model.",
       "Sweden travel distance: 9019 km. Japan travel distance: 10739 km.",
@@ -4164,6 +4450,14 @@
       "altitudeImpact": "High",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Netherlands": [],
+      "Japan": []
+    },
+    "suspensions": {
+      "Netherlands": [],
+      "Japan": []
     },
     "notes": [
       "Netherlands rate higher overall in the model.",
@@ -4286,6 +4580,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Sweden": [],
+      "Tunisia": []
+    },
+    "suspensions": {
+      "Sweden": [],
+      "Tunisia": []
+    },
     "notes": [
       "Sweden rate higher overall in the model.",
       "Sweden travel distance: 6315 km. Tunisia travel distance: 7018 km.",
@@ -4406,6 +4708,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Belgium": [],
+      "Iran": []
+    },
+    "suspensions": {
+      "Belgium": [],
+      "Iran": []
     },
     "notes": [
       "Belgium rate higher overall in the model.",
@@ -4528,6 +4838,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "New Zealand": [],
+      "Egypt": []
+    },
+    "suspensions": {
+      "New Zealand": [],
+      "Egypt": []
+    },
     "notes": [
       "Egypt rate higher overall in the model.",
       "New Zealand travel distance: 12114 km. Egypt travel distance: 11296 km.",
@@ -4648,6 +4966,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Belgium": [],
+      "New Zealand": []
+    },
+    "suspensions": {
+      "Belgium": [],
+      "New Zealand": []
     },
     "notes": [
       "Belgium rate higher overall in the model.",
@@ -4770,6 +5096,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Iran": [],
+      "Egypt": []
+    },
+    "suspensions": {
+      "Iran": [],
+      "Egypt": []
+    },
     "notes": [
       "Iran rate higher overall in the model.",
       "Iran travel distance: 11030 km. Egypt travel distance: 10219 km.",
@@ -4890,6 +5224,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Belgium": [],
+      "Egypt": []
+    },
+    "suspensions": {
+      "Belgium": [],
+      "Egypt": []
     },
     "notes": [
       "Belgium rate higher overall in the model.",
@@ -5012,6 +5354,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Iran": [],
+      "New Zealand": []
+    },
+    "suspensions": {
+      "Iran": [],
+      "New Zealand": []
+    },
     "notes": [
       "Iran rate higher overall in the model.",
       "Iran travel distance: 10733 km. New Zealand travel distance: 11659 km.",
@@ -5132,6 +5482,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Spain": [],
+      "Saudi Arabia": []
+    },
+    "suspensions": {
+      "Spain": [],
+      "Saudi Arabia": []
     },
     "notes": [
       "Spain rate higher overall in the model.",
@@ -5254,6 +5612,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Uruguay": [],
+      "Cabo Verde": []
+    },
+    "suspensions": {
+      "Uruguay": [],
+      "Cabo Verde": []
+    },
     "notes": [
       "Uruguay rate higher overall in the model.",
       "Uruguay travel distance: 10020 km. Cabo Verde travel distance: 9520 km.",
@@ -5374,6 +5740,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Spain": [],
+      "Uruguay": []
+    },
+    "suspensions": {
+      "Spain": [],
+      "Uruguay": []
     },
     "notes": [
       "Spain rate higher overall in the model.",
@@ -5496,6 +5870,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Saudi Arabia": [],
+      "Cabo Verde": []
+    },
+    "suspensions": {
+      "Saudi Arabia": [],
+      "Cabo Verde": []
+    },
     "notes": [
       "Saudi Arabia rate higher overall in the model.",
       "Saudi Arabia travel distance: 10234 km. Cabo Verde travel distance: 5459 km.",
@@ -5616,6 +5998,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Spain": [],
+      "Cabo Verde": []
+    },
+    "suspensions": {
+      "Spain": [],
+      "Cabo Verde": []
     },
     "notes": [
       "Spain rate higher overall in the model.",
@@ -5738,6 +6128,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Saudi Arabia": [],
+      "Uruguay": []
+    },
+    "suspensions": {
+      "Saudi Arabia": [],
+      "Uruguay": []
+    },
     "notes": [
       "Uruguay rate higher overall in the model.",
       "Saudi Arabia travel distance: 10638 km. Uruguay travel distance: 9045 km.",
@@ -5858,6 +6256,14 @@
       "altitudeImpact": "Very high",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "France": [],
+      "Iraq": []
+    },
+    "suspensions": {
+      "France": [],
+      "Iraq": []
     },
     "notes": [
       "France rate higher overall in the model.",
@@ -5980,6 +6386,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Norway": [],
+      "Senegal": []
+    },
+    "suspensions": {
+      "Norway": [],
+      "Senegal": []
+    },
     "notes": [
       "Senegal rate higher overall in the model.",
       "Norway travel distance: 8641 km. Senegal travel distance: 8597 km.",
@@ -6100,6 +6514,14 @@
       "altitudeImpact": "High",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "France": [],
+      "Norway": []
+    },
+    "suspensions": {
+      "France": [],
+      "Norway": []
     },
     "notes": [
       "France rate higher overall in the model.",
@@ -6222,6 +6644,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Iraq": [],
+      "Senegal": []
+    },
+    "suspensions": {
+      "Iraq": [],
+      "Senegal": []
+    },
     "notes": [
       "Senegal rate higher overall in the model.",
       "Iraq travel distance: 9639 km. Senegal travel distance: 6152 km.",
@@ -6342,6 +6772,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "France": [],
+      "Senegal": []
+    },
+    "suspensions": {
+      "France": [],
+      "Senegal": []
     },
     "notes": [
       "France rate higher overall in the model.",
@@ -6464,6 +6902,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Iraq": [],
+      "Norway": []
+    },
+    "suspensions": {
+      "Iraq": [],
+      "Norway": []
+    },
     "notes": [
       "Norway rate higher overall in the model.",
       "Iraq travel distance: 11831 km. Norway travel distance: 8018 km.",
@@ -6584,6 +7030,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Argentina": [],
+      "Austria": []
+    },
+    "suspensions": {
+      "Argentina": [],
+      "Austria": []
     },
     "notes": [
       "Argentina rate higher overall in the model.",
@@ -6706,6 +7160,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Jordan": [],
+      "Algeria": []
+    },
+    "suspensions": {
+      "Jordan": [],
+      "Algeria": []
+    },
     "notes": [
       "Algeria rate higher overall in the model.",
       "Jordan travel distance: 10403 km. Algeria travel distance: 7648 km.",
@@ -6826,6 +7288,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Argentina": [],
+      "Jordan": []
+    },
+    "suspensions": {
+      "Argentina": [],
+      "Jordan": []
     },
     "notes": [
       "Argentina rate higher overall in the model.",
@@ -6948,6 +7418,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Austria": [],
+      "Algeria": []
+    },
+    "suspensions": {
+      "Austria": [],
+      "Algeria": []
+    },
     "notes": [
       "Austria rate higher overall in the model.",
       "Austria travel distance: 8641 km. Algeria travel distance: 9184 km.",
@@ -7068,6 +7546,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Argentina": [],
+      "Algeria": []
+    },
+    "suspensions": {
+      "Argentina": [],
+      "Algeria": []
     },
     "notes": [
       "Argentina rate higher overall in the model.",
@@ -7190,6 +7676,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Austria": [],
+      "Jordan": []
+    },
+    "suspensions": {
+      "Austria": [],
+      "Jordan": []
+    },
     "notes": [
       "Austria rate higher overall in the model.",
       "Austria travel distance: 9832 km. Jordan travel distance: 12206 km.",
@@ -7270,9 +7764,9 @@
     "stadium": "GEHA Field at Arrowhead Stadium",
     "city": "Kansas City",
     "probabilities": {
-      "home": 94.1,
-      "draw": 4.4,
-      "away": 1.5
+      "home": 93.9,
+      "draw": 4.6,
+      "away": 1.6
     },
     "predictedWinner": "Portugal",
     "predictedScore": "3-0",
@@ -7284,11 +7778,11 @@
       "probability": 31
     },
     "redCardRisk": {
-      "Portugal": 4.5,
+      "Portugal": 4.6,
       "Uzbekistan": 6.3
     },
     "modelScores": {
-      "Portugal": 140.2,
+      "Portugal": 139.7,
       "Uzbekistan": 102.9
     },
     "travel": {
@@ -7310,6 +7804,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Portugal": [],
+      "Uzbekistan": []
+    },
+    "suspensions": {
+      "Portugal": [],
+      "Uzbekistan": []
     },
     "notes": [
       "Portugal rate higher overall in the model.",
@@ -7350,7 +7852,7 @@
         {
           "factor": "Recent form",
           "advantage": "Portugal",
-          "difference": 15
+          "difference": 12
         },
         {
           "factor": "Squad rating",
@@ -7391,9 +7893,9 @@
     "stadium": "Gillette Stadium",
     "city": "Boston",
     "probabilities": {
-      "home": 89.2,
-      "draw": 7,
-      "away": 3.9
+      "home": 88.8,
+      "draw": 7.1,
+      "away": 4.1
     },
     "predictedWinner": "Colombia",
     "predictedScore": "3-1",
@@ -7406,11 +7908,11 @@
     },
     "redCardRisk": {
       "Colombia": 6,
-      "Congo DR": 7.4
+      "Congo DR": 7.3
     },
     "modelScores": {
       "Colombia": 132.2,
-      "Congo DR": 104
+      "Congo DR": 104.5
     },
     "travel": {
       "Colombia": {
@@ -7432,6 +7934,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Colombia": [],
+      "Congo DR": []
+    },
+    "suspensions": {
+      "Colombia": [],
+      "Congo DR": []
+    },
     "notes": [
       "Colombia rate higher overall in the model.",
       "Colombia travel distance: 4166 km. Congo DR travel distance: 10053 km.",
@@ -7439,7 +7949,7 @@
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
-      "summary": "Colombia is favoured because of advantages across elo strength, world cup history, recent form, squad rating.",
+      "summary": "Colombia is favoured because of advantages across elo strength, world cup history, squad rating, attack.",
       "strongestFactors": [
         {
           "factor": "Elo strength",
@@ -7452,14 +7962,14 @@
           "difference": 28
         },
         {
-          "factor": "Recent form",
+          "factor": "Squad rating",
           "advantage": "Colombia",
           "difference": 14
         },
         {
-          "factor": "Squad rating",
+          "factor": "Attack",
           "advantage": "Colombia",
-          "difference": 14
+          "difference": 13
         }
       ],
       "comparisonTable": [
@@ -7471,7 +7981,7 @@
         {
           "factor": "Recent form",
           "advantage": "Colombia",
-          "difference": 14
+          "difference": 11
         },
         {
           "factor": "Squad rating",
@@ -7512,9 +8022,9 @@
     "stadium": "BC Place",
     "city": "Vancouver",
     "probabilities": {
-      "home": 57.7,
-      "draw": 19.3,
-      "away": 22.9
+      "home": 56.5,
+      "draw": 19.7,
+      "away": 23.8
     },
     "predictedWinner": "Portugal",
     "predictedScore": "2-1",
@@ -7526,11 +8036,11 @@
       "probability": 31
     },
     "redCardRisk": {
-      "Portugal": 4,
+      "Portugal": 4.1,
       "Colombia": 6
     },
     "modelScores": {
-      "Portugal": 140.5,
+      "Portugal": 140,
       "Colombia": 132.2
     },
     "travel": {
@@ -7552,6 +8062,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Portugal": [],
+      "Colombia": []
+    },
+    "suspensions": {
+      "Portugal": [],
+      "Colombia": []
     },
     "notes": [
       "Portugal rate higher overall in the model.",
@@ -7591,8 +8109,8 @@
         },
         {
           "factor": "Recent form",
-          "advantage": "Portugal",
-          "difference": 2
+          "advantage": "Colombia",
+          "difference": 1
         },
         {
           "factor": "Squad rating",
@@ -7633,9 +8151,9 @@
     "stadium": "BMO Field",
     "city": "Toronto",
     "probabilities": {
-      "home": 36.6,
-      "draw": 23.5,
-      "away": 39.8
+      "home": 35.6,
+      "draw": 23.4,
+      "away": 41
     },
     "predictedWinner": "Congo DR",
     "predictedScore": "2-2",
@@ -7648,11 +8166,11 @@
     },
     "redCardRisk": {
       "Uzbekistan": 5.8,
-      "Congo DR": 7.4
+      "Congo DR": 7.3
     },
     "modelScores": {
       "Uzbekistan": 103.2,
-      "Congo DR": 104
+      "Congo DR": 104.5
     },
     "travel": {
       "Uzbekistan": {
@@ -7674,6 +8192,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Uzbekistan": [],
+      "Congo DR": []
+    },
+    "suspensions": {
+      "Uzbekistan": [],
+      "Congo DR": []
+    },
     "notes": [
       "Congo DR rate higher overall in the model.",
       "Uzbekistan travel distance: 10065 km. Congo DR travel distance: 10725 km.",
@@ -7681,7 +8207,7 @@
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
-      "summary": "Congo DR is favoured because of advantages across elo strength, world cup history, attack, lower discipline risk.",
+      "summary": "Congo DR is favoured because of advantages across elo strength, world cup history, recent form, attack.",
       "strongestFactors": [
         {
           "factor": "Elo strength",
@@ -7694,13 +8220,13 @@
           "difference": 15
         },
         {
-          "factor": "Attack",
+          "factor": "Recent form",
           "advantage": "Congo DR",
           "difference": 2
         },
         {
-          "factor": "Lower discipline risk",
-          "advantage": "Uzbekistan",
+          "factor": "Attack",
+          "advantage": "Congo DR",
           "difference": 2
         }
       ],
@@ -7712,8 +8238,8 @@
         },
         {
           "factor": "Recent form",
-          "advantage": "Uzbekistan",
-          "difference": 1
+          "advantage": "Congo DR",
+          "difference": 2
         },
         {
           "factor": "Squad rating",
@@ -7752,11 +8278,18 @@
     "home": "Portugal",
     "away": "Congo DR",
     "stadium": "Estadio Azteca",
+    "actualResult": {
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "completed"
+    },
+    "redCards": [],
+    "status": "completed",
     "city": "Mexico City",
     "probabilities": {
-      "home": 93.8,
-      "draw": 4.6,
-      "away": 1.6
+      "home": 93.3,
+      "draw": 4.9,
+      "away": 1.8
     },
     "predictedWinner": "Portugal",
     "predictedScore": "3-0",
@@ -7768,12 +8301,12 @@
       "probability": 31
     },
     "redCardRisk": {
-      "Portugal": 4.2,
-      "Congo DR": 7.6
+      "Portugal": 4.3,
+      "Congo DR": 7.5
     },
     "modelScores": {
-      "Portugal": 139.7,
-      "Congo DR": 103.2
+      "Portugal": 139.2,
+      "Congo DR": 103.7
     },
     "travel": {
       "Portugal": {
@@ -7794,6 +8327,14 @@
       "altitudeImpact": "Very high",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Portugal": [],
+      "Congo DR": []
+    },
+    "suspensions": {
+      "Portugal": [],
+      "Congo DR": []
     },
     "notes": [
       "Portugal rate higher overall in the model.",
@@ -7834,7 +8375,7 @@
         {
           "factor": "Recent form",
           "advantage": "Portugal",
-          "difference": 16
+          "difference": 10
         },
         {
           "factor": "Squad rating",
@@ -7916,6 +8457,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Uzbekistan": [],
+      "Colombia": []
+    },
+    "suspensions": {
+      "Uzbekistan": [],
+      "Colombia": []
+    },
     "notes": [
       "Colombia rate higher overall in the model.",
       "Uzbekistan travel distance: 12490 km. Colombia travel distance: 3633 km.",
@@ -7996,9 +8545,9 @@
     "stadium": "Estadio Akron",
     "city": "Guadalajara",
     "probabilities": {
-      "home": 91.2,
-      "draw": 6,
-      "away": 2.8
+      "home": 91.8,
+      "draw": 5.7,
+      "away": 2.5
     },
     "predictedWinner": "England",
     "predictedScore": "3-0",
@@ -8010,12 +8559,12 @@
       "probability": 34.8
     },
     "redCardRisk": {
-      "England": 4,
-      "Ghana": 7.8
+      "England": 3.9,
+      "Ghana": 7.7
     },
     "modelScores": {
-      "England": 143.5,
-      "Ghana": 112.2
+      "England": 144,
+      "Ghana": 111.6
     },
     "travel": {
       "England": {
@@ -8036,6 +8585,21 @@
       "altitudeImpact": "High",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "England": [],
+      "Ghana": [
+        {
+          "team": "Ghana",
+          "player": "Lawrence Ati-Zigi",
+          "impact": -2,
+          "note": "Goalkeeper injury concern after Ghana vs Panama."
+        }
+      ]
+    },
+    "suspensions": {
+      "England": [],
+      "Ghana": []
     },
     "notes": [
       "England rate higher overall in the model.",
@@ -8158,6 +8722,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "Panama": [],
+      "Croatia": []
+    },
+    "suspensions": {
+      "Panama": [],
+      "Croatia": []
+    },
     "notes": [
       "Croatia rate higher overall in the model.",
       "Panama travel distance: 3580 km. Croatia travel distance: 6903 km.",
@@ -8238,9 +8810,9 @@
     "stadium": "AT&T Stadium",
     "city": "Dallas",
     "probabilities": {
-      "home": 91.3,
-      "draw": 6,
-      "away": 2.8
+      "home": 91.6,
+      "draw": 5.8,
+      "away": 2.6
     },
     "predictedWinner": "England",
     "predictedScore": "3-0",
@@ -8252,11 +8824,11 @@
       "probability": 34.8
     },
     "redCardRisk": {
-      "England": 4.3,
+      "England": 4.2,
       "Panama": 8.1
     },
     "modelScores": {
-      "England": 143.6,
+      "England": 144.1,
       "Panama": 112.1
     },
     "travel": {
@@ -8278,6 +8850,14 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "England": [],
+      "Panama": []
+    },
+    "suspensions": {
+      "England": [],
+      "Panama": []
     },
     "notes": [
       "England rate higher overall in the model.",
@@ -8318,7 +8898,7 @@
         {
           "factor": "Recent form",
           "advantage": "England",
-          "difference": 14
+          "difference": 17
         },
         {
           "factor": "Squad rating",
@@ -8359,9 +8939,9 @@
     "stadium": "NRG Stadium",
     "city": "Houston",
     "probabilities": {
-      "home": 6.9,
-      "draw": 9,
-      "away": 84.1
+      "home": 6.5,
+      "draw": 8.8,
+      "away": 84.7
     },
     "predictedWinner": "Croatia",
     "predictedScore": "1-2",
@@ -8373,11 +8953,11 @@
       "probability": 30.7
     },
     "redCardRisk": {
-      "Ghana": 8.1,
+      "Ghana": 8,
       "Croatia": 5.3
     },
     "modelScores": {
-      "Ghana": 112.3,
+      "Ghana": 111.7,
       "Croatia": 134.9
     },
     "travel": {
@@ -8399,6 +8979,21 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Ghana": [
+        {
+          "team": "Ghana",
+          "player": "Lawrence Ati-Zigi",
+          "impact": -2,
+          "note": "Goalkeeper injury concern after Ghana vs Panama."
+        }
+      ],
+      "Croatia": []
+    },
+    "suspensions": {
+      "Ghana": [],
+      "Croatia": []
     },
     "notes": [
       "Croatia rate higher overall in the model.",
@@ -8439,7 +9034,7 @@
         {
           "factor": "Recent form",
           "advantage": "Croatia",
-          "difference": 10
+          "difference": 7
         },
         {
           "factor": "Squad rating",
@@ -8478,11 +9073,18 @@
     "home": "England",
     "away": "Croatia",
     "stadium": "Hard Rock Stadium",
+    "actualResult": {
+      "homeGoals": 4,
+      "awayGoals": 2,
+      "status": "completed"
+    },
+    "redCards": [],
+    "status": "completed",
     "city": "Miami",
     "probabilities": {
-      "home": 58.7,
-      "draw": 19,
-      "away": 22.2
+      "home": 59.9,
+      "draw": 18.7,
+      "away": 21.4
     },
     "predictedWinner": "England",
     "predictedScore": "2-1",
@@ -8494,11 +9096,11 @@
       "probability": 34.8
     },
     "redCardRisk": {
-      "England": 4.3,
+      "England": 4.2,
       "Croatia": 5.3
     },
     "modelScores": {
-      "England": 143.6,
+      "England": 144.1,
       "Croatia": 134.9
     },
     "travel": {
@@ -8521,6 +9123,14 @@
       "homeAdvantage": 0,
       "awayAdvantage": 0
     },
+    "injuries": {
+      "England": [],
+      "Croatia": []
+    },
+    "suspensions": {
+      "England": [],
+      "Croatia": []
+    },
     "notes": [
       "England rate higher overall in the model.",
       "England travel distance: 7114 km. Croatia travel distance: 8424 km.",
@@ -8528,12 +9138,17 @@
       "Model includes Elo seed, FIFA rank strength, form, squad quality, attack, defence, World Cup history, discipline, travel, heat and altitude."
     ],
     "explanation": {
-      "summary": "England is favoured because of advantages across elo strength, attack, squad rating, recent form.",
+      "summary": "England is favoured because of advantages across elo strength, recent form, attack, squad rating.",
       "strongestFactors": [
         {
           "factor": "Elo strength",
           "advantage": "England",
           "difference": 135
+        },
+        {
+          "factor": "Recent form",
+          "advantage": "England",
+          "difference": 9
         },
         {
           "factor": "Attack",
@@ -8544,11 +9159,6 @@
           "factor": "Squad rating",
           "advantage": "England",
           "difference": 7
-        },
-        {
-          "factor": "Recent form",
-          "advantage": "England",
-          "difference": 6
         }
       ],
       "comparisonTable": [
@@ -8560,7 +9170,7 @@
         {
           "factor": "Recent form",
           "advantage": "England",
-          "difference": 6
+          "difference": 9
         },
         {
           "factor": "Squad rating",
@@ -8599,11 +9209,18 @@
     "home": "Ghana",
     "away": "Panama",
     "stadium": "Mercedes-Benz Stadium",
+    "actualResult": {
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "completed"
+    },
+    "redCards": [],
+    "status": "completed",
     "city": "Atlanta",
     "probabilities": {
-      "home": 40.3,
-      "draw": 23.5,
-      "away": 36.2
+      "home": 39,
+      "draw": 23.7,
+      "away": 37.3
     },
     "predictedWinner": "Ghana",
     "predictedScore": "2-1",
@@ -8615,11 +9232,11 @@
       "probability": 27.1
     },
     "redCardRisk": {
-      "Ghana": 7.8,
+      "Ghana": 7.7,
       "Panama": 7.8
     },
     "modelScores": {
-      "Ghana": 113.3,
+      "Ghana": 112.7,
       "Panama": 112.3
     },
     "travel": {
@@ -8641,6 +9258,21 @@
       "altitudeImpact": "Low",
       "homeAdvantage": 0,
       "awayAdvantage": 0
+    },
+    "injuries": {
+      "Ghana": [
+        {
+          "team": "Ghana",
+          "player": "Lawrence Ati-Zigi",
+          "impact": -2,
+          "note": "Goalkeeper injury concern after Ghana vs Panama."
+        }
+      ],
+      "Panama": []
+    },
+    "suspensions": {
+      "Ghana": [],
+      "Panama": []
     },
     "notes": [
       "Ghana rate higher overall in the model.",
@@ -8680,8 +9312,8 @@
         },
         {
           "factor": "Recent form",
-          "advantage": "Panama",
-          "difference": 2
+          "advantage": "Ghana",
+          "difference": 1
         },
         {
           "factor": "Squad rating",
