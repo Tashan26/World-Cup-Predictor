@@ -10,7 +10,10 @@
     "squadRating": 78,
     "attack": 77,
     "defence": 76,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "South Africa",
@@ -23,7 +26,10 @@
     "squadRating": 69,
     "attack": 68,
     "defence": 69,
-    "disciplineRisk": 8
+    "disciplineRisk": 8,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "South Korea",
@@ -36,7 +42,10 @@
     "squadRating": 77,
     "attack": 76,
     "defence": 75,
-    "disciplineRisk": 6
+    "disciplineRisk": 6,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Czechia",
@@ -49,7 +58,10 @@
     "squadRating": 75,
     "attack": 74,
     "defence": 75,
-    "disciplineRisk": 6
+    "disciplineRisk": 6,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Canada",
@@ -62,7 +74,10 @@
     "squadRating": 76,
     "attack": 77,
     "defence": 72,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Switzerland",
@@ -75,7 +90,10 @@
     "squadRating": 81,
     "attack": 79,
     "defence": 82,
-    "disciplineRisk": 5
+    "disciplineRisk": 5,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Qatar",
@@ -88,7 +106,10 @@
     "squadRating": 68,
     "attack": 67,
     "defence": 68,
-    "disciplineRisk": 6
+    "disciplineRisk": 6,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Bosnia and Herzegovina",
@@ -101,7 +122,10 @@
     "squadRating": 73,
     "attack": 74,
     "defence": 70,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Brazil",
@@ -114,7 +138,10 @@
     "squadRating": 91,
     "attack": 91,
     "defence": 86,
-    "disciplineRisk": 6
+    "disciplineRisk": 6,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Haiti",
@@ -127,7 +154,10 @@
     "squadRating": 62,
     "attack": 63,
     "defence": 61,
-    "disciplineRisk": 8
+    "disciplineRisk": 8,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Scotland",
@@ -140,7 +170,10 @@
     "squadRating": 74,
     "attack": 72,
     "defence": 74,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Morocco",
@@ -153,7 +186,10 @@
     "squadRating": 82,
     "attack": 81,
     "defence": 83,
-    "disciplineRisk": 6
+    "disciplineRisk": 6,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "USA",
@@ -166,7 +202,10 @@
     "squadRating": 80,
     "attack": 79,
     "defence": 77,
-    "disciplineRisk": 6
+    "disciplineRisk": 6,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Australia",
@@ -179,7 +218,10 @@
     "squadRating": 74,
     "attack": 73,
     "defence": 75,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Turkey",
@@ -192,7 +234,10 @@
     "squadRating": 79,
     "attack": 80,
     "defence": 75,
-    "disciplineRisk": 8
+    "disciplineRisk": 8,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Paraguay",
@@ -205,7 +250,10 @@
     "squadRating": 73,
     "attack": 71,
     "defence": 74,
-    "disciplineRisk": 8
+    "disciplineRisk": 8,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Germany",
@@ -218,7 +266,10 @@
     "squadRating": 88,
     "attack": 87,
     "defence": 84,
-    "disciplineRisk": 5
+    "disciplineRisk": 5,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Côte d'Ivoire",
@@ -231,7 +282,10 @@
     "squadRating": 76,
     "attack": 77,
     "defence": 72,
-    "disciplineRisk": 8
+    "disciplineRisk": 8,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Ecuador",
@@ -244,7 +298,10 @@
     "squadRating": 77,
     "attack": 75,
     "defence": 78,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Curaçao",
@@ -257,7 +314,10 @@
     "squadRating": 61,
     "attack": 62,
     "defence": 60,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Netherlands",
@@ -270,7 +330,10 @@
     "squadRating": 88,
     "attack": 86,
     "defence": 87,
-    "disciplineRisk": 5
+    "disciplineRisk": 5,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Sweden",
@@ -283,7 +346,10 @@
     "squadRating": 75,
     "attack": 74,
     "defence": 76,
-    "disciplineRisk": 5
+    "disciplineRisk": 5,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Tunisia",
@@ -296,7 +362,10 @@
     "squadRating": 72,
     "attack": 70,
     "defence": 73,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Japan",
@@ -309,7 +378,10 @@
     "squadRating": 80,
     "attack": 80,
     "defence": 78,
-    "disciplineRisk": 5
+    "disciplineRisk": 5,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Belgium",
@@ -322,7 +394,10 @@
     "squadRating": 86,
     "attack": 85,
     "defence": 81,
-    "disciplineRisk": 5
+    "disciplineRisk": 5,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Iran",
@@ -335,7 +410,10 @@
     "squadRating": 75,
     "attack": 74,
     "defence": 75,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "New Zealand",
@@ -348,7 +426,10 @@
     "squadRating": 63,
     "attack": 62,
     "defence": 64,
-    "disciplineRisk": 6
+    "disciplineRisk": 6,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Egypt",
@@ -361,7 +442,10 @@
     "squadRating": 76,
     "attack": 76,
     "defence": 73,
-    "disciplineRisk": 6
+    "disciplineRisk": 6,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Spain",
@@ -374,7 +458,10 @@
     "squadRating": 90,
     "attack": 89,
     "defence": 88,
-    "disciplineRisk": 4
+    "disciplineRisk": 4,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Saudi Arabia",
@@ -387,7 +474,10 @@
     "squadRating": 68,
     "attack": 67,
     "defence": 68,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Uruguay",
@@ -400,7 +490,10 @@
     "squadRating": 84,
     "attack": 84,
     "defence": 82,
-    "disciplineRisk": 8
+    "disciplineRisk": 8,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Cabo Verde",
@@ -413,7 +506,10 @@
     "squadRating": 66,
     "attack": 66,
     "defence": 65,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "France",
@@ -426,7 +522,10 @@
     "squadRating": 94,
     "attack": 92,
     "defence": 89,
-    "disciplineRisk": 5
+    "disciplineRisk": 5,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Iraq",
@@ -439,7 +538,10 @@
     "squadRating": 67,
     "attack": 67,
     "defence": 66,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Norway",
@@ -452,7 +554,10 @@
     "squadRating": 82,
     "attack": 84,
     "defence": 74,
-    "disciplineRisk": 5
+    "disciplineRisk": 5,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Senegal",
@@ -465,7 +570,10 @@
     "squadRating": 80,
     "attack": 79,
     "defence": 80,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Argentina",
@@ -478,7 +586,10 @@
     "squadRating": 91,
     "attack": 90,
     "defence": 88,
-    "disciplineRisk": 6
+    "disciplineRisk": 6,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Austria",
@@ -491,7 +602,10 @@
     "squadRating": 80,
     "attack": 79,
     "defence": 78,
-    "disciplineRisk": 5
+    "disciplineRisk": 5,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Jordan",
@@ -504,7 +618,10 @@
     "squadRating": 66,
     "attack": 66,
     "defence": 65,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Algeria",
@@ -517,7 +634,10 @@
     "squadRating": 76,
     "attack": 76,
     "defence": 73,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Portugal",
@@ -530,7 +650,10 @@
     "squadRating": 89,
     "attack": 89,
     "defence": 84,
-    "disciplineRisk": 5
+    "disciplineRisk": 5,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Uzbekistan",
@@ -543,7 +666,10 @@
     "squadRating": 67,
     "attack": 67,
     "defence": 66,
-    "disciplineRisk": 6
+    "disciplineRisk": 6,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Colombia",
@@ -556,7 +682,10 @@
     "squadRating": 82,
     "attack": 82,
     "defence": 79,
-    "disciplineRisk": 7
+    "disciplineRisk": 7,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Congo DR",
@@ -569,7 +698,10 @@
     "squadRating": 68,
     "attack": 69,
     "defence": 66,
-    "disciplineRisk": 8
+    "disciplineRisk": 8,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "England",
@@ -582,7 +714,10 @@
     "squadRating": 91,
     "attack": 90,
     "defence": 86,
-    "disciplineRisk": 4
+    "disciplineRisk": 4,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Ghana",
@@ -595,7 +730,10 @@
     "squadRating": 73,
     "attack": 73,
     "defence": 70,
-    "disciplineRisk": 8
+    "disciplineRisk": 8,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Panama",
@@ -608,7 +746,10 @@
     "squadRating": 70,
     "attack": 69,
     "defence": 70,
-    "disciplineRisk": 8
+    "disciplineRisk": 8,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   },
   {
     "name": "Croatia",
@@ -621,6 +762,9 @@
     "squadRating": 84,
     "attack": 82,
     "defence": 83,
-    "disciplineRisk": 5
+    "disciplineRisk": 5,
+    "injuries": [],
+    "suspensions": [],
+    "notes": ""
   }
 ]
