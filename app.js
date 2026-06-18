@@ -25,6 +25,7 @@ async function loadData() {
 
     populateFixtures();
     renderKpis();
+    renderTournamentTracker();
     renderFixtureList();
     renderTeamCards();
     renderGroupTables();
@@ -98,6 +99,65 @@ function renderKpis() {
   `;
 }
 
+function renderTournamentTracker() {
+  const container = document.getElementById("tournamentTracker");
+  if (!container) return;
+
+  const completedMatches = predictions.filter(match => match.status === "completed" || match.actualResult);
+  const matchesPlayed = completedMatches.length;
+  const matchesRemaining = predictions.length - matchesPlayed;
+
+  const goalsScored = completedMatches.reduce((total, match) => {
+    if (!match.actualResult) return total;
+    return total + Number(match.actualResult.homeGoals || 0) + Number(match.actualResult.awayGoals || 0);
+  }, 0);
+
+  const averageGoals = matchesPlayed > 0
+    ? (goalsScored / matchesPlayed).toFixed(2)
+    : "0.00";
+
+  const redCards = completedMatches.reduce((total, match) => {
+    if (!match.redCards) return total;
+    return total + match.redCards.length;
+  }, 0);
+
+  const lastUpdated = tournamentSimulation.generatedAt
+    ? new Date(tournamentSimulation.generatedAt).toLocaleString()
+    : "Not available";
+
+  container.innerHTML = `
+    <div class="tracker-card">
+      <span>Matches Played</span>
+      <strong>${matchesPlayed}</strong>
+    </div>
+
+    <div class="tracker-card">
+      <span>Matches Remaining</span>
+      <strong>${matchesRemaining}</strong>
+    </div>
+
+    <div class="tracker-card">
+      <span>Goals Scored</span>
+      <strong>${goalsScored}</strong>
+    </div>
+
+    <div class="tracker-card">
+      <span>Avg Goals/Game</span>
+      <strong>${averageGoals}</strong>
+    </div>
+
+    <div class="tracker-card">
+      <span>Red Cards</span>
+      <strong>${redCards}</strong>
+    </div>
+
+    <div class="tracker-card wide">
+      <span>Last Model Update</span>
+      <strong>${lastUpdated}</strong>
+    </div>
+  `;
+}
+
 function renderFixtureList() {
   const container = document.getElementById("fixtureList");
   if (!container) return;
@@ -133,14 +193,17 @@ function renderFixtureList() {
           <div class="fixture-row" onclick="selectMatch('${match.id}')">
             <div class="fixture-teams">
               <strong>${flag(match.home)} ${match.home}</strong>
-              <span>${match.predictedScore}</span>
+              <span>${match.actualResult ? `${match.actualResult.homeGoals}-${match.actualResult.awayGoals}` : match.predictedScore}</span>
               <strong>${flag(match.away)} ${match.away}</strong>
             </div>
 
             <div class="fixture-meta">
+              <span>${formatDate(match.date)}</span>
+              <span>${match.stadium || "Venue TBD"}</span>
               <span>Winner: ${flag(match.predictedWinner)} ${match.predictedWinner}</span>
-              <span>Confidence: ${match.confidence}</span>
+              <span class="confidence-pill ${confidenceClass(match.confidence)}">${match.confidence}</span>
               <span>Likely scorer: ${match.likelyScorer.name}</span>
+              ${match.actualResult ? `<span class="completed-pill">Completed</span>` : ""}
             </div>
           </div>
         `).join("")}
@@ -156,13 +219,17 @@ function showPrediction() {
   const match = predictions.find(m => String(m.id) === String(selectedId));
   if (!match) return;
 
+  const displayScore = match.actualResult
+    ? `${match.actualResult.homeGoals}-${match.actualResult.awayGoals}`
+    : match.predictedScore;
+
   document.getElementById("prediction").innerHTML = `
     <h3>${flag(match.home)} ${match.home} vs ${flag(match.away)} ${match.away}</h3>
 
     <div class="prediction-grid">
-      <div><strong>Predicted score</strong><p class="big-number">${match.predictedScore}</p></div>
+      <div><strong>${match.actualResult ? "Final score" : "Predicted score"}</strong><p class="big-number">${displayScore}</p></div>
       <div><strong>Predicted winner</strong><p>${flag(match.predictedWinner)} ${match.predictedWinner}</p></div>
-      <div><strong>Confidence</strong><p>${match.confidence}</p></div>
+      <div><strong>Confidence</strong><p><span class="confidence-pill ${confidenceClass(match.confidence)}">${match.confidence}</span></p></div>
     </div>
 
     <div class="info-grid">
@@ -189,6 +256,7 @@ function showPrediction() {
       <div class="info-card">
         <strong>Venue conditions</strong>
         ${match.stadium}, ${match.city}<br>
+        Kickoff: ${formatDate(match.date)}<br>
         Heat: ${match.factors.heatImpact} (${match.factors.venueHeatRisk}/10)<br>
         Altitude: ${match.factors.altitudeImpact} (${match.factors.altitude}m)
       </div>
@@ -380,6 +448,28 @@ function askChat() {
   }
 
   output.innerHTML = "Ask about a team currently in the model.";
+}
+
+function confidenceClass(confidence) {
+  if (!confidence) return "confidence-low";
+  const value = confidence.toLowerCase();
+
+  if (value.includes("high")) return "confidence-high";
+  if (value.includes("medium")) return "confidence-medium";
+
+  return "confidence-low";
+}
+
+function formatDate(dateString) {
+  if (!dateString) return "Date TBD";
+
+  return new Date(dateString).toLocaleString(undefined, {
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit"
+  });
 }
 
 function toggleTheme() {
