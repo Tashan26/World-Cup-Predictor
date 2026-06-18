@@ -17,10 +17,13 @@
     </div>
 
     <div class="hero-card">
-      <span>Model Status</span>
-      <strong>10,000 Runs</strong>
-      <p>Free static-data model with teams, players, stadiums, travel, conditions, groups and knockout simulations.</p>
+      <span>Update Predictor</span>
+      <strong>Refresh Model</strong>
+      <p>Regenerate fixtures, predictions, groups, knockout paths and player projections through GitHub Actions.</p>
       <div class="top-actions">
+        <a class="button-link" href="https://github.com/Tashan26/World-Cup-Predictor/actions/workflows/update-predictions.yml" target="_blank">
+          Open Update Workflow
+        </a>
         <button class="secondary" onclick="toggleTheme()">Toggle Dark Mode</button>
       </div>
     </div>
@@ -30,21 +33,43 @@
     <section id="kpiGrid" class="kpi-grid"></section>
 
     <section class="card">
-      <p class="eyebrow">Match Engine</p>
-      <h2>Match Prediction</h2>
-      <div class="predictor-grid">
-        <select id="fixtureSelect"></select>
-        <button onclick="showPrediction()">Show Prediction</button>
+      <p class="eyebrow">Match Centre</p>
+      <h2>All Match Predictions</h2>
+
+      <div class="match-filters">
+        <input id="teamSearch" placeholder="Search team..." oninput="renderFixtureList()" />
+        <select id="groupFilter" onchange="renderFixtureList()">
+          <option value="all">All Groups</option>
+          <option value="A">Group A</option>
+          <option value="B">Group B</option>
+          <option value="C">Group C</option>
+          <option value="D">Group D</option>
+          <option value="E">Group E</option>
+          <option value="F">Group F</option>
+          <option value="G">Group G</option>
+          <option value="H">Group H</option>
+          <option value="I">Group I</option>
+          <option value="J">Group J</option>
+          <option value="K">Group K</option>
+          <option value="L">Group L</option>
+        </select>
       </div>
-      <div id="prediction" class="result-box empty">
-        Select a fixture to generate the prediction.
-      </div>
+
+      <div id="fixtureList" class="fixture-list"></div>
     </section>
 
     <section class="card">
-      <p class="eyebrow">Upcoming Fixtures</p>
-      <h2>Match Cards</h2>
-      <div id="matchCards" class="match-card-grid"></div>
+      <p class="eyebrow">Match Intelligence</p>
+      <h2>Selected Match Analysis</h2>
+
+      <div class="predictor-grid compact-picker">
+        <select id="fixtureSelect"></select>
+        <button onclick="showPrediction()">Show Prediction</button>
+      </div>
+
+      <div id="prediction" class="result-box empty">
+        Select a match from the Match Centre to view full statistics.
+      </div>
     </section>
 
     <section class="card half">

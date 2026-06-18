@@ -25,7 +25,7 @@ async function loadData() {
 
     populateFixtures();
     renderKpis();
-    renderMatchCards();
+    renderFixtureList();
     renderTeamCards();
     renderGroupTables();
     renderBracket();
@@ -34,7 +34,12 @@ async function loadData() {
     showFirstPrediction();
   } catch (error) {
     console.error(error);
-    document.body.insertAdjacentHTML("afterbegin", `<div style="padding:16px;background:#fee2e2;color:#991b1b;">Data loading error. Run all scripts and commit generated JSON files.</div>`);
+    document.body.insertAdjacentHTML(
+      "afterbegin",
+      `<div style="padding:16px;background:#fee2e2;color:#991b1b;">
+        Data loading error. Run all scripts and commit generated JSON files.
+      </div>`
+    );
   }
 }
 
@@ -93,6 +98,59 @@ function renderKpis() {
   `;
 }
 
+function renderFixtureList() {
+  const container = document.getElementById("fixtureList");
+  if (!container) return;
+
+  const searchValue = document.getElementById("teamSearch")?.value.toLowerCase() || "";
+  const groupValue = document.getElementById("groupFilter")?.value || "all";
+
+  const filtered = predictions.filter(match => {
+    const matchesSearch =
+      match.home.toLowerCase().includes(searchValue) ||
+      match.away.toLowerCase().includes(searchValue);
+
+    const matchesGroup = groupValue === "all" || match.group === groupValue;
+
+    return matchesSearch && matchesGroup;
+  });
+
+  const grouped = {};
+
+  filtered.forEach(match => {
+    if (!grouped[match.group]) grouped[match.group] = [];
+    grouped[match.group].push(match);
+  });
+
+  let html = "";
+
+  Object.keys(grouped).sort().forEach(group => {
+    html += `
+      <div class="fixture-group">
+        <h3>Group ${group}</h3>
+
+        ${grouped[group].map(match => `
+          <div class="fixture-row" onclick="selectMatch('${match.id}')">
+            <div class="fixture-teams">
+              <strong>${flag(match.home)} ${match.home}</strong>
+              <span>${match.predictedScore}</span>
+              <strong>${flag(match.away)} ${match.away}</strong>
+            </div>
+
+            <div class="fixture-meta">
+              <span>Winner: ${flag(match.predictedWinner)} ${match.predictedWinner}</span>
+              <span>Confidence: ${match.confidence}</span>
+              <span>Likely scorer: ${match.likelyScorer.name}</span>
+            </div>
+          </div>
+        `).join("")}
+      </div>
+    `;
+  });
+
+  container.innerHTML = html || "<p class='muted'>No matches found.</p>";
+}
+
 function showPrediction() {
   const selectedId = document.getElementById("fixtureSelect").value;
   const match = predictions.find(m => String(m.id) === String(selectedId));
@@ -114,29 +172,34 @@ function showPrediction() {
         ${probabilityLine("Draw", match.probabilities.draw)}
         ${probabilityLine(match.away, match.probabilities.away)}
       </div>
+
       <div class="info-card">
         <strong>Player intelligence</strong>
         Likely scorer: ${match.likelyScorer.name}<br>
         Team: ${flag(match.likelyScorer.team)} ${match.likelyScorer.team}<br>
         Scorer probability: ${match.likelyScorer.probability}%
       </div>
+
       <div class="info-card">
         <strong>Cards model</strong>
         ${flag(match.home)} ${match.home}: ${match.redCardRisk[match.home]}% red-card risk<br>
         ${flag(match.away)} ${match.away}: ${match.redCardRisk[match.away]}% red-card risk
       </div>
+
       <div class="info-card">
         <strong>Venue conditions</strong>
         ${match.stadium}, ${match.city}<br>
         Heat: ${match.factors.heatImpact} (${match.factors.venueHeatRisk}/10)<br>
         Altitude: ${match.factors.altitudeImpact} (${match.factors.altitude}m)
       </div>
+
       <div class="info-card">
         <strong>${flag(match.home)} ${match.home} travel</strong>
         ${match.travel[match.home].distanceKm.toLocaleString()} km<br>
         Impact: ${match.travel[match.home].impact}<br>
         Penalty: -${match.travel[match.home].penalty} pts
       </div>
+
       <div class="info-card">
         <strong>${flag(match.away)} ${match.away} travel</strong>
         ${match.travel[match.away].distanceKm.toLocaleString()} km<br>
@@ -146,8 +209,10 @@ function showPrediction() {
     </div>
 
     <hr>
+
     <h3>Why this prediction?</h3>
     <p>${match.explanation?.summary || "No explanation available."}</p>
+
     <ul>
       ${(match.explanation?.strongestFactors || []).map(f => `
         <li><strong>${f.advantage}</strong> advantage: ${f.factor} +${f.difference}</li>
@@ -161,6 +226,7 @@ function showPrediction() {
 
 function probabilityLine(label, value) {
   const cleanLabel = label === "Draw" ? "Draw" : `${flag(label)} ${label}`;
+
   return `
     <div class="chart-row">
       <div class="chart-label"><span>${cleanLabel}</span><span>${value}%</span></div>
@@ -169,33 +235,17 @@ function probabilityLine(label, value) {
   `;
 }
 
-function renderMatchCards() {
-  const container = document.getElementById("matchCards");
-  if (!container) return;
-
-  container.innerHTML = predictions.slice(0, 12).map(match => `
-    <div class="fixture-card">
-      <p class="muted">Group ${match.group} · Match ${match.matchNumber}</p>
-      <h3>${flag(match.home)} ${match.home}</h3>
-      <p class="vs-small">vs</p>
-      <h3>${flag(match.away)} ${match.away}</h3>
-      <div class="score-preview">${match.predictedScore}</div>
-      <p>
-        <strong>Winner:</strong> ${flag(match.predictedWinner)} ${match.predictedWinner}<br>
-        <strong>Likely scorer:</strong> ${match.likelyScorer.name}<br>
-        <strong>Confidence:</strong> ${match.confidence}
-      </p>
-      <button onclick="selectMatch('${match.id}')">View Analysis</button>
-    </div>
-  `).join("");
-}
-
 function selectMatch(matchId) {
   const select = document.getElementById("fixtureSelect");
   if (!select) return;
+
   select.value = matchId;
   showPrediction();
-  document.getElementById("prediction").scrollIntoView({ behavior: "smooth", block: "start" });
+
+  document.getElementById("prediction").scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
 }
 
 function renderWinnerChart() {
@@ -242,8 +292,10 @@ function renderGroupTables() {
   if (!container || !tournamentSimulation.groupTables) return;
 
   let html = "";
+
   Object.keys(tournamentSimulation.groupTables).sort().forEach(group => {
     const table = tournamentSimulation.groupTables[group];
+
     html += `
       <div class="group-table">
         <h3>Group ${group}</h3>
@@ -268,6 +320,7 @@ function renderGroupTables() {
       </div>
     `;
   });
+
   container.innerHTML = html;
 }
 

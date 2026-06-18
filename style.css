@@ -383,3 +383,154 @@ hr {
 
   button, select, input { margin-top: 10px; }
 }
+
+/* ===== MATCH CENTRE ===== */
+
+.match-filters {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.fixture-list {
+  display: grid;
+  gap: 22px;
+}
+
+.fixture-group {
+  background: var(--soft);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 22px;
+}
+
+.fixture-group h3 {
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.fixture-row {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 18px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.fixture-row:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+  box-shadow: 0 16px 40px rgba(37,99,235,0.12);
+}
+
+.fixture-teams {
+  display: grid;
+  grid-template-columns: 1fr 90px 1fr;
+  align-items: center;
+  gap: 12px;
+}
+
+.fixture-teams span {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--primary);
+}
+
+.fixture-meta {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* ===== HERO IMPROVEMENTS ===== */
+
+.hero {
+  min-height: 380px;
+}
+
+.hero-card {
+  background: rgba(255,255,255,0.10);
+  backdrop-filter: blur(18px);
+}
+
+.button-link {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(135deg,#2563eb,#1d4ed8);
+  padding: 14px 20px;
+  border-radius: 14px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+}
+
+.button-link:hover {
+  opacity: 0.95;
+}
+
+/* ===== TABLES ===== */
+
+.group-table {
+  overflow-x: auto;
+}
+
+.group-table table tr:hover {
+  background: rgba(37,99,235,0.05);
+}
+
+/* ===== BRACKET ===== */
+
+.bracket-round h3 {
+  margin-top: 0;
+}
+
+.match {
+  transition: all 0.2s ease;
+}
+
+.match:hover {
+  transform: translateY(-2px);
+}
+
+/* ===== KPI CARDS ===== */
+
+.kpi-card {
+  transition: all 0.25s ease;
+}
+
+.kpi-card:hover {
+  transform: translateY(-4px);
+}
+
+/* ===== DARK MODE INPUTS ===== */
+
+body.dark select,
+body.dark input {
+  background: #111827;
+  color: white;
+  border-color: #334155;
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 1000px) {
+
+  .match-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .fixture-teams {
+    grid-template-columns: 1fr;
+  }
+
+  .fixture-teams span {
+    text-align: left;
+  }
+}
