@@ -2,56 +2,56 @@
   {
     "player": "Kylian Mbappe",
     "team": "France",
-    "score": 101.904,
-    "probability": 4.91
+    "score": 101.41799999999999,
+    "probability": 4.88
   },
   {
     "player": "Vinicius Junior",
     "team": "Brazil",
-    "score": 98.688,
-    "probability": 4.75
+    "score": 98.88,
+    "probability": 4.76
   },
   {
     "player": "Lionel Messi",
     "team": "Argentina",
-    "score": 96.716,
-    "probability": 4.66
+    "score": 97.094,
+    "probability": 4.67
   },
   {
     "player": "Rodrygo",
     "team": "Brazil",
-    "score": 93.208,
-    "probability": 4.49
+    "score": 93.39999999999999,
+    "probability": 4.5
   },
   {
     "player": "Lautaro Martinez",
     "team": "Argentina",
-    "score": 92.996,
-    "probability": 4.48
+    "score": 93.374,
+    "probability": 4.5
   },
   {
     "player": "Julian Alvarez",
     "team": "Argentina",
-    "score": 92.076,
-    "probability": 4.43
+    "score": 92.454,
+    "probability": 4.45
   },
   {
     "player": "Ousmane Dembele",
     "team": "France",
-    "score": 90.334,
-    "probability": 4.35
+    "score": 89.848,
+    "probability": 4.33
   },
   {
     "player": "Antoine Griezmann",
     "team": "France",
-    "score": 89.78399999999999,
-    "probability": 4.32
+    "score": 89.29799999999999,
+    "probability": 4.3
   },
   {
     "player": "Harry Kane",
     "team": "England",
-    "score": 89.556,
-    "probability": 4.31
+    "score": 89.28599999999999,
+    "probability": 4.3
   },
   {
     "player": "Erling Haaland",
@@ -62,43 +62,43 @@
   {
     "player": "Jude Bellingham",
     "team": "England",
-    "score": 84.426,
-    "probability": 4.07
+    "score": 84.15599999999999,
+    "probability": 4.05
   },
   {
     "player": "Lamine Yamal",
     "team": "Spain",
-    "score": 83.388,
-    "probability": 4.02
+    "score": 83.694,
+    "probability": 4.03
   },
   {
     "player": "Netherlands Main Forward",
     "team": "Netherlands",
-    "score": 79.00399999999999,
+    "score": 78.842,
     "probability": 3.8
   },
   {
     "player": "Jamal Musiala",
     "team": "Germany",
-    "score": 78.22000000000001,
+    "score": 78.262,
     "probability": 3.77
   },
   {
     "player": "Belgium Main Forward",
     "team": "Belgium",
-    "score": 76.392,
-    "probability": 3.68
+    "score": 76.97999999999999,
+    "probability": 3.71
   },
   {
     "player": "Uruguay Main Forward",
     "team": "Uruguay",
-    "score": 76.352,
+    "score": 76.346,
     "probability": 3.68
   },
   {
     "player": "Cristiano Ronaldo",
     "team": "Portugal",
-    "score": 75.954,
+    "score": 75.972,
     "probability": 3.66
   },
   {
@@ -108,16 +108,16 @@
     "probability": 3.64
   },
   {
-    "player": "Netherlands Creative Midfielder",
-    "team": "Netherlands",
-    "score": 74.77399999999999,
-    "probability": 3.6
-  },
-  {
     "player": "Morocco Main Forward",
     "team": "Morocco",
     "score": 74.75999999999999,
     "probability": 3.6
+  },
+  {
+    "player": "Netherlands Creative Midfielder",
+    "team": "Netherlands",
+    "score": 74.612,
+    "probability": 3.59
   },
   {
     "player": "Croatia Main Forward",
@@ -138,14 +138,14 @@
     "probability": 3.52
   },
   {
-    "player": "Switzerland Main Forward",
-    "team": "Switzerland",
-    "score": 72.70999999999998,
+    "player": "Belgium Creative Midfielder",
+    "team": "Belgium",
+    "score": 72.75,
     "probability": 3.5
   },
   {
-    "player": "Austria Main Forward",
-    "team": "Austria",
+    "player": "Switzerland Main Forward",
+    "team": "Switzerland",
     "score": 72.70999999999998,
     "probability": 3.5
   }
