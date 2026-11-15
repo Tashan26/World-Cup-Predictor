@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T11:05:48.158Z",
+  "generatedAt": "2026-11-15T11:40:33.251Z",
   "groupTables": {
     "A": [
       {
@@ -943,43 +943,51 @@
   "winnerProbabilities": [
     {
       "team": "Argentina",
-      "winProbability": 27.47
+      "winProbability": 27.81
     },
     {
       "team": "Brazil",
-      "winProbability": 26.43
+      "winProbability": 26.19
     },
     {
       "team": "France",
-      "winProbability": 26.36
+      "winProbability": 25.96
     },
     {
       "team": "Spain",
-      "winProbability": 9.88
+      "winProbability": 10.17
     },
     {
       "team": "England",
-      "winProbability": 7.13
+      "winProbability": 7.32
     },
     {
       "team": "Netherlands",
-      "winProbability": 1.55
+      "winProbability": 1.41
     },
     {
       "team": "Portugal",
-      "winProbability": 0.73
+      "winProbability": 0.76
     },
     {
       "team": "Germany",
-      "winProbability": 0.39
+      "winProbability": 0.32
     },
     {
       "team": "Croatia",
-      "winProbability": 0.03
+      "winProbability": 0.02
+    },
+    {
+      "team": "Switzerland",
+      "winProbability": 0.01
+    },
+    {
+      "team": "Morocco",
+      "winProbability": 0.01
     },
     {
       "team": "Belgium",
-      "winProbability": 0.02
+      "winProbability": 0.01
     },
     {
       "team": "Uruguay",
@@ -1006,10 +1014,6 @@
       "winProbability": 0
     },
     {
-      "team": "Switzerland",
-      "winProbability": 0
-    },
-    {
       "team": "Qatar",
       "winProbability": 0
     },
@@ -1023,10 +1027,6 @@
     },
     {
       "team": "Scotland",
-      "winProbability": 0
-    },
-    {
-      "team": "Morocco",
       "winProbability": 0
     },
     {
@@ -1139,89 +1139,89 @@
       "team": "Mexico",
       "group": "A",
       "qualifyProbability": 100,
-      "groupWinProbability": 87.65,
-      "runnerUpProbability": 11.73,
-      "thirdPlaceQualifyProbability": 0.62
+      "groupWinProbability": 87,
+      "runnerUpProbability": 12.41,
+      "thirdPlaceQualifyProbability": 0.59
     },
     {
       "team": "South Korea",
       "group": "A",
-      "qualifyProbability": 93.68,
-      "groupWinProbability": 10.93,
-      "runnerUpProbability": 65.18,
-      "thirdPlaceQualifyProbability": 17.57
+      "qualifyProbability": 93.62,
+      "groupWinProbability": 11.31,
+      "runnerUpProbability": 65.03,
+      "thirdPlaceQualifyProbability": 17.28
     },
     {
       "team": "Czechia",
       "group": "A",
-      "qualifyProbability": 73.67,
-      "groupWinProbability": 1.42,
-      "runnerUpProbability": 23.09,
-      "thirdPlaceQualifyProbability": 49.16
+      "qualifyProbability": 73.69,
+      "groupWinProbability": 1.69,
+      "runnerUpProbability": 22.56,
+      "thirdPlaceQualifyProbability": 49.44
     },
     {
       "team": "South Africa",
       "group": "A",
-      "qualifyProbability": 0.12,
+      "qualifyProbability": 0.06,
       "groupWinProbability": 0,
       "runnerUpProbability": 0,
-      "thirdPlaceQualifyProbability": 0.12
+      "thirdPlaceQualifyProbability": 0.06
     },
     {
       "team": "Switzerland",
       "group": "B",
       "qualifyProbability": 100,
-      "groupWinProbability": 99.07,
-      "runnerUpProbability": 0.8,
-      "thirdPlaceQualifyProbability": 0.13
+      "groupWinProbability": 99.13,
+      "runnerUpProbability": 0.65,
+      "thirdPlaceQualifyProbability": 0.22
     },
     {
       "team": "Canada",
       "group": "B",
-      "qualifyProbability": 81.66,
-      "groupWinProbability": 0.65,
-      "runnerUpProbability": 63.83,
-      "thirdPlaceQualifyProbability": 17.18
+      "qualifyProbability": 81.18,
+      "groupWinProbability": 0.58,
+      "runnerUpProbability": 62.81,
+      "thirdPlaceQualifyProbability": 17.79
     },
     {
       "team": "Bosnia and Herzegovina",
       "group": "B",
-      "qualifyProbability": 58.05,
-      "groupWinProbability": 0.28,
-      "runnerUpProbability": 28.23,
-      "thirdPlaceQualifyProbability": 29.54
+      "qualifyProbability": 57.64,
+      "groupWinProbability": 0.26,
+      "runnerUpProbability": 29.41,
+      "thirdPlaceQualifyProbability": 27.97
     },
     {
       "team": "Qatar",
       "group": "B",
-      "qualifyProbability": 13.18,
-      "groupWinProbability": 0,
-      "runnerUpProbability": 7.14,
-      "thirdPlaceQualifyProbability": 6.04
+      "qualifyProbability": 13.49,
+      "groupWinProbability": 0.03,
+      "runnerUpProbability": 7.13,
+      "thirdPlaceQualifyProbability": 6.33
     },
     {
       "team": "Brazil",
       "group": "C",
       "qualifyProbability": 100,
-      "groupWinProbability": 99.88,
-      "runnerUpProbability": 0.12,
+      "groupWinProbability": 99.89,
+      "runnerUpProbability": 0.11,
       "thirdPlaceQualifyProbability": 0
     },
     {
       "team": "Morocco",
       "group": "C",
       "qualifyProbability": 100,
-      "groupWinProbability": 0.12,
-      "runnerUpProbability": 99.76,
-      "thirdPlaceQualifyProbability": 0.12
+      "groupWinProbability": 0.11,
+      "runnerUpProbability": 99.79,
+      "thirdPlaceQualifyProbability": 0.1
     },
     {
       "team": "Scotland",
       "group": "C",
-      "qualifyProbability": 75.82,
+      "qualifyProbability": 76.21,
       "groupWinProbability": 0,
-      "runnerUpProbability": 0.12,
-      "thirdPlaceQualifyProbability": 75.7
+      "runnerUpProbability": 0.1,
+      "thirdPlaceQualifyProbability": 76.11
     },
     {
       "team": "Haiti",
@@ -1234,58 +1234,58 @@
     {
       "team": "USA",
       "group": "D",
-      "qualifyProbability": 98.66,
-      "groupWinProbability": 70.65,
-      "runnerUpProbability": 22.62,
-      "thirdPlaceQualifyProbability": 5.39
+      "qualifyProbability": 98.82,
+      "groupWinProbability": 69.79,
+      "runnerUpProbability": 23.62,
+      "thirdPlaceQualifyProbability": 5.41
     },
     {
       "team": "Turkey",
       "group": "D",
-      "qualifyProbability": 88.68,
-      "groupWinProbability": 22.45,
-      "runnerUpProbability": 46.93,
-      "thirdPlaceQualifyProbability": 19.3
+      "qualifyProbability": 89.2,
+      "groupWinProbability": 22.94,
+      "runnerUpProbability": 46.4,
+      "thirdPlaceQualifyProbability": 19.86
     },
     {
       "team": "Australia",
       "group": "D",
-      "qualifyProbability": 68.6,
-      "groupWinProbability": 6.62,
-      "runnerUpProbability": 26.84,
-      "thirdPlaceQualifyProbability": 35.14
+      "qualifyProbability": 69.76,
+      "groupWinProbability": 7.09,
+      "runnerUpProbability": 26.7,
+      "thirdPlaceQualifyProbability": 35.97
     },
     {
       "team": "Paraguay",
       "group": "D",
-      "qualifyProbability": 14.09,
-      "groupWinProbability": 0.28,
-      "runnerUpProbability": 3.61,
-      "thirdPlaceQualifyProbability": 10.2
+      "qualifyProbability": 13.18,
+      "groupWinProbability": 0.18,
+      "runnerUpProbability": 3.28,
+      "thirdPlaceQualifyProbability": 9.72
     },
     {
       "team": "Germany",
       "group": "E",
       "qualifyProbability": 100,
-      "groupWinProbability": 99.11,
-      "runnerUpProbability": 0.89,
-      "thirdPlaceQualifyProbability": 0
+      "groupWinProbability": 99.07,
+      "runnerUpProbability": 0.92,
+      "thirdPlaceQualifyProbability": 0.01
     },
     {
       "team": "Ecuador",
       "group": "E",
-      "qualifyProbability": 99.91,
-      "groupWinProbability": 0.82,
-      "runnerUpProbability": 83.88,
-      "thirdPlaceQualifyProbability": 15.21
+      "qualifyProbability": 99.9,
+      "groupWinProbability": 0.88,
+      "runnerUpProbability": 83.55,
+      "thirdPlaceQualifyProbability": 15.47
     },
     {
       "team": "Côte d'Ivoire",
       "group": "E",
-      "qualifyProbability": 94.46,
-      "groupWinProbability": 0.07,
-      "runnerUpProbability": 15.23,
-      "thirdPlaceQualifyProbability": 79.16
+      "qualifyProbability": 94.27,
+      "groupWinProbability": 0.05,
+      "runnerUpProbability": 15.53,
+      "thirdPlaceQualifyProbability": 78.69
     },
     {
       "team": "Curaçao",
@@ -1299,89 +1299,89 @@
       "team": "Netherlands",
       "group": "F",
       "qualifyProbability": 100,
-      "groupWinProbability": 98.97,
-      "runnerUpProbability": 0.99,
-      "thirdPlaceQualifyProbability": 0.04
+      "groupWinProbability": 99.11,
+      "runnerUpProbability": 0.89,
+      "thirdPlaceQualifyProbability": 0
     },
     {
       "team": "Japan",
       "group": "F",
-      "qualifyProbability": 92.93,
-      "groupWinProbability": 0.97,
-      "runnerUpProbability": 82.6,
-      "thirdPlaceQualifyProbability": 9.36
+      "qualifyProbability": 92.99,
+      "groupWinProbability": 0.86,
+      "runnerUpProbability": 83.24,
+      "thirdPlaceQualifyProbability": 8.89
     },
     {
       "team": "Sweden",
       "group": "F",
-      "qualifyProbability": 60.59,
-      "groupWinProbability": 0.06,
-      "runnerUpProbability": 15.74,
-      "thirdPlaceQualifyProbability": 44.79
+      "qualifyProbability": 59.03,
+      "groupWinProbability": 0.03,
+      "runnerUpProbability": 15.23,
+      "thirdPlaceQualifyProbability": 43.77
     },
     {
       "team": "Tunisia",
       "group": "F",
-      "qualifyProbability": 2.82,
+      "qualifyProbability": 2.91,
       "groupWinProbability": 0,
-      "runnerUpProbability": 0.67,
-      "thirdPlaceQualifyProbability": 2.15
+      "runnerUpProbability": 0.64,
+      "thirdPlaceQualifyProbability": 2.27
     },
     {
       "team": "Belgium",
       "group": "G",
       "qualifyProbability": 100,
-      "groupWinProbability": 97.77,
-      "runnerUpProbability": 2.22,
+      "groupWinProbability": 97.85,
+      "runnerUpProbability": 2.14,
       "thirdPlaceQualifyProbability": 0.01
     },
     {
       "team": "Iran",
       "group": "G",
       "qualifyProbability": 98.94,
-      "groupWinProbability": 1.94,
-      "runnerUpProbability": 74.32,
-      "thirdPlaceQualifyProbability": 22.68
+      "groupWinProbability": 1.83,
+      "runnerUpProbability": 74.37,
+      "thirdPlaceQualifyProbability": 22.74
     },
     {
       "team": "Egypt",
       "group": "G",
-      "qualifyProbability": 92.74,
-      "groupWinProbability": 0.29,
-      "runnerUpProbability": 23.46,
-      "thirdPlaceQualifyProbability": 68.99
+      "qualifyProbability": 92.32,
+      "groupWinProbability": 0.32,
+      "runnerUpProbability": 23.49,
+      "thirdPlaceQualifyProbability": 68.51
     },
     {
       "team": "New Zealand",
       "group": "G",
-      "qualifyProbability": 0.01,
+      "qualifyProbability": 0,
       "groupWinProbability": 0,
       "runnerUpProbability": 0,
-      "thirdPlaceQualifyProbability": 0.01
+      "thirdPlaceQualifyProbability": 0
     },
     {
       "team": "Spain",
       "group": "H",
       "qualifyProbability": 100,
-      "groupWinProbability": 97.86,
-      "runnerUpProbability": 2.14,
+      "groupWinProbability": 97.62,
+      "runnerUpProbability": 2.38,
       "thirdPlaceQualifyProbability": 0
     },
     {
       "team": "Uruguay",
       "group": "H",
       "qualifyProbability": 100,
-      "groupWinProbability": 2.14,
-      "runnerUpProbability": 97.86,
+      "groupWinProbability": 2.38,
+      "runnerUpProbability": 97.62,
       "thirdPlaceQualifyProbability": 0
     },
     {
       "team": "Saudi Arabia",
       "group": "H",
-      "qualifyProbability": 36.32,
+      "qualifyProbability": 37.24,
       "groupWinProbability": 0,
       "runnerUpProbability": 0,
-      "thirdPlaceQualifyProbability": 36.32
+      "thirdPlaceQualifyProbability": 37.24
     },
     {
       "team": "Cabo Verde",
@@ -1402,50 +1402,50 @@
     {
       "team": "Senegal",
       "group": "I",
-      "qualifyProbability": 95.6,
+      "qualifyProbability": 95.94,
       "groupWinProbability": 0,
-      "runnerUpProbability": 77.48,
-      "thirdPlaceQualifyProbability": 18.12
+      "runnerUpProbability": 78.38,
+      "thirdPlaceQualifyProbability": 17.56
     },
     {
       "team": "Norway",
       "group": "I",
-      "qualifyProbability": 80.54,
+      "qualifyProbability": 80.06,
       "groupWinProbability": 0,
-      "runnerUpProbability": 22.5,
-      "thirdPlaceQualifyProbability": 58.04
+      "runnerUpProbability": 21.62,
+      "thirdPlaceQualifyProbability": 58.44
     },
     {
       "team": "Iraq",
       "group": "I",
-      "qualifyProbability": 0.03,
+      "qualifyProbability": 0.01,
       "groupWinProbability": 0,
-      "runnerUpProbability": 0.02,
+      "runnerUpProbability": 0,
       "thirdPlaceQualifyProbability": 0.01
     },
     {
       "team": "Argentina",
       "group": "J",
       "qualifyProbability": 100,
-      "groupWinProbability": 99.99,
-      "runnerUpProbability": 0.01,
+      "groupWinProbability": 100,
+      "runnerUpProbability": 0,
       "thirdPlaceQualifyProbability": 0
     },
     {
       "team": "Austria",
       "group": "J",
-      "qualifyProbability": 98.7,
-      "groupWinProbability": 0.01,
-      "runnerUpProbability": 94.13,
-      "thirdPlaceQualifyProbability": 4.56
+      "qualifyProbability": 99,
+      "groupWinProbability": 0,
+      "runnerUpProbability": 93.92,
+      "thirdPlaceQualifyProbability": 5.08
     },
     {
       "team": "Algeria",
       "group": "J",
-      "qualifyProbability": 73.81,
+      "qualifyProbability": 73.52,
       "groupWinProbability": 0,
-      "runnerUpProbability": 5.85,
-      "thirdPlaceQualifyProbability": 67.96
+      "runnerUpProbability": 6.07,
+      "thirdPlaceQualifyProbability": 67.45
     },
     {
       "team": "Jordan",
@@ -1459,33 +1459,33 @@
       "team": "Portugal",
       "group": "K",
       "qualifyProbability": 100,
-      "groupWinProbability": 72.03,
-      "runnerUpProbability": 27.97,
+      "groupWinProbability": 70.66,
+      "runnerUpProbability": 29.34,
       "thirdPlaceQualifyProbability": 0
     },
     {
       "team": "Colombia",
       "group": "K",
-      "qualifyProbability": 99.92,
-      "groupWinProbability": 27.97,
-      "runnerUpProbability": 71.27,
-      "thirdPlaceQualifyProbability": 0.68
+      "qualifyProbability": 99.96,
+      "groupWinProbability": 29.34,
+      "runnerUpProbability": 70.02,
+      "thirdPlaceQualifyProbability": 0.6
     },
     {
       "team": "Congo DR",
       "group": "K",
-      "qualifyProbability": 33.59,
+      "qualifyProbability": 32.67,
       "groupWinProbability": 0,
-      "runnerUpProbability": 0.73,
-      "thirdPlaceQualifyProbability": 32.86
+      "runnerUpProbability": 0.63,
+      "thirdPlaceQualifyProbability": 32.04
     },
     {
       "team": "Uzbekistan",
       "group": "K",
-      "qualifyProbability": 12.32,
+      "qualifyProbability": 12.64,
       "groupWinProbability": 0,
-      "runnerUpProbability": 0.03,
-      "thirdPlaceQualifyProbability": 12.29
+      "runnerUpProbability": 0.01,
+      "thirdPlaceQualifyProbability": 12.63
     },
     {
       "team": "England",
@@ -1498,18 +1498,18 @@
     {
       "team": "Croatia",
       "group": "L",
-      "qualifyProbability": 99.52,
+      "qualifyProbability": 99.53,
       "groupWinProbability": 0,
-      "runnerUpProbability": 99.4,
-      "thirdPlaceQualifyProbability": 0.12
+      "runnerUpProbability": 99.46,
+      "thirdPlaceQualifyProbability": 0.07
     },
     {
       "team": "Ghana",
       "group": "L",
-      "qualifyProbability": 61.03,
+      "qualifyProbability": 62.21,
       "groupWinProbability": 0,
-      "runnerUpProbability": 0.6,
-      "thirdPlaceQualifyProbability": 60.43
+      "runnerUpProbability": 0.54,
+      "thirdPlaceQualifyProbability": 61.67
     },
     {
       "team": "Panama",
